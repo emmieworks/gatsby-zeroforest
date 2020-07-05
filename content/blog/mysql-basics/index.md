@@ -25,7 +25,7 @@ $ mysql --version
 mysql.server start
 ```
 
-```sq;
+```sql
 $ mysql.server start
 Starting MySQL .. SUCCESS!
 ```

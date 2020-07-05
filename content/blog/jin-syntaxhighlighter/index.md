@@ -102,7 +102,7 @@ PHPを使うときは「language-php」
 
 子テーマjin-childのfunctions.phpに以下の行を追記します。
 
-```php:titele=functions.php
+```php:title=functions.php
 // functions.php
 // PRISM用ショートコード。ユーザーが入力した属性をクラス名として出力
 function prism_func( $atts, $content = null ) {
