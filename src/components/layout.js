@@ -10,7 +10,8 @@ const Wrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
   @media screen and (max-width: 780px) {
-    max-width:90%;
+    max-width:90vw;
+    width:90vw;
   }
 
   .logo{

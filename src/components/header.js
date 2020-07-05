@@ -8,9 +8,12 @@ const Wrapper = styled.header`
   margin-bottom: 1.45rem;
   margin-left: auto;
   margin-right: auto;
-
   .logo{
     margin: 20px auto;
+  }
+  @media screen and (max-width: 780px) {
+    max-width:90vw;
+    width:90vw;
   }
 `
 
