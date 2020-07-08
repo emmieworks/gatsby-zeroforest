@@ -2,7 +2,9 @@
 title: Ruby on Railsで日記アプリ（ミニブログ）を作る
 date: 2020-06-20T15:00:47+09:00
 featured: icatch-20200620.jpg
-categories: ["プログラミング"]
+category: Programming
+tags:
+  - Ruby On Rails
 status: published
 ---
 

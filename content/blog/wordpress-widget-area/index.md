@@ -2,7 +2,7 @@
 title: WordPressにウィジットエリアを追加・表示する方法
 date: 2018-11-13T11:59:16+09:00
 featured: icatch-20181113.jpg
-categories: ["テーマのカスタマイズ"]
+category: WordPress
 status: published
 ---
 

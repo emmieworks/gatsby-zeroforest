@@ -2,8 +2,9 @@
 title: WordPressテーマに検索機能をつける
 date: 2018-07-13T19:00:27+09:00
 featured: 20180713-icatch.jpg
-categories: ["テーマを作る"]
-tags: ["WordPressテーマ自作"]
+category: WordPress
+tags:
+  - WordPressテーマ自作
 status: published
 ---
 

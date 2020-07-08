@@ -2,7 +2,7 @@
 title: WordPressのビジュアルエディタの見た目を実際の記事にそろえる
 date: 2018-06-14T22:42:54+09:00
 featured: post-icatch-20180614.jpg
-categories: ["テーマのカスタマイズ"]
+category: WordPress
 status: published
 ---
 

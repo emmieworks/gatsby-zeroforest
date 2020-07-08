@@ -2,8 +2,7 @@
 title: エックスサーバーを使ったWordpressブログの始め方
 date: 2019-11-13T18:11:00+09:00
 featured: icatch-20190307.jpg
-categories: ["ブログのはじめ方"]
-tags: ["エックスサーバー"]
+category: WordPress
 status: published
 ---
 

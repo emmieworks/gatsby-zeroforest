@@ -2,19 +2,14 @@
 title: WordPressテーマのカスタマイズまとめ
 date: 2020-06-06T14:28:00+09:00
 featured: icatch-20200606.jpg
-categories: ["テーマのカスタマイズ"]
+category: WordPress
 status: published
 ---
 
-カスタマイズの準備
----------
+## カスタマイズの準備
 
 * [子テーマの作り方](/wp-child-theme/)
 * [テーマにcssとjsを読み込む書き方](/wordpress-theme-css-js/)
-
-## よくやるカスタマイズ
-
-* [ブログを美しく魅せるポイント&WordPressカスタマイズまとめ](/beautifying-wordpress-blog/)
 
 ### 記事デザインの装飾
 

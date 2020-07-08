@@ -2,7 +2,7 @@
 title: WordPressブログの作り方〜インストールから公開までの詳しい手順〜
 date: 2018-11-08T09:43:22+09:00
 featured: icatch_20181107_n.jpg
-categories: ["ブログのはじめ方"]
+category: WordPress
 status: published
 ---
 
@@ -152,7 +152,9 @@ WordPressでは記事のURL（パーマリンク）を個別に設定できま�
 
 投稿と固定ページは管理画面でのメニューも別になります。
 
-![新しい記事の作成](ss_wp_menu_01.jpg) ### グローバルメニュー
+![新しい記事の作成](ss_wp_menu_01.jpg)
+
+### グローバルメニュー
 
 ホームページのメニューを設定することができます。
 

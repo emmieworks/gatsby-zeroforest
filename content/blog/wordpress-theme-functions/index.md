@@ -2,8 +2,9 @@
 title: functions.phpとは〜WordPressテーマに機能を追加する〜
 date: 2018-07-09T19:00:50+09:00
 featured: 20180709-icatch.jpg
-categories: ["テーマを作る"]
-tags: ["WordPressテーマ自作"]
+category: WordPress
+tags:
+  - WordPressテーマ自作
 status: published
 ---
 

@@ -2,8 +2,9 @@
 title: 【prism.js】ブログ記事にソースコードをきれいに表示する方法
 date: 2018-07-05T19:00:45+09:00
 featured: icatch_20180704-1.jpg
-categories: ["プログラミング"]
-tags: ["JavaScript"]
+category: Programming
+tags:
+    - JavaScript
 status: published
 ---
 

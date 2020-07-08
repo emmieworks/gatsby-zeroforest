@@ -2,8 +2,9 @@
 title: 【Wordpress】お問合わせフォームにおすすめプラグイン&ツール
 date: 2019-09-13T16:00:45+09:00
 featured: icatch-20190913.jpg
-categories: ["ブログのはじめ方"]
-tags: ["おすすめツール"]
+category: WordPress
+tags:
+  - おすすめツール
 status: published
 ---
 

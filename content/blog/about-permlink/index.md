@@ -2,7 +2,7 @@
 title: WordPressのパーマリンクを設定する
 date: 2019-08-26T17:17:46+09:00
 featured: icatch-20190826.jpg
-categories: ["ブログのはじめ方"]
+category: WordPress
 status: published
 ---
 

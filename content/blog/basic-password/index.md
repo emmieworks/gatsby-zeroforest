@@ -2,8 +2,10 @@
 title: 【Mixhost】WordPressにBasic認証でパスワードをつける
 date: 2019-09-18T18:05:19+09:00
 featured: icatch-20190918.jpg
-categories: ["テーマのカスタマイズ"]
-tags: ["Mixhost","セキュリティ"]
+categories: WordPress
+tags:
+    - Mixhost
+    - セキュリティ
 status: published
 ---
 

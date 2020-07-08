@@ -2,7 +2,7 @@
 title: 【WordPress】ページトップへ戻るボタンを追加する
 date: 2018-07-20T21:00:19+09:00
 featured: 20180720_icatch.jpg
-categories: ["テーマのカスタマイズ"]
+category: WordPress
 status: published
 ---
 

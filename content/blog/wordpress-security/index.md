@@ -2,8 +2,9 @@
 title: WordPressでやっておきたいセキュリティ対策
 date: 2019-11-14T10:06:10+09:00
 featured: icatch-20191114.jpg
-categories: ["ブログのはじめ方"]
-tags: ["セキュリティ"]
+category: WordPress
+tags:
+ - セキュリティ
 status: published
 ---
 

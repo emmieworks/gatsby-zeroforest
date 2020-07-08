@@ -1,6 +1,4 @@
 import styled from "styled-components"
-import { rgba } from "polished"
-import { colors } from "../style/GlobalStyle"
 
 const Wrapper = styled.div`
   /* ===============================================
@@ -80,7 +78,7 @@ const Wrapper = styled.div`
         font-size: 1rem;
         margin: 20px 0 10px 0;
         padding: 14px 10px;
-        background: ${rgba(colors.secondary, 0.3)};
+        border-left: 2px single var(--secondary);
       }
       h5,
       h6 {
@@ -95,7 +93,7 @@ const Wrapper = styled.div`
       ol {
         margin: 20px 20px;
         border-radius: 3px;
-        list-style: none;
+        list-style-type: none;
       }
       ul {
         li {
@@ -140,27 +138,9 @@ const Wrapper = styled.div`
       a {
         color: var(--primary);
         font-weight: 600;
-        position: relative;
-        display: inline-block;
         text-decoration: none;
         transition: 0.3s ease;
         padding: 0 2px;
-        &:before {
-          width: 0%;
-          height: 70%;
-          content: "";
-          background: ${rgba(colors.primary, 0.15)};
-          position: absolute;
-          z-index: 0;
-          top: 4px;
-          left: -1px;
-          transition: 0.3s ease;
-        }
-        &:hover {
-          &:before {
-            width: 100%;
-          }
-        }
       }
     }
     /* ===============================================

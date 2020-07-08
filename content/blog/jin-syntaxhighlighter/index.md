@@ -2,8 +2,11 @@
 title: 【JINカスタマイズ】シンタックスハイライターを改造して、Gutenbergでもソースコードを表示する方法
 date: 2020-04-30T11:57:00+09:00
 featured: icatch-20200430.jpg
-categories: ["テーマのカスタマイズ"]
-tags: ["CSS","JINカスタマイズ","JavaScript"]
+category: WordPress
+tags:
+  - CSS
+  - JINカスタマイズ
+  - JavaScript
 status: published
 ---
 

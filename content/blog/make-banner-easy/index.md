@@ -2,8 +2,9 @@
 title: 【Canva】もう手放せない。おしゃれバナーを無料でサクッと作る方法
 date: 2017-10-08T18:27:31+09:00
 featured: make_banner_easy.png
-categories: ["Webデザイン"]
-tags: ["おすすめツール"]
+category: Design
+tags:
+  - おすすめツール
 status: published
 ---
 

@@ -2,8 +2,9 @@
 title: WordPressが記事を表示する仕組み〜メインクエリとサブクエリ〜
 date: 2018-07-27T19:00:42+09:00
 featured: icatch-20180727.jpg
-categories: ["テーマを作る"]
-tags: ["WordPressテーマ自作"]
+category: WordPress
+tags:
+  - WordPressテーマ自作
 status: published
 ---
 

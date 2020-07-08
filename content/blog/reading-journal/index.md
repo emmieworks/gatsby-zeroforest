@@ -2,8 +2,10 @@
 title: 【バレットジャーナル】私の読書ノートの書き方
 date: 2018-08-01T22:00:53+09:00
 featured: icatch-20180801_n.jpg
-categories: ["手帳・文房具"]
-tags: ["バレットジャーナル","読書ノート","ノート術"]
+category: Lifestyle
+tags:
+  - バレットジャーナル
+  - ノート術
 status: published
 ---
 

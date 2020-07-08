@@ -2,8 +2,10 @@
 title: 【はじめてのNode.js】環境構築からプログラムを動かす手順をていねいに解説！
 date: 2020-04-18T20:05:00+09:00
 featured: icatch-20200418.jpg
-categories: ["プログラミング"]
-tags: ["Node.js","環境構築"]
+category: Programming
+tags:
+  - Node.js
+  - 環境構築
 status: published
 ---
 

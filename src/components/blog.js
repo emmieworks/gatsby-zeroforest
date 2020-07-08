@@ -28,15 +28,40 @@ const BlogWrapper = styled.article`
     .info {
       flex-direction: column;
       .date {
-        margin-bottom: 7px;
+        margin-bottom: 10px;
       }
     }
   }
+  .tag{
+    font-size:0.8rem;
+    margin-right:10px;
+    color:var(--primary);
+    border: 1px solid var(--primary);
+    border-radius:5px;
+    padding: 3px 5px;
+    text-decoration:none;
+    &:hover{
+      background-color: var(--primary);
+      color:var(--white);
+    }
+
+  }
 `
-const Blog = props => {
+
+const BlogComponent = props => {
+  const tags = props.tags
+      ? (props.tags.map(e => (
+            <Link to={`/tags/${e}/`.toLowerCase()} className="tag" key={e}>
+              {e}
+            </Link>
+          )))
+      : ""
   return (
     <BlogWrapper key={props.slug}>
       <header>
+          <Link to={`category/${props.category}`.toLowerCase()}>
+            <small>{props.category}</small>
+          </Link>
         <h3>
           <Link to={props.slug}>
             {props.title}
@@ -51,10 +76,10 @@ const Blog = props => {
         />
       </section>
       <div className="info">
-        <small>{props.date}</small>
-        <small>{props.tags}</small>
+        <small className="date">{props.date}</small>
+        <div>{tags}</div>
       </div>
     </BlogWrapper>
   )
 }
-export default Blog
+export default BlogComponent

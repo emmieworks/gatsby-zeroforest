@@ -2,8 +2,9 @@
 title: WordPressの仕組み〜テンプレートファイルの優先順位
 date: 2018-07-28T19:00:17+09:00
 featured: icatch-20180730.jpg
-categories: ["テーマを作る"]
-tags: ["WordPressテーマ自作"]
+category: WordPress
+tags:
+ - WordPressテーマ自作
 status: published
 ---
 

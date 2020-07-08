@@ -1,8 +1,9 @@
 ---
 title: WordPressテーマに必要なファイルとおすすめブランクテーマ
 date: 2018-08-02T19:00:39+09:00
-categories: ["テーマを作る"]
-tags: ["ブランクテーマ","WordPressテーマ自作"]
+category: WordPress
+tags:
+  - WordPressテーマ自作
 status: published
 ---
 

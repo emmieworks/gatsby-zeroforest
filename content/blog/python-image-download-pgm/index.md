@@ -2,8 +2,9 @@
 title: 【Python】Livedoorブログの画像を一括ダウンロードするプログラム
 date: 2020-05-09T17:25:00+09:00
 featured: icatch-20200509.jpg
-categories: ["プログラミング"]
-tags: ["Python"]
+category: Programming
+tags:
+  - Python
 status: published
 ---
 

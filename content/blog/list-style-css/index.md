@@ -2,8 +2,10 @@
 title: 箇条書きリストをおしゃれにするCSS10個【女性向け】
 date: 2018-11-29T17:00:17+09:00
 featured: icatch-20181122.jpg
-categories: ["Webデザイン"]
-tags: ["CSS","女性向け"]
+category: Design
+tags:
+  - CSS
+  - 女性向け
 status: published
 ---
 

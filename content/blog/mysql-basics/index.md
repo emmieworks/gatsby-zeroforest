@@ -2,8 +2,9 @@
 title: 【初心者向け】MySQLの基本コマンドまとめ
 date: 2020-05-17T00:03:00+09:00
 featured: icatch-20200510-1.jpg
-categories: ["プログラミング"]
-tags: ["MySQL"]
+category: Programming
+tags:
+  - MySQL
 status: published
 ---
 

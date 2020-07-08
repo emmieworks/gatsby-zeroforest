@@ -2,7 +2,7 @@
 title: WordPressのビジュアルエディタによく使うボタンを設定する
 date: 2018-06-16T22:56:29+09:00
 featured: post-icatch-20180614.jpg
-categories: ["テーマのカスタマイズ"]
+category: WordPress
 status: published
 ---
 

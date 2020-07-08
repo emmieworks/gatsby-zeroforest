@@ -2,8 +2,12 @@
 title: 【はじめてのgit】GitHubの基本の使い方〜導入からいつもの運用まで〜
 date: 2020-04-04T18:00:31+09:00
 featured: icatch_20200331.jpg
-categories: ["プログラミング"]
-tags: ["git","GitHub","Sourcetree","環境構築"]
+category: Programming
+tags:
+    - git
+    - GitHub
+    - Sourcetree
+    - 環境構築
 status: published
 ---
 

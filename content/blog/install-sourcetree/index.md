@@ -2,8 +2,11 @@
 title: Sourcetreeのインストールと具体的な使い方〜gitでファイルをバージョン管理〜
 date: 2020-03-29T16:12:56+09:00
 featured: icatch_20200329.jpg
-categories: ["プログラミング"]
-tags: ["git","Sourcetree","環境構築"]
+category: Programming
+tags:
+    - git
+    - Sourcetree
+    - 環境構築
 status: published
 ---
 

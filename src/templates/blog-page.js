@@ -1,17 +1,18 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link} from "gatsby"
 
+import Blog from "../components/blog"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Blog from "../components/blog"
 
-const Index = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
+const BlogPageTemplate = ({ data, location,pageContext }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO title={siteTitle} />
+    <Layout>
+      <SEO title="Blog"
+        url ={location.pathname}
+        />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -27,13 +28,48 @@ const Index = ({ data, location }) => {
           />
         )
       })}
+      <nav>
+        <ul
+          style={{
+            display: `flex`,
+            flexWrap: `wrap`,
+            justifyContent: `space-between`,
+            listStyle: `none`,
+            padding: 0,
+          }}
+        >
+        {!pageContext.isFirst &&(
+          <li>
+            <Link
+              to={ pageContext.currentPage === 2
+                    ? `/blog/`
+                    : `/blog/${pageContext.currentPage -1}/`
+                }
+              rel="prev"
+            >
+                ← 前のページ
+              </Link>
+          </li>
+        )}
+        {!pageContext.isLast &&(
+          <li>
+              <Link
+                to={`/blog/${pageContext.currentPage +1}/`}
+                rel="next"
+              >
+                次のページ →
+              </Link>
+          </li>
+        )}
+        </ul>
+      </nav>
     </Layout>
   )
 }
-export default Index
+export default BlogPageTemplate
 
 export const pageQuery = graphql`
-  query {
+  query BlogPageQuery($skip: Int!,$limit: Int!) {
     site {
       siteMetadata {
         title
@@ -46,8 +82,8 @@ export const pageQuery = graphql`
         }
       }
       sort: { fields: [frontmatter___date], order: DESC }
-      skip: 0
-      limit: 10
+      skip:$skip
+      limit:$limit
       )
       {
       edges {

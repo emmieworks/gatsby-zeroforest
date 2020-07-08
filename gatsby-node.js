@@ -5,10 +5,14 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const blogPage = path.resolve(`./src/templates/blog-page.js`)
+  const catPage = path.resolve(`./src/templates/category-page.js`)
+  const tagPage = path.resolve(`./src/templates/tag-page.js`)
+
   const result = await graphql(
     `
       {
-        allMarkdownRemark(
+        posts:allMarkdownRemark(
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -23,6 +27,18 @@ exports.createPages = async ({ graphql, actions }) => {
             }
           }
         }
+        categories:allMarkdownRemark {
+          group(field: frontmatter___category) {
+            fieldValue
+            totalCount
+          }
+        }
+        tags:allMarkdownRemark {
+          group(field: frontmatter___tags) {
+            fieldValue
+            totalCount
+          }
+        }
       }
     `
   )
@@ -32,7 +48,7 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges
+  const posts = result.data.posts.edges
 
   posts.forEach((post, index) => {
     const previous = index === posts.length - 1 ? null : posts[index + 1].node
@@ -48,6 +64,49 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
+
+  // Create blog pages.
+  const blogPostsPerPage = 10
+  const blogPosts = posts.length // Num of posts
+  const blogPages = Math.ceil(blogPosts / blogPostsPerPage) // Num of blog pages
+
+  Array.from({ length: blogPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/blog/` : `/blog/${i + 1}/`,
+      component: blogPage,
+      context: {
+        skip: blogPostsPerPage * i,
+        limit: blogPostsPerPage,
+        currentPage: i + 1,
+        isFirst: i + 1 === 1,
+        isLast: i + 1 === blogPages,
+      },
+    })
+  })
+
+  // Create category pages
+  const categories = result.data.categories.group
+  categories.forEach(({ fieldValue }) =>
+    createPage({
+      path: `category/${fieldValue}`.toLowerCase(),
+      component: catPage,
+      context: {
+        category: fieldValue,
+      },
+    })
+  )
+
+  // Create category pages
+  const tags = result.data.tags.group
+    tags.forEach(({ fieldValue }) => {
+      createPage({
+        path: `tags/${fieldValue}`.toLowerCase(),
+        component: tagPage,
+        context: {
+          tag: fieldValue,
+        },
+      })
+    })
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

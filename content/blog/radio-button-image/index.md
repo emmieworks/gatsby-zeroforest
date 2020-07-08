@@ -2,7 +2,7 @@
 title: ラジオボタン／チェックボタンの代わりに画像選択にする方法
 date: 2020-06-13T12:30:54+09:00
 featured: icatch-20200613.jpg
-categories: ["プログラミング"]
+category: Programming
 status: published
 ---
 

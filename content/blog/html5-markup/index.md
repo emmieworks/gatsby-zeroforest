@@ -2,8 +2,9 @@
 title: 【内部SEO強化】文書構造をhtml5タグで正しくマークアップ
 date: 2018-07-17T19:00:34+09:00
 featured: 20180717-icatch.jpg
-categories: ["プログラミング"]
-tags: ["SEO"]
+category: Programming
+tags:
+    - SEO
 status: published
 ---
 

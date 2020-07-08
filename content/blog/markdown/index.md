@@ -2,8 +2,9 @@
 title: Markdownを知ってから、ブログ執筆がスピードアップ！！
 date: 2018-06-23T19:00:01+09:00
 featured: icatch-20180623.jpg
-categories: ["ブログのはじめ方"]
-tags: ["おすすめツール"]
+category: Programming
+tags:
+  - おすすめツール
 status: published
 ---
 

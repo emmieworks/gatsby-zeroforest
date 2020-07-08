@@ -2,8 +2,9 @@
 title: WordPressブログのドメイン変更手順
 date: 2018-11-11T18:00:56+09:00
 featured: icatch-20181111.jpg
-categories: ["ブログのはじめ方"]
-tags: ["ドメイン変更"]
+category: WordPress
+tags:
+    - ドメイン変更
 status: published
 ---
 

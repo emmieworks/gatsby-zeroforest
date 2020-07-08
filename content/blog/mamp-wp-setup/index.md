@@ -2,8 +2,10 @@
 title: 【MAMP】MacにWordPress開発環境をつくる手順
 date: 2018-06-19T20:15:25+09:00
 featured: icatch-20180619.jpg
-categories: ["テーマを作る"]
-tags: ["おすすめツール","環境構築"]
+category: WordPress
+tags:
+  - おすすめツール
+  - 環境構築
 status: published
 ---
 

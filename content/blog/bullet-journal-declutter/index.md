@@ -2,8 +2,9 @@
 title: バレットジャーナルをシンプルに続けるために「断捨離」しよう
 date: 2018-07-25T19:00:02+09:00
 featured: 20180725-icatch.jpg
-categories: ["手帳・文房具"]
-tags: ["バレットジャーナル"]
+categories: Lifestyle
+tags:
+    - バレットジャーナル
 status: published
 ---
 

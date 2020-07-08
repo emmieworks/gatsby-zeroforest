@@ -2,8 +2,7 @@
 title: 個人事業主が結婚したときに行う手続き
 date: 2018-07-30T19:00:31+09:00
 featured: icatch-20180730-1.jpg
-categories: ["フリーランスの働き方"]
-status: published
+category: Lifestyle
 ---
 
 今年の春、入籍をしました。

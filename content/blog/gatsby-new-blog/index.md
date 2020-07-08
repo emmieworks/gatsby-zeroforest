@@ -2,7 +2,7 @@
 title: WordPressからGatsby＋Netlifyにブログを変えました
 date: 2020-07-04T20:00:47+09:00
 featured: icatch-20200620.jpg
-categories: ["プログラミング"]
+category: Programming
 status: published
 ---
 

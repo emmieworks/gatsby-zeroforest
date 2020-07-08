@@ -2,8 +2,9 @@
 title: WordPressテーマに関連記事を表示する
 date: 2018-07-26T19:00:38+09:00
 featured: 20180726-icatch.jpg
-categories: ["テーマを作る"]
-tags: ["WordPressテーマ自作"]
+category: WordPress
+tags:
+  - WordPressテーマ自作
 status: published
 ---
 

@@ -2,8 +2,9 @@
 title: Google Analyticsで自分のアクセスを除く設定
 date: 2018-06-28T19:00:51+09:00
 featured: icatch_20180628.jpg
-categories: ["ブログのはじめ方"]
-tags: ["Google Analytics"]
+category: WordPress
+tags:
+    - Google Analytics
 status: published
 ---
 

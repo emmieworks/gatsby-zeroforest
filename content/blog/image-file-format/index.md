@@ -2,7 +2,7 @@
 title: Webの画像形式（JPEG,PNG,GIF,SVG）使い分け
 date: 2018-06-21T21:01:33+09:00
 featured: icatch-20180621.jpg
-categories: ["Webデザイン"]
+category: Design
 status: published
 ---
 

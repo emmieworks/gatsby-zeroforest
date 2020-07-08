@@ -2,8 +2,9 @@
 title: WordPressの自作テーマの作り方
 date: 2018-07-02T20:00:33+09:00
 featured: icatch-20180702-1.jpg
-categories: ["テーマを作る"]
-tags: ["WordPressテーマ自作"]
+category: WordPress
+tags:
+  - WordPressテーマ自作
 status: published
 ---
 

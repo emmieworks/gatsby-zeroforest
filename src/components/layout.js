@@ -13,10 +13,6 @@ const Wrapper = styled.div`
     max-width:90vw;
     width:90vw;
   }
-
-  .logo{
-    margin: 20px auto;
-  }
 `
 const Layout = props => {
   const { children } = props

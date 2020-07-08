@@ -21,10 +21,6 @@ colors.primaryLight = rgba("#91C294", 0.15)
 colors.primaryPale = rgba("#91C294", 0.07)
 
 colors.secondary = "#725444"
-colors.danger = "#FF5C55"
-colors.success = "#4FCE7A"
-colors.warn = "#feaa2e"
-colors.info = "#2490eb"
 
 /* ===============================================
 #  other variables
@@ -136,7 +132,6 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: boreder-box;
     margin: 0;
     padding: 0;
-
   }
   h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
@@ -170,7 +165,7 @@ const GlobalStyle = createGlobalStyle`
   =============================================== */
   @media screen and (max-width: 780px) {
     html, body {
-      font-size: 15px;
+      font-size: 14px;
     }
     .pc {
       display: none !important;
@@ -181,6 +176,9 @@ const GlobalStyle = createGlobalStyle`
   # pc
   =============================================== */
   @media screen and (min-width: 781px) {
+    html, body {
+      font-size: 16px;
+    }
     .sp {
       display: none !important;
     }

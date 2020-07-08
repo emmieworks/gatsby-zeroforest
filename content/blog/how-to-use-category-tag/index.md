@@ -2,7 +2,7 @@
 title: WordPressのカテゴリーとタグの使い分け方法
 date: 2019-08-24T17:00:44+09:00
 featured: Screen-Shot-2019-08-24-at-11.50.07.png
-categories: ["ブログのはじめ方"]
+category: WordPress
 status: published
 ---
 

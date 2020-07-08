@@ -2,8 +2,9 @@
 title: 【WordPress】プルダウンメニューのデザインを整える
 date: 2018-07-24T19:00:04+09:00
 featured: 20180724-icatch.jpg
-categories: ["テーマのカスタマイズ"]
-tags: ["CSS"]
+category: WordPress
+tags:
+  - CSS
 status: published
 ---
 

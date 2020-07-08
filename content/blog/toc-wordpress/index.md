@@ -1,8 +1,9 @@
 ---
 title: toc.jsを使ってWordPress記事に目次を入れる
 date: 2018-08-14T21:00:55+09:00
-categories: ["テーマのカスタマイズ"]
-tags: ["JavaScript"]
+category: WordPress
+tags:
+  - JavaScript
 status: published
 ---
 

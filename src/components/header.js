@@ -1,15 +1,45 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
-import Img from "gatsby-image"
+import Image from "gatsby-image"
 
 const Wrapper = styled.header`
-  width: 800px;
-  margin-bottom: 1.45rem;
-  margin-left: auto;
-  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+
   .logo{
-    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .navContainer{
+    margin-left: auto;
+  }
+
+  .navList{
+    display: flex;
+    flex-flow:wrap;
+    justify-content: center;
+    padding:0;
+    list-style:none;
+    li{
+        letter-spacing:0.05em;
+        background:none;
+        padding:7px 14px 10px;
+    }
+    a{
+      text-transform:uppercase;
+      text-decoration:none;
+      &:hover{
+        opacity:0.7;
+      }
+    }
+  }
+  .activeMenuItem{
+      text-decoration:underline;
   }
   @media screen and (max-width: 780px) {
     max-width:90vw;
@@ -35,14 +65,20 @@ const Header = props => {
   }`)
   return (
     <Wrapper>
-      <div className="logo" >
-        <Link to={`/`}>
-          <Img
-            fixed={data.logo.childImageSharp.fixed}
-            alt={data.site.siteMetadata.title}
-           />
-        </Link>
-      </div>
+      <Link to={`/`} className="logo" >
+        <Image
+          fixed={data.logo.childImageSharp.fixed}
+          alt={data.site.siteMetadata.title}
+         />
+      </Link>
+      <nav className="navContainer pc">
+        <ul className="navList">
+          <li><Link to ="/" className="activeMenuItem">Home</Link></li>
+          <li><Link to ="/about/" className="activeMenuItem">About</Link></li>
+          <li><Link to ="/blog/" className="activeMenuItem">Blog</Link></li>
+          <li><Link to ="/contact/" className="activeMenuItem">Contact</Link></li>
+        </ul>
+      </nav>
     </Wrapper>
   )
 }

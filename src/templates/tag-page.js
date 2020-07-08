@@ -1,25 +1,27 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql} from "gatsby"
 
+import Blog from "../components/blog"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Blog from "../components/blog"
 
-const Index = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
+const CategoryPageTemplate = ({ data, pageContext, location }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO title={siteTitle} />
+    <Layout>
+      <SEO title="Tags"
+        url ={location.pathname}
+       />
+       <h2>Tag :  { pageContext.tag }</h2>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
           <Blog
             key={node.fields.slug}
             title={title}
-            slug={node.fields.slug}
             category={node.frontmatter.category}
+            slug={node.fields.slug}
             date={node.frontmatter.date}
             description={node.frontmatter.description}
             excerpt={node.excerpt}
@@ -30,10 +32,10 @@ const Index = ({ data, location }) => {
     </Layout>
   )
 }
-export default Index
+export default CategoryPageTemplate
 
 export const pageQuery = graphql`
-  query {
+query TagPageQuery($tag: String!) {
     site {
       siteMetadata {
         title
@@ -43,12 +45,10 @@ export const pageQuery = graphql`
       filter: {
         frontmatter: {
           status: { ne: "draft" }
+          tags: { in: [$tag] }
         }
       }
-      sort: { fields: [frontmatter___date], order: DESC }
-      skip: 0
-      limit: 10
-      )
+      sort: { fields: [frontmatter___date], order: DESC })
       {
       edges {
         node {

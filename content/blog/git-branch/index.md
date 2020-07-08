@@ -1,8 +1,10 @@
 ---
 title: 【Git】ブランチを使うと何がいいの？目的とSourceTreeでの使い方
 date: 2020-04-11T12:00:00+09:00
-categories: ["プログラミング"]
-tags: ["git","Sourcetree"]
+category: Programming
+tags:
+    - git
+    - Sourcetree
 status: published
 ---
 
