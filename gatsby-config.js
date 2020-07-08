@@ -14,6 +14,28 @@ module.exports = {
       github: `emmieworks`,
       pinterest: `0forest`,
     },
+    categories: [
+      {
+        name: `Programming`,
+        slug: `pgm`,
+        image: `cat_pgm.png`,
+      },
+      {
+        name: `Design`,
+        slug: `design`,
+        image: `cat_design.png`,
+      },
+      {
+        name: `WordPress`,
+        slug: `wordpress`,
+        image: `cat_wordpress.png`,
+      },
+      {
+        name: `Lifestyle`,
+        slug: `lifestyle`,
+        image: `cat_lifestyle.png`,
+      },
+    ],
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -22,6 +44,14 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              offsetY: 0,
+              icon: false,
+              maintainCase: false,
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {

@@ -44,6 +44,52 @@ const Wrapper = styled.div`
         margin:30px auto;
         color:var(--secondary);
     }
+    /* ===============================================
+    #  Table of Contents
+    =============================================== */
+    .toc {
+      width: auto;
+      background: var(--white);
+      border:1px solid var(--primary);
+      padding: 20px 30px 10px 30px;
+      font-size: 0.9rem;
+      margin: 50px 0;
+      border-radius: 3px;
+      h4{
+        color: var(--primary);
+        text-align:center;
+      }
+      ul {
+        width: auto;
+        margin: 0;
+        padding-left: 20px;
+        li {
+          padding: 10px 0;
+          color:  var(--primary);
+          list-style: decimal;
+          line-height: 1.2;
+          p {
+            padding-bottom: 10px;
+          }
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+        a {
+          text-decoration: none;
+        }
+        ul {
+          padding-left: 30px;
+        }
+      }
+    }
+    @media screen and (max-width: 780px) {
+      .toc {
+        margin: 30px 0;
+        padding: 20px 20px 10px 20px;
+      }
+    }
+
     section {
       /* ===============================================
       #  header

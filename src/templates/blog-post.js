@@ -11,7 +11,7 @@ import PostWrapper from "./style"
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const { previous, next } = pageContext
-
+  const tableOfContens = data.markdownRemark.tableOfContents
   return (
     <Layout>
       <SEO
@@ -34,6 +34,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             fluid={post.frontmatter.featured.childImageSharp.fluid}
             alt={post.frontmatter.title}    />
             )}
+        <div className="toc">
+          <h4>目次</h4>
+          <div
+            dangerouslySetInnerHTML={{__html: tableOfContens}}
+           />
+         </div>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr/>
         <footer>
@@ -84,6 +90,7 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
+      tableOfContents
       html
       frontmatter {
         title

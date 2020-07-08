@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Image from "gatsby-image"
+import Img from "gatsby-image"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -84,7 +84,7 @@ const About = ({data, location}) => {
     <Wrapper>
       <h1>About</h1>
       <div className="profileContainer">
-        <Image
+        <Img
           fixed={data.avatar.childImageSharp.fixed}
           alt={author.name}
           className="profileImage"

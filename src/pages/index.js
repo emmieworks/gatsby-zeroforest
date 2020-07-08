@@ -12,6 +12,7 @@ const Index = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title={siteTitle} />
+
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -37,6 +38,11 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        categories {
+          name
+          slug
+          image
+        }
       }
     }
     allMarkdownRemark(

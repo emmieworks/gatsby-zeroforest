@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import styled from "styled-components"
-import Image from "gatsby-image"
+import Img from "gatsby-image"
 
 const Wrapper = styled.header`
   display: -webkit-box;
@@ -66,7 +66,7 @@ const Header = props => {
   return (
     <Wrapper>
       <Link to={`/`} className="logo" >
-        <Image
+        <Img
           fixed={data.logo.childImageSharp.fixed}
           alt={data.site.siteMetadata.title}
          />

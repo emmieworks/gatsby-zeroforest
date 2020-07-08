@@ -13,6 +13,7 @@ const BlogPageTemplate = ({ data, location,pageContext }) => {
       <SEO title="Blog"
         url ={location.pathname}
         />
+
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -46,6 +47,7 @@ const BlogPageTemplate = ({ data, location,pageContext }) => {
                     : `/blog/${pageContext.currentPage -1}/`
                 }
               rel="prev"
+              style={{textDecoration:`none`}}
             >
                 ← 前のページ
               </Link>
@@ -56,6 +58,7 @@ const BlogPageTemplate = ({ data, location,pageContext }) => {
               <Link
                 to={`/blog/${pageContext.currentPage +1}/`}
                 rel="next"
+                style={{textDecoration:`none`}}
               >
                 次のページ →
               </Link>

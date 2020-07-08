@@ -1,5 +1,5 @@
 import React from "react"
-import { Link} from "gatsby"
+import { Link } from "gatsby"
 
 import styled from "styled-components"
 import { rgba } from "polished"
@@ -59,9 +59,6 @@ const BlogComponent = props => {
   return (
     <BlogWrapper key={props.slug}>
       <header>
-          <Link to={`category/${props.category}`.toLowerCase()}>
-            <small>{props.category}</small>
-          </Link>
         <h3>
           <Link to={props.slug}>
             {props.title}
