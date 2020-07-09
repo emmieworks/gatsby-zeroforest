@@ -44,6 +44,7 @@
     "typography": "^0.16.19"
   },
   "devDependencies": {
+    "lodash": "^4.17.19",
     "prettier": "2.0.5"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
