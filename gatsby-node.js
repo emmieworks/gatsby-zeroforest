@@ -47,7 +47,7 @@ exports.createPages = async ({ graphql, actions }) => {
     throw result.errors
   }
 
-  // Create blog posts pages.
+  // Create blog post.
   const posts = result.data.posts.edges
 
   posts.forEach((post, index) => {
@@ -115,9 +115,15 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
     createNodeField({
-      name: `slug`,
       node,
+      name: `slug`,
       value,
+    })
+    const parent = getNode(node.parent)
+    createNodeField({
+      node,
+      name: 'collection',
+      value: parent.sourceInstanceName,
     })
   }
 }

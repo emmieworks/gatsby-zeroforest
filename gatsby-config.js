@@ -14,28 +14,6 @@ module.exports = {
       github: `emmieworks`,
       pinterest: `0forest`,
     },
-    categories: [
-      {
-        name: `Programming`,
-        slug: `pgm`,
-        image: `cat_pgm.png`,
-      },
-      {
-        name: `Design`,
-        slug: `design`,
-        image: `cat_design.png`,
-      },
-      {
-        name: `WordPress`,
-        slug: `wordpress`,
-        image: `cat_wordpress.png`,
-      },
-      {
-        name: `Lifestyle`,
-        slug: `lifestyle`,
-        image: `cat_lifestyle.png`,
-      },
-    ],
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -96,14 +74,75 @@ module.exports = {
         name: `assets`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/gallery`,
+        name: `gallery`,
+      },
+    },
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: `UA-93099941-1`,
+        exclude: [`/category/**`,`/tags/**`,`/blog/**`],
       },
     },
-    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [{ "content:encoded": edge.node.html }],
+                })
+              })
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  filter: {fields: {collection: {eq: "blog"}}, frontmatter: {status: {ne: "draft"}}},
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      fields { slug }
+                      frontmatter {
+                        title
+                        date
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Zero Forest RSS Feed",
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

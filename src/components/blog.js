@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import styled from "styled-components"
 import { rgba } from "polished"
 import { colors } from "../style/GlobalStyle"
@@ -17,6 +16,13 @@ const BlogWrapper = styled.article`
     justify-content: space-between;
     color:var(--primary);
   }
+  .category{
+    text-decoration:none;
+    margin-bottom:10px;
+    font-size:0.9rem;
+    color:${rgba(colors.secondary, 0.6)};
+  }
+
   p {
     line-height: 1.8;
     padding: 15px 0 25px 0;
@@ -56,9 +62,13 @@ const BlogComponent = props => {
             </Link>
           )))
       : ""
+
   return (
     <BlogWrapper key={props.slug}>
       <header>
+        <Link to={`/category/${props.category}/`.toLowerCase()} className="category" key={props.category}>
+              {props.category}
+        </Link>
         <h3>
           <Link to={props.slug}>
             {props.title}

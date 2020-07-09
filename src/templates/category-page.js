@@ -10,7 +10,8 @@ const CategoryPageTemplate = ({ data, pageContext, location }) => {
 
   return (
     <Layout>
-      <SEO title="Category"
+      <SEO
+        title="Category"
         url ={location.pathname}
        />
        <h2>Category :  { pageContext.category }</h2>
@@ -42,6 +43,7 @@ query CategoryPageQuery($category: String!) {
     }
     allMarkdownRemark(
       filter: {
+        fields: {collection: {eq: "blog"}}
         frontmatter: {
           status: { ne: "draft" }
           category: { eq: $category }

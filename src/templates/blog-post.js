@@ -5,6 +5,7 @@ import Img from "gatsby-image"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import RelatedPosts from "../components/relatedposts"
 
 import PostWrapper from "./style"
 
@@ -41,12 +42,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
            />
          </div>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <RelatedPosts
+          title = {post.frontmatter.title}
+          category ={post.frontmatter.category} />
         <hr/>
         <footer>
           <Bio />
         </footer>
       </article>
-
       <nav>
         <ul
           style={{
@@ -96,6 +99,8 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        category
+        tags
         featured{
           childImageSharp{
             fluid(maxWidth: 800){

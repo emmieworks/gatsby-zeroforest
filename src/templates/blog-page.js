@@ -80,6 +80,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       filter: {
+        fields: {collection: {eq: "blog"}}
         frontmatter: {
           status: { ne: "draft" }
         }

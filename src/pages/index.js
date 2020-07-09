@@ -38,22 +38,17 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        categories {
-          name
-          slug
-          image
-        }
       }
     }
     allMarkdownRemark(
       filter: {
+        fields: {collection: {eq: "blog"}}
         frontmatter: {
           status: { ne: "draft" }
         }
       }
       sort: { fields: [frontmatter___date], order: DESC }
       skip: 0
-      limit: 10
       )
       {
       edges {
