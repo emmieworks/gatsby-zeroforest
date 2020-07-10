@@ -163,6 +163,15 @@ const Wrapper = styled.div`
           }
         }
       }
+      th,td {
+        border: solid 1px var(--secondary);  /* 枠線指定 */
+        padding: 10px;      /* 余白指定 */
+      }
+      table {
+        border-collapse:  collapse; /* セルの線を重ねる */
+        margin:30px auto;
+        background:var(--white);
+      }
       /* ===============================================
       #  img
       =============================================== */
