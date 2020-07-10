@@ -6,7 +6,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
   const blogPage = path.resolve(`./src/templates/blog-page.js`)
-  const catPage = path.resolve(`./src/templates/category-page.js`)
+  const categoryPage = path.resolve(`./src/templates/category-page.js`)
   const tagPage = path.resolve(`./src/templates/tag-page.js`)
 
   const result = await graphql(
@@ -57,7 +57,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const posts = result.data.posts.edges
 
   posts.forEach((post, index) => {
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
+    const prev = index === posts.length - 1 ? null : posts[index + 1].node
     const next = index === 0 ? null : posts[index - 1].node
 
     createPage({
@@ -65,27 +65,28 @@ exports.createPages = async ({ graphql, actions }) => {
       component: blogPost,
       context: {
         slug: post.node.fields.slug,
-        previous,
+        prev,
         next,
       },
     })
   })
 
   // Create blog pages.
-  const blogPostsPerPage = 10
-  const blogPosts = posts.length // Num of posts
-  const blogPages = Math.ceil(blogPosts / blogPostsPerPage) // Num of blog pages
+  const postsPerPage = 10
+  const numPosts = posts.length // Num of posts
+  const numPages = Math.ceil(numPosts / postsPerPage) // Num of blog pages
+  const pathBase = `/blog/`
 
-  Array.from({ length: blogPages }).forEach((_, i) => {
+  Array.from({ length: numPages }).forEach((_, i) => {
     createPage({
-      path: i === 0 ? `/blog/` : `/blog/${i + 1}/`,
+      path: i === 0 ? pathBase : `${pathBase}${i + 1}/`,
       component: blogPage,
       context: {
-        skip: blogPostsPerPage * i,
-        limit: blogPostsPerPage,
+        skip: postsPerPage * i,
+        limit: postsPerPage,
+        numPages: numPages,
         currentPage: i + 1,
-        isFirst: i + 1 === 1,
-        isLast: i + 1 === blogPages,
+        pathBase: pathBase
       },
     })
   })
@@ -95,7 +96,7 @@ exports.createPages = async ({ graphql, actions }) => {
   categories.forEach(({ fieldValue }) =>
     createPage({
       path: `category/${fieldValue}`.toLowerCase(),
-      component: catPage,
+      component: categoryPage,
       context: {
         category: fieldValue,
       },
@@ -128,7 +129,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const parent = getNode(node.parent)
     createNodeField({
       node,
-      name: 'collection',
+      name: `collection`,
       value: parent.sourceInstanceName,
     })
   }

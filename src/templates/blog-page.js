@@ -1,11 +1,12 @@
 import React from "react"
-import { graphql, Link} from "gatsby"
+import { graphql} from "gatsby"
 
-import Blog from "../components/blog"
-import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Layout from "../components/layout"
+import Blog from "../components/blog"
+import Pagenation from "../components/pagenation"
 
-const BlogPageTemplate = ({ data, location,pageContext }) => {
+const BlogPageTemplate = ({ data, location, pageContext }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
@@ -29,43 +30,11 @@ const BlogPageTemplate = ({ data, location,pageContext }) => {
           />
         )
       })}
-      <nav>
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-        {!pageContext.isFirst &&(
-          <li>
-            <Link
-              to={ pageContext.currentPage === 2
-                    ? `/blog/`
-                    : `/blog/${pageContext.currentPage -1}/`
-                }
-              rel="prev"
-              style={{textDecoration:`none`}}
-            >
-                ← 前のページ
-              </Link>
-          </li>
-        )}
-        {!pageContext.isLast &&(
-          <li>
-              <Link
-                to={`/blog/${pageContext.currentPage +1}/`}
-                rel="next"
-                style={{textDecoration:`none`}}
-              >
-                次のページ →
-              </Link>
-          </li>
-        )}
-        </ul>
-      </nav>
+      <Pagenation
+          numPages = {pageContext.numPages}
+          currentPage = {pageContext.currentPage}
+          pathBase = {pageContext.pathBase}
+      />
     </Layout>
   )
 }

@@ -46,7 +46,7 @@ query CategoryPageQuery($category: String!) {
         fields: {collection: {eq: "blog"}}
         frontmatter: {
           status: { ne: "draft" }
-          category: { eq: $category }
+          category: { in: [$category] }
         }
       }
       sort: { fields: [frontmatter___date], order: DESC })
