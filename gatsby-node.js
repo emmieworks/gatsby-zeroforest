@@ -13,6 +13,12 @@ exports.createPages = async ({ graphql, actions }) => {
     `
       {
         posts:allMarkdownRemark(
+          filter: {
+            fields: {collection: {eq: "blog"}}
+            frontmatter: {
+              status: { ne: "draft" }
+            }
+          }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {

@@ -2,7 +2,7 @@
 title: バレットジャーナルをシンプルに続けるために「断捨離」しよう
 date: 2018-07-25T19:00:02+09:00
 featured: 20180725-icatch.jpg
-categories: Lifestyle
+category: Lifestyle
 tags:
     - バレットジャーナル
 status: published

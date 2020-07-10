@@ -1,6 +1,7 @@
 ---
 title: "記事のサンプル"
 date: "2017-01-01"
+category: Programming
 description: "dummy text"
 ---
 
