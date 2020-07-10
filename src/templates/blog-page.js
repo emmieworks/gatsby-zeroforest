@@ -3,7 +3,7 @@ import { graphql} from "gatsby"
 
 import SEO from "../components/seo"
 import Layout from "../components/layout"
-import Blog from "../components/blog"
+import Postcard from "../components/postcard"
 import Pagenation from "../components/pagenation"
 
 const BlogPageTemplate = ({ data, location, pageContext }) => {
@@ -18,7 +18,7 @@ const BlogPageTemplate = ({ data, location, pageContext }) => {
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <Blog
+          <Postcard
             key={node.fields.slug}
             title={title}
             slug={node.fields.slug}

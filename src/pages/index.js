@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Blog from "../components/blog"
+import Layout from "../components/layout"
+import Postcard from "../components/postcard"
 
 const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -16,7 +16,7 @@ const Index = ({ data, location }) => {
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <Blog
+          <Postcard
             key={node.fields.slug}
             title={title}
             slug={node.fields.slug}
@@ -28,6 +28,7 @@ const Index = ({ data, location }) => {
           />
         )
       })}
+
     </Layout>
   )
 }

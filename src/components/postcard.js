@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { rgba } from "polished"
 import { colors } from "../style/GlobalStyle"
 
-const BlogWrapper = styled.article`
+const Wrapper = styled.article`
   margin-bottom: 2rem;
   padding-bottom:2rem;
   border-bottom: 1px dashed ${rgba(colors.secondary, 0.3)};
@@ -54,7 +54,7 @@ const BlogWrapper = styled.article`
   }
 `
 
-const BlogComponent = props => {
+const Postcard = props => {
   const tags = props.tags
       ? (props.tags.map(e => (
             <Link to={`/tags/${e}/`.toLowerCase()} className="tag" key={e}>
@@ -64,7 +64,7 @@ const BlogComponent = props => {
       : ""
 
   return (
-    <BlogWrapper key={props.slug}>
+    <Wrapper key={props.slug}>
       <header>
         <Link to={`/category/${props.category}/`.toLowerCase()} className="category" key={props.category}>
               {props.category}
@@ -86,7 +86,7 @@ const BlogComponent = props => {
         <small className="date">{props.date}</small>
         <div>{tags}</div>
       </div>
-    </BlogWrapper>
+    </Wrapper>
   )
 }
-export default BlogComponent
+export default Postcard

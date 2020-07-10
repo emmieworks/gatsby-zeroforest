@@ -77,7 +77,11 @@ const RelatedPosts = ({ title, category }) => (
 
       return (
           <Wrapper>
-            <p className="relatedPostsTitle">{category}の記事</p>
+            {relatedPosts5 ? (
+              <p className="relatedPostsTitle">{category}の記事</p>
+             ):(
+             ""
+             )}
              {relatedPosts5&&
                 relatedPosts5.map(relatedPost => (
               <div className="relatedPost">

@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql} from "gatsby"
 
-import Blog from "../components/blog"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Postcard from "../components/postcard"
 
 const CategoryPageTemplate = ({ data, pageContext, location }) => {
   const posts = data.allMarkdownRemark.edges
@@ -17,7 +17,7 @@ const CategoryPageTemplate = ({ data, pageContext, location }) => {
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <Blog
+          <Postcard
             key={node.fields.slug}
             title={title}
             category={node.frontmatter.category}
