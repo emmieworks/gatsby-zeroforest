@@ -14,6 +14,28 @@ module.exports = {
       github: `emmieworks`,
       pinterest: `0forest`,
     },
+    categories: [
+      {
+        name: `Programming`,
+        slug: `programming`,
+        image: `cat_programming.png`,
+      },
+      {
+        name: `Design`,
+        slug: `design`,
+        image: `cat_design.png`,
+      },
+      {
+        name: `WordPress`,
+        slug: `wordpress`,
+        image: `cat_wordpress.png`,
+      },
+      {
+        name: `Lifestyle`,
+        slug: `lifestyle`,
+        image: `cat_lifestyle.png`,
+      },
+    ],
   },
   plugins: [
     `gatsby-transformer-sharp`,

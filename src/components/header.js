@@ -9,7 +9,7 @@ const Wrapper = styled.header`
   display: flex;
   justify-content:center;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 
   .logo{
     padding: 20px;
@@ -33,13 +33,13 @@ const Wrapper = styled.header`
     a{
       text-transform:uppercase;
       text-decoration:none;
+      &:active{
+        text-decoration:underline;
+      }
       &:hover{
-        opacity:0.7;
+        opacity:0.6;
       }
     }
-  }
-  .activeMenuItem{
-      text-decoration:underline;
   }
   @media screen and (max-width: 780px) {
     max-width:90vw;
@@ -73,10 +73,10 @@ const Header = props => {
       </Link>
       <nav className="navContainer pc">
         <ul className="navList">
-          <li><Link to ="/" className="activeMenuItem">Home</Link></li>
-          <li><Link to ="/about/" className="activeMenuItem">About</Link></li>
-          <li><Link to ="/blog/" className="activeMenuItem">Blog</Link></li>
-          <li><Link to ="/contact/" className="activeMenuItem">Contact</Link></li>
+          <li><Link to ="/" activeClassName="active">Home</Link></li>
+          <li><Link to ="/about/" activeClassName="active">About</Link></li>
+          <li><Link to ="/blog/" activeClassName="active">Blog</Link></li>
+          <li><Link to ="/contact/" activeClassName="active">Contact</Link></li>
         </ul>
       </nav>
     </Wrapper>

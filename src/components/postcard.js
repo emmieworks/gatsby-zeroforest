@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import { rgba } from "polished"
 import { colors } from "../style/GlobalStyle"
+import Category from "../components/category"
 
 const Wrapper = styled.article`
   margin-bottom: 2rem;
@@ -11,26 +12,39 @@ const Wrapper = styled.article`
   &:last-child {
     border-bottom: none;
   }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .left{
+    padding:10px 30px;
+  }
+  .right{
+    width:100%;
+  }
+  h3{
+    padding-bottom:15px;
+    a{
+      text-decoration:none;
+    }
+  }
   .info {
     display: flex;
     justify-content: space-between;
     color:var(--primary);
   }
-  .category{
-    text-decoration:none;
-    margin-bottom:10px;
-    font-size:0.9rem;
-    color:${rgba(colors.secondary, 0.6)};
-  }
-
   p {
     line-height: 1.8;
-    padding: 15px 0 25px 0;
-    font-size: 0.95rem;
+    padding-bottom:20px;
+    font-size: 0.9rem;
   }
   @media screen and (max-width: 780px) {
     margin-bottom: 25px;
     padding-bottom: 25px;
+    .left{
+      padding:10px;
+    }
     .info {
       flex-direction: column;
       .date {
@@ -65,17 +79,16 @@ const Postcard = props => {
 
   return (
     <Wrapper key={props.slug}>
-      <header>
-        <Link to={`/category/${props.category}/`.toLowerCase()} className="category" key={props.category}>
-              {props.category}
-        </Link>
-        <h3>
+    <div className="left">
+      <Category name= {props.category}/>
+    </div>
+    <div className="right">
+      <h3>
           <Link to={props.slug}>
             {props.title}
           </Link>
-        </h3>
-      </header>
-      <section>
+      </h3>
+      <section className="pc">
         <p
           dangerouslySetInnerHTML={{
             __html: props.description || props.excerpt,
@@ -86,6 +99,7 @@ const Postcard = props => {
         <small className="date">{props.date}</small>
         <div>{tags}</div>
       </div>
+    </div>
     </Wrapper>
   )
 }

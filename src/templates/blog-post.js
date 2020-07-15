@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import RelatedPosts from "../components/relatedposts"
 
-import PostWrapper from "./style"
+import PostWrapper from "./blogPostStyle"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
