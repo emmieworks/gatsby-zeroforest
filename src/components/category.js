@@ -4,7 +4,7 @@ import { Link, useStaticQuery, graphql } from "gatsby";
 import Image from "../components/categoryimage"
 
 const Wrapper = styled.div`
-text-align:center;
+  text-align:center;
   a{
     text-transform:uppercase;
     text-decoration:none;

@@ -57,7 +57,7 @@ const Footer = () => {
     </p>
     <nav className="footerMenu">
         <ul className="navList">
-          <li><Link to ="/"  className="sp">Home</Link></li>
+          <li><Link to ="/" className="sp">Home</Link></li>
           <li><Link to ="/about/" className="sp">About</Link></li>
           <li><Link to ="/blog/" className="sp">Blog</Link></li>
           <li><Link to ="/contact/" className="sp">Contact</Link></li>

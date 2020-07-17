@@ -15,12 +15,12 @@ const Wrapper = styled.article`
     margin-bottom:10px;
   }
   .relatedPost{
-    font-size:0.8rem;
-    padding:10px 10px;
-    border-bottom:1px dashed var(--secondary);
-    &:last-child {
-      border-bottom: none;
-    }
+      font-size:0.8rem;
+      padding:10px 10px;
+      border-bottom:1px dashed var(--secondary);
+      &:last-child {
+        border-bottom: none;
+      }
     a{
       text-decoration:none;
       &:hover{
@@ -84,7 +84,8 @@ const RelatedPosts = ({ title, category }) => (
              )}
              {relatedPosts5&&
                 relatedPosts5.map(relatedPost => (
-              <div className="relatedPost">
+              <div className="relatedPost"
+                key={relatedPost.node.frontmatter.title}>
                 <Link
                   to={relatedPost.node.fields.slug}
                   key={relatedPost.node.frontmatter.title}
