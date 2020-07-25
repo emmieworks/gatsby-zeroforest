@@ -1,5 +1,5 @@
 ---
-title: このブログでWordPress使っているプラグインまとめ
+title: WordPressで使っているプラグインまとめ
 date: 2018-06-26T21:30:24+09:00
 featured: icatch-20180625-1.jpg
 category: WordPress
