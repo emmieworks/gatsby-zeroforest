@@ -2,7 +2,7 @@
 title: イラレでシステム手帳用のカレンダーを作ったよ
 date: 2019-02-05T17:00:01+09:00
 featured: icatch_20190131.jpg
-category: Lifestyle
+category: Design
 tags:
     - Illustrator
 status: published
