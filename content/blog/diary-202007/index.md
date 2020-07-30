@@ -21,6 +21,8 @@ WordPressはhtml/cssの知識がなくても、きれいなレイアウトで、
 
 そこで、Gatsby+GitHub+Netlifyという構成でブログをリニューアルしました。
 
+![現時点でのGatsbyブログ](ss-gatsby-blog.png)
+
 * [WordPressからGatsbyにブログを変えました](/gatsby-new-blog/)
 
 * [Gatsby+Netlifyデプロイから独自ドメイン設定まで](/gatsby-netlify/)
