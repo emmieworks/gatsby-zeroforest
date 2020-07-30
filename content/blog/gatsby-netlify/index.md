@@ -17,6 +17,7 @@ GitHub+Netlifyで
 ## GitHubリポジトリにプロジェクトをpushする
 
 GitHubで新しいリポジトリを作成します。
+
 ![新規リポジトリ作成](ss-gatsby-netlify-01.jpg)
 
 
@@ -30,7 +31,7 @@ rm -rf .git
 ```
 
 GitHubのコマンドに従って、リモートリポジトリにプロジェクトをプッシュします。
-![リモートリポジトリにプッシュ](ss-gatsby-netlify-01-02.jpg)
+![リモートリポジトリにプッシュ](ss-gatsby-netlify-01-2.jpg)
 
 ローカルリポジトリの新規作成
 ```

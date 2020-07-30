@@ -68,7 +68,10 @@ PC版では、メニューボタンがなくなり、左側にロゴ、右側に
   height: 20px;
   cursor: pointer;
 }
+```
 
+
+```css
 /* 高さ1pxの線を上下に表示 */
 #navbtn::before,
 #navbtn::after{
@@ -79,7 +82,14 @@ PC版では、メニューボタンがなくなり、左側にロゴ、右側に
   transform: translateY(10px);
   transition: 0.3s ease-in-out;
 }
+```
+`#navbtn::before`で上の線、`#navbtn::after`で下の線を作っています。
 
+高さ1pxの線をtransform: translateY(10px)で上下に10px移動させています。
+
+transitionをつけているので、切り替わる際にアニメーションがつきます。
+
+```css
 /* 高さ1pxの線を中央に表示 */
 #navbtn::before{
   transform: translateY(-10px);
@@ -87,7 +97,7 @@ PC版では、メニューボタンがなくなり、左側にロゴ、右側に
 }
 ```
 
-`#navbtn::before`で上の線、`#navbtn::after`で下の線、`#navbtn::before`に`box-shadow`をつけて、真ん中の線を作っています。
+`#navbtn::before`に`box-shadow`をつけることで、中央の線を表示させています。（上の線の陰が真ん中の線になります。）
 
 ### 閉じるボタン
 
@@ -156,23 +166,74 @@ document.getElementById("navbtn").onclick = function(){
 }
 ```
 
-## 実装サンプル
+## いろいろなハンバーガーメニュー実装サンプル
 
 ### ボタンのアニメーション
+
+* [ひたすらハンバーガーアイコンを作ったので9種のソースを公開します！](https://liginc.co.jp/180293)
 
 * [【CSS】ハンバーガーメニュー実装サンプル集（クリック時のエフェクトも集めました）](https://125naroom.com/web/2958)
 
 * [CSSで実装するハンバーガーメニュークリック時のエフェクト 10＋](https://www.nxworld.net/tips/12-css-hamburger-menu-active-effect.html)
 
-### 今後追記予定
 
-* 左上にメニュー＋左からスライド
+### 右上にボタン＋右からスライド
 
-* 右上にボタン＋右からスライド
+<iframe height="400" style="width: 100%;" scrolling="no" title="ハンバーガーメニュー（右から左へスライド）" src="https://codepen.io/filledforest/embed/OJMGdNO?height=400&theme-id=light&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/filledforest/pen/OJMGdNO'>ハンバーガーメニュー（右から左へスライド）</a> by Emi
+  (<a href='https://codepen.io/filledforest'>@filledforest</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
-* 中央にボタン＋上からスライド
+【解説】
+画面右の外側（left:100%）にメニューを配置しておきます。
 
+```css
+.nav{
+  left: 100%;
+  transition: left 0.5s;
+}
+```
 
+`transition:left`で
+leftの値にアニメーションをつけて変化させます。
+
+メニューを開いた時に、leftを0にして、画面左端に持ってきます。
+```css
+.open nav{
+  left:0;
+}
+```
+
+初期で、画面外に配置したオーバーレイが表示されないようにしています。
+```css
+html,body{
+    overflow-x: hidden;
+}
+```
+
+### 左上にメニュー＋左からスライド
+
+<iframe height="400" style="width: 100%;" scrolling="no" title="ハンバーガーメニュー（左から右へスライド）" src="https://codepen.io/filledforest/embed/PoZgVzO?height=400&theme-id=light&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/filledforest/pen/PoZgVzO'>ハンバーガーメニュー（左から右へスライド）</a> by Emi
+  (<a href='https://codepen.io/filledforest'>@filledforest</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
+
+【解説】
+画面左の外側（left:-100%）にメニューを配置しておきます。
+
+```css
+.nav{
+  left: -100%;
+  transition: left:0.5s;
+}
+
+```
+
+### 中央にボタン＋上からスライド
+<iframe height="400" style="width: 100%;" scrolling="no" title="gOPyqmX" src="https://codepen.io/filledforest/embed/gOPyqmX?height=400&theme-id=light&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href='https://codepen.io/filledforest/pen/gOPyqmX'>gOPyqmX</a> by Emi
+  (<a href='https://codepen.io/filledforest'>@filledforest</a>) on <a href='https://codepen.io'>CodePen</a>.
+</iframe>
 
 ## WordPressでハンバーガーメニューを実装するには？？
 WordPressでは、グローバルメニュー用のHTMLコードに合わせて、CSSを設定する必要があります。

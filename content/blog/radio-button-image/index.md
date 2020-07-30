@@ -1,5 +1,5 @@
 ---
-title: ラジオボタン／チェックボタンの代わりに画像選択にする方法
+title: ラジオボタン／チェックボタンの代わりに画像を使う方法
 date: 2020-06-13T12:30:54+09:00
 featured: icatch-20200613.jpg
 category: Programming
@@ -19,17 +19,22 @@ status: published
 
 ```markup:title=HTML
  <div>
-  <input id="image\_a" type="radio" value="image\_a.jpg" name="image">
-  <label for="image\_a"><img src="/images/image\_a.jpg" with="40" height="40"></label>
-  <input id="image\_b" type="radio" value="image\_b.jpg" name="image">
-  <label for="image\_b"><img src="/images/image\_b.jpg" with="40" height="40"></label>
-  <input id="image\_c" type="radio" value="image\_c.jpg" name="image">
-  <label for="image\_c"><img src="/images/image\_c.jpg" with="40" height="40">
+  <input id="image_a" type="radio" value="image_a.jpg" name="image">
+  <label for="image_a">
+    <img src="/images/image_a.jpg" with="40" height="40">
+  </label>
+  <input id="image_b" type="radio" value="image_b.jpg" name="image">
+  <label for="image_b">
+    <img src="/images/image_b.jpg" with="40" height="40">
+  </label>
+  <input id="image_c" type="radio" value="image_c.jpg" name="image">
+  <label for="image_c">
+    <img src="/images/image_c.jpg" with="40" height="40">
   </label>
 </div>
  ```
 
-```markup
+```css:title=CSS
 /* ラジオボタンの○を消す */
 input[type="radio"] {
    display: none;
@@ -37,7 +42,8 @@ input[type="radio"] {
 
 /* 画像の周りに隙間をあける */
 label img {
-  margin: 3px; padding: 5px;
+  margin: 3px;
+  padding: 5px;
 }
 
 /* 未選択の場合、色を薄くする */
@@ -57,24 +63,43 @@ input[type="radio"]:checked + label img {
 ![画像を追加](./ss-20200613-01.jpg)
 
 labelタグの中で画像を表示します。
-labelタグのforはinputのidと揃えます。ここでは、inputの`id=“image\_a”`と`label for =“image\_a”`を揃えています。
+labelタグのforはinputのidと揃えます。
+
+```markup
+<input id="image_a" type="radio" value="image_a.jpg" name="image">
+<label for="image_a">
+  <img src="image_a.png">
+</label>
+```
 
 ### ②CSSでラジオボタンを非表示
 
  ![ラジオボタンを非表示](./ss-20200613-02.jpg)
 
-```markup
- input[type="radio"] { display: none; }
+```css
+input[type="radio"] {
+  display: none;
+}
 ```
 
 ### ③画像の選択／未選択で表示を変える
 
 ![画像の選択](SS-20200613-after.jpg)
 
-```markup
-input[type="radio"] + label img { opacity:0.2; }
-input[type="radio"]:checked + label img { opacity:1; }
+```css
+input[type="radio"] + label img {
+  opacity:0.2;
+}
+input[type="radio"]:checked + label img {
+  opacity:1;
+}
 ```
+
++セレクタは隣接した要素を指定することができます。
+`input[type="radio"] + label`で、`input[type="radio"]`の直後にある`label`を指定しています。
+
+
+`:checked`はラジオボタンの状態が選択済みのときに、適用されます。
 
 ## サンプルコード
 
