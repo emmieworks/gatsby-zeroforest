@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import SEO from "../components/seo"
-import Layout from "../components/layout"
-import Postcard from "../components/postcard"
+import SEO from "../components/SEO"
+import Layout from "../components/Layout"
+import Postcard from "../components/PostCard"
 
 const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -59,7 +59,8 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "YYYY/MM/DD")
+            updateDate(formatString: "YYYY/MM/DD")
             title
             description
             category

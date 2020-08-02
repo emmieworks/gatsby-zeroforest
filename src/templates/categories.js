@@ -1,16 +1,17 @@
 import React from "react"
 import { graphql} from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Postcard from "../components/postcard"
+import Layout from "../components/Layout"
+import SEO from "../components/SEO"
+import Postcard from "../components/PostCard"
 
 const CategoryPageTemplate = ({ data, pageContext, location }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
     <Layout>
-      <SEO title="Tags"
+      <SEO
+        title="Category"
         url ={location.pathname}
        />
        <h2
@@ -19,15 +20,15 @@ const CategoryPageTemplate = ({ data, pageContext, location }) => {
           marginBottom:30,
           textAlign:`center`
         }}
-      >
-      Tag :  { pageContext.tag }</h2>
+       >
+       Category :  { pageContext.category }</h2>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
           <Postcard
             key={node.fields.slug}
             title={title}
-            category={node.frontmatter.category}
+            category={pageContext.category}
             slug={node.fields.slug}
             date={node.frontmatter.date}
             description={node.frontmatter.description}
@@ -42,7 +43,7 @@ const CategoryPageTemplate = ({ data, pageContext, location }) => {
 export default CategoryPageTemplate
 
 export const pageQuery = graphql`
-query TagPageQuery($tag: String!) {
+query CategoryPageQuery($category: String!) {
     site {
       siteMetadata {
         title
@@ -50,9 +51,10 @@ query TagPageQuery($tag: String!) {
     }
     allMarkdownRemark(
       filter: {
+        fields: {collection: {eq: "blog"}}
         frontmatter: {
           status: { ne: "draft" }
-          tags: { in: [$tag] }
+          category: { in: [$category] }
         }
       }
       sort: { fields: [frontmatter___date], order: DESC })
