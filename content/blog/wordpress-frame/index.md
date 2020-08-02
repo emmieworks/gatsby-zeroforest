@@ -189,7 +189,7 @@ margin:20px;
 .border-box .title{
     position:absolute;
     top: -12px;
-    left: 10px;
+    left: px;
     padding: 5px 25px;
     background-color: #F6BCAC;
     border-radius:4px;

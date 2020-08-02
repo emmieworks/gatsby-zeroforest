@@ -500,5 +500,5 @@ blockquote:after{
 ## 他のCSSデザインサンプル記事
 
 * [枠のデザイン](/wordpress-frame/)
-* [見出しデザイン](/css-header/)
-* [箇条書きリストのデザイン](/css-list-style/)
+* [見出しデザイン](/header-css/)
+* [箇条書きリストのデザイン](/list-style-css/)
