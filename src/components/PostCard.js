@@ -67,7 +67,6 @@ const Wrapper = styled.article`
       background-color: var(--primary);
       color:var(--white);
     }
-
   }
 `
 
