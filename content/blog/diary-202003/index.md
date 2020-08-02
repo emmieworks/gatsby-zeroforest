@@ -1,6 +1,7 @@
 ---
 title: 【活動記録】お家でコツコツとスキルアップの3月
 date: 2020-03-28T21:53:29+09:00
+updateDate: 2020-07-31
 featured: icatch-20200328.jpg
 category: Column
 tags:
