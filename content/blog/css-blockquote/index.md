@@ -496,9 +496,3 @@ blockquote:after{
 
 
  See the Pen [blockquote sample](https://codepen.io/filledforest/pen/ZMoQOY/) by Emi ([@filledforest](https://codepen.io/filledforest)) on [CodePen](https://codepen.io).
-
-## 他のCSSデザインサンプル記事
-
-* [枠のデザイン](/wordpress-frame/)
-* [見出しデザイン](/header-css/)
-* [箇条書きリストのデザイン](/list-style-css/)

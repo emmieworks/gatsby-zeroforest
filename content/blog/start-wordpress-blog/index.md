@@ -229,11 +229,10 @@ HTML/CSSの知識があれば、さらにブログを飾り付けることがで
 
 あわせて読みたい：
 
-* [CSSで作れるシンプルな飾り枠デザイン](/wordpress-frame/)
-* [CSSで作れるかわいいブログ見出しのデザイン](/header-css/)
+* [CSSで作れるシンプルな飾り枠デザイン](/css-frame/)
+* [CSSで作れるかわいいブログ見出しのデザイン](/css-header/)
 * [CSSでおしゃれに飾る！引用符のデザイン](/css-blockquote/)
 * [子テーマを使って、WordPressテーマをカスタマイズする](/wp-child-theme/)
-* [子テーマの作り方](/wp-child-theme/)
 * [ウィジットエリアの追加方法](/wordpress-widget-area/)
 
 ## 5. ブログを育てる
