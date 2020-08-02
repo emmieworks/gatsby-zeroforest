@@ -1,34 +1,28 @@
 import React from "react"
 import { graphql} from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Postcard from "../components/postcard"
+import Layout from "../components/Layout"
+import SEO from "../components/SEO"
+import Postcard from "../components/PostCard"
+import Pagenation from "../components/Pagenation"
 
-const CategoryPageTemplate = ({ data, pageContext, location }) => {
+const BlogPageTemplate = ({ data, location, pageContext }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
     <Layout>
-      <SEO title="Tags"
+      <SEO title="Blog"
         url ={location.pathname}
-       />
-       <h2
-        style={{
-          marginTop: 0,
-          marginBottom:30,
-          textAlign:`center`
-        }}
-      >
-      Tag :  { pageContext.tag }</h2>
+        />
+
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
           <Postcard
             key={node.fields.slug}
             title={title}
-            category={node.frontmatter.category}
             slug={node.fields.slug}
+            category={node.frontmatter.category}
             date={node.frontmatter.date}
             description={node.frontmatter.description}
             excerpt={node.excerpt}
@@ -36,13 +30,18 @@ const CategoryPageTemplate = ({ data, pageContext, location }) => {
           />
         )
       })}
+      <Pagenation
+          numPages = {pageContext.numPages}
+          currentPage = {pageContext.currentPage}
+          pathBase = {pageContext.pathBase}
+      />
     </Layout>
   )
 }
-export default CategoryPageTemplate
+export default BlogPageTemplate
 
 export const pageQuery = graphql`
-query TagPageQuery($tag: String!) {
+  query BlogPageQuery($skip: Int!,$limit: Int!) {
     site {
       siteMetadata {
         title
@@ -50,12 +49,15 @@ query TagPageQuery($tag: String!) {
     }
     allMarkdownRemark(
       filter: {
+        fields: {collection: {eq: "blog"}}
         frontmatter: {
           status: { ne: "draft" }
-          tags: { in: [$tag] }
         }
       }
-      sort: { fields: [frontmatter___date], order: DESC })
+      sort: { fields: [frontmatter___date], order: DESC }
+      skip:$skip
+      limit:$limit
+      )
       {
       edges {
         node {

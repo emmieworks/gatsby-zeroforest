@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql} from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Postcard from "../components/postcard"
+import Layout from "../components/Layout"
+import SEO from "../components/SEO"
+import Postcard from "../components/PostCard"
 
 const CategoryPageTemplate = ({ data, pageContext, location }) => {
   const posts = data.allMarkdownRemark.edges

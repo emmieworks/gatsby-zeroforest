@@ -12,11 +12,12 @@ const Wrapper = styled.div`
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      .date {
+      .category {
         font-size: 0.9rem;
         font-style: italic;
         position: relative;
         padding: 0 35px;
+        color: var(--secondary);
         &:before,
         &:after {
           content: "";
@@ -35,13 +36,38 @@ const Wrapper = styled.div`
           right: 0;
         }
       }
+      .info{
+        margin: 10px;
+        padding:10px;
+      }
+      .date{
+        font-size:0.8rem;
+        color: var(--secondary);
+        padding: 10px;
+      }
+      .tag{
+        font-size:0.8rem;
+        margin-right:10px;
+        color:var(--primary);
+        border: 1px solid var(--primary);
+        border-radius:5px;
+        padding: 3px 5px;
+        text-decoration:none;
+        &:before{
+          content: '#'
+        }
+        &:hover{
+          background-color: var(--primary);
+          color:var(--white);
+        }
+      }
     }
     h1 {
         font-size: 1.6rem;
         font-weight: 600;
         text-align: center;
-        padding: 30px 0;
-        margin:30px auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
         color:var(--secondary);
     }
     /* ===============================================
@@ -96,16 +122,16 @@ const Wrapper = styled.div`
       =============================================== */
       p {
         line-height: 1.8;
-        margin: 20px 0;
+        margin: 30px 0;
       }
       h2 {
         color:var(--secondary);
         width: 100%;
         font-size: 1.2rem;
-        margin-top: 60px;
+        margin-top: 100px;
         padding-top:10px;
         padding-bottom: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         font-weight: 600;
         width: 100%;
         border-top: 1px solid var(--secondary);
@@ -113,18 +139,20 @@ const Wrapper = styled.div`
       }
       h3 {
         color:var(--secondary);
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         font-weight: 600;
-        margin-top: 50px;
-        margin-bottom: 30px;
+        margin-top: 60px;
+        margin-bottom: 60px;
         padding: 7px 0 7px 15px;
         border-left: 3px double var(--secondary);
       }
       h4 {
-        font-size: 1rem;
-        margin: 20px 0 10px 0;
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-top: 30px;
+        margin-bottom: 30px;
         padding: 14px 10px;
-        border-left: 2px single var(--secondary);
+        border-left: 1px solid var(--secondary);
       }
       h5,
       h6 {
@@ -137,8 +165,7 @@ const Wrapper = styled.div`
       =============================================== */
       ul,
       ol {
-        margin: 20px 20px;
-        border-radius: 3px;
+        margin: 20px;
         list-style-type: none;
       }
       ul {
@@ -147,6 +174,16 @@ const Wrapper = styled.div`
           &:before{
             color: var(--primary);
             content: "● ";
+          }
+          p{
+            display: inline-block;
+            margin-top : 0;
+            margin-bottom : 0;
+            padding: 10px 0 10px 10px;
+          }
+          ul{
+            margin-top : 0;
+            margin-bottom : 0;
           }
         }
       }
@@ -160,6 +197,16 @@ const Wrapper = styled.div`
             font-weight: 600;
             color: var(--primary);
             margin-right: 12px;
+          }
+          p{
+            display: inline-block;
+            margin-top : 0;
+            margin-bottom : 0;
+            padding: 10px 0 10px 10px;
+          }
+          ol{
+            margin-top : 0;
+            margin-bottom : 0;
           }
         }
       }

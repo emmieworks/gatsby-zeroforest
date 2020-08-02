@@ -16,7 +16,7 @@ const Wrapper = styled.div`
   }
 `
 
-const Category = ({name}) => {
+const CategoryCard = ({name}) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -43,4 +43,4 @@ const Category = ({name}) => {
     </Wrapper>
   )
 }
-export default Category
+export default CategoryCard

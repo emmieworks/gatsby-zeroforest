@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import { rgba } from "polished"
 import { colors } from "../style/GlobalStyle"
-import Category from "../components/category"
+import Category from "../components/CategoryCard"
 
 const Wrapper = styled.article`
   margin-bottom: 2rem;
@@ -60,6 +60,9 @@ const Wrapper = styled.article`
     border-radius:5px;
     padding: 3px 5px;
     text-decoration:none;
+    &:before{
+      content: '#';
+    }
     &:hover{
       background-color: var(--primary);
       color:var(--white);

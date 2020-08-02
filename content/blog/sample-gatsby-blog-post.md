@@ -1,11 +1,14 @@
 ---
-title: "記事のサンプル"
-date: "2017-01-01"
+title: 記事のサンプル
+date: 2017-01-01
+updateDate: 2020-07-31
 category: Programming
-description: "dummy text"
+description: マークダウン記事の表示サンプルです
+tags:
+  - markdown
+  - html
 ---
 
-マークダウン記事の表示サンプルです
 
 ## 見出し2
 ### 見出し3

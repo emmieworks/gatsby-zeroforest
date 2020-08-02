@@ -2,12 +2,12 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-import Bio from "../components/bio"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import RelatedPosts from "../components/relatedposts"
+import Bio from "../components/Bio"
+import Layout from "../components/Layout"
+import SEO from "../components/SEO"
+import RelatedPosts from "../components/RelatedPosts"
 
-import PostWrapper from "./blogPostStyle"
+import PostWrapper from "./postStyle"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
