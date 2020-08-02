@@ -100,4 +100,4 @@ const RelatedPosts = ({ title, category }) => (
   />
 );
 
-export default RelatedPosts
+export default RelatedPosts;

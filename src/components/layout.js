@@ -1,8 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 import GlobalStyle from "../style/GlobalStyle"
-import Header from "../components/Header"
-import Footer from "../components/Footer"
+import Header from "../components/header"
+import Footer from "../components/footer"
 
 const Wrapper = styled.div`
   width:var(--width);

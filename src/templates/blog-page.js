@@ -1,17 +1,19 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql} from "gatsby"
 
 import SEO from "../components/seo"
 import Layout from "../components/layout"
 import Postcard from "../components/postcard"
+import Pagenation from "../components/pagenation"
 
-const Index = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
+const BlogPageTemplate = ({ data, location, pageContext }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO title={siteTitle} />
+    <Layout>
+      <SEO title="Blog"
+        url ={location.pathname}
+        />
 
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
@@ -28,14 +30,18 @@ const Index = ({ data, location }) => {
           />
         )
       })}
-
+      <Pagenation
+          numPages = {pageContext.numPages}
+          currentPage = {pageContext.currentPage}
+          pathBase = {pageContext.pathBase}
+      />
     </Layout>
   )
 }
-export default Index
+export default BlogPageTemplate
 
 export const pageQuery = graphql`
-  query {
+  query BlogPageQuery($skip: Int!,$limit: Int!) {
     site {
       siteMetadata {
         title
@@ -49,7 +55,8 @@ export const pageQuery = graphql`
         }
       }
       sort: { fields: [frontmatter___date], order: DESC }
-      skip: 0
+      skip:$skip
+      limit:$limit
       )
       {
       edges {

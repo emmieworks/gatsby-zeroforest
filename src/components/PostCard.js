@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 import { rgba } from "polished"
 import { colors } from "../style/GlobalStyle"
-import Category from "../components/CategoryCard"
+import Category from "../components/category"
 
 const Wrapper = styled.article`
   margin-bottom: 2rem;
@@ -60,17 +60,15 @@ const Wrapper = styled.article`
     border-radius:5px;
     padding: 3px 5px;
     text-decoration:none;
-    &:before{
-      content: '＃'
-    }
     &:hover{
       background-color: var(--primary);
       color:var(--white);
+    }
+
   }
-}
 `
 
-const PostCard = props => {
+const Postcard = props => {
   const tags = props.tags
       ? (props.tags.map(e => (
             <Link to={`/tags/${e}/`.toLowerCase()} className="tag" key={e}>
@@ -105,4 +103,4 @@ const PostCard = props => {
     </Wrapper>
   )
 }
-export default PostCard
+export default Postcard
