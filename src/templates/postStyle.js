@@ -152,7 +152,7 @@ const Wrapper = styled.div`
         margin-top: 30px;
         margin-bottom: 30px;
         padding: 14px 10px;
-        border-left: 1px solid var(--secondary);
+        border-left: 2px solid var(--secondary);
       }
       h5,
       h6 {

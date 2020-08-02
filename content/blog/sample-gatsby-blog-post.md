@@ -102,3 +102,51 @@ module.exports = {
 ```javascript:title=test.js
   const hello = 'hello'
 ```
+
+## 文字装飾
+
+### マーカー
+<span style="background: linear-gradient(transparent 70%, #cde3ce 70%);">緑のマーカー</span>
+
+<span style="background: linear-gradient(transparent 70%, #f2b1a4 70%);">ピンクのマーカー</span>
+
+### 見出し飾り枠
+
+<div style="position:relative;border:1px solid #F6BCAC;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
+  <span style="position:absolute; top: -12px;left: 10px;padding: 5px 20px;background-color: #fffcf5;border-radius:4px;color:#F6BCAC;line-height: 1em;font-size:0.8rem;">
+    ここに見出し
+  </span>
+  ここに本文が入る
+</div>
+<div style="position:relative;border:1px solid #91c294;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
+  <span style="position:absolute; top: -12px;left: 10px;padding: 5px 20px;background-color: #91c294;border-radius:4px;color:#fff;line-height: 1em;font-size:0.8rem;">
+    ここに見出し
+  </span>
+  ここに本文が入る
+</div>
+
+
+### 背景色あり
+<div style="background-color:#cde3ce;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
+  ここに本文が入る
+</div>
+
+### 角丸飾り枠
+
+<div style="border:1px solid #f2b1a4;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
+  ここに本文が入る
+</div>
+
+<div style="border:1px solid #91c294;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
+  ここに本文が入る
+</div>
+
+### 角飾り枠
+
+<div style="border:2px solid #f2b1a4;padding:25px 20px;margin:30px;font-size:0.8rem;">
+  ここに本文が入る
+</div>
+
+<div style="border:4px double #cde3ce;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
+  ここに本文が入る
+</div>

@@ -13,6 +13,13 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const { previous, next } = pageContext
   const tableOfContens = data.markdownRemark.tableOfContents
+  const tags = post.frontmatter.tags
+      ? (post.frontmatter.tags.map(e => (
+            <Link to={`/tags/${e}/`.toLowerCase()} className="tag" key={e}>
+              {e}
+            </Link>
+          )))
+      : ""
   return (
     <Layout>
       <SEO
@@ -23,12 +30,19 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       <PostWrapper>
       <article>
         <header>
-          <p className="date">
-            {post.frontmatter.date}
+          <p className="category">
+            {post.frontmatter.category}
           </p>
           <h1>
             {post.frontmatter.title}
           </h1>
+          <div className="info">
+            <div className="date">
+            <span>Published: {post.frontmatter.date}</span>
+            {post.frontmatter.updateDate && <span> | Updated :{post.frontmatter.updateDate}</span>}
+            </div>
+            {tags}
+          </div>
         </header>
           {post.frontmatter.featured && (
           <Img
@@ -97,7 +111,8 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY/MM/DD")
+        updateDate(formatString: "YYYY/MM/DD")
         description
         category
         tags
