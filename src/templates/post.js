@@ -49,12 +49,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             fluid={post.frontmatter.featured.childImageSharp.fluid}
             alt={post.frontmatter.title}    />
             )}
-        <div className="toc">
-          <h4>目次</h4>
-          <div
-            dangerouslySetInnerHTML={{__html: tableOfContens}}
-           />
-         </div>
+          {tableOfContens && (
+          <div className="toc">
+            <h4>目次</h4>
+            <div
+              dangerouslySetInnerHTML={{__html: tableOfContens}}
+             />
+           </div>
+          )}
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <RelatedPosts
           title = {post.frontmatter.title}

@@ -6,6 +6,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   const blogPost = path.resolve(`./src/templates/post.js`)
   const blogPage = path.resolve(`./src/templates/blog.js`)
+  const galleryPost = path.resolve(`./src/templates/GalleryPost.js`)
   const categoryPage = path.resolve(`./src/templates/categories.js`)
   const tagPage = path.resolve(`./src/templates/tags.js`)
 
@@ -21,6 +22,22 @@ exports.createPages = async ({ graphql, actions }) => {
           }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+              }
+            }
+          }
+        }
+        works:allMarkdownRemark(
+          filter: {
+            fields: { collection : { eq: "gallery" } }
+          }
         ) {
           edges {
             node {
@@ -87,6 +104,20 @@ exports.createPages = async ({ graphql, actions }) => {
         numPages: numPages,
         currentPage: i + 1,
         pathBase: pathBase
+      },
+    })
+  })
+
+  // Create work pages
+  const works = result.data.works.edges
+
+  works.forEach((work, index) => {
+
+    createPage({
+      path: `gallery${work.node.fields.slug}`,
+      component: galleryPost,
+      context: {
+        slug: work.node.fields.slug,
       },
     })
   })
