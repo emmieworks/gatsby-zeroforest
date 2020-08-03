@@ -103,14 +103,15 @@ if( $query->have_posts() ) :
 
 
 【WP\_Queryで使える抽出条件についての詳しい記事】
-* [WP\_Queryを使って、記事を自在に取得してくる方法 | 東京上野のWeb制作会社LIG](https://liginc.co.jp/320285)
-* [ちょいちょい忘れる『WP\_Query』の使い方 | 予習と復習](http://notebook.yamamotohiroyuki.com/wordpress/2012/08/15/%E3%81%A1%E3%82%87%E3%81%84%E3%81%A1%E3%82%87%E3%81%84%E5%BF%98%E3%82%8C%E3%82%8B%E3%80%8Ewp_query%E3%80%8F%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/)
-* [WP\_Queryの使い方をPHPコードにまとめた便利なコード・スニペット](http://notnil-creative.com/blog/archives/1288)
+
+* <a href="https://liginc.co.jp/320285" target="_blank" rel="noopener noreferrer">WP\_Queryを使って、記事を自在に取得してくる方法 | 東京上野のWeb制作会社LIG</a>
+* <a href="http://notebook.yamamotohiroyuki.com/wordpress/2012/08/15/%E3%81%A1%E3%82%87%E3%81%84%E3%81%A1%E3%82%87%E3%81%84%E5%BF%98%E3%82%8C%E3%82%8B%E3%80%8Ewp_query%E3%80%8F%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/" target="_blank" rel="noopener noreferrer">ちょいちょい忘れる『WP\_Query』の使い方 | 予習と復習</a>
+* <a href="http://notnil-creative.com/blog/archives/1288" target="_blank" rel="noopener noreferrer">WP\_Queryの使い方をPHPコードにまとめた便利なコード・スニペット</a>
 
 ②取得した記事データをページに表示する
+
 サブクエリを元に記事を表示するループをサブループと呼びます。
 メインループと同じようにhave_posts()やthe_post()を使います。
-
 
 `wp_reset_postdata()`は、サブループで使っていた`$post`をメインループの値に戻してあげる処理です。
 
@@ -141,6 +142,7 @@ else : ?>
 ```
 
 ①get_post()で使える抽出条件
+
 ```php
 <?php
 $args = array(
@@ -161,9 +163,11 @@ $posts_array = get_posts( $args ); ?>
 ```
 
 【get\_posts()で使える抽出条件についての詳しい記事】
-* [get\_posts – WordPress私的マニュアル](https://elearn.jp/wpman/function/get_posts.html)
-* [get\_posts()テンプレートタグを使った情報の取得と表示方法 ｜ memocarilog](https://memocarilog.info/wordpress/templatetug/3393)
-* [テンプレートタグ/get posts - WordPress Codex 日本語版](http://wpdocs.osdn.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%BF%E3%82%B0/get_posts)
+* <a href="https://elearn.jp/wpman/function/get_posts.html" target="_blank" rel="noopener noreferrer">get\_posts – WordPress私的マニュアル</a>
+
+* <a href="https://memocarilog.info/wordpress/templatetug/3393" target="_blank" rel="noopener noreferrer">get\_posts()テンプレートタグを使った情報の取得と表示方法 ｜ memocarilog</a>
+
+* <a href="http://wpdocs.osdn.jp/%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88%E3%82%BF%E3%82%B0/get_posts" target="_blank" rel="noopener noreferrer">テンプレートタグ/get posts - WordPress Codex 日本語版</a>
 
 ②取得した記事データをページに表示する
 

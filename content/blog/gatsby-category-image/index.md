@@ -17,8 +17,10 @@ tags:
 * gatsby-imageで画像を表示させたい
 
 【参考記事】
-* [パスを渡せばgatsby-imageで画像を表示してくれるコンポーネントの作成方法](https://takumon.com/simple-gatsby-image-wrapper/)
-* [Easy Gatsby Image Components](https://noahgilmore.com/blog/easy-gatsby-image-components/)
+
+* <a href="https://takumon.com/simple-gatsby-image-wrapper/" target="_blank" rel="noopener noreferrer">パスを渡せばgatsby-imageで画像を表示してくれるコンポーネントの作成方法</a>
+
+* <a href="https://noahgilmore.com/blog/easy-gatsby-image-components/" target="_blank" rel="noopener noreferrer">Easy Gatsby Image Components</a>
 
 ## Gatsby-configの設定
 

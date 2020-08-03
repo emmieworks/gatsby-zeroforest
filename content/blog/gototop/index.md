@@ -12,7 +12,7 @@ status: published
 
 ![トップへ戻るボタンアニメーション](ss_gotop.gif)
 
-なお、トップへ戻るボタンはプラグインもたくさん用意されているので、「やってみたいけど難しそうだな」って人は、[プラグイン](https://wordpress.org/plugins/scroll-back-to-top/)を使ってもいいかもしれません。
+なお、トップへ戻るボタンはプラグインもたくさん用意されているので、「やってみたいけど難しそうだな」って人は、<a href="https://wordpress.org/plugins/scroll-back-to-top/" target="_blank" rel="noopener noreferrer">プラグイン</a>を使ってもいいかもしれません。
 
 ## 事前準備：子テーマを用意する
 WordPressテーマのカスタマイズをするときは、[子テーマを使ってくださいね](/wp-child-theme/)。 今回のフォルダ構成はこんな感じ。（親テーマによって変わるかもだけど。）

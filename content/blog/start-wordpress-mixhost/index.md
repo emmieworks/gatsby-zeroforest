@@ -19,8 +19,8 @@ status: published
 
 ## サーバーを借りる（Mixhost）の契約
 
-* [MixHost](https://px.a8.net/svt/ejp?a8mat=2ZLES6+5IUSTU+3JTE+5YJRM)
-
+* <a href="https://px.a8.net/svt/ejp?a8mat=2ZLES6+5IUSTU+3JTE+61C2Q" rel="nofollow">MixHost</a>
+<img border="0" width="1" height="1" src="https://www16.a8.net/0.gif?a8mat=2ZLES6+5IUSTU+3JTE+61C2Q" alt="">
 
 契約がまだの方は、まずはHPのお申し込みページからすすみましょう。
 
@@ -38,9 +38,9 @@ status: published
 
 あらかじめ、ホームページに使うドメイン（URL）を決めて取得してくださいね。
 
-* [お名前.com](https://px.a8.net/svt/ejp?a8mat=2ZCY80+D1R12Q+50+2HHVNM)
-* [ムームードメイン](https://px.a8.net/svt/ejp?a8mat=2ZTSGZ+DJM182+348+1BNBJM)
-
+* <a href="https://px.a8.net/svt/ejp?a8mat=2ZCY80+D1R12Q+50+2HFY7M" rel="nofollow">お名前.com</a>
+<img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=2ZCY80+D1R12Q+50+2HFY7M" alt="">
+* <a href="https://px.a8.net/svt/ejp?a8mat=2ZTSGZ+DJM182+348+1BQJAA" rel="nofollow">ムームードメイン─</a><img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=2ZTSGZ+DJM182+348+1BQJAA" alt="">
 
 ## ドメイン〜URLとサーバーを紐づける〜
 
@@ -59,8 +59,7 @@ status: published
 
 ### Mixhostにドメインを設定する
 
-[Mixhostの管理画面](https://accounts.mixhost.jp/clientarea.php)にログインして、cPanelを開きます。
-
+Mixhostの管理画面から、cPanelを開きます。
 
 ![アドオンドメイン](WP_1105_2_11.jpg)
 アドオンドメインをクリックします。

@@ -102,8 +102,6 @@ URL
 
 FTPソフトを使って、画像フォルダをWordPressのサーバーにアップロードします。（ここでは画像をまとめて「images」というフォルダに入れています。）
 
-* [初心者でも使える！フリーのFTPクライアントソフト10選](https://techacademy.jp/magazine/1190)
-
 画像フォルダのアップロード場所
 `/ドメイン/public\_html/wp-content/uploads/`
 

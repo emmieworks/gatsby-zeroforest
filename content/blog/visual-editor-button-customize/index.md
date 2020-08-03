@@ -12,7 +12,7 @@ status: published
 
 ## やり方①：プラグインを使う
 
-「[TinyMCE Advanced](https://ja.wordpress.org/plugins/tinymce-advanced/)」というプラグインを使うと、簡単に入れ替えができます。
+<a href="https://ja.wordpress.org/plugins/tinymce-advanced/" target="_blank" rel="noopener noreferrer">TinyMCE Advanced</a>というプラグインを使うと、簡単に入れ替えができます。
 
 
 ![TinyMCE Advancedインストール](SS-visual-editor-03.png)

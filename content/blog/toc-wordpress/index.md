@@ -17,10 +17,9 @@ WordPressで目次用のプラグインでは「Table of Contents Plus」が定�
 
 今回はtoc.jsという公開されているjQueryファイルを使います。
 
-[TOC | jQuery Table of Contents Plugin](http://projects.jga.me/toc/) [ダウンロードページ](https://github.com/jgallen23/toc)へ進み、releaseフォルダをクリックします。
+* <a href="https://github.com/jgallen23/toc" target="_blank" rel="noopener noreferrer">TOC | jQuery Table of Contents Plugi</a>のreleaseフォルダをクリックします。
 
 ![releaseをクリック](ss-toc-02.jpg)
-
 
 0.3.2 verまで遡り、zipファイルをダウンロードします。
 ![Zipをダウンロード](ss-toc-03.jpg)
@@ -119,6 +118,3 @@ jQuery('#toc').toc({
 ```
 
 あとはCSSを自由に調整してください。
-
-
-参考記事 [見出しから目次を自動生成してくれるjQueryライブラリ「TOC」のダウンロードと使い方！ | HPcode](https://haniwaman.com/toc/)

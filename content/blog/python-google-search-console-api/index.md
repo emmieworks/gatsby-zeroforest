@@ -17,8 +17,7 @@ Google Search Consoleは、Googleで検索されるキーワードや順位を�
 定点観測のために、検索パフォーマンスをCSVに保存して、月別に比較したり、分析できた方が早いと思い、Pythonでプログラムを書いてみました。
 
 余談ですが、Google Spreadsheetには Google Search Consoleの検索パフォーマンスを取り込むアドオンが提供されています。
-プログラムは書かないけど、データだけほしい方は[アドオン](https://hitonote.jp/column/seo/435/)でやると早いです。
-
+プログラムは書かないけど、データだけほしい方は<a href="https://hitonote.jp/column/seo/435/" target="_blank" rel="noopener noreferrer">アドオン</a>の方が早いです。
 
 CSVにはこれらの項目を表示します。
 
@@ -43,7 +42,7 @@ CSVにはこれらの項目を表示します。
 
 Google Search Console APIを使うのには、Google Cloud Platformへの登録が必要になります。
 
-[Google Cloud Platform](https://console.cloud.google.com/projectselector/iam-admin/iam?supportedpurview=project,organizationId,folder&orgonly=true&project&folder&organizationId)にアクセスします。
+<a href="https://console.cloud.google.com/projectselector/iam-admin/iam?supportedpurview=project,organizationId,folder&orgonly=true&project&folder&organizationId" target="_blank" rel="noopener noreferrer">Google Cloud Platform</a>にアクセスします。
 
 最初に開くと、利用規約への同意を求められます。
 ![利用規約への同意](ss-20200524_01.jpg)
@@ -57,7 +56,7 @@ Google Search Console APIを使うのには、Google Cloud Platformへの登録�
 
 ### Google search consoleのAPIを登録
 
-[Google search consoleのAPIを登録します](https://console.developers.google.com/flows/enableapi?apiid=webmasters&credential=client\_key)。
+<a href="https://console.developers.google.com/flows/enableapi?apiid=webmasters&credential=client_key" target="_blank" rel="noopener noreferrer">Google search consoleのAPIを登録します</a>
 
 先ほど作成したプロジェクトを選んで、続行を選択します。
 ![続行](ss-20200524_04.jpg)
@@ -226,7 +225,7 @@ dimensionは今回はここではPageとQueryに対して、クリック数、CT
 
 また、rowLimit：行数を指定することもできます。
 
-参考 [Google Search Console API Reference](https://developers.google.com/webmaster-tools/search-console-api-original/v3/how-tos/search_analytics.html?hl=ja)
+<a href="https://developers.google.com/webmaster-tools/search-console-api-original/v3/how-tos/search_analytics.html?hl=ja" target="_blank" rel="noopener noreferrer">Google Search Console API Reference</a>
 
 ### プログラムの実行
 

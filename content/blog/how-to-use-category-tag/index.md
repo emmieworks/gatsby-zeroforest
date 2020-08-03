@@ -76,7 +76,7 @@ URLに使われるので、日本語（全角）ではなく、英語（半角�
 
 でも、意味のある順番に変えたいときもありますよね。
 
-そんな時は [Category Order and Taxonomy Terms Order](https://netaone.com/wp/category-order-and-taxonomy-terms-order/) を使います。
+そんな時は<a href="https://netaone.com/wp/category-order-and-taxonomy-terms-order/" target="_blank" rel="noopener noreferrer">Category Order and Taxonomy Terms Order</a>を使います。
 
 このプラグインを導入すると、管理画面のサイドバーの投稿の中に「Taxonomy Order」というメニューが追加されます。
 

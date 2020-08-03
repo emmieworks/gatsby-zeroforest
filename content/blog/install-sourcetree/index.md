@@ -34,7 +34,7 @@ gitを導入すると
 * 前のバージョンにファイルを戻す
 * 変更履歴を分けて管理する
 
-Git（バージョン管理）の詳しい概念を学ぶには[サルでも分かるバージョン管理入門](https://backlog.com/ja/git-tutorial/)をどうぞ。
+Git（バージョン管理）の詳しい概念を学ぶには<a href="https://backlog.com/ja/git-tutorial/" target="_blank" rel="noopener noreferrer">サルでも分かるバージョン管理入門</a>をどうぞ。
 
 普段は、誰かと協力してプログラムを書くために使われることが多いですが、
 今回は**個人がPC上のファイルをバージョン管理する**ためのツールと使い方を紹介します。
@@ -42,7 +42,7 @@ Git（バージョン管理）の詳しい概念を学ぶには[サルでも分�
 ## SourceTreeのインストール方法
 
 今回はMacユーザー向けの解説になります。
-Windowsで使いたい方は、[SourceTreeのダウンロードとインストール方法 | サービス | プロエンジニア](https://proengineer.internous.co.jp/content/columnfeature/6983)をご確認下さい。
+Windowsで使いたい方：<a href="https://proengineer.internous.co.jp/content/columnfeature/6983" target="_blank" rel="noopener noreferrer">SourceTreeのダウンロードとインストール方法 | サービス | プロエンジニア</a>
 
 ### gitを入れる
 
@@ -68,7 +68,7 @@ gitを使うだけならこれでOKなのですが。
 
 アプリ上で、ファイルの変更をみれたり、直感的に操作できるソフトです。
 
-[Sourcetree](https://www.sourcetreeapp.com/)のサイトから、アプリケーションをダウンロードして、インストールします。
+<a href="https://www.sourcetreeapp.com/" target="_blank" rel="noopener noreferrer">SourceTree</a>のサイトから、アプリケーションをダウンロードして、インストールします。
 
 ## Sourcetreeでファイルをバージョン管理する
 

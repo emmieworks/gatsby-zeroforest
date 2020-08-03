@@ -31,11 +31,12 @@ status: published
 
 ## JINのシンタックスハイライター機能をGutenbergでも使う
 
-WordPressテーマJINには[シンタックスハイライター機能](https://jin-theme.com/manual/syntaxhighlighter/)がついています。
+WordPressテーマJINには<a href="https://jin-theme.com/manual/syntaxhighlighter/" target="_blank" rel="noopener noreferrer">シンタックスハイライター機能</a>
 
 > ワードプレスの管理画面から、「カスタマイズ」 > 「その他設定」と進み、「コードのシンタックスハイライターを利用する」にチェックをいれてください。
 >
-> JINテーマ搭載の「シンタックスハイライター機能」を使う方法[http://[https://jin-theme.com/manual/syntaxhighlighter/]
+> JINテーマ搭載の「シンタックスハイライター機能」を使う方法
+> https://jin-theme.com/manual/syntaxhighlighter/
 
 準備として、この機能をONにしておきましょう。
 
@@ -81,7 +82,8 @@ PHPを使うときは「language-php」
 
 ただし、HTMLとCSSは「langugage-markup」
 
-また、HTMLで使われる特殊文字（＜、＞、＆）は[コードに変換して](https://tech-unlimited.com/escape.html)から入力しましょう。
+
+また、HTMLで使われる特殊文字（＜、＞、＆）は<a href="https://tech-unlimited.com/escape.html" target="_blank" rel="noopener noreferrer">コードに変換して</a>から入力しましょう。
 
 ![HTML特殊文字の変換](ss-20200430-prism-04.jpg)
 
@@ -120,7 +122,7 @@ add_shortcode('prism', 'prism_func');
 ```
 
 ショートコードの作り方はこの記事を参考にしました。
-[【WordPress】ショートコードの囲み型を作成](https://webdesignday.jp/inspiration/wordpress/4641/)
+参考記事：<a href="https://webdesignday.jp/inspiration/wordpress/4641/" target="_blank" rel="noopener noreferrer">【WordPress】ショートコードの囲み型を作成</a>
 
 記事を書くときには、
 ```php
@@ -146,7 +148,7 @@ scss        →scss
 
 私はプログラミング言語を右上に表示させたいのと、対応を言語を増やしたかったので、prismから新しくjsファイルとcssファイルをとってきました。（以下のURLでアクセスすると、私が使っている機能にチェックが入っています。）
 
-[Prismで使うCSSとJSファイルをダウンロード](https://prismjs.com/download.html#themes=prism-solarizedlight&languages=markup+css+clike+javascript+git+go+json+markdown+markup-templating+php+plsql+python+jsx+ruby+sass+scss+sql&plugins=line-numbers+show-language+keep-markup+toolbar+copy-to-clipboard)
+<a href="https://prismjs.com/download.html#themes=prism-solarizedlight&languages=markup+css+clike+javascript+git+go+json+markdown+markup-templating+php+plsql+python+jsx+ruby+sass+scss+sql&plugins=line-numbers+show-language+keep-markup+toolbar+copy-to-clipboard" target="_blank" rel="noopener noreferrer">Prismで使うCSSとJSファイルをダウンロード</a>
 
 使いたい言語と機能をチェックを入れて、ページ下部の「Download JS」「Download CSS」をそれぞれクリックします。
 

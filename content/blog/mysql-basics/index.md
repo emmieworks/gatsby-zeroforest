@@ -9,9 +9,9 @@ status: published
 ---
 
 MySQLデータベースの操作でよく使う基本的なコマンドをまとめました。
-まだMySQLをインストールしていない場合
-[MySQLの環境構築](https://prog-8.com/docs/mysql-env)
 
+まだMySQLをインストールしていない場合
+<a href="https://prog-8.com/docs/mysql-env" target="_blank" rel="noopener noreferrer">MySQLの環境構築</a>
 
 ```
 -- MySQLのバージョン確認

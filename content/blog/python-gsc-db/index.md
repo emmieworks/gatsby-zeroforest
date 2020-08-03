@@ -164,8 +164,6 @@ if __name__ == '__main__':
 ```
 このコードを`gsc_to_db.py`というファイル名で保存します。
 
-[参考プログラム](https://qiita.com/xxbxxqxx/items/1700e2db7b98cdf1e064)
-
 ### プログラムの実行
 
 ターミナルから、「python プログラム名」で実行します

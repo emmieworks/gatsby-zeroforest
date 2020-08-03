@@ -13,14 +13,16 @@ status: published
 
 ## おしゃれな写真はUnsplashから
 
-[Unsplash](https://unsplash.com/)というサービスをご存知ですか？
+<a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">Unsplash</a>というサービスをご存知ですか？
 高画質な写真を無料提供しているサイトです。
 
 左上のバーに英語で検索ワード入れて、写真一覧から、気に入った写真にマウスをあわせて、ダウンロードするだけ。
 加工もOKでUnsplashの写真を元にアイキャッチ画像やバナー作成します。
 
 ## 早速Canvaを使ってみる
-今回使うのは[Canva](https://www.canva.com/ja_jp/create/banners/)というツールです。
+
+今回使うのは<a href="https://www.canva.com/ja_jp/create/banners/" target="_blank" rel="noopener noreferrer">Canva</a>
+というツールです。
 
 無料で使えて、色々なレイアウトやパーツが揃ったサービスです。
 

@@ -32,7 +32,7 @@ WordPress内にフォーム作成機能を追加します。 HTMLの知識があ
 
 ### Googlフォーム
 
-[Googleフォーム](https://www.google.com/intl/ja_jp/forms/about/)は、Googleアカウントがあれば誰でも利用できる、アンケートフォーム作成ツールです。
+<a href="https://www.google.com/intl/ja_jp/forms/about/" target="_blank" rel="noopener noreferrer">Googleフォーム</a>は、Googleアカウントがあれば誰でも利用できる、アンケートフォーム作成ツールです。
 
 ＜特徴＞
 
@@ -50,7 +50,8 @@ WordPress内にフォーム作成機能を追加します。 HTMLの知識があ
 
 ### Formzu
 
-[Formzu](https://ws.formzu.net)も手軽にフォームを作成できるツールです。GoogleFormsよりも、質問項目がきめ細やかに設定できます。
+<a href="https://ws.formzu.net" target="_blank" rel="noopener noreferrer">Formzu</a>
+も手軽にフォームを作成できるツールです。GoogleFormsよりも、質問項目がきめ細やかに設定できます。
 
 ＜特徴＞
 * 使える質問項目が豊富
@@ -73,7 +74,7 @@ Wordpressで提供しているお問い合わせ用のプラグインを紹介�
 
 ### Contact Form7
 
-[Contact Form7](https://ja.wordpress.org/plugins/contact-form-7/)はワードプレスのお問い合わせフォームの中で最も有名なプラグインです。 簡単にフォーム作成・設置ができます。
+<a href="https://ja.wordpress.org/plugins/contact-form-7/" target="_blank" rel="noopener noreferrer">Contact Form7</a>はワードプレスのお問い合わせフォームの中で最も有名なプラグインです。 簡単にフォーム作成・設置ができます。
 
 ＜機能＞
 * お問い合わせフォームの作成
@@ -85,7 +86,7 @@ Wordpressで提供しているお問い合わせ用のプラグインを紹介�
 * お問い合わせ内容の保存・管理ができない
 
 ### MW WP FORM
-[MW WP FORM](https://ja.wordpress.org/plugins/mw-wp-form/)もContact Form7と同様に、簡単にお問い合わせフォームを作成・設置できるプラグインになっています。
+<a href="https://ja.wordpress.org/plugins/mw-wp-form//" target="_blank" rel="noopener noreferrer">MW WP FORM</a>もContact Form7と同様に、簡単にお問い合わせフォームを作成・設置できるプラグインになっています。
 
 ＜機能＞
 * お問い合わせフォームの作成

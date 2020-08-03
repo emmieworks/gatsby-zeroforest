@@ -60,7 +60,10 @@ tags:
 
 
 ### リンク
-[Google先生](https://www.google.co.jp/)
+
+<a href="https://www.google.co.jp/" target="_blank" rel="noopener noreferrer">Google</a>
+
+[内部リンク](https://0forest.com)
 
 ![Favicon](favicon.png)
 
@@ -116,37 +119,37 @@ module.exports = {
   <span style="position:absolute; top: -12px;left: 10px;padding: 5px 20px;background-color: #fffcf5;border-radius:4px;color:#F6BCAC;line-height: 1em;font-size:0.8rem;">
     ここに見出し
   </span>
-  ここに本文が入る
+  ピンク
 </div>
 <div style="position:relative;border:1px solid #91c294;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
   <span style="position:absolute; top: -12px;left: 10px;padding: 5px 20px;background-color: #91c294;border-radius:4px;color:#fff;line-height: 1em;font-size:0.8rem;">
     ここに見出し
   </span>
-  ここに本文が入る
+  緑
 </div>
 
 
 ### 背景色あり
 <div style="background-color:#cde3ce;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
-  ここに本文が入る
+  緑
 </div>
 
 ### 角丸飾り枠
 
 <div style="border:1px solid #f2b1a4;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
-  ここに本文が入る
+  ピンク
 </div>
 
 <div style="border:1px solid #91c294;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
-  ここに本文が入る
+  緑
 </div>
 
 ### 角飾り枠
 
 <div style="border:2px solid #f2b1a4;padding:25px 20px;margin:30px;font-size:0.8rem;">
-  ここに本文が入る
+  ピンク
 </div>
 
 <div style="border:4px double #cde3ce;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
-  ここに本文が入る
+  緑
 </div>

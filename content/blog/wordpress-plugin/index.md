@@ -3,7 +3,6 @@ title: WordPressで使っているプラグインまとめ
 date: 2018-06-26T21:30:24+09:00
 featured: icatch-20180625-1.jpg
 category: WordPress
-status: published
 ---
 
 プラグインはWordPressにインストールできる追加機能です。
@@ -13,65 +12,65 @@ status: published
 
 ## よく使うプラグイン
 
-[Akismet](https://wordpress.org/plugins/akismet/)
+<a href="https://wordpress.org/plugins/akismet/" target="_blank" rel="noopener noreferrer">Akismet</a>
 
-コメントやお問い合わせフォームを開いている場合、スパムが送られないように防いでくれる。
+コメントやお問い合わせフォーム用のスパムを防ぐプラグイン。
 
-[Google XML Sitemaps](https://ja.wordpress.org/plugins/google-sitemap-generator/)
+<a href="https://ja.wordpress.org/plugins/google-sitemap-generator/" target="_blank" rel="noopener noreferrer">Google XML Sitemaps</a>
 
 Googleにサイトマップ（サイトの構成図）をお知らせしてくれる。
 
-[Broken Link Checker](https://ja.wordpress.org/plugins/broken-link-checker/)
+<a href="https://ja.wordpress.org/plugins/broken-link-checker/" target="_blank" rel="noopener noreferrer">Broken Link Checker</a>
 
 ページのリンクが切れてしまっているときに、お知らせしてくれる。
 
-[Category Order and Taxonomy Terms Order](https://ja.wordpress.org/plugins/taxonomy-terms-order/)
+<a href="https://ja.wordpress.org/plugins/taxonomy-terms-order/" target="_blank" rel="noopener noreferrer">Category Order and Taxonomy Terms Order</a>
 
 カテゴリーの順番を自分で入れ替えられるようになる。
 
-[WordPress Ping Optimizer](https://wordpress.org/plugins/wordpress-ping-optimizer/)
+<a href="https://wordpress.org/plugins/wordpress-ping-optimizer/" target="_blank" rel="noopener noreferrer">WordPress Ping Optimizer</a>
 
 記事が更新された時に、検索エンジンに素早く載せてくれるようGoogleさんたちにお知らせしてくれる。
 
-[WP Multibyte Patch](https://ja.wordpress.org/plugins/wp-multibyte-patch/)
+<a href="https://ja.wordpress.org/plugins/wp-multibyte-patch/" target="_blank" rel="noopener noreferrer">WP Multibyte Patch</a>
 
 日本語の文字列を正しく認識してくれる。
 
-[EWWW Image Ootimizer](https://ja.wordpress.org/plugins/ewww-image-optimizer/)
+<a href="https://ja.wordpress.org/plugins/ewww-image-optimizer/" target="_blank" rel="noopener noreferrer">EWWW Image Ootimizer</a>
 
 画像のサイズを圧縮して、軽くしてくれる。
 
-[WP-Optimize](https://ja.wordpress.org/plugins/wp-optimize/)
+<a href="https://ja.wordpress.org/plugins/wp-optimize/" target="_blank" rel="noopener noreferrer">WP-Optimize</a>
 
 ブログ記事書いたり更新していると、地味に更新履歴が溜まっていきます。データベースに余計なデータが溜まってしまうので、それをキレイキレイしてくれる。
 
-[Table of Contents Plus](https://ja.wordpress.org/plugins/table-of-contents-plus/)
+<a href="https://ja.wordpress.org/plugins/table-of-contents-plus/" target="_blank" rel="noopener noreferrer">Table of Contents Plus</a>
 
 ブログの記事に目次を自動で入れてくれる。
 
-[MW WP Form](https://ja.wordpress.org/plugins/mw-wp-form/)
+<a href="https://ja.wordpress.org/plugins/mw-wp-form/" target="_blank" rel="noopener noreferrer">MW WP Form</a>
 
 こちらもお問い合わせフォーム用。確認画面、送信画面の設定がついており、Contact Form7よりもカスタマイズの幅が広いと思う。
 
-[WP Mail SMTP](https://ja.wordpress.org/plugins/wp-mail-smtp/)
+<a href="https://ja.wordpress.org/plugins/wp-mail-smtp/" target="_blank" rel="noopener noreferrer">WP Mail SMTP</a>
 
 環境によっては、お問い合わせフォームからの自動返信メールが正しく送られなかったりします。このプラグインを使ってメール設定する。
 
 ### セキュリティ
 
-**[Wordfence Security](https://ja.wordpress.org/plugins/wordfence/)**
+<a href="https://ja.wordpress.org/plugins/wordfence/" target="_blank" rel="noopener noreferrer">Wordfence Security</a>
 
-[SiteGuard WP Plugin](https://ja.wordpress.org/plugins/siteguard/)
+<a href="https://ja.wordpress.org/plugins/siteguard/" target="_blank" rel="noopener noreferrer">SiteGuard WP Plugin</a>
 
 管理ページのログインを強化してくれる。
 
 ### 広告リンク
 
-[Rinker](https://oyakosodate.com/rinker/)
+<a href="https://oyakosodate.com/rinker/" target="_blank" rel="noopener noreferrer">Rinker</a>
 
 ### 記事の管理
 
-[WP All Export](https://ja.wordpress.org/plugins/wp-all-export/)
+<a href="https://ja.wordpress.org/plugins/wp-all-export/" target="_blank" rel="noopener noreferrer">WP All Export</a>
 
 記事の一覧をEXCELでエクスポートできる。
 
@@ -109,5 +108,3 @@ Googleにサイトマップ（サイトの構成図）をお知らせしてく�
 プラグインを入れるときは、一つずつ有効化して、動くか確認してください。
 
 プラグインを使うときは、一緒に使うと動かなくなるものもあるので、一つずつ有効化して動くか確認してください。
-
-

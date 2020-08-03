@@ -146,11 +146,11 @@ Flexboxにはいろいろなプロパティが用意されており、アイテ�
 
 【詳しい解説記事】
 
-* [flexboxの機能一覧](https://web-designer.cman.jp/css_ref/abc_list/flexbox/)
+* <a href="https://web-designer.cman.jp/css_ref/abc_list/flexbox/" target="_blank" rel="noopener noreferrer">flexboxの機能一覧</a>
 
-* [CSS Flexbox の基礎知識と使い方をやさしく解説](https://coliss.com/articles/build-websites/operation/css/css3-flexbox-properties-by-scotch.html)
+* <a href="https://coliss.com/articles/build-websites/operation/css/css3-flexbox-properties-by-scotch.html" target="_blank" rel="noopener noreferrer">CSS Flexbox の基礎知識と使い方をやさしく解説</a>
 
-* [日本語対応！CSS Flexboxのチートシートを作ったので配布します！](https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet)
+* <a href="https://www.webcreatorbox.com/tech/css-flexbox-cheat-sheet" target="_blank" rel="noopener noreferrer">日本語対応！CSS Flexboxのチートシートを作ったので配布します！</a>
 
 ## よくあるヘッダーレイアウトをFlexboxで作る
 
@@ -184,7 +184,8 @@ nav {
 
 【解説記事】
 
-* [CSS Flexboxとmargin: auto;の自動マージンがどのように相互作用するか、両端揃え・右寄せの実装テクニック](https://coliss.com/articles/build-websites/operation/css/css-flexbox-and-auto-margins.html)
+* <a href="https://coliss.com/articles/build-websites/operation/css/css-flexbox-and-auto-margins.html" target="_blank" rel="noopener noreferrer">CSS Flexboxとmargin: auto;の自動マージンがどのように相互作用するか、両端揃え・右寄せの実装テクニック</a>
+
 
 ### 真ん中にロゴ、左右にメニューがあるヘッダーレイアウト
 

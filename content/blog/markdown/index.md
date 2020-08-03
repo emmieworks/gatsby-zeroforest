@@ -44,18 +44,20 @@ HTMLを素早く書くための略語と思っていただければと。
 
 左が書き方で、右がブラウザプレビューです。
 
-[Markdown Blog Editor](https://yosiakatsuki.github.io/markdown-blog-editor/)を使わせていただきました。
+<a href="https://yosiakatsuki.github.io/markdown-blog-editor/" target="_blank" rel="noopener noreferrer">Markdown Blog Editor</a>を使わせていただきました。
 
 ブラウザ上でプレビューできて、HTML変換もできるって便利。
 
-詳しい記載ルールは、[Markdown記法 サンプル集](https://qiita.com/tbpgr/items/989c6badefff69377da7)をご覧くださいませ
+詳しい記載ルール：
+<a href="https://qiita.com/tbpgr/items/989c6badefff69377da7" target="_blank" rel="noopener noreferrer">Markdown記法 サンプル集</a>
 
 ## Markdownにも対応おすすめテキストエディタ
 
 ### Bear（無料の高機能テキストエディタアプリ）
 
-私は[Bear - 美麗なノート作成・テキストエディタアプリ](https://itunes.apple.com/jp/app/bear-%E7%BE%8E%E9%BA%97%E3%81%AA%E3%83%8E%E3%83%BC%E3%83%88%E4%BD%9C%E6%88%90-%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF%E3%82%A2%E3%83%97%E3%83%AA/id1016366447?mt=8)を使って、マークダウンに慣れていきました。
 無料のアプリで、スマホ、PC対応です。
+
+<div class="appreach"><img src="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/25/87/40/25874033-d5f1-0fc1-45ce-2c2c3a51cba1/source/512x512bb.jpg" alt="Bear - プライベートメモ" class="appreach__icon"><div class="appreach__detail"><p class="appreach__name">Bear - プライベートメモ</p><p class="appreach__info"><span class="appreach__developper">Shiny Frog Ltd.</span><span class="appreach__price">無料</span><span class="appreach__posted">posted with<a href="https://mama-hack.com/app-reach/" title="アプリーチ" target="_blank" rel="nofollow">アプリーチ</a></span></p></div><div class="appreach__links"><a href="https://apps.apple.com/jp/app/bear-%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25A4%25E3%2583%2599%25E3%2583%25BC%25E3%2583%2588%25E3%2583%25A1%25E3%2583%25A2/id1016366447?uo=4" rel="nofollow" class="appreach__aslink" target="_blank"><img src="https://nabettu.github.io/appreach/img/itune_ja.svg"></a></div></div>
 
 ![Bear見本](ss_markdown-02.jpg)
 
@@ -65,7 +67,7 @@ HTMLを素早く書くための略語と思っていただければと。
 
 ### Ulysses
 
-[Ulysses](https://apps.apple.com/jp/app/ulysses/id1225571038)
+<div class="appreach"><img src="https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/b2/d3/dd/b2d3dd58-61d2-7815-6ffa-d870f9c75657/source/512x512bb.jpg" alt="Ulysses" class="appreach__icon"><div class="appreach__detail"><p class="appreach__name">Ulysses</p><p class="appreach__info"><span class="appreach__developper">Ulysses GmbH &amp; Co. KG</span><span class="appreach__price">無料</span><span class="appreach__posted">posted with<a href="https://mama-hack.com/app-reach/" title="アプリーチ" target="_blank" rel="nofollow">アプリーチ</a></span></p></div><div class="appreach__links"><a href="https://apps.apple.com/jp/app/ulysses/id1225571038?uo=4" target="_blank" rel="nofollow" class="appreach__aslink"><img src="https://nabettu.github.io/appreach/img/itune_ja.svg"></a></div></div>
 
 UlyssesもMarkdown対応されたテキストエディタ。
 ブログを書くときはもっぱらこちらを使っています。

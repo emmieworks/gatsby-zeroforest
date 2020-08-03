@@ -65,7 +65,7 @@ password
 
 ### Wordfence Security
 
-[Wordfence Security]https://ja.wordpress.org/plugins/wordfence/
+<a href="https://ja.wordpress.org/plugins/wordfence/" target="_blank" rel="noopener noreferrer">Wordfence Security</a>
 
 * WordPressソフトをスキャンし、不正にプログラムが書き換えられていないか チェックする
 * スパムコメントのブロック
@@ -82,7 +82,7 @@ password
 
 WordPressの管理画面を守るプラグインです。
 
-[SiteGuard WP Plugin]https://ja.wordpress.org/plugins/siteguard/
+<a href="https://ja.wordpress.org/plugins/siteguard/" target="_blank" rel="noopener noreferrer">SiteGuard WP Plugin</a>
 
 * 管理画面のURLを変更
 * ログインに画像認証を追加

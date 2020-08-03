@@ -111,8 +111,7 @@ GitHubを使うメリット * 自分の書いたプログラムを世界に公�
 
 ### GitHubを導入する
 
-[GitHubの公式サイト](https://github.co.jp/)にアクセスします
-
+<a href="https://github.co.jp/" target="_blank" rel="noopener noreferrer">GitHubの公式サイト</a>
 
 ![GitHub公式サイト](ss-github-install-01.jpg)
 
@@ -135,7 +134,7 @@ SourcetreeはGitを簡単に操作するためのツールです。
 gitを使う際、コミットやプッシュなどをコマンドで打ち込む必要があります。コマンドに慣れていないと分かりにくいです。
 そこで、Sourcetreeを使うと、画面でファイルの変更履歴を見れたり、操作できるので初心者にも使いやすいです。
 
-[公式サイトからSourcetreeをインストール](https://www.Sourcetreeapp.com/)します。
+<a href="https://www.Sourcetreeapp.com/" target="_blank" rel="noopener noreferrer">公式サイトからSourcetreeをインストール</a>します。
 
 Soucetreeを開きます。
 

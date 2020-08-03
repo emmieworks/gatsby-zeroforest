@@ -44,9 +44,9 @@ Twitterで独学からデザイナーデビューをしている方々を発見�
 
 【インスパイアされた記事】
 
-* [デザイン上達への道！「バナー模写」を始めます](https://fuyuna.net/banner-trace-start)
+<a href="https://fuyuna.net/banner-trace-start" target="_blank" rel="noopener noreferrer">デザイン上達への道！「バナー模写」を始めます</a>
 
-* [バナートレースからデザイントレースへ。50個トレースしてわかったこと＆Tips](https://mito-lab.com/design-trace-50/)
+<a href="https://mito-lab.com/design-trace-50/" target="_blank" rel="noopener noreferrer">バナートレースからデザイントレースへ。50個トレースしてわかったこと＆Tips</a>
 
 独学デザイナーさんたちがまず実践されていることは、主にこの３つ。
 

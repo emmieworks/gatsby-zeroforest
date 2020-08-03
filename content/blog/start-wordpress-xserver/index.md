@@ -17,7 +17,8 @@ status: published
 
 まずはHPのお申し込みページからすすみましょう。
 
-* [レンタルサーバー Xserver](https://px.a8.net/svt/ejp?a8mat=2ZLES6+5OT4VM+CO4+61JSI)
+* <a href="https://px.a8.net/svt/ejp?a8mat=2ZLES6+5OT4VM+CO4+6B70I" rel="nofollow">Xserver Business</a>
+<img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=2ZLES6+5OT4VM+CO4+6B70I" alt="">
 
 ![Xサーバー申込](SS_2019-11-14_Xserver_01.jpg)
 
@@ -43,8 +44,10 @@ status: published
 
 ホームページに使うドメイン（URL）を決めて取得します。
 
-* [お名前.com](https://px.a8.net/svt/ejp?a8mat=2ZCY80+D1R12Q+50+2HHVNM)
-* [ムームードメイン](https://px.a8.net/svt/ejp?a8mat=2ZTSGZ+DJM182+348+1BNBJM)
+* <a href="https://px.a8.net/svt/ejp?a8mat=2ZCY80+D1R12Q+50+2HFY7M" rel="nofollow">お名前.com</a>
+<img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=2ZCY80+D1R12Q+50+2HFY7M" alt="">
+* <a href="https://px.a8.net/svt/ejp?a8mat=2ZTSGZ+DJM182+348+1BQJAA" rel="nofollow">ムームードメイン─</a><img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=2ZTSGZ+DJM182+348+1BQJAA" alt="">
+
 
 ## ドメインとサーバーを紐づける
 

@@ -89,8 +89,6 @@ status: published
 
 がんばったわりに、ちょっとダサい＾＾；
 
-参考記事(https://udemy.benesse.co.jp/design/illustrator/illustrator-cutout.html)
-
 ## リボンを作る
 
 [こちらの記事](https://cultureacademia.jp/illustrator/402/)にならってリボンを作っていきます！

@@ -21,8 +21,7 @@ status: published
 ![ハンバーガーメニュー](asset02.png)
 
 
-参考サイト：[The Virginia](https://virgnia.jp/)
-
+参考サイト：<a href="https://virgnia.jp/" target="_blank" rel="noopener noreferrer">The Virginia</a>
 
 【ハンバーガーメニューのメリット】
 
@@ -169,13 +168,9 @@ document.getElementById("navbtn").onclick = function(){
 ## いろいろなハンバーガーメニュー実装サンプル
 
 ### ボタンのアニメーション
-
-* [ひたすらハンバーガーアイコンを作ったので9種のソースを公開します！](https://liginc.co.jp/180293)
-
-* [【CSS】ハンバーガーメニュー実装サンプル集（クリック時のエフェクトも集めました）](https://125naroom.com/web/2958)
-
-* [CSSで実装するハンバーガーメニュークリック時のエフェクト 10＋](https://www.nxworld.net/tips/12-css-hamburger-menu-active-effect.html)
-
+* <a href="https://liginc.co.jp/180293" target="_blank" rel="noopener noreferrer">ひたすらハンバーガーアイコンを作ったので9種のソースを公開します！</a>
+* <a href="https://125naroom.com/web/2958" target="_blank" rel="noopener noreferrer">【CSS】ハンバーガーメニュー実装サンプル集（クリック時のエフェクトも集めました）</a>
+* <a href="https://www.nxworld.net/tips/12-css-hamburger-menu-active-effect.html" target="_blank" rel="noopener noreferrer">CSSで実装するハンバーガーメニュークリック時のエフェクト 10＋</a>
 
 ### 右上にボタン＋右からスライド
 

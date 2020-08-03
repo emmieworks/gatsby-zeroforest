@@ -60,7 +60,7 @@ input[type="radio"]:checked + label img {
 
 ### ①label＋imgを足す
 
-![画像を追加](./ss-20200613-01.jpg)
+![画像を追加](ss-20200613-01.jpg)
 
 labelタグの中で画像を表示します。
 labelタグのforはinputのidと揃えます。

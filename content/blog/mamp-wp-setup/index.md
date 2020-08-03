@@ -31,7 +31,7 @@ WordPressのテーマをごりごりカスタマイズ/開発したい方に。
 
 まずはMacに、MAMPをインストールします。
 
-[MAMP & MAMP PRO](https://www.mamp.info/en/)へ。
+<a href="https://www.mamp.info/en/" target="_blank" rel="noopener noreferrer">MAMP & MAMP PRO</a>へ。
 
 ![MAMP公式HP](mamp-install-01.jpg)
 
@@ -60,7 +60,7 @@ MAMPを起動します。
 ## WordPressをインストールする
 ### WordPressのファイル一式をダウンロードする
 
-[WordPressの公式サイト](https://ja.wordpress.org/)から、ファイルをダウンロードします。
+<a href="https://ja.wordpress.org/" target="_blank" rel="noopener noreferrer">WordPressの公式サイト</a>から、ファイルをダウンロードします。
 
 ![wordpress公式サイト](wp-local-01.jpg) ダウンロードボタンをクリック。
 

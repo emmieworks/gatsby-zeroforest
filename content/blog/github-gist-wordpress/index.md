@@ -76,7 +76,7 @@ GistはGitHubが提供している機能で、簡単にコードの一部や説�
 
 ### 事前準備
 
-[gist-embed.jsの配布元はこちら](https://github.com/bvanderhoof/gist-embed)。
+<a href="https://github.com/bvanderhoof/gist-embed" target="_blank" rel="noopener noreferrer">gist-embed.jsの配布元はこちら</a>
 
 git-embededを使うには、functions.phpでgist-embeded.jsを読み込みます。
 
