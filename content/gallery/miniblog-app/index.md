@@ -1,14 +1,13 @@
 ---
-title: Ruby on Railsで日記アプリ（ミニブログ）を作る
+title: Ruby on Rails／ミニブログ
 date: 2020-06-20T15:00:47+09:00
-featured: icatch-20200620.jpg
+featured: icatch-20200620.png
 category: Web App
-tags:
-  - Ruby On Rails
 ---
 
 はじめてRailsアプリの作成〜デプロイまでやってみました。
 ProgateでRailsのRuby on rails基礎を学んだので、その延長線上で勉強がてら、ミニブログ(CMS）を作ってみました。
+title: Ruby on Railsで日記アプリ（ミニブログ）を作る
 
 ## 完成品
 <a href="https://minidiary-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">https://minidiary-app.herokuapp.com/</a>
