@@ -2,7 +2,7 @@
 title: Horoscope Heart & Momstrology
 date: 2017-09-24T09:27:18+09:00
 category: Webサイト
-featured: library_1506132623.jpg
+featured: showcase-horoscopeheart.png
 ---
 
 環境構築&WordPressのセットアップをお手伝いさせていただきました。

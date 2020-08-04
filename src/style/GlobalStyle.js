@@ -76,8 +76,7 @@ function setColor() {
 #  font setting
 =============================================== */
 const font = css`
-  font-family: "M PLUS Rounded 1c",
-    "Helvetica Neue",
+  font-family: "Helvetica Neue",
     "Hiragino Kaku Gothic ProN",
     "Hiragino Sans",
     "ヒラギノ角ゴ ProN W3",

@@ -1,10 +1,32 @@
 import React from "react"
 import { graphql} from "gatsby"
-
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
+import styled from "styled-components"
 import Postcard from "../components/PostCard"
 import Pagenation from "../components/Pagenation"
+
+const Wrapper = styled.div`
+  margin-bottom: 100px;
+
+  h1{
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+    padding: 10px;
+    font-family: allura, cursive;
+    &:after{
+      position: absolute;
+      bottom: 10px;
+      left: calc(50% - 30px);
+      width: 60px;
+      height: 1px;
+      content: '';
+      border-radius: 3px;
+      background: #707070;
+    }
+  }
+`
 
 const BlogPageTemplate = ({ data, location, pageContext }) => {
   const posts = data.allMarkdownRemark.edges
@@ -14,7 +36,8 @@ const BlogPageTemplate = ({ data, location, pageContext }) => {
       <SEO title="Blog"
         url ={location.pathname}
         />
-
+      <Wrapper>
+      <h1>Blog</h1>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
@@ -35,6 +58,7 @@ const BlogPageTemplate = ({ data, location, pageContext }) => {
           currentPage = {pageContext.currentPage}
           pathBase = {pageContext.pathBase}
       />
+      </Wrapper>
     </Layout>
   )
 }

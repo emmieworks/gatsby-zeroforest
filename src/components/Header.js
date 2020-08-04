@@ -20,6 +20,7 @@ const Wrapper = styled.header`
   }
 
   .navList{
+    font-family: montserrat, sans-serif;
     display: flex;
     flex-flow:wrap;
     justify-content: center;

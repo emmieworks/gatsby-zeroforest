@@ -33,6 +33,7 @@ const FooterWrapper = styled.footer`
     justify-content: center;
     padding:0;
     list-style:none;
+    font-family: montserrat,sans-serif;
     li{
         letter-spacing:0.05em;
         background:none;
