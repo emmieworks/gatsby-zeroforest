@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import GlobalStyle from "../style/GlobalStyle"
-import Header from "../components/Header"
+import Navbar from "../components/Navbar/Navbar"
 import Footer from "../components/Footer"
 
 const Wrapper = styled.div`
@@ -18,7 +18,7 @@ const Layout = props => {
   const { children } = props
   return (
     <Wrapper>
-      <Header />
+      <Navbar />
       <main>
         {children}
       </main>

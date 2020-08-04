@@ -77,7 +77,7 @@ const About = ({data, location}) => {
   return (
     <Layout>
     <SEO
-      title="Zero Forestについて"
+      title="About"
       description="作ったもの＆学習記事を掲載しています"
       pagepath={location.pathname}
     />
