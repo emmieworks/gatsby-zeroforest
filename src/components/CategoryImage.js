@@ -3,7 +3,6 @@ import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image"
 
-
 const Wrapper = styled.figure`
 .category-img{
   width:80px;
@@ -14,7 +13,6 @@ const Wrapper = styled.figure`
   }
 }
 `
-
 export default props => {
   const catImages = useStaticQuery(graphql`
     query {

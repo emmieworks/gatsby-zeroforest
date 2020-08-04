@@ -159,6 +159,20 @@ const GlobalStyle = createGlobalStyle`
   ::selection {
     background: rgba(205, 227, 206, 0.35);
   }
+  .btn{
+    display: block;
+    width: 160px;
+    padding: 10px 30px;
+    color: var(--text);
+    border: 1px solid var(--text);
+    background-color: var(--white);
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Montserrat';
+    margin: 60px auto;
+    text-decoration: none;
+    text-transform:uppercase;
+  }
 
   /* ===============================================
   # smart phone

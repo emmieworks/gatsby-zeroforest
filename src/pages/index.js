@@ -1,9 +1,11 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Postcard from "../components/PostCard"
+import BlogMenu from "../components/BlogMenu"
+
 
 const Index = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -28,6 +30,8 @@ const Index = ({ data, location }) => {
           />
         )
       })}
+      <Link to="/blog/" className="btn">SEE MORE</Link>
+      <BlogMenu />
     </Layout>
   )
 }
@@ -49,6 +53,7 @@ export const pageQuery = graphql`
       }
       sort: { fields: [frontmatter___date], order: DESC }
       skip: 0
+      limit: 10
       )
       {
       edges {

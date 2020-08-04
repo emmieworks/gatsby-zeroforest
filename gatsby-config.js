@@ -85,15 +85,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/src/assets`,
+        name: `assets`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
       },
     },
     {
@@ -174,7 +174,7 @@ module.exports = {
         background_color: `#fffcf5`,
         theme_color: `#91C294`,
         display: `minimal-ui`,
-        icon: `content/assets/icon.png`,
+        icon: `src/assets/icon.png`,
       },
     },
     `gatsby-plugin-sitemap`,

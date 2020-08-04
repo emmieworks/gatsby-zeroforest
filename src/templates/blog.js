@@ -5,6 +5,7 @@ import SEO from "../components/SEO"
 import styled from "styled-components"
 import Postcard from "../components/PostCard"
 import Pagenation from "../components/Pagenation"
+import BlogMenu from "../components/BlogMenu"
 
 const Wrapper = styled.div`
   margin-bottom: 100px;
@@ -59,6 +60,7 @@ const BlogPageTemplate = ({ data, location, pageContext }) => {
           pathBase = {pageContext.pathBase}
       />
       </Wrapper>
+      <BlogMenu />
     </Layout>
   )
 }
