@@ -87,12 +87,11 @@ const Wrapper = styled.div`
 `
 
 const Gallery = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO title={siteTitle} />
+    <Layout>
+      <SEO location={location} title="Gallery" />
       <Wrapper>
       <h1>Gallery</h1>
         <div className="container">
@@ -123,11 +122,6 @@ export default Gallery
 
 export const pageQuery = graphql`
   query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     allMarkdownRemark(
       filter: {
         fields: {collection: {eq: "gallery"}}
