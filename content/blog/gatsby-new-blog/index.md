@@ -184,8 +184,6 @@ export const query = graphql`
 ②Typefaceを使う場合
 * <a href="https://www.gatsbyjs.org/docs/recipes/styling-css/#using-google-fonts" target="_blank" rel="noopener noreferrer">Using Google Fonts</a>
 
-https://www.gatsbyjs.org/docs/recipes/styling-css/#using-google-fonts
-
 typefaceをインストール
 ```
 npm install --save typeface-allura
@@ -204,7 +202,6 @@ CSSに追記
 ```
 
 ### 5 ブログ記事を表示する
-*
 * [ブログのカテゴリー画像を表示させる](/gatsby-category-image/)
 
 ### 6 ワードプレスのデータをGatsbyに移行する
