@@ -1,5 +1,5 @@
 ---
-title: Gatsbyブログカテゴリーごとに画像を表示させる
+title: 【Gatsby】ブログのカテゴリー画像を表示させる
 date: 2020-07-18
 category: Programming
 tags:
