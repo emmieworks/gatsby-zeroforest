@@ -115,13 +115,13 @@ module.exports = {
 
 ### 見出し飾り枠
 
-<div style="position:relative;border:1px solid #F6BCAC;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
+<div style="position:relative;border:1px solid #F6BCAC;border-radius:6px;padding:25px 30px;margin:30px;font-size:0.8rem;">
   <span style="position:absolute; top: -12px;left: 10px;padding: 5px 20px;background-color: #fffcf5;border-radius:4px;color:#F6BCAC;line-height: 1em;font-size:0.8rem;">
     ここに見出し
   </span>
   ピンク
 </div>
-<div style="position:relative;border:1px solid #91c294;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
+<div style="position:relative;border:1px solid #91c294;border-radius:6px;padding:25px 30px;margin:30px;font-size:0.8rem;">
   <span style="position:absolute; top: -12px;left: 10px;padding: 5px 20px;background-color: #91c294;border-radius:4px;color:#fff;line-height: 1em;font-size:0.8rem;">
     ここに見出し
   </span>
