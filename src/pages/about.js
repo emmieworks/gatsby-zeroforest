@@ -171,7 +171,6 @@ const WorkSection = styled.section`
 `
 
 const HPSection = styled.section`
-
   .container{
     display: -webkit-box;
     display: -ms-flexbox;
