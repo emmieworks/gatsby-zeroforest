@@ -22,7 +22,7 @@ const Wrapper = styled.div`
       height: 1px;
       content: '';
       border-radius: 3px;
-      background: #707070;
+      background: var(--gray);
     }
   }
 
