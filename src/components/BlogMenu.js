@@ -46,14 +46,14 @@ const BlogMenu = () => {
           <li><Link to ="/tags/html/">HTML</Link></li>
           <li><Link to ="/tags/css/">CSS</Link></li>
           <li><Link to ="/tags/javascript/">JavaScript</Link></li>
-          <li><Link to ="/tags/wordpress/">WordPress</Link></li>
+          <li><Link to ="/category/wordpress/">WordPress</Link></li>
           <li><Link to ="/tags/gatsby/">Gatsby</Link></li>
         </ul>
       </div>
       <div>
         <p><Link to ="/category/design/">Design</Link></p>
         <ul>
-          <li><Link to ="/tags/html/">illustrator</Link></li>
+          <li><Link to ="/tags/illustrator/">illustrator</Link></li>
         </ul>
       </div>
       <div>
