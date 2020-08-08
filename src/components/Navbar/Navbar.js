@@ -4,6 +4,14 @@ import NavbarLinks from "./NavbarLinks"
 import Logo from "./Logo"
 
 const Navigation = styled.nav`
+  width:var(--width);
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: 780px) {
+    max-width:90vw;
+    width:90vw;
+  }
+
   display: flex;
   position: relative;
   justify-content: space-between;

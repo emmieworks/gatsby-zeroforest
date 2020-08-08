@@ -5,6 +5,14 @@ import SEO from "../components/SEO"
 import styled from "styled-components"
 
 const Wrapper = styled.div`
+  width:var(--width);
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: 780px) {
+    max-width:90vw;
+    width:90vw;
+  }
+
   p {
     line-height: 1.8;
     margin: 20px 0;

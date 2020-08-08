@@ -50,6 +50,14 @@ const SubTitle = styled.h3`
 `
 
 const ProfileSection = styled.section`
+    width:var(--width);
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: 780px) {
+      max-width:90vw;
+      width:90vw;
+    }
+
   .container{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -132,6 +140,14 @@ const SNS = styled.div`
   }
 `
 const WorkSection = styled.section`
+    width:var(--width);
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: 780px) {
+      max-width:90vw;
+      width:90vw;
+    }
+
   .container{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -171,6 +187,14 @@ const WorkSection = styled.section`
 `
 
 const HPSection = styled.section`
+  width:var(--width);
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: 780px) {
+    max-width:90vw;
+    width:90vw;
+  }
+
   .container{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -335,7 +359,7 @@ const About = ({data, location}) => {
               <li>読んだ本のまとめ</li>
               <li>活動記録</li>
             </ul>
-            <p>後で振り返ったとき、自分の興味や成長過程が見える場所になるように願い、木をロゴにしました。</p>
+            <p>後で振り返ったとき、興味の幅が広がり、育っていく場所になるように願い、木をロゴにしました。</p>
           </div>
         </div>
         <SubTitle>よく読まれている記事</SubTitle>

@@ -8,6 +8,14 @@ import styled from "styled-components"
 const Wrapper = styled.div`
   margin-bottom: 100px;
 
+  width:var(--width);
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (max-width: 780px) {
+    max-width:90vw;
+    width:90vw;
+  }
+
   h1{
     text-align: center;
     margin-bottom: 60px;

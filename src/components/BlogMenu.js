@@ -3,8 +3,16 @@ import styled from "styled-components"
 import { Link } from "gatsby";
 
 const Wrapper = styled.div`
-    margin-top:1rem;
-    padding:1rem 0;
+    margin-top: 1rem;
+    padding: 1rem 0;
+
+    width:var(--width);
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: 780px) {
+      max-width:90vw;
+      width:90vw;
+    }
 
     display: -webkit-box;
     display: -ms-flexbox;
