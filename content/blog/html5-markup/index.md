@@ -4,7 +4,7 @@ date: 2018-07-17T19:00:34+09:00
 featured: 20180717-icatch.jpg
 category: Programming
 tags:
-    - SEO
+    - html
 status: published
 ---
 

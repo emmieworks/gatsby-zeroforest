@@ -5,7 +5,6 @@ featured: icatch_20200331.jpg
 category: Programming
 tags:
     - git
-    - GitHub
     - Sourcetree
     - 環境構築
 status: published
