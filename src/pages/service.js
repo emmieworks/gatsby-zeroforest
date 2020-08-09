@@ -271,7 +271,7 @@ const Service = ({data, location}) => {
             </figure>
           </div>
          <div className="plan">
-            <span>価格：300,000円（税抜）</span>
+            <span>作業に含まれるもの</span>
             <ol>
               <li>スケジュール・進行管理</li>
               <li>サイトマップ ・ワイヤーフレーム作成</li>
@@ -283,7 +283,7 @@ const Service = ({data, location}) => {
                 <li>その他2ページ</li>
               </ul>
               <li>お問い合わせフォーム</li>
-              <li>モバイル／タブレット対応</li>
+              <li>スマホ／タブレット対応</li>
               <li>SEO対策</li>
               <li>WordPress導入・初期設定</li>
               <li>セキュリティ対策</li>
@@ -294,9 +294,14 @@ const Service = ({data, location}) => {
             </ol>
           </div>
         </div>
-        <SubTitle>オプション</SubTitle>
+        <SubTitle>価格</SubTitle>
         <table>
           <tbody>
+            <tr>
+              <th>基本の価格</th>
+              <td>５ページ分のWordPressホームページ作成（トップページ、ブログ、記事＋その他２ページ）</td>
+              <td>￥300,000<br/>/1P</td>
+            </tr>
             <tr>
               <th>ページの追加</th>
               <td>5ページを超えた場合には、1ページごとにデザイン＋コーディング費用がかかります。（スマホ／タブレット対応）</td>
@@ -329,7 +334,7 @@ const Service = ({data, location}) => {
             </tr>
             <tr>
               <th>使い方レクチャー</th>
-              <td>公開後、時間が経って操作方法が分からなくなった場合、運営をしていて疑問が出てきた場合などに、ご相談いただけます。</td>
+              <td>公開後、時間が経って操作方法が分からなくなった場合の質問や運営相談にご利用いただけます。</td>
               <td>￥5,000<br/>/1時間</td>
             </tr>
           </tbody>
