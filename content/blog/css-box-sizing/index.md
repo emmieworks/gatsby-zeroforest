@@ -12,7 +12,7 @@ Box-sizingはdivやpなどのボックスサイズの計算方法を指定して
 
 ## ボックス幅の計算方法
 
-[ボックス幅の計算方法](ss-boxsizing.png)
+![ボックス幅の計算方法](ss-boxsizing.png)
 
 デフォルトのcontent-boxだと、
 ボックスの幅=コンテンツ幅（width)+内側の余白(padding)+枠線の太さ(border)となる。
