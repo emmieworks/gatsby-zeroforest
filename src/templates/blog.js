@@ -8,21 +8,13 @@ import Pagenation from "../components/Pagenation"
 import BlogMenu from "../components/BlogMenu"
 
 const Wrapper = styled.div`
-  margin-bottom: 100px;
-  width:var(--width);
-  margin-left: auto;
-  margin-right: auto;
-  @media screen and (max-width: 780px) {
-    max-width:90vw;
-    width:90vw;
-  }
-
   h1{
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: var(--middleMargin);
     position: relative;
     padding: 10px;
-    font-family: allura, cursive;
+    font-size: 2.4rem;
+    font-family: 'allura', cursive;
     &:after{
       position: absolute;
       bottom: 10px;
@@ -41,10 +33,11 @@ const BlogPageTemplate = ({ data, location, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title="Blog"
-        url ={location.pathname}
+      <SEO
+        title = "Blog"
+        url = {location.pathname}
         />
-      <Wrapper>
+      <Wrapper className="container">
       <h1>Blog</h1>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug

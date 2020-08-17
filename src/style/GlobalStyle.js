@@ -52,7 +52,9 @@ export const fadeOut = keyframes`
 `
 export const size = {
   width: "800px",
-  topHeight: "370px",
+  smallMargin: "30px",
+  middleMargin: "60px",
+  largeMargin: "100px",
 }
 
 /* ===============================================
@@ -67,7 +69,9 @@ function setColor() {
     :root {
       ${styles}
       --width: ${size.width};
-      --topHeight: ${size.topHeight};
+      --smallMargin: ${size.smallMargin};
+      --middleMargin: ${size.middleMargin};
+      --largeMargin: ${size.largeMargin};
     }
   `
 }
@@ -105,7 +109,7 @@ const font = css`
 const GlobalStyle = createGlobalStyle`
   ${setColor}
   html {
-    font-size: 16px;
+    font-size: 62.5%;
   }
   body {
     ${font}
@@ -149,7 +153,7 @@ const GlobalStyle = createGlobalStyle`
     outline: none;
     background: none;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: inherit;
     -webkit-appearance: none;
     &:focus {
       border: none;
@@ -159,7 +163,8 @@ const GlobalStyle = createGlobalStyle`
   ::selection {
     background: rgba(205, 227, 206, 0.35);
   }
-  .btn{
+
+  .btn {
     display: block;
     width: 160px;
     padding: 10px 30px;
@@ -174,11 +179,21 @@ const GlobalStyle = createGlobalStyle`
     text-transform:uppercase;
   }
 
+  .container {
+    width:var(--width);
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width: 780px) {
+      max-width:90vw;
+      width:90vw;
+    }
+  }
+
   /* ===============================================
   # smart phone
   =============================================== */
   @media screen and (max-width: 780px) {
-    html, body {
+    body {
       font-size: 14px;
     }
     .pc {

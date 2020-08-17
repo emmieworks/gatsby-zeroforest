@@ -10,19 +10,9 @@ import BlogMenu from "../components/BlogMenu"
 const MenuSection = styled.section`
   background-color: var(--white);
 
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin: 60px auto;
-
-  .container{
-    width:var(--width);
-    margin-left: auto;
-    margin-right: auto;
-    @media screen and (max-width: 780px) {
-      max-width:90vw;
-      width:90vw;
-    }
-  }
+  padding-top: var(--smallMargin);
+  padding-bottom: var(--smallMargin);
+  margin: var(--middleMargin) auto;
 
   .flex {
     display: -webkit-box;
@@ -49,7 +39,7 @@ const MenuSection = styled.section`
       max-width: 100%;
       width: 300px;
       height: auto;
-      margin: 30px auto;
+      margin: var(--smallMargin) auto;
     }
   }
   .text{
@@ -98,6 +88,7 @@ const SectionTitle = styled.h2`
   position: relative;
   padding: 10px;
   font-family: allura, cursive;
+  font-size: 2rem;
   &:after{
     position: absolute;
     bottom: 10px;
@@ -113,10 +104,10 @@ const SectionTitle = styled.h2`
 const BlogSection = styled.section`
   .desc{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: var(--smallMargin);
   }
 
-  width:var(--width);
+  width: var(--width);
   margin-left: auto;
   margin-right: auto;
   @media screen and (max-width: 780px) {
@@ -175,14 +166,14 @@ const Index = ({ data, location }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <Postcard
-              key={node.fields.slug}
-              title={title}
-              slug={node.fields.slug}
-              category={node.frontmatter.category}
-              date={node.frontmatter.date}
-              description={node.frontmatter.description}
-              excerpt={node.excerpt}
-              tags={node.frontmatter.tags}
+              key = {node.fields.slug}
+              title = {title}
+              slug = {node.fields.slug}
+              category = {node.frontmatter.category}
+              date = {node.frontmatter.date}
+              description = {node.frontmatter.description}
+              excerpt = {node.excerpt}
+              tags = {node.frontmatter.tags}
             />
           )
         })}

@@ -7,7 +7,7 @@ import Category from "../components/CategoryCard"
 
 const Wrapper = styled.article`
   margin-bottom: 2rem;
-  padding-bottom:2rem;
+  padding-bottom: 2rem;
   border-bottom: 1px dashed ${rgba(colors.secondary, 0.3)};
   &:last-child {
     border-bottom: none;
@@ -24,7 +24,8 @@ const Wrapper = styled.article`
     width:100%;
   }
   h3{
-    padding-bottom:15px;
+    font-size: 1.4rem;
+    padding-bottom: 15px;
     a{
       text-decoration:none;
     }

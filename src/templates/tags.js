@@ -1,45 +1,51 @@
 import React from "react"
 import { graphql} from "gatsby"
-
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Postcard from "../components/PostCard"
 
-const CategoryPageTemplate = ({ data, pageContext, location }) => {
+const TagPageTemplate = ({ data, pageContext, location }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
     <Layout>
-      <SEO title="Tags"
-        url ={location.pathname}
+      <SEO
+        title = "Tags"
+        url = {location.pathname}
        />
-       <h2
+       <h1
+         style={{
+            marginBottom: 60,
+            fontSize: 24,
+            textAlign: `center`,
+          }}
+      >Tag : { pageContext.tag }</h1>
+      <div
+        className="container"
         style={{
-          marginTop: 0,
-          marginBottom:30,
-          textAlign:`center`
+          marginBottom: 100,
         }}
       >
-      Tag :  { pageContext.tag }</h2>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
           <Postcard
-            key={node.fields.slug}
-            title={title}
-            category={node.frontmatter.category}
-            slug={node.fields.slug}
-            date={node.frontmatter.date}
-            description={node.frontmatter.description}
-            excerpt={node.excerpt}
-            tags={node.frontmatter.tags}
+            key = {node.fields.slug}
+            title = {title}
+            category = {node.frontmatter.category}
+            slug = {node.fields.slug}
+            date = {node.frontmatter.date}
+            description = {node.frontmatter.description}
+            excerpt = {node.excerpt}
+            tags = {node.frontmatter.tags}
           />
         )
       })}
+      </div>
     </Layout>
   )
 }
-export default CategoryPageTemplate
+export default TagPageTemplate
 
 export const pageQuery = graphql`
 query TagPageQuery($tag: String!) {

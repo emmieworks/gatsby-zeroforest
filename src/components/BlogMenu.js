@@ -6,14 +6,6 @@ const Wrapper = styled.div`
     margin-top: 1rem;
     padding: 1rem 0;
 
-    width:var(--width);
-    margin-left: auto;
-    margin-right: auto;
-    @media screen and (max-width: 780px) {
-      max-width:90vw;
-      width:90vw;
-    }
-
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -47,7 +39,7 @@ const Wrapper = styled.div`
 `
 const BlogMenu = () => {
   return (
-    <Wrapper>
+    <Wrapper className="container">
       <div>
         <p><Link to ="/category/programming/">Programming</Link></p>
         <ul>
@@ -67,7 +59,6 @@ const BlogMenu = () => {
       <div>
         <p><Link to ="/category/column/">Column</Link></p>
         <ul>
-          <li><Link to ="/tags/おすすめツール/">おすすめツール</Link></li>
           <li><Link to ="/tags/活動記録/">活動記録</Link></li>
         </ul>
       </div>

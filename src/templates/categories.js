@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql} from "gatsby"
-
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Postcard from "../components/PostCard"
@@ -14,29 +13,34 @@ const CategoryPageTemplate = ({ data, pageContext, location }) => {
         title="Category"
         url ={location.pathname}
        />
-       <h2
-        style={{
-          marginTop: 0,
-          marginBottom:30,
-          textAlign:`center`
-        }}
-       >
-       Category :  { pageContext.category }</h2>
+       <h1
+          style={{
+            marginBottom: 60,
+            fontSize: 24,
+            textAlign: `center`,
+          }}
+      >Category : { pageContext.category }</h1>
+       <div className="container"
+         style={{
+            marginBottom: 100,
+          }}
+        >
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
           <Postcard
-            key={node.fields.slug}
-            title={title}
-            category={pageContext.category}
-            slug={node.fields.slug}
-            date={node.frontmatter.date}
-            description={node.frontmatter.description}
-            excerpt={node.excerpt}
-            tags={node.frontmatter.tags}
+            key = {node.fields.slug}
+            title = {title}
+            category = {pageContext.category}
+            slug = {node.fields.slug}
+            date = {node.frontmatter.date}
+            description = {node.frontmatter.description}
+            excerpt = {node.excerpt}
+            tags = {node.frontmatter.tags}
           />
         )
       })}
+      </div>
     </Layout>
   )
 }

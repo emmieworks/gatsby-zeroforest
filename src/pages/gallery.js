@@ -8,15 +8,7 @@ import styled from "styled-components"
 const Wrapper = styled.div`
   margin-bottom: 100px;
 
-  width:var(--width);
-  margin-left: auto;
-  margin-right: auto;
-  @media screen and (max-width: 780px) {
-    max-width:90vw;
-    width:90vw;
-  }
-
-  h1{
+  h1 {
     text-align: center;
     margin-bottom: 60px;
     position: relative;
@@ -34,7 +26,7 @@ const Wrapper = styled.div`
     }
   }
 
-  .container{
+  .flex {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-wrap: wrap;
@@ -42,23 +34,23 @@ const Wrapper = styled.div`
     justify-content: space-between;
   }
 
-  article{
+  article {
     margin: 10px 0 30px 0;
     text-align: center;
-    overflow:   hidden;
-    position:   relative;
+    overflow: hidden;
+    position: relative;
     width: 240px;
     height: 150px;
     a{
       text-decoration: none;
     }
 
-    h3{
+    h3 {
       font-size: 16px;
       color: #fff;
       padding: 10px;
     }
-    img{
+    img {
       max-width: 100%;
       height: auto;
     }
@@ -70,7 +62,7 @@ const Wrapper = styled.div`
       top: 0;
       left: 0;
       opacity: 0;  /* マスクを表示しない */
-      background-color: rgba(0,0,0,0.6);  /* マスクは半透明 */
+      background-color: rgba(0,0,0,0.8);  /* マスクは半透明 */
       -webkit-transition: all 0.5s ease;
       transition:   all 0.5s ease;
       display: flex;
@@ -100,9 +92,9 @@ const Gallery = ({ data, location }) => {
   return (
     <Layout>
       <SEO location={location} title="Gallery" />
-      <Wrapper>
+      <Wrapper className="container">
       <h1>Gallery</h1>
-        <div className="container">
+        <div className="flex">
         {posts.map(({ node }) => {
           return (
             <article key={node.fields.slug}>
