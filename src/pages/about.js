@@ -50,15 +50,7 @@ const SubTitle = styled.h3`
 `
 
 const ProfileSection = styled.section`
-    width:var(--width);
-    margin-left: auto;
-    margin-right: auto;
-    @media screen and (max-width: 780px) {
-      max-width:90vw;
-      width:90vw;
-    }
-
-  .container{
+  .flex{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -148,7 +140,7 @@ const WorkSection = styled.section`
       width:90vw;
     }
 
-  .container{
+  .flex{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -187,15 +179,7 @@ const WorkSection = styled.section`
 `
 
 const HPSection = styled.section`
-  width:var(--width);
-  margin-left: auto;
-  margin-right: auto;
-  @media screen and (max-width: 780px) {
-    max-width:90vw;
-    width:90vw;
-  }
-
-  .container{
+  .flex{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -235,14 +219,14 @@ const About = ({data, location}) => {
   return (
     <Layout>
     <SEO
-      title="About"
-      description="作ったもの＆学習記事を掲載しています"
-      pagepath={location.pathname}
+      title = "About"
+      description = "作ったもの＆学習記事を掲載しています"
+      pagepath = {location.pathname}
     />
       <PageTitle>About</PageTitle>
-      <ProfileSection>
+      <ProfileSection className = "container">
         <SectionTitle>自己紹介</SectionTitle>
-        <div className="container">
+        <div className="flex">
           <figure>
             <Img
               fluid={data.profile.childImageSharp.fluid}
@@ -306,13 +290,13 @@ const About = ({data, location}) => {
           <p>Webプログラミングや、デザインがテーマ。お気軽にお声がけください。</p>
         </SNS>
       </ProfileSection>
-      <WorkSection>
+      <WorkSection className = "container">
         <SectionTitle>お仕事について</SectionTitle>
-        <div className="container">
+        <div className="flex">
           <figure>
             <Img
-              fluid={data.pc.childImageSharp.fluid}
-              alt="pc"
+              fluid = {data.pc.childImageSharp.fluid}
+              alt = "pc"
             />
           </figure>
           <div className="desc">
@@ -327,7 +311,7 @@ const About = ({data, location}) => {
             <Link to="/service/" className="btn">Service</Link>
           </div>
         </div>
-        <div className="container reverse">
+        <div className="flex reverse">
           <figure>
             <Img
               fluid={data.gallery.childImageSharp.fluid}
@@ -341,16 +325,16 @@ const About = ({data, location}) => {
         </div>
       </WorkSection>
 
-      <HPSection>
+      <HPSection className = "container">
         <SectionTitle>Zero Forestについて</SectionTitle>
-        <div className="container">
+        <div className="flex">
           <figure>
             <Img
-              fluid={data.logo.childImageSharp.fluid}
-              alt="logo"
+              fluid = {data.logo.childImageSharp.fluid}
+              alt = "logo"
             />
           </figure>
-          <div className="desc">
+          <div className = "desc">
             <p>Web系プログラミング・デザインをテーマに発信しています。</p>
             <p>コードを書いたりデザインするときに、自分で調べたり、学んだことを、後に活かせるように記録しています。</p>
             <ul>

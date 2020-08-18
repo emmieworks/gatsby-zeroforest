@@ -104,15 +104,7 @@ const SectionTitle = styled.h2`
 const BlogSection = styled.section`
   .desc{
     text-align: center;
-    margin-bottom: var(--smallMargin);
-  }
-
-  width: var(--width);
-  margin-left: auto;
-  margin-right: auto;
-  @media screen and (max-width: 780px) {
-    max-width:90vw;
-    width:90vw;
+    margin-bottom: var(--middleMargin);
   }
 `
 
@@ -121,47 +113,47 @@ const Index = ({ data, location }) => {
 
   return (
     <Layout>
-      <SEO location={location} title="Home" />
+      <SEO location = {location} title = "Home" />
       <MenuSection>
-      <div className="container">
-        <div className="flex service">
-          <div className="image">
-            <figure>
-              <Img
-                fluid={data.service.childImageSharp.fluid}
-                alt="service"
-              />
-            </figure>
-            <span>Sevice</span>
+        <div className="container">
+          <div className = "flex service">
+            <div className = "image">
+              <figure>
+                <Img
+                  fluid={data.service.childImageSharp.fluid}
+                  alt="service"
+                />
+              </figure>
+              <span>Sevice</span>
+            </div>
+            <div className = "text">
+              <p>ホームページやブログを作ったり、WordPressのレクチャーをしています。<br />一人ひとりのスタイル・イメージに合わせて、オリジナルデザインで、長く使い続けられるサイトをお作りします。</p>
+              <Link to = "/service/" className = "btn">service</Link>
+            </div>
           </div>
-          <div className="text">
-            <p>ホームページやブログを作ったり、WordPressのレクチャーをしています。<br />一人ひとりのスタイル・イメージに合わせて、オリジナルデザインで、長く使い続けられるサイトをお作りします。</p>
-            <Link to="/service/" className="btn">service</Link>
+          <div className = "flex reverse gallery">
+            <div className = "image">
+              <figure>
+                <Img
+                  fluid = {data.gallery.childImageSharp.fluid}
+                  alt = "gallery"
+                />
+              </figure>
+              <span>Gallery</span>
+            </div>
+            <div className = "text">
+            <p>作ったもののご紹介。 <br />
+            女性らしい優しさが感じられる<br />
+            シンプルで素朴なデザインが好きです。</p>
+            <Link to = "/gallery/" className = "btn">gallery</Link>
+            </div>
           </div>
-        </div>
-        <div className="flex reverse gallery">
-          <div className="image">
-            <figure>
-              <Img
-                fluid={data.gallery.childImageSharp.fluid}
-                alt="gallery"
-              />
-            </figure>
-            <span>Gallery</span>
-          </div>
-          <div className="text">
-          <p>作ったもののご紹介。 <br />
-          女性らしい優しさが感じられる<br />
-          シンプルで素朴なデザインが好きです。</p>
-          <Link to="/gallery/" className="btn">gallery</Link>
-          </div>
-        </div>
         </div>
       </MenuSection>
 
-      <BlogSection>
+      <BlogSection className = "container">
         <SectionTitle>Blog</SectionTitle>
-        <p className="desc">Web制作／デザインをテーマに発信しています</p>
+        <p className = "desc">Web制作／デザインをテーマに発信しています</p>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
