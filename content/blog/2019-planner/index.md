@@ -3,6 +3,8 @@ title: 2019年のマイ手帳事情
 date: 2019-04-25T10:51:39+09:00
 featured: 20190425-icatch.jpg
 category: Column
+tags:
+  - Journal
 status: published
 ---
 

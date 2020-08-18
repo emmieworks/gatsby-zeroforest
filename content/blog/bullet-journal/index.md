@@ -4,7 +4,7 @@ date: 2018-06-22T19:00:53+09:00
 featured: icatch_20180622.jpg
 category: Column
 tags:
-    - バレットジャーナル
+    - Journal
 status: published
 ---
 

@@ -4,7 +4,7 @@ date: 2018-07-25T19:00:02+09:00
 featured: 20180725-icatch.jpg
 category: Column
 tags:
-    - バレットジャーナル
+    - Journal
 status: published
 ---
 

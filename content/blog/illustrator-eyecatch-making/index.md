@@ -4,7 +4,6 @@ date: 2019-02-01T19:00:17+09:00
 featured: icatch-20190125.jpg
 category: Design
 tags:
-    - 女性向け
     - Illustrator
 status: published
 ---
