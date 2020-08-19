@@ -308,7 +308,7 @@ const About = ({data, location}) => {
             />
           </figure>
           <div className="desc">
-            <p>個人で活動されている方中小企業のお客さまにWebサイト制作・運営サポートをしています。</p>
+            <p>個人で活動されている方や中小企業のお客さまにWebサイト制作・運営サポートをしています。</p>
             <ul>
               <li>ホームページの制作</li>
               <li>Wordpressサイトの制作</li>
@@ -327,7 +327,7 @@ const About = ({data, location}) => {
             />
           </figure>
           <div className="desc">
-            <p>Galleryでは制作物を紹介しています。</p>
+            <p>Galleryでは過去の制作物を紹介しています。</p>
             <p>女性らしい優しさが感じられる<br />
             シンプルで素朴なデザインが好きです。</p>
             <Link to="/gallery/" className="btn">Gallery</Link>
@@ -348,7 +348,7 @@ const About = ({data, location}) => {
             <p>Web系プログラミング・デザインをテーマに発信しています。</p>
             <p>コードを書いたりデザインするときに、自分で調べたり、学んだことを、後に活かせるように記録しています。</p>
             <ul>
-              <li>プログラミングの知識の整理</li>
+              <li>プログラミングの学びを整理</li>
               <li>デザイン独学・練習</li>
               <li>読んだ本のまとめ</li>
               <li>活動記録</li>
