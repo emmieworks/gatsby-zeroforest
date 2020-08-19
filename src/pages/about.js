@@ -5,7 +5,7 @@ import styled from "styled-components"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 
-import {FaPinterest, FaGithub, FaTwitter } from "react-icons/fa"
+import {FaPinterest, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa"
 
 const PageTitle = styled.h1`
   text-align: center;
@@ -236,8 +236,7 @@ const About = ({data, location}) => {
           <div className="desc">
             <span className="name">Emi</span>
             <p>東京在住のエンジニアです。</p>
-            <p>のんびり生活しています。<br />
-            学生の頃から、独学でホームページを作ったり、プログラミングで遊ぶのが好きでした。</p>
+            <p>学生の頃から、独学でホームページを作ったり、プログラミングで遊ぶのが好きでした。</p>
             <p>大学でコンピュータサイエンスを学んだ後、企業でシステムエンジニア・コンサルタントとして働いていました。<br />
             大規模なシステムよりも、目の前の人が喜ぶものを、ていねいに作っていきたいと思い、働き方を見直すことに。</p>
             <p>その後、趣味で作っていたブログをきっかけにお仕事をいただくようになり、2017年よりフリーランスとして活動しています。</p>
@@ -270,11 +269,11 @@ const About = ({data, location}) => {
             </li>
             <li>
               <a
-                href={`https://github.com/${social.github}`}
+                href={`https://www.instagram.com/${social.instagram}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaGithub />
+                <FaInstagram />
               </a>
             </li>
             <li>
@@ -284,6 +283,15 @@ const About = ({data, location}) => {
                 rel="noopener noreferrer"
               >
                 <FaPinterest />
+              </a>
+            </li>
+            <li>
+              <a
+                href={`https://github.com/${social.github}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
               </a>
             </li>
           </ul>
@@ -319,7 +327,9 @@ const About = ({data, location}) => {
             />
           </figure>
           <div className="desc">
-            <p>Galleryでは、主にWebサイト、WordPress、WEBデザインの制作物を紹介しています。</p>
+            <p>Galleryでは制作物を紹介しています。</p>
+            <p>女性らしい優しさが感じられる<br />
+            シンプルで素朴なデザインが好きです。</p>
             <Link to="/gallery/" className="btn">Gallery</Link>
           </div>
         </div>
@@ -391,6 +401,7 @@ export const pageQuery = graphql`
         title
         social {
           twitter
+          instagram
           github
           pinterest
         }

@@ -10,9 +10,10 @@ module.exports = {
     description: `制作物を公開したり、Web技術について発信しています`,
     siteUrl: `https://0forest.com`,
     social: {
-      twitter: `@EmiMoment`,
+      twitter: `EmiMoment`,
       github: `emmieworks`,
       pinterest: `0forest`,
+      instagram: `emmieworks`,
     },
     categories: [
       {
