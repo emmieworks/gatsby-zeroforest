@@ -237,25 +237,26 @@ const Wrapper = styled.div`
         background: linear-gradient(transparent 70%, var(--pink) 70%);
         font-weight: 600;
       }
-      .simple-box{
+      .border-box{
         border: 2px solid var(--pink);
         border-radius: 6px;
-        padding: 25px 20px 30px 20px;
+        padding: 15px 20px 20px 20px;
         margin:  var(--smallMargin);
         font-size: 0.9rem;
-        div{
+        span{
+          display: block;
           text-align: center;
           font-weight: 600;
           margin-bottom: 15px;
         }
       }
 
-      .border-box{
+      .simple-box{
         background-color: var(--primaryPale);
         border-radius: 6px;
         padding: 25px 20px;
         margin: var(--smallMargin);
-        font-size:0.9rem;
+        font-size: 0.9rem;
       }
 
       .title-box{
@@ -263,7 +264,7 @@ const Wrapper = styled.div`
         border: 1px solid var(--primary);
         border-radius: 6px;
         padding: 25px 30px;
-        margin:  var(--smallMargin);
+        margin: var(--smallMargin);
         font-size: 0.9rem;
         span {
           position:absolute;

@@ -22,7 +22,7 @@ const Wrapper = styled.article`
     width:100%;
   }
   h3{
-    font-size: 1.8rem;
+    font-size: 1.1rem;
     padding-bottom: 15px;
     a{
       text-decoration:none;
@@ -36,12 +36,9 @@ const Wrapper = styled.article`
   p {
     line-height: 1.8;
     padding-bottom: 20px;
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
   @media screen and (max-width: 780px) {
-    h3{
-      font-size: 1.4rem;
-    }
     .left{
       padding: 10px;
     }
