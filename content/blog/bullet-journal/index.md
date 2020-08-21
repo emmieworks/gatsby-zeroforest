@@ -5,7 +5,6 @@ featured: icatch_20180622.jpg
 category: Column
 tags:
     - Journal
-status: published
 ---
 
 最近、少しずつ知名度が出てきた、バレットジャーナル。 興味はあるけど、どうやって使ったらいいの？ そんな方のために、私流のバレットジャーナルの使い方を紹介します。
