@@ -5,7 +5,7 @@ module.exports = {
     locale: `ja_JP`,
     author: {
       name: `Emi`,
-      summary: `マイペースにWebサイトやWebアプリの制作をしています`,
+      summary: `フロントエンドエンジニア | Webデザイナー | マイペースにWebサイトやWebアプリの制作をしています`,
     },
     description: `制作物を公開したり、Web技術について発信しています`,
     siteUrl: `https://0forest.com`,

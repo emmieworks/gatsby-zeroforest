@@ -8,7 +8,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-import {FaPinterest, FaGithub, FaTwitter } from "react-icons/fa"
+import {FaPinterest, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -28,6 +28,7 @@ const Bio = () => {
           }
           social {
             twitter
+            instagram
             github
             pinterest
           }
@@ -69,12 +70,12 @@ const Bio = () => {
         </a>
         <a
           style={{marginRight:10}}
-          href={`https://github.com/${social.github}`}
+          href={`https://www.instagram.com/${social.instagram}`}
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub />
-        </a>{` `}
+          <FaInstagram />
+        </a>
         <a
           style={{marginRight:10}}
           href={`https://pinterest.com/${social.pinterest}`}
@@ -82,6 +83,14 @@ const Bio = () => {
           rel="noopener noreferrer"
         >
           <FaPinterest />
+        </a>
+        <a
+          style={{marginRight:10}}
+          href={`https://github.com/${social.github}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub />
         </a></p>
         <p>{author.summary}</p>
       </div>
