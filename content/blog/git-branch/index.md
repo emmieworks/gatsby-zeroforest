@@ -1,6 +1,7 @@
 ---
-title: 【Git】ブランチの使い方とSourceTreeでの操作方法
+title: 【gitでバージョン管理】ブランチの使い方とSourcetreeeでの操作
 date: 2020-04-11T12:00:00+09:00
+updateDate: 2020-08-21
 category: Programming
 tags:
     - git
@@ -12,10 +13,14 @@ status: published
 
  知っておくと便利！実際どう使うの？🤔を解説します。
 
+<div class="border-box">
+<span>この記事でわかること<span>
+
 * バージョン管理でのブランチって何？
 * 個人開発をするときの、ブランチの使い方
 * Sourcetreeを使ったブランチの作成、切替え、マージ方法
 
+</div>
 
 gitでバージョン管理を使っている方はやってみてください。
 
@@ -91,9 +96,15 @@ masterを選択した状態で、上部の「Branch」を選択します。
 
 ![ブランチの削除](ss-sourcetree-branch-09.jpg)
 
-## ブランチのまとめ
+以上、ブランチの使い方と、操作方法の紹介でした！
 
-* ブランチとは＝バージョン履歴を分けること
-* Source Treeでのブランチの作成、切り替え、マージ、削除方法
-の紹介でした！
 
+<div class="related-posts">
+    <span>バージョン管理のはじめかた</span>
+
+1. [gitとSourcetreeをインストールして、バージョン管理をはじめる](/install-sourcetree/)
+2. [GitHubインストールとプロジェクトでの使い方](/git-install/)
+3. 【gitでバージョン管理】前の状態にファイルを戻す方法（準備中）
+4. [【gitでバージョン管理】ブランチを使って、履歴を分ける方法]（この記事）
+
+</div>

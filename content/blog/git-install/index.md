@@ -1,10 +1,12 @@
 ---
-title: 【はじめてのバージョン管理①】git+GitHub+Sourcetree導入と基本の使い方
+title: 【初心者向け】GitHubのインストールとプロジェクトでの使い方
 date: 2020-04-04T18:00:31+09:00
+updateDate: 2020-08-21
 featured: icatch_20200331.jpg
 category: Programming
 tags:
     - git
+    - GitHub
     - Sourcetree
 ---
 
@@ -12,116 +14,55 @@ tags:
 
 慣れるまで大変だけど、使えるようになるとめっちゃ便利！です。
 
-今回は、バージョン管理をはじめるための手順を紹介します。
 
-## gitとは？バージョン管理のメリット
+<div class="related-posts">
+    <span>バージョン管理のはじめかた</span>
 
-gitは、ファイルのバージョン管理システムです。
+1. [gitとSourcetreeをインストールして、バージョン管理をはじめる](/install-sourcetree/)
+2. [GitHubインストールと普段のプロジェクトでの使い方]（この記事）
+3. 【gitでバージョン管理】前の状態にファイルを戻す方法（準備中）
+4. [【gitでバージョン管理】ブランチを使って、履歴を分ける方法](/git-branch/)
 
-バージョン管理とはゲームでいう**セーブポイント**。
-
-ゲーム中のセーブポイントのように、作業ごとにその時点の状態を保存しておいて、後から元の状態に戻すことができます。
-
-<div style="position:relative;border:1px solid #91c294;border-radius:6px;padding:25px 30px;margin:30px;font-size:0.9rem;">
-  <span style="position:absolute; top: -12px;left: 10px;padding: 5px 20px;background-color: #91c294;border-radius:4px;color:#fff;line-height: 1em;font-size:0.9rem;">
-    バージョン管理でできること
-  </span>
-
-- ファイルを「誰が」「いつ」「どんな修正を加えたか」を記録に残せる
-
-- 誤って修正した場合に、前に遡ってファイルの状態を戻すことができる
-
-- 複数人で同じファイルを共有、更新ができる。その際、同じ箇所を誤って上書きしてしまうなどのトラブルを避けることができる。
 </div>
 
-
-主には、下記の用途で使われます
-
-- プログラム(HTML、CSSなど）の更新作業
-
-- テキストファイル（小説やブログ記事など）の下書き、編集、校閲作業
-
-- ExcelやPowerpointなどの共有ファイルの履歴管理
-
-
-バージョン管理システムを使うと、
-
-* 提案書_20200115.txt
-* 提案書_20200116.txt
-
-とか
-
-* 提案書_〇〇修正版.xls
-* 提案書_〇〇修正版_追記.xls
-
-とか
-
-こんな風にファイルを分けてバックアップを残す必要がなくなります！
-
-
-
-## バージョン管理に使うツール
-
-バージョン管理でよく使われるツールは３つです。
-
-1. git
-2. GitHub
-3. Sourcetree
-
-### Git
+##  GitとGitHub
 
 git＝バージョン管理を行うためのシステムです。
 
 gitを入れると、自分のPC上にファイルの変更履歴を保管するための場所が用意されて、バージョン管理のための機能が使えるようになります。
 
-### GitHub
-
-GitHubはgitを用いたオンラインサービスです。
+GitHub＝gitを用いたオンラインサービスです。
 
 web上でファイルや変更履歴を共有できるようになります。
 
-GitHubを使うメリット
+<div class="border-box">
+    <span>GitHubを使うメリット</span>
 
 * 複数人でプログラムを分担して開発できる
+
 * 他の端末でソースコードや変更履歴を共有できる
+
 * 他サービスと連携して、ホームページやアプリを簡単に公開できる
+</div>
 
-なお、GitHubにはプライベート機能があり、アップしたファイルの公開／非公開を自分で選ぶことができます。
-
-### SourceTree
-
-SourcetreeはGUIでGitを操作するためのソフトです。
-
-gitを使う際、ターミナルからコマンドを打ち込む必要があります。
-
-Sourcetreeを使うと、画面でファイルの変更履歴を見たり、直接操作できるので、コマンドになれていない初心者に使いやすいです。
+ちなみにGitHubにはプライベート機能があり、アップしたファイルの公開／非公開を自分で選ぶことができます。
 
 
-## Git、GitHub、SoureTreeのはじめかた【Macユーザー向け】
+個人的には、
 
-Git、
+* GitHubからプログラムを展開して、html/CSSやwordpressテーマのFTPアップロードの手間を省く
 
-ここではMac向けに解説しています。
+* GitHubで管理しているプログラムをブログに載せる
 
-### gitを導入する
+に、GitHubのありがたみ感じています。
 
-ターミナルを起動して、以下のコマンドを入力します。
+## GitHubのはじめかた
 
-```
-git --version
-```
+まず事前準備として、GitとSourceTreeをインストールしておきます。
 
-確認画面が表示されて「コマンドライン・デベロッパー・ツール」をインストールするかどうか聞かれますので、インストールを行います。
+* [GitとSourceTreeのインストール方法](/install-sourcetree/)
 
-
-```
-git --version
-```
-これで、バージョンが表示されれば、ターミナルよりgitが使えるようになります。
-
-
-### GitHubを導入する
-
+GitHubを登録していきます。
 <a href="https://github.co.jp/" target="_blank" rel="noopener noreferrer">GitHubの公式サイト</a>
 
 ![GitHub公式サイト](ss-github-install-01.jpg)
@@ -163,7 +104,7 @@ Webブラウザが立ち上がって、GitHubとの連携画面が表示され�
 ![SourcetreeとGitHubの連携が完了した状態](ss-sourcetree-github-04.jpg)
 
 
-## 覚えておきたいgitの基本用語４つ
+## 覚えておきたいgitの基本用語
 
 
 【バージョン管理でよくつかう用語】
@@ -224,11 +165,9 @@ Webブラウザが立ち上がって、GitHubとの連携画面が表示され�
 | プル | リモートレポジトリ（Web上）からローカルレポジトリ(自分のPC上)にデータをもらう |
 
 
-## 基本の使い方
+## 基本の使い方：新しくプロジェクトをはじめるとき
 
-### 新しくプロジェクトをはじめるとき
-
-#### 1.新規リポジトリ作成
+### 1.新規リポジトリ作成
 
 プロジェクトの始めに、GitHubでレポジトリ（変更履歴を管理する場所）を作ります。
 
@@ -240,11 +179,9 @@ Webブラウザが立ち上がって、GitHubとの連携画面が表示され�
 
 ![GitHubでレポジトリー作成完了](ss-sourcetree-add-repository-02.jpg)
 
-#### 2. クローン
+### 2. クローン：リモートリポジトリの内容をローカルにコピー
 
-続いて、GitHub上のリモートリポジトリの内容を丸ごとローカルのPCにコピーします。
-
-※この作業をクローン（clone）と呼びます。
+続いて、GitHub上のリモートリポジトリの内容を丸ごとローカルのPCにコピー（＝クローン）します。
 
 Sourcetree上部の「New」から「Clone from URL」をえらびます。
 
@@ -263,32 +200,26 @@ Sourcetree上部の「New」から「Clone from URL」をえらびます。
 
 これで、新しくプロジェクトを始める設定は完了です。
 
-プロジェクトフォルダの中に「.git」という隠しフォルダが追加されています。
+プロジェクトフォルダの中に「.git」という隠しフォルダとReadme.mdが追加されています。
+
+## ふだんの作業でやること
+
+### 1. ファイルを更新する
+
+プログラムなど使っているファイルを編集します。
+
+試しに、sample.phpを作成して入れてみました。
+
+![ファイルを追加](ss-sourcetree-pj-03.jpg)
 
 
-<div style="position:relative;border:1px solid #91c294;border-radius:6px;padding:25px 30px;margin:30px;font-size:0.9rem;">
-  <span style="position:absolute; top: -12px;left: 10px;padding: 5px 20px;background-color: #91c294;border-radius:4px;color:#fff;line-height: 1em;font-size:0.9rem;">
-    バージョン管理したくないファイルはどうするの？
-  </span>
+Sourcetree上では変更されたファイルが表示されます。
 
-  .gitignoreを作って、バージョン管理しないファイルを追記します。
+![Sourcetreeで変更が入ったファイルが表示される](ss-sourcetree-pj-04.jpg)
 
-```
-# ファイル名を指定
-file.txt
 
-# ディレクトリを指定
-directory/
-
-# テキストファイルを除外
-*.txt
-```
-
-</div>
-
-### ふだんの作業でやること
-
-#### 1. プル：リモートリポジトリからデータを同期させる（チームで開発しているときのみ）
+<div class="border-box">
+    <span>チームで開発しているとき</span>
 
 複数人で、同じプログラムを編集している場合には、
 
@@ -300,24 +231,15 @@ SourceTreeの「Pull(プル)」ボタンを押します。
 
 ![Sourcetreeからプル](ss-sourcetree-pj-02.jpg)
 
-#### 2.ファイルを更新する
+</div>
 
-プログラムなどを編集します。
-試しに、sample.phpを作成して入れてみました。
+#### 2. コミット：作業を記録する
 
-![ファイルを追加](ss-sourcetree-pj-03.jpg)
-
-すると、Sourcetree上では変更されたファイルが表示されます。
-
-![Sourcetreeで変更が入ったファイルが表示される](ss-sourcetree-pj-04.jpg)
-
-#### 3. コミットする
-
- 作業が終わったら、コミットをします。（作業単位にコミットが基本）
+ 作業が終わったら、コミットをします。
+作業ごとにコミットしとおくと、後から見直したり、修正しやすいです。
 
 ファイルにチェックを入れます。
 複数ファイルをまとめて選ぶこともできます。
-
 
 ![Sourcetreeでコミット](ss-sourcetree-pj-05.jpg)
 
@@ -326,7 +248,7 @@ SourceTreeの「Pull(プル)」ボタンを押します。
 ![Sourcetreeコミット完了](ss-sourcetree-pj-06.jpg)
 
 
-#### 4. プッシュ：ローカルの変更内容をリモートリポジトリへアップロードする
+#### 3. プッシュ：ローカルの変更内容をリモートリポジトリへアップロードする
 
 作業が終わったら、PC上の内容をネット上に反映します。
 
@@ -338,14 +260,11 @@ OKを押します。
 
 ![OK](ss-sourcetree-pj-08.jpg)
 
-完了すると、origin/masterが一番上の行に移動します。
+完了すると、origin/masterのタグが一番上の行に移動します。
+
+リモートリポジトリの状態(origin/master)がリポジトリの状態(master)と揃いました。
 
 ![完了](ss-sourcetree-pj-09.jpg)
 
 
-## Gitを始めた方におすすめの記事の記事
-
-
-* [【Git】ブランチの使い方とSourceTreeでの操作方法](/git-branch/)
-
-以上、バージョン管理の基本についてご紹介でした。
+続き＞＞ [【Gitでバージョン管理】ブランチの使い方とSourceTreeでの操作方法](/git-branch/)
