@@ -1,12 +1,12 @@
 ---
-title: Flexboxのプロパティまとめ
+title: 【CSS】Flexboxのプロパティまとめ
 date: 2020-08-09
 category: Programming
 tags:
   - CSS
 ---
 
-Flexboxは、CSSはWebページのレイアウトを設定できるモジュール。
+Flexboxは、CSSはWebページのレイアウトを設定できるモジュールです。
 
 今回の記事では、Flexboxでよく使うプロパティをまとめました。
 
@@ -15,7 +15,6 @@ Flexboxは、CSSはWebページのレイアウトを設定できるモジュー�
 ![Flexbox使い方](ss-flexbox-01.png)
 
 Flexboxを使う時は、整列させたいアイテム(item)をまとめて格納するコンテナ（conteiner)を用意します。
-
 
 ```html
 <div class="container">
