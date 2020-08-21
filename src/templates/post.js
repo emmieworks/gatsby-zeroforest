@@ -6,7 +6,7 @@ import Bio from "../components/Bio"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import RelatedPosts from "../components/RelatedPosts"
-
+import BlogMenu from "../components/BlogMenu"
 import PostWrapper from "./postStyle"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
@@ -93,6 +93,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </ul>
       </nav>
       </PostWrapper>
+      <BlogMenu />
     </Layout>
   )
 }

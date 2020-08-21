@@ -48,12 +48,14 @@ const BlogMenu = () => {
           <li><Link to ="/tags/javascript/">JavaScript</Link></li>
           <li><Link to ="/category/wordpress/">WordPress</Link></li>
           <li><Link to ="/tags/gatsby/">Gatsby</Link></li>
+          <li><Link to ="/tags/git/">git</Link></li>
         </ul>
       </div>
       <div>
         <p><Link to ="/category/design/">Design</Link></p>
         <ul>
           <li><Link to ="/tags/illustrator/">illustrator</Link></li>
+          <li><Link to ="/tags/デザイン独学/">デザイン独学</Link></li>
         </ul>
       </div>
       <div>
@@ -61,6 +63,7 @@ const BlogMenu = () => {
         <ul>
           <li><Link to ="/tags/活動記録/">活動記録</Link></li>
           <li><Link to ="/tags/journal/">Journal</Link></li>
+          <li><Link to ="/tags/私の愛用品/">私の愛用品</Link></li>
         </ul>
       </div>
     </Wrapper>

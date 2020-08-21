@@ -3,6 +3,7 @@ import { graphql} from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import Postcard from "../components/PostCard"
+import BlogMenu from "../components/BlogMenu"
 
 const TagPageTemplate = ({ data, pageContext, location }) => {
   const posts = data.allMarkdownRemark.edges
@@ -42,6 +43,7 @@ const TagPageTemplate = ({ data, pageContext, location }) => {
         )
       })}
       </div>
+      <BlogMenu />
     </Layout>
   )
 }
