@@ -9,7 +9,7 @@ import {FaPinterest, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa"
 
 const PageTitle = styled.h1`
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: var(--middleMargin);
   position: relative;
   padding: 10px;
   font-family: allura, cursive;
@@ -29,10 +29,10 @@ const SectionTitle = styled.h2`
   color:var(--secondary);
   width: 100%;
   font-size: 1.2rem;
-  margin-top: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-bottom: 60px;
+  margin-top: var(--middleMargin);
+  margin-bottom: var(--middleMargin);
   font-weight: 600;
   width: 100%;
   border-top: 1px solid var(--secondary);
@@ -43,8 +43,8 @@ const SubTitle = styled.h3`
   color:var(--secondary);
   font-size: 1.2rem;
   font-weight: 600;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: var(--middleMargin);
+  margin-bottom: var(--middleMargin);
   padding: 7px 0 7px 15px;
   border-bottom: 1px solid var(--secondary);
 `
@@ -71,12 +71,12 @@ const ProfileSection = styled.section`
       height: 180px;
     }
     .name{
-      font-family:'allura', cursive;
-      font-size:24px;
-      margin:1rem;
+      font-family: 'allura', cursive;
+      font-size: 2.4rem;
+      margin: 1rem;
     }
     .desc{
-      margin:1rem;
+      margin: 1rem;
     }
   }
 `
@@ -96,8 +96,8 @@ const BorderBox = styled.div`
       background-color: var(--primary);
       border-radius: 4px;
       color: var(--white);
-      line-height: 1em;
-      font-size: 0.8rem;
+      line-height: 1;
+      font-size: 0.9rem;
     }
     ul{
       margin: 0 10px;

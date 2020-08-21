@@ -23,16 +23,15 @@ const Wrapper = styled.div`
     ul{
       margin-top: 10px;
       border-left: 1px solid var(--secondary);
+      padding-left: 30px;
       li{
         padding:8px;
-        margin-left: 30px;
       }
     }
     @media screen and (max-width: 780px) {
       flex-direction :column;
       div{
         width: 100%;
-        margin-left: 30px;
       }
     }
   }
