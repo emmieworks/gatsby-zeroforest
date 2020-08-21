@@ -109,47 +109,31 @@ module.exports = {
 ## 文字装飾
 
 ### マーカー
-<span style="background: linear-gradient(transparent 70%, #cde3ce 70%);">緑のマーカー</span>
+<span class="marker">マーカー</span>
 
-<span style="background: linear-gradient(transparent 70%, #f2b1a4 70%);">ピンクのマーカー</span>
+### Box
 
-### 見出し飾り枠
-
-<div style="position:relative;border:1px solid #F6BCAC;border-radius:6px;padding:25px 30px;margin:30px;font-size:0.8rem;">
-  <span style="position:absolute; top: -12px;left: 10px;padding: 5px 20px;background-color: #fffcf5;border-radius:4px;color:#F6BCAC;line-height: 1em;font-size:0.8rem;">
-    ここに見出し
-  </span>
-  ピンク
-</div>
-<div style="position:relative;border:1px solid #91c294;border-radius:6px;padding:25px 30px;margin:30px;font-size:0.8rem;">
-  <span style="position:absolute; top: -12px;left: 10px;padding: 5px 20px;background-color: #91c294;border-radius:4px;color:#fff;line-height: 1em;font-size:0.8rem;">
-    ここに見出し
-  </span>
-  緑
+<div class="title-box">
+  <span>ここに見出し</span>
+  ここに文章が入ります。
 </div>
 
-
-### 背景色あり
-<div style="background-color:#cde3ce;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
-  緑
+<div class="border-box">
+  ここに文章が入ります。
 </div>
 
-### 角丸飾り枠
-
-<div style="border:1px solid #f2b1a4;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
-  ピンク
+<div class="simple-box">
+  <div>見出し</div>
+  ここに文章が入ります。
 </div>
 
-<div style="border:1px solid #91c294;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
-  緑
-</div>
+<div class="related-posts">
+  <span>こちらの記事もおすすめです</span>
 
-### 角飾り枠
+* [活動記録1](/diary-202003/)
 
-<div style="border:2px solid #f2b1a4;padding:25px 20px;margin:30px;font-size:0.8rem;">
-  ピンク
-</div>
+* [活動記録2](/diary-202005/)
 
-<div style="border:4px double #cde3ce;border-radius:6px;padding:25px 20px;margin:30px;font-size:0.8rem;">
-  緑
+* [活動記録3](/diary-202007/)
+
 </div>

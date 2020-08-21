@@ -130,7 +130,7 @@ const Wrapper = styled.div`
       =============================================== */
       p {
         line-height: 1.8;
-        margin: 30px 0;
+        margin: var(--smallMargin) 0;
       }
       h2 {
         color:var(--secondary);
@@ -139,7 +139,7 @@ const Wrapper = styled.div`
         margin-top: 100px;
         padding-top:10px;
         padding-bottom: 10px;
-        margin-bottom: 60px;
+        margin-bottom: var(--middleMargin);
         font-weight: 600;
         width: 100%;
         border-top: 1px solid var(--secondary);
@@ -149,8 +149,8 @@ const Wrapper = styled.div`
         color:var(--secondary);
         font-size: 1.2rem;
         font-weight: 600;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        margin-top:  var(--middleMargin);
+        margin-bottom: var(--middleMargin);
         padding: 7px 0 7px 15px;
         border-left: 3px double var(--secondary);
       }
@@ -218,15 +218,66 @@ const Wrapper = styled.div`
           }
         }
       }
-      th,td {
-        border: solid 1px var(--secondary);  /* 枠線指定 */
-        padding: 10px;      /* 余白指定 */
-      }
+      /* ===============================================
+      #  table
+      =============================================== */
       table {
         border-collapse:  collapse; /* セルの線を重ねる */
         margin:30px auto;
         background:var(--white);
       }
+      th,td {
+        border: solid 1px var(--secondary);  /* 枠線指定 */
+        padding: 10px;      /* 余白指定 */
+      }
+      /* ===============================================
+      #  marker, box
+      =============================================== */
+      .marker{
+        background: linear-gradient(transparent 70%, var(--pink) 70%);
+        font-weight: 600;
+      }
+      .simple-box{
+        border: 2px solid var(--pink);
+        border-radius: 6px;
+        padding: 25px 20px 30px 20px;
+        margin:  var(--smallMargin);
+        font-size: 0.9rem;
+        div{
+          text-align: center;
+          font-weight: 600;
+          margin-bottom: 15px;
+        }
+      }
+
+      .border-box{
+        background-color: var(--primaryPale);
+        border-radius: 6px;
+        padding: 25px 20px;
+        margin: var(--smallMargin);
+        font-size:0.9rem;
+      }
+
+      .title-box{
+        position: relative;
+        border: 1px solid var(--primary);
+        border-radius: 6px;
+        padding: 25px 30px;
+        margin:  var(--smallMargin);
+        font-size: 0.9rem;
+        span {
+          position:absolute;
+          top: -12px;
+          left: 10px;
+          padding: 5px 20px;
+          background-color: var(--primary);
+          border-radius: 4px;
+          color: var(--white);
+          line-height: 1em;
+          font-size: 0.9rem;
+        }
+      }
+
       /* ===============================================
       #  img
       =============================================== */
@@ -241,7 +292,8 @@ const Wrapper = styled.div`
       }
     }
     hr{
-      margin-bottom:30px;
+      margin-top: var(--smallMargin);
+      margin-bottom: var(--smallMargin);
     }
     section {
       padding-bottom: 50px;
@@ -253,6 +305,29 @@ const Wrapper = styled.div`
         padding: 0 2px;
       }
     }
+    /* ===============================================
+    #  Relatd Post
+    =============================================== */
+    .related-posts{
+      background: var(--background);
+      position: relative;
+      border: 1px solid var(--secondary);
+      padding: 10px;
+      margin: 30px auto;
+      font-size: 0.9rem;
+      span{
+        position:absolute;
+        top: -12px;
+        left: 10px;
+        padding: 5px 20px;
+        line-height: 1rem;
+        background: var(--background);
+        font-weight: 600;
+        font-size: 0.9rem;
+        color: var(--secondary);
+      }
+    }
+
     /* ===============================================
     #  Prism
     =============================================== */

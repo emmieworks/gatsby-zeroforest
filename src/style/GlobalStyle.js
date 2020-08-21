@@ -15,7 +15,7 @@ colors.gray = "#96acb3"
 
 colors.white = "#FFFFFF"
 
-colors.Pink = "#F2B1A4"
+colors.pink = "#F2B1A4"
 colors.primary = "#91C294"
 colors.primaryLight = rgba("#91C294", 0.15)
 colors.primaryPale = rgba("#91C294", 0.07)

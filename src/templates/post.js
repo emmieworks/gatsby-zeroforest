@@ -10,7 +10,7 @@ import PostWrapper from "./postStyle"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
-  const { previous, next } = pageContext
+  const { prev, next } = pageContext
   const tableOfContens = data.markdownRemark.tableOfContents
   const tags = post.frontmatter.tags
       ? (post.frontmatter.tags.map(e => (
@@ -22,9 +22,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   return (
     <Layout>
       <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-        url ={location.pathname}
+        title= {post.frontmatter.title}
+        description= {post.frontmatter.description || post.excerpt}
+        url = {location.pathname}
       />
       <PostWrapper>
       <article>
@@ -57,37 +57,41 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
            </div>
           )}
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr/>
         <footer>
+          <hr/>
+          <nav
+          style={{marginBottom: 30}}
+          >
+            <ul
+              style={{
+                display: `flex`,
+                flexWrap: `wrap`,
+                justifyContent: `space-between`,
+                listStyle: `none`,
+                padding: 0,
+              }}
+            >
+              <li>
+                {prev && (
+                  <Link to={prev.fields.slug} rel="prev">
+                    ← {prev.frontmatter.title}
+                  </Link>
+                )}
+              </li>
+              <li>
+                {next && (
+                  <Link to={next.fields.slug} rel="next">
+                    {next.frontmatter.title} →
+                  </Link>
+                )}
+              </li>
+            </ul>
+          </nav>
+          <hr/>
           <Bio />
         </footer>
       </article>
-      <nav>
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
+
       </PostWrapper>
       <BlogMenu />
     </Layout>
