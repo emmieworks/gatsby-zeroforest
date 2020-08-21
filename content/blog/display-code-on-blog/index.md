@@ -130,7 +130,3 @@ codeのクラスにlanguage-〇〇とプログラミング言語名を指定し�
 ```
 
 preクラスにdata-start=3などと入れると、表示される行数が3行目から表示されるようになります。
-
-【参考記事】[【JS】シンタックスハイライトPrism.jsの使い方](https://niwaka-web.com/prism_js/)
-
-
