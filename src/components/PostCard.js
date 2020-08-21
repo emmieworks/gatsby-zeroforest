@@ -55,12 +55,12 @@ const Wrapper = styled.article`
   }
   .tag{
     font-size:0.8rem;
-    margin-right:10px;
     color:var(--primary);
     border: 1px solid var(--primary);
     border-radius:5px;
     padding: 3px 5px;
     text-decoration:none;
+    /*  margin-right:10px; */
     &:before{
       content: '#';
     }

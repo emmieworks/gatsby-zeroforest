@@ -117,9 +117,10 @@ const GlobalStyle = createGlobalStyle`
     line-height: 1.5;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     min-height: 100vh;
-    position: relative;
     background: var(--background);
+    word-break: break-all;
     a {
       color: var(--secondary);
       -webkit-transition: all 0.3s ease;
@@ -132,7 +133,7 @@ const GlobalStyle = createGlobalStyle`
     }
   }
   * {
-    box-sizing: boreder-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
@@ -180,12 +181,11 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .container {
-    width:var(--width);
-    margin-left: auto;
-    margin-right: auto;
+    width: var(--width);
+    margin: 0 auto;
     @media screen and (max-width: 780px) {
-      max-width:90vw;
-      width:90vw;
+      max-width: 80%;
+      width: 80%;
     }
   }
 
