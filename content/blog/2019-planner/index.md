@@ -2,10 +2,9 @@
 title: 2019年のマイ手帳事情
 date: 2019-04-25T10:51:39+09:00
 featured: 20190425-icatch.jpg
-category: Column
+category: Lifestyle
 tags:
   - Journal
-status: published
 ---
 
 2019年は、システム手帳とA5ノート併用でいくことにしました。 システム手帳は数ヶ月〜1年以上、将来など先の長期的なスケジュールを管理するために使っています。 A5ノートは毎日のログを取るために使っています。

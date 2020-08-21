@@ -32,9 +32,9 @@ module.exports = {
         image: `cat_wordpress.png`,
       },
       {
-        name: `Column`,
-        slug: `column`,
-        image: `cat_column.png`,
+        name: `Lifestyle`,
+        slug: `lifestyle`,
+        image: `cat_lifestyle.png`,
       },
     ],
   },

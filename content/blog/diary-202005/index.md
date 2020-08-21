@@ -2,7 +2,7 @@
 title: 【活動記録】ストレングスファインダーで強みを探す5月
 date: 2020-05-31T14:00:00+09:00
 featured: icatch-20200531.jpg
-category: Column
+category: Lifestyle
 tags:
     - 活動記録
 ---
