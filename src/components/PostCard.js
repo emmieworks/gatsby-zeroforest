@@ -1,14 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import { rgba } from "polished"
-import { colors } from "../style/GlobalStyle"
 import Category from "../components/CategoryCard"
 
 const Wrapper = styled.article`
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px dashed ${rgba(colors.secondary, 0.3)};
+  margin-bottom: var(--smallMargin);
+  padding-bottom: var(--smallMargin);
+  border-bottom: 1px dashed var(--lightGray);
   &:last-child {
     border-bottom: none;
   }
@@ -24,7 +22,7 @@ const Wrapper = styled.article`
     width:100%;
   }
   h3{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     padding-bottom: 15px;
     a{
       text-decoration:none;
@@ -33,18 +31,19 @@ const Wrapper = styled.article`
   .info {
     display: flex;
     justify-content: space-between;
-    color:var(--primary);
+    color: var(--primary);
   }
   p {
     line-height: 1.8;
-    padding-bottom:20px;
-    font-size: 0.9rem;
+    padding-bottom: 20px;
+    font-size: 1.4rem;
   }
   @media screen and (max-width: 780px) {
-    margin-bottom: 25px;
-    padding-bottom: 25px;
+    h3{
+      font-size: 1.4rem;
+    }
     .left{
-      padding:10px;
+      padding: 10px;
     }
     .info {
       flex-direction: column;
@@ -55,18 +54,18 @@ const Wrapper = styled.article`
   }
   .tag{
     font-size:0.8rem;
-    color:var(--primary);
+    color: var(--primary);
     border: 1px solid var(--primary);
-    border-radius:5px;
+    border-radius: 5px;
     padding: 3px 5px;
     text-decoration:none;
-    /*  margin-right:10px; */
+    margin-right:10px;
     &:before{
       content: '#';
     }
     &:hover{
       background-color: var(--primary);
-      color:var(--white);
+      color: var(--white);
     }
   }
 `

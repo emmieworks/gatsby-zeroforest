@@ -9,7 +9,6 @@ export const colors = {}
 colors.background = "#fffcf5"
 colors.text = "#707070"
 
-colors.paleGray = "#f9f9f9"
 colors.lightGray = "#ddd"
 colors.gray = "#96acb3"
 
@@ -193,7 +192,7 @@ const GlobalStyle = createGlobalStyle`
   # smart phone
   =============================================== */
   @media screen and (max-width: 780px) {
-    body {
+    html, body {
       font-size: 14px;
     }
     .pc {

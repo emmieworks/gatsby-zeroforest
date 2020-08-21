@@ -14,7 +14,7 @@ const Wrapper = styled.div`
   =============================================== */
   article {
     header {
-      margin-top: 30px;
+      margin-top: var(--smallMargin);
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -347,6 +347,11 @@ const Wrapper = styled.div`
     .gatsby-highlight{
       margin-top:0;
       margin-bottom:30px;
+    }
+    code[class*="language-"] {
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      overflow: auto;
     }
     /* ===============================================
     #  APPREACH

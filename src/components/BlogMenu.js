@@ -13,7 +13,8 @@ const Wrapper = styled.div`
 
     div{
       width: 30%;
-      margin: 30px auto;
+      margin-top: var(--smallMargin);;
+      margin-bottom: var(--smallMargin);;
       padding: 0 auto;
       font-family: 'Montserrat', sans-serif;
         a{
