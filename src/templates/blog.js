@@ -81,8 +81,8 @@ export const pageQuery = graphql`
         }
       }
       sort: { fields: [frontmatter___date], order: DESC }
-      skip:$skip
-      limit:$limit
+      skip: $skip
+      limit: $limit
       )
       {
       edges {

@@ -89,7 +89,7 @@ exports.createPages = async ({ graphql, actions }) => {
   })
 
   // Create blog pages.
-  const postsPerPage = 10
+  const postsPerPage = 20
   const numPosts = posts.length // Num of posts
   const numPages = Math.ceil(numPosts / postsPerPage) // Num of blog pages
   const pathBase = `/blog/`
@@ -108,7 +108,7 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 
-  // Create work pages
+  // Create gallery pages
   const works = result.data.works.edges
 
   works.forEach((work, index) => {

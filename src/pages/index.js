@@ -76,7 +76,7 @@ export const pageQuery = graphql`
       }
       sort: { fields: [frontmatter___date], order: DESC }
       skip: 0
-      limit: 10
+      limit: 20
       )
       {
       edges {
