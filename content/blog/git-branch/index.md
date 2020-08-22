@@ -1,5 +1,5 @@
 ---
-title: 【gitでバージョン管理】ブランチの使い方とSourcetreeeでの操作
+title: 【gitでバージョン管理】ブランチの使い方とSourcetreeでの操作
 date: 2020-04-11T12:00:00+09:00
 updateDate: 2020-08-21
 category: Programming
@@ -36,11 +36,13 @@ AとBのどちらを仲間にするかの選択があって、Aを選んだけ�
 Gitでは、本筋のセーブをmasterブランチと呼んでいます。
 master ブランチは**納品用、完成品バージョン**として使います。
 
-ブランチの使い方
+<div class="border-box">
+<span>ブランチの使い方</span>
 
 * 開発したいとき→開発ようにブランチを分ける。完成したら、masterに合流。
 * 完成品に追加の機能をつけたいときに→追加機能用のブランチを分ける。
 * このやり方でうまくいくか度試すとき→ブランチを分けて試しで作ってみて、うまくいかなかったらブランチごと捨てる。
+</div>
 
 ## ブランチの使い方
 
@@ -53,19 +55,19 @@ Sourcetreeを使って、実際にやってみましょう。
 
 分岐を作りたい箇所を選択して、上部の「branch」をクリックします。
 
-![](ss-sourcetree-branch-01.jpg)
+![ブランチ作成](ss-sourcetree-branch-01.jpg)
 
 ブランチの名前を入力して「Create Branch」を押す
 
-![](ss-sourcetree-branch-02.jpg)
+![ブランチ作成](ss-sourcetree-branch-02.jpg)
 
 新しいブランチ「topic」ができました。
 
-![](ss-sourcetree-branch-03.jpg)
+![ブランチ作成](ss-sourcetree-branch-03.jpg)
 
 このあとコミットしていくと、topicブランチにバージョン履歴がたまっていきます。
 
-![](ss-sourcetree-branch-05.jpg)
+![ブランチ作成](ss-sourcetree-branch-05.jpg)
 
 ### ブランチを切り替える
 
@@ -87,11 +89,14 @@ masterブランチにtopicを統合します。（masterにtopicを吸収させ�
 
  マージさせるコミットを選択します。
 
-![](ss-sourcetree-branch-08.jpg)
+![ブランチのマージ](ss-sourcetree-branch-08.jpg)
+
 マージができると、masterとtopicが同じ箇所に印がつきます
 
 ## ブランチの削除
+
 masterを選択した状態で、上部の「Branch」を選択します。
+
 「Delete Branch」を選んで先ほど作成した「topic」をチェックを入れて、「Delete Branches」とするとブランチを削除できます。
 
 ![ブランチの削除](ss-sourcetree-branch-09.jpg)
@@ -104,8 +109,8 @@ masterを選択した状態で、上部の「Branch」を選択します。
 
 1. [gitとSourcetreeをインストールして、バージョン管理をはじめる](/install-sourcetree/)
 2. [GitHubインストールとプロジェクトでの使い方](/git-install/)
-3. 【gitでバージョン管理】前の状態にファイルを戻す方法（準備中）
-4. [【gitでバージョン管理】ブランチを使って、履歴を分ける方法]（この記事）
+3. 間違えて保存・コミットしたときに元に戻す方法まとめ（準備中）
+4. [ブランチの使い方とSourcetreeでの操作]（この記事）
 5. [GitHubでソースコードをブログに載せる方法まとめ](/github-gist-wordpress/)
 
 </div>
