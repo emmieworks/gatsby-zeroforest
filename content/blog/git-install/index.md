@@ -1,7 +1,7 @@
 ---
 title: 【初心者向け】GitHubのインストールとプロジェクトでの使い方
 date: 2020-04-04T18:00:31+09:00
-updateDate: 2020-08-21
+updateDate: 2020-08-22
 featured: icatch_20200331.jpg
 category: Programming
 tags:
@@ -17,7 +17,7 @@ tags:
 
 1. [gitとSourcetreeをインストールして、バージョン管理をはじめる](/install-sourcetree/)
 2. [GitHubインストールといつものプロジェクトでの使い方]（この記事）
-3. 間違えて保存・コミットしたときに元に戻す方法まとめ（準備中）
+3. [間違えて保存・コミットしたときに元に戻す方法まとめ](/git-rebase/)
 4. [【gitでバージョン管理】ブランチを使って、履歴を分ける方法](/git-branch/)
 5. [GitHubでソースコードをブログに載せる方法まとめ](/github-gist-wordpress/)
 
@@ -257,12 +257,11 @@ OKを押します。
 
 ![OK](ss-sourcetree-pj-08.jpg)
 
-完了すると、origin/masterのタグが一番上の行に移動します。
+完了すると、origin/masterのタグが一番上の行に移動して、masterのタグと揃います。
 
 master　→ローカルリポジトリの状態
 
 origin/master　→ リモートリポジトリの状態
-
 
 
 ![完了](ss-sourcetree-pj-09.jpg)

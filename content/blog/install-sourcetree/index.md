@@ -1,13 +1,12 @@
 ---
 title: 初心者のためのgitとSourcetreeのはじめ方
 date: 2020-03-29T16:12:56+09:00
-updateDate: 2020-08-21
+updateDate: 2020-08-22
 featured: icatch_20200329.jpg
 category: Programming
 tags:
     - git
     - Sourcetree
-    - 環境構築
 ---
 
 「**バージョン管理**」ってご存知ですか。
@@ -48,7 +47,7 @@ tags:
 
 1. gitとSourcetreeをインストールして、バージョン管理をはじめる（この記事）
 2. [GitHubの導入からプロジェクトでの基本の使い方](/git-install/)
-3. 【gitでバージョン管理】前の状態にファイルを戻す方法（準備中）
+3. [間違えて保存・コミットしたときに元に戻す方法まとめ](/git-rebase/)
 4. [【gitでバージョン管理】ブランチを使って、履歴を分ける方法](/git-branch/)
 5. [GitHubでソースコードをブログに載せる方法まとめ](/github-gist-wordpress/)
 

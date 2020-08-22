@@ -1,7 +1,7 @@
 ---
 title: 【gitでバージョン管理】ブランチの使い方とSourcetreeでの操作
 date: 2020-04-11T12:00:00+09:00
-updateDate: 2020-08-21
+updateDate: 2020-08-22
 category: Programming
 tags:
     - git
@@ -109,7 +109,7 @@ masterを選択した状態で、上部の「Branch」を選択します。
 
 1. [gitとSourcetreeをインストールして、バージョン管理をはじめる](/install-sourcetree/)
 2. [GitHubインストールとプロジェクトでの使い方](/git-install/)
-3. 間違えて保存・コミットしたときに元に戻す方法まとめ（準備中）
+3. [間違えて保存・コミットしたときに元に戻す方法まとめ](/git-rebase/)
 4. [ブランチの使い方とSourcetreeでの操作]（この記事）
 5. [GitHubでソースコードをブログに載せる方法まとめ](/github-gist-wordpress/)
 
