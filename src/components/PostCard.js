@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
-import Category from "../components/CategoryCard"
+//import Category from "../components/CategoryCard"
 
 const Wrapper = styled.article`
   margin-bottom: var(--smallMargin);
@@ -79,7 +79,8 @@ const Postcard = props => {
   return (
     <Wrapper key={props.slug}>
     <div className="left">
-      <Category name= {props.category}/>
+      {// <Category name= {props.category}/>
+      }
     </div>
     <div className="right">
       <h3>
