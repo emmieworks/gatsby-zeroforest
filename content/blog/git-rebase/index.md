@@ -7,7 +7,7 @@ tags:
     - git
     - GitHub
     - Sourcetree
-draft: status
+status: draft
 ---
 
 バージョン管理をしていて、前の状態に戻すやり方をまとめました。
