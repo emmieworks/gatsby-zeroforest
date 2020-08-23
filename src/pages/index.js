@@ -41,6 +41,21 @@ const Index = ({ data, location }) => {
       <BlogSection className = "container">
         <SectionTitle>Blog</SectionTitle>
         <p className = "desc">Web制作／デザインをテーマに発信しています</p>
+        {posts.map(({ node }) => {
+          const title = node.frontmatter.title || node.fields.slug
+          return (
+            <Postcard
+              key = {node.fields.slug}
+              title = {title}
+              slug = {node.fields.slug}
+              category = {node.frontmatter.category}
+              date = {node.frontmatter.date}
+              description = {node.frontmatter.description}
+              excerpt = {node.excerpt}
+              tags = {node.frontmatter.tags}
+            />
+          )
+        })}
         <Link to="/blog/" className="btn">SEE MORE</Link>
       </BlogSection>
 
@@ -61,7 +76,7 @@ export const pageQuery = graphql`
       }
       sort: { fields: [frontmatter___date], order: DESC }
       skip: 0
-      limit: 20
+      limit: 1
       )
       {
       edges {
