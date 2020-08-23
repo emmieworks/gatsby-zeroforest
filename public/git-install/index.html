@@ -1,0 +1,977 @@
+<!DOCTYPE html><html lang="ja"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.3fee43ebca494945bc99.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-191cc9f50f3b76b9617cb383f19acb7d.woff2) format("woff2"),url(/static/montserrat-latin-100-370318464551d5f25b0f0a78f374faac.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-bdeaeb79db315697bd173a55b097dc18.woff2) format("woff2"),url(/static/montserrat-latin-100italic-ecf7d49386e8f265878e735db34a7c4b.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-85d5ef9db7f2dc6979172a4a3b2c57cb.woff2) format("woff2"),url(/static/montserrat-latin-200-1fc98e126a3d152549240e6244d7e669.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-49095760a498d024fe1a85a078850df9.woff2) format("woff2"),url(/static/montserrat-latin-200italic-fe46cf8b9462c820457d3bf537e4057f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-7c3daf12b706645b5d3710f863a4da04.woff2) format("woff2"),url(/static/montserrat-latin-300-8dc95fab9cf98d02ca8d76e97d3dff60.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-f20b178ca2024a5eac8e42e6649db86c.woff2) format("woff2"),url(/static/montserrat-latin-300italic-3fe16939288856e8e828fa2661bf2354.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-bc3aa95dca08f5fee5291e34959c27bc.woff2) format("woff2"),url(/static/montserrat-latin-400-8102c4838f9e3d08dad644290a9cb701.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-5cad650422a7184467af5a4d17b264c4.woff2) format("woff2"),url(/static/montserrat-latin-400italic-d191f22af3bb50902b99ac577f81a322.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-92d16e458625f4d2c8940f6bdca0ff09.woff2) format("woff2"),url(/static/montserrat-latin-500-8b763220218ffc11c57c84ddb80e7b26.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-47bfcca6b69d6a9acca7a8bff17193e2.woff2) format("woff2"),url(/static/montserrat-latin-500italic-72c01f753c3940c0b9cb6bf2389caddf.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-6fb1b5623e528e27c18658fecf5ee0ee.woff2) format("woff2"),url(/static/montserrat-latin-600-7c839d15a6f54e7025ba8c0c4b333e8f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-60789af1c9338ed1a9546722ec54b4f7.woff2) format("woff2"),url(/static/montserrat-latin-600italic-f3d4de8d0afb19e777c79032ce828e3d.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-39d93cf678c740f9f6b2b1cfde34bee3.woff2) format("woff2"),url(/static/montserrat-latin-700-80f10bd382f0df1cd650fec59f3c9394.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-ba136d97b14e82284dd595e257f11c47.woff2) format("woff2"),url(/static/montserrat-latin-700italic-8c98142b425630821139c24bd1698700.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-b7018be9ed6cd94da8b6675b3a468c3b.woff2) format("woff2"),url(/static/montserrat-latin-800-9a9befcf50d64f9d2d19d8b1d1984add.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-540ffdd223d1a9ad3d4e678e1a23372e.woff2) format("woff2"),url(/static/montserrat-latin-800italic-897086f99f4e1f45e6b1e9368527d0bc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-58cd789700850375b834e8b6776002eb.woff2) format("woff2"),url(/static/montserrat-latin-900-26d42c9428780e545a540bbb50c84bce.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-451157bc8861fe54f523b3669a3def71.woff2) format("woff2"),url(/static/montserrat-latin-900italic-a8ec4957e1c24f5793305763ad9845b3.woff) format("woff")}@font-face{font-family:Allura;font-style:normal;font-display:swap;font-weight:400;src:local("Allura Regular "),local("Allura-Regular"),url(/static/allura-latin-400-d60e0b02378bf772bf202e25969231bf.woff2) format("woff2"),url(/static/allura-latin-400-d6bfddf33a5342ac9305257c52534ea5.woff) format("woff")}code[class*=language-],pre[class*=language-]{color:#ccc;background:none;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2d2d2d}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#999}.token.punctuation{color:#ccc}.token.attr-name,.token.deleted,.token.namespace,.token.tag{color:#e2777a}.token.function-name{color:#6196cc}.token.boolean,.token.function,.token.number{color:#f08d49}.token.class-name,.token.constant,.token.property,.token.symbol{color:#f8c555}.token.atrule,.token.builtin,.token.important,.token.keyword,.token.selector{color:#cc99cd}.token.attr-value,.token.char,.token.regex,.token.string,.token.variable{color:#7ec699}.token.entity,.token.operator,.token.url{color:#67cdcc}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.token.inserted{color:green}</style><meta name="generator" content="Gatsby 2.24.26"/><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var clientTop = document.documentElement.clientTop || document.body.clientTop || 0
+          var offset = element.getBoundingClientRect().top + scrollTop - clientTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 0)
+          }), 0)
+        }
+      }
+    })
+  </script><style data-styled="" data-styled-version="5.1.1">.efHEoX{-webkit-text-decoration:none;text-decoration:none;display:inline-block;white-space:nowrap;margin:0 1vw;-webkit-transition:all 200ms ease-in;transition:all 200ms ease-in;position:relative;}/*!sc*/
+.efHEoX:after{position:absolute;bottom:0;left:0;right:0;width:0%;content:".";color:transparent;background:var(--secondary);height:1px;-webkit-transition:all 0.4s ease-in;transition:all 0.4s ease-in;}/*!sc*/
+.efHEoX:hover{color:var(--secondary);}/*!sc*/
+.efHEoX:hover::after{width:100%;}/*!sc*/
+@media (max-width:768px){.efHEoX{color:var(--white);padding:20px 0;font-size:1.5rem;z-index:6;}.efHEoX:after{background:var(--white);}.efHEoX:hover{color:var(--white);}}/*!sc*/
+data-styled.g1[id="NavbarLinks__NavItem-tdoq41-0"]{content:"efHEoX,"}/*!sc*/
+.isAYbW{margin:auto 0;-webkit-flex:0 1 80px;-ms-flex:0 1 80px;flex:0 1 80px;}/*!sc*/
+@media (max-width:768px){.isAYbW{-webkit-flex:0 1 48px;-ms-flex:0 1 48px;flex:0 1 48px;}}/*!sc*/
+data-styled.g2[id="Logo__LogoWrap-d2j8wv-0"]{content:"isAYbW,"}/*!sc*/
+.dhZLzi{width:var(--width);margin-left:auto;margin-right:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:relative;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;text-transform:uppercase;font-family:'Montserrat',sans-serif;height:20vh;margin:0 auto;padding:0 3vw;z-index:2;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}/*!sc*/
+@media screen and (max-width:780px){.dhZLzi{max-width:90vw;width:90vw;}}/*!sc*/
+@media (max-width:768px){.dhZLzi{position:-webkit-sticky;position:sticky;height:10vh;top:0;left:0;right:0;left:0;}}/*!sc*/
+data-styled.g3[id="Navbar__Navigation-texave-0"]{content:"dhZLzi,"}/*!sc*/
+.gtBxEn{display:none;height:100%;cursor:pointer;padding:0;z-index:2;}/*!sc*/
+@media (max-width:768px){.gtBxEn{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}}/*!sc*/
+data-styled.g4[id="Navbar__Toggle-texave-1"]{content:"gtBxEn,"}/*!sc*/
+.htwele{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100%;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}/*!sc*/
+@media (max-width:768px){.htwele{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;position:fixed;width:100%;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;padding-top:10vh;background:rgba(0,0,0,0.9);-webkit-transition:all 0.3s ease-in;transition:all 0.3s ease-in;top:0vh;left:-100%;}}/*!sc*/
+data-styled.g5[id="Navbar__Navbox-texave-2"]{content:"htwele,"}/*!sc*/
+.bDHlyj{background-color:var(--secondary);width:30px;height:1px;-webkit-transition:all .3s linear;transition:all .3s linear;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;position:relative;-webkit-transform:inherit;-ms-transform:inherit;transform:inherit;}/*!sc*/
+.bDHlyj::before,.bDHlyj::after{position:absolute;width:30px;height:1px;background-color:var(--secondary);content:"";-webkit-transition:all 0.3s linear;transition:all 0.3s linear;}/*!sc*/
+.bDHlyj::before{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);top:-10px;}/*!sc*/
+.bDHlyj::after{opacity:1;-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);top:10px;}/*!sc*/
+data-styled.g6[id="Navbar__Hamburger-texave-3"]{content:"bDHlyj,"}/*!sc*/
+.hajlgf{margin-top:1rem;padding-top:1rem;border-top:1px solid var(--secondary);}/*!sc*/
+.hajlgf .container{width:var(--width);margin-left:auto;margin-right:auto;}/*!sc*/
+@media screen and (max-width:780px){.hajlgf .container{max-width:90vw;width:90vw;}}/*!sc*/
+.hajlgf .flex{display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}/*!sc*/
+.hajlgf a{margin-left:auto;}/*!sc*/
+data-styled.g7[id="Footer__Wrapper-ysgioe-0"]{content:"hajlgf,"}/*!sc*/
+.fZqxxc{margin-bottom:1.45rem;}/*!sc*/
+data-styled.g8[id="Layout__Wrapper-sc-1fxashj-0"]{content:"fZqxxc,"}/*!sc*/
+.hiTANn{margin-top:1rem;padding:1rem 0;display:-webkit-box;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}/*!sc*/
+.hiTANn div{width:30%;margin-top:var(--smallMargin);margin-bottom:var(--smallMargin);padding:0 auto;font-family:'Montserrat',sans-serif;}/*!sc*/
+.hiTANn div a{-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
+.hiTANn ul{margin-top:10px;border-left:1px solid var(--secondary);padding-left:30px;}/*!sc*/
+.hiTANn ul li{padding:8px;}/*!sc*/
+@media screen and (max-width:780px){.hiTANn{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.hiTANn div{width:100%;}}/*!sc*/
+data-styled.g21[id="BlogMenu__Wrapper-sc-1cq89ly-0"]{content:"hiTANn,"}/*!sc*/
+.bGDgaU{width:var(--width);margin-left:auto;margin-right:auto;}/*!sc*/
+@media screen and (max-width:780px){.bGDgaU{max-width:90vw;width:90vw;}}/*!sc*/
+.bGDgaU article header{margin-top:var(--smallMargin);text-align:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}/*!sc*/
+.bGDgaU article header .category{font-size:0.9rem;font-style:italic;position:relative;padding:0 35px;color:var(--secondary);}/*!sc*/
+.bGDgaU article header .category:before,.bGDgaU article header .category:after{content:"";width:20px;height:1px;background:var(--secondary);position:absolute;top:0;bottom:0;margin:auto;}/*!sc*/
+.bGDgaU article header .category:before{left:0;}/*!sc*/
+.bGDgaU article header .category:after{right:0;}/*!sc*/
+.bGDgaU article header .info{margin:10px;padding:10px;}/*!sc*/
+.bGDgaU article header .date{font-size:0.8rem;color:var(--secondary);padding:10px;}/*!sc*/
+.bGDgaU article header .tag{font-size:0.8rem;margin-right:10px;color:var(--primary);border:1px solid var(--primary);border-radius:5px;padding:3px 5px;-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
+.bGDgaU article header .tag:before{content:'#';}/*!sc*/
+.bGDgaU article header .tag:hover{background-color:var(--primary);color:var(--white);}/*!sc*/
+.bGDgaU article h1{font-size:1.6rem;font-weight:600;text-align:center;margin-top:60px;margin-bottom:30px;color:var(--secondary);}/*!sc*/
+.bGDgaU article .toc{width:auto;background:var(--white);border:1px solid var(--primary);padding:20px 30px 10px 30px;font-size:0.9rem;margin:50px 0;border-radius:3px;}/*!sc*/
+.bGDgaU article .toc h4{color:var(--primary);text-align:center;}/*!sc*/
+.bGDgaU article .toc ul{width:auto;margin:0;padding-left:20px;}/*!sc*/
+.bGDgaU article .toc ul li{padding:10px 0;color:var(--primary);list-style:decimal;line-height:1.2;}/*!sc*/
+.bGDgaU article .toc ul li p{padding-bottom:10px;}/*!sc*/
+.bGDgaU article .toc ul li:last-child{border-bottom:none;}/*!sc*/
+.bGDgaU article .toc ul a{-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
+.bGDgaU article .toc ul ul{padding-left:30px;}/*!sc*/
+@media screen and (max-width:780px){.bGDgaU article .toc{margin:30px 0;padding:20px 20px 10px 20px;}}/*!sc*/
+.bGDgaU article section p{line-height:1.8;margin:var(--smallMargin) 0;}/*!sc*/
+.bGDgaU article section h2{color:var(--secondary);width:100%;font-size:1.2rem;margin-top:100px;padding-top:10px;padding-bottom:10px;margin-bottom:var(--middleMargin);font-weight:600;width:100%;border-top:1px solid var(--secondary);border-bottom:1px solid var(--secondary);}/*!sc*/
+.bGDgaU article section h3{color:var(--secondary);font-size:1.2rem;font-weight:600;margin-top:var(--middleMargin);margin-bottom:var(--middleMargin);padding:7px 0 7px 15px;border-left:3px double var(--secondary);}/*!sc*/
+.bGDgaU article section h4{font-size:1.1rem;font-weight:600;margin-top:30px;margin-bottom:30px;padding:14px 10px;border-left:2px solid var(--secondary);}/*!sc*/
+.bGDgaU article section h5,.bGDgaU article section h6{font-weight:600;padding-top:20px;margin-bottom:10px;}/*!sc*/
+.bGDgaU article section ul,.bGDgaU article section ol{margin:20px;list-style-type:none;}/*!sc*/
+.bGDgaU article section ul li{padding:10px 0 10px 10px;}/*!sc*/
+.bGDgaU article section ul li:before{color:var(--primary);content:"● ";}/*!sc*/
+.bGDgaU article section ul li p{display:inline-block;margin-top:0;margin-bottom:0;padding:10px 0 10px 10px;}/*!sc*/
+.bGDgaU article section ul li ul{margin-top:0;margin-bottom:0;}/*!sc*/
+.bGDgaU article section ol{counter-reset:number 0;}/*!sc*/
+.bGDgaU article section ol li{padding:10px 0 10px 10px;}/*!sc*/
+.bGDgaU article section ol li:before{counter-increment:number 1;content:counter(number) ".";font-weight:600;color:var(--primary);margin-right:12px;}/*!sc*/
+.bGDgaU article section ol li p{display:inline-block;margin-top:0;margin-bottom:0;padding:10px 0 10px 10px;}/*!sc*/
+.bGDgaU article section ol li ol{margin-top:0;margin-bottom:0;}/*!sc*/
+.bGDgaU article section table{border-collapse:collapse;margin:30px auto;background:var(--white);}/*!sc*/
+.bGDgaU article section th,.bGDgaU article section td{border:solid 1px var(--secondary);padding:10px;}/*!sc*/
+.bGDgaU article section .marker{background:linear-gradient(transparent 70%,var(--pink) 70%);font-weight:600;}/*!sc*/
+.bGDgaU article section .border-box{border:2px solid var(--pink);border-radius:6px;padding:15px 20px 20px 20px;margin:var(--smallMargin);font-size:0.9rem;}/*!sc*/
+.bGDgaU article section .border-box span{display:block;text-align:center;font-weight:600;margin-bottom:15px;}/*!sc*/
+.bGDgaU article section .simple-box{background-color:var(--primaryPale);border-radius:6px;padding:25px 20px;margin:var(--smallMargin);font-size:0.9rem;}/*!sc*/
+.bGDgaU article section .title-box{position:relative;border:1px solid var(--primary);border-radius:6px;padding:25px 30px;margin:var(--smallMargin);font-size:0.9rem;}/*!sc*/
+.bGDgaU article section .title-box span{position:absolute;top:-12px;left:10px;padding:5px 20px;background-color:var(--primary);border-radius:4px;color:var(--white);line-height:1em;font-size:0.9rem;}/*!sc*/
+.bGDgaU article section .gatsby-resp-image-wrapper{overflow:hidden;box-shadow:rgba(20,20,20,0.1) 1px 1px 20px;margin:20px 0;border-radius:3px;}/*!sc*/
+.bGDgaU article section .gatsby-highlight{margin:15px 0;}/*!sc*/
+.bGDgaU article hr{margin-top:var(--smallMargin);margin-bottom:var(--smallMargin);}/*!sc*/
+.bGDgaU article section{padding-bottom:50px;}/*!sc*/
+.bGDgaU article section a{color:var(--primary);font-weight:600;-webkit-text-decoration:none;text-decoration:none;-webkit-transition:0.3s ease;transition:0.3s ease;padding:0 2px;}/*!sc*/
+.bGDgaU article .related-posts{background:var(--background);position:relative;border:1px solid var(--secondary);padding:10px;margin:30px auto;font-size:0.9rem;}/*!sc*/
+.bGDgaU article .related-posts span{position:absolute;top:-12px;left:10px;padding:5px 20px;line-height:1rem;background:var(--background);font-weight:600;font-size:0.9rem;color:var(--secondary);}/*!sc*/
+.bGDgaU article .gatsby-code-title{background:#707070;color:#eee;padding:6px 12px;font-size:0.8em;line-height:1;font-weight:bold;display:table;border-radius:4px;}/*!sc*/
+.bGDgaU article pre[class*="language-"]{border-radius:4px;}/*!sc*/
+.bGDgaU article .gatsby-highlight{margin-top:0;margin-bottom:30px;}/*!sc*/
+.bGDgaU article code[class*="language-"]{white-space:pre-wrap;word-wrap:break-word;overflow:auto;}/*!sc*/
+.bGDgaU article .appreach{text-align:left;padding:10px;border:1px solid #7C7C7C;overflow:hidden;}/*!sc*/
+.bGDgaU article .appreach:after{content:"";display:block;clear:both;}/*!sc*/
+.bGDgaU article .appreach p{margin:0;}/*!sc*/
+.bGDgaU article .appreach a:after{display:none;}/*!sc*/
+.bGDgaU article .appreach__icon{float:left;border-radius:10%;overflow:hidden;margin:0 3% 0 0 !important;width:25% !important;height:auto !important;max-width:120px !important;}/*!sc*/
+.bGDgaU article .appreach__detail{display:inline-block;font-size:20px;line-height:1.5;width:72%;max-width:72%;}/*!sc*/
+.bGDgaU article .appreach__detail:after{content:"";display:block;clear:both;}/*!sc*/
+.bGDgaU article .appreach__name{font-size:16px;line-height:1.5em !important;max-height:3em;overflow:hidden;}/*!sc*/
+.bGDgaU article .appreach__info{font-size:12px !important;}/*!sc*/
+.bGDgaU article .appreach__developper,.bGDgaU article .appreach__price{margin-right:0.5em;}/*!sc*/
+.bGDgaU article .appreach__posted a{margin-left:0.5em;}/*!sc*/
+.bGDgaU article .appreach__links{float:left;height:40px;margin-top:8px;white-space:nowrap;}/*!sc*/
+.bGDgaU article .appreach__aslink img{margin-right:10px;height:40px;width:135px;}/*!sc*/
+.bGDgaU article .appreach__gplink img{height:40px;width:134.5px;}/*!sc*/
+.bGDgaU article .appreach__star{position:relative;font-size:14px !important;height:1.5em;width:5em;}/*!sc*/
+.bGDgaU article .appreach__star__base{position:absolute;color:#737373;}/*!sc*/
+.bGDgaU article .appreach__star__evaluate{position:absolute;color:#ffc107;overflow:hidden;white-space:nowrap;}/*!sc*/
+.bGDgaU article .cstmreba{width:98%;height:auto;margin:36px auto;font-family:'Lucida Grande','Hiragino Kaku Gothic ProN',Helvetica,Meiryo,sans-serif;line-height:1.5;word-wrap:break-word;box-sizing:border-box;display:block;}/*!sc*/
+.bGDgaU article .cstmreba p{margin:0;padding:0;}/*!sc*/
+.bGDgaU article .cstmreba a{-webkit-transition:0.8s;transition:0.8s;color:#285EFF;}/*!sc*/
+.bGDgaU article .cstmreba a:hover{color:#FFCA28;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-box,.bGDgaU article .cstmreba .kaerebalink-box,.bGDgaU article .cstmreba .tomarebalink-box{width:100%;background-color:#fafafa;overflow:hidden;border-radius:0px;box-sizing:border-box;padding:12px 8px;box-shadow:0px 2px 5px 0 rgba(0,0,0,.26);}/*!sc*/
+.bGDgaU article .cstmreba .booklink-image,.bGDgaU article .cstmreba .kaerebalink-image,.bGDgaU article .cstmreba .tomarebalink-image{width:150px;float:left;margin:0 14px 0 0;text-align:center;background:#fff;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-image a,.bGDgaU article .cstmreba .kaerebalink-image a,.bGDgaU article .cstmreba .tomarebalink-image a{width:100%;display:block;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-image a img,.bGDgaU article .cstmreba .kaerebalink-image a img,.bGDgaU article .cstmreba .tomarebalink-image a img{margin:0;padding:0;text-align:center;background:#fff;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-info,.bGDgaU article .cstmreba .kaerebalink-info,.bGDgaU article .cstmreba .tomarebalink-info{overflow:hidden;line-height:170%;color:#333;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-info a,.bGDgaU article .cstmreba .kaerebalink-info a,.bGDgaU article .cstmreba .tomarebalink-info a{-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-name>a,.bGDgaU article .cstmreba .kaerebalink-name>a,.bGDgaU article .cstmreba .tomarebalink-name>a{border-bottom:1px solid;font-size:16px;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-powered-date,.bGDgaU article .cstmreba .kaerebalink-powered-date,.bGDgaU article .cstmreba .tomarebalink-powered-date{font-size:10px;line-height:150%;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-powered-date a,.bGDgaU article .cstmreba .kaerebalink-powered-date a,.bGDgaU article .cstmreba .tomarebalink-powered-date a{color:#333;border-bottom:none;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-powered-date a:hover,.bGDgaU article .cstmreba .kaerebalink-powered-date a:hover,.bGDgaU article .cstmreba .tomarebalink-powered-date a:hover{color:#333;border-bottom:1px solid #333;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-detail,.bGDgaU article .cstmreba .kaerebalink-detail,.bGDgaU article .cstmreba .tomarebalink-address{font-size:12px;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 div img,.bGDgaU article .cstmreba .booklink-link2 div img,.bGDgaU article .cstmreba .tomarebalink-link1 div img{display:none !important;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1,.bGDgaU article .cstmreba .booklink-link2,.bGDgaU article .cstmreba .tomarebalink-link1{display:inline-block;width:100%;margin-top:5px;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2>div,.bGDgaU article .cstmreba .kaerebalink-link1>div,.bGDgaU article .cstmreba .tomarebalink-link1>div{float:left;width:24%;min-width:128px;margin:0.5%;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 a,.bGDgaU article .cstmreba .kaerebalink-link1 a,.bGDgaU article .cstmreba .tomarebalink-link1 a{width:100%;display:inline-block;text-align:center;box-sizing:border-box;margin:1px 0;padding:3% 0.5%;border-radius:8px;font-size:13px;font-weight:bold;line-height:180%;color:#fff;box-shadow:0px 2px 4px 0 rgba(0,0,0,.26);}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkrakuten a{background:#76ae25;border:2px solid #76ae25;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkjalan a{background:#ff7a15;border:2px solid #ff7a15;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkjtb a{background:#c81528;border:2px solid #c81528;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkknt a{background:#0b499d;border:2px solid #0b499d;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkikyu a{background:#bf9500;border:2px solid #bf9500;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkrurubu a{background:#000066;border:2px solid #000066;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkyahoo a{background:#ff0033;border:2px solid #ff0033;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkhis a{background:#004bb0;border:2px solid #004bb0;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkyahoo a{background:#ff0033;border:2px solid #ff0033;-webkit-letter-spacing:normal;-moz-letter-spacing:normal;-ms-letter-spacing:normal;letter-spacing:normal;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkbellemaison a{background:#84be24;border:2px solid #84be24;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkcecile a{background:#8d124b;border:2px solid #8d124b;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkwowma a{background:#ea5404;border:2px solid #ea5404;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkkakakucom a{background:#314995;border:2px solid #314995;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkkindle a{background:#007dcd;border:2px solid #007dcd;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkrakukobo a{background:#bf0000;border:2px solid #bf0000;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkbk1 a{background:#0085cd;border:2px solid #0085cd;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkehon a{background:#2a2c6d;border:2px solid #2a2c6d;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkkino a{background:#003e92;border:2px solid #003e92;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkebj a{background:#f8485e;border:2px solid #f8485e;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinktoshokan a{background:#333333;border:2px solid #333333;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkamazon a,.bGDgaU article .cstmreba .booklink-link2 .shoplinkamazon a{background:#FF9901;border:2px solid #ff9901;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkrakuten a,.bGDgaU article .cstmreba .booklink-link2 .shoplinkrakuten a{background:#bf0000;border:2px solid #bf0000;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkseven a,.bGDgaU article .cstmreba .booklink-link2 .shoplinkseven a{background:#225496;border:2px solid #225496;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 a:hover,.bGDgaU article .cstmreba .kaerebalink-link1 a:hover,.bGDgaU article .cstmreba .tomarebalink-link1 a:hover{background:#fff;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkrakuten a:hover{color:#76ae25;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkjalan a:hover{color:#ff7a15;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkjtb a:hover{color:#c81528;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkknt a:hover{color:#0b499d;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkikyu a:hover{color:#bf9500;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkrurubu a:hover{color:#000066;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkyahoo a:hover{color:#ff0033;}/*!sc*/
+.bGDgaU article .cstmreba .tomarebalink-link1 .shoplinkhis a:hover{color:#004bb0;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkyahoo a:hover{color:#ff0033;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkbellemaison a:hover{color:#84be24;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkcecile a:hover{color:#8d124b;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkwowma a:hover{color:#ea5404;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkkakakucom a:hover{color:#314995;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkkindle a:hover{color:#007dcd;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkrakukobo a:hover{color:#bf0000;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkbk1 a:hover{color:#0085cd;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkehon a:hover{color:#2a2c6d;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkkino a:hover{color:#003e92;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinkebj a:hover{color:#f8485e;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-link2 .shoplinktoshokan a:hover{color:#333333;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkamazon a:hover,.bGDgaU article .cstmreba .booklink-link2 .shoplinkamazon a:hover{color:#FF9901;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkrakuten a:hover,.bGDgaU article .cstmreba .booklink-link2 .shoplinkrakuten a:hover{color:#bf0000;}/*!sc*/
+.bGDgaU article .cstmreba .kaerebalink-link1 .shoplinkseven a:hover,.bGDgaU article .cstmreba .booklink-link2 .shoplinkseven a:hover{color:#225496;}/*!sc*/
+.bGDgaU article .cstmreba .booklink-footer{clear:both;}/*!sc*/
+@media screen and (max-width:768px){.bGDgaU article .cstmreba .booklink-image,.bGDgaU article .cstmreba .kaerebalink-image,.bGDgaU article .cstmreba .tomarebalink-image{width:100%;float:none;}.bGDgaU article .cstmreba .booklink-link2>div,.bGDgaU article .cstmreba .kaerebalink-link1>div,.bGDgaU article .cstmreba .tomarebalink-link1>div{width:32.33%;margin:0.5%;}.bGDgaU article .cstmreba .booklink-info,.bGDgaU article .cstmreba .kaerebalink-info,.bGDgaU article .cstmreba .tomarebalink-info{text-align:center;padding-bottom:1px;}}/*!sc*/
+@media screen and (max-width:480px){.bGDgaU article .cstmreba .booklink-link2>div,.bGDgaU article .cstmreba .kaerebalink-link1>div,.bGDgaU article .cstmreba .tomarebalink-link1>div{width:49%;margin:0.5%;}}/*!sc*/
+@media screen and (max-width:780px){.bGDgaU .info{margin-top:10px;margin-bottom:60px;}.bGDgaU .info h1{font-size:1.5rem;}}/*!sc*/
+data-styled.g34[id="postStyle__Wrapper-sc-1jh3fpl-0"]{content:"bGDgaU,"}/*!sc*/
+:root{--background:#fffcf5;--text:#707070;--lightGray:#ddd;--gray:#96acb3;--white:#FFFFFF;--pink:#F2B1A4;--primary:#91C294;--primaryLight:rgba(145,194,148,0.15);--primaryPale:rgba(145,194,148,0.07);--secondary:#725444;--width:800px;--smallMargin:30px;--middleMargin:60px;--largeMargin:100px;}/*!sc*/
+html{font-size:62.5%;}/*!sc*/
+body{font-family:"Helvetica Neue","Hiragino Kaku Gothic ProN","Hiragino Sans","ヒラギノ角ゴ ProN W3",Arial,メイリオ,Meiryo,sans-serif;word-wrap:break-word;word-break:break-all;-moz-font-feature-settings:"palt";-webkit-font-feature-settings:"palt";font-feature-settings:"palt";font-variant-ligatures:no-common-ligatures;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:auto;-webkit-text-stroke:1px transparent;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-letter-spacing:0.05rem;-moz-letter-spacing:0.05rem;-ms-letter-spacing:0.05rem;letter-spacing:0.05rem;font-weight:400;color:var(--text);font-size:16px;line-height:1.5;padding:0;margin:0;box-sizing:border-box;min-height:100vh;background:var(--background);word-break:break-all;}/*!sc*/
+body a{color:var(--secondary);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;-webkit-transition:all 0.3s ease;transition:all 0.3s ease;}/*!sc*/
+body a:hover{opacity:0.6;}/*!sc*/
+*{box-sizing:border-box;margin:0;padding:0;}/*!sc*/
+h1,h2,h3,h4,h5,h6{font-weight:600;color:var(--secondary);}/*!sc*/
+*:before,*:after{box-sizing:border-box;}/*!sc*/
+input,button,textarea,button,select{font-family:"Helvetica Neue","Hiragino Kaku Gothic ProN","Hiragino Sans","ヒラギノ角ゴ ProN W3",Arial,メイリオ,Meiryo,sans-serif;word-wrap:break-word;word-break:break-all;-moz-font-feature-settings:"palt";-webkit-font-feature-settings:"palt";font-feature-settings:"palt";font-variant-ligatures:no-common-ligatures;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:auto;-webkit-text-stroke:1px transparent;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-letter-spacing:0.05rem;-moz-letter-spacing:0.05rem;-ms-letter-spacing:0.05rem;letter-spacing:0.05rem;font-weight:400;color:var(--text);border:none;outline:none;margin:0;padding:0;border:none;outline:none;background:none;line-height:1.5;font-size:inherit;-webkit-appearance:none;}/*!sc*/
+input:focus,button:focus,textarea:focus,button:focus,select:focus{border:none;outline:none;}/*!sc*/
+::selection{background:rgba(205,227,206,0.35);}/*!sc*/
+.btn{display:block;width:160px;padding:10px 30px;color:var(--text);border:1px solid var(--text);background-color:var(--white);border-radius:30px;text-align:center;font-family:'Montserrat';margin:60px auto;-webkit-text-decoration:none;text-decoration:none;text-transform:uppercase;}/*!sc*/
+.container{width:var(--width);margin:0 auto;}/*!sc*/
+@media screen and (max-width:780px){.container{max-width:80%;width:80%;}}/*!sc*/
+@media screen and (max-width:780px){html,body{font-size:14px;}.pc{display:none !important;}}/*!sc*/
+@media screen and (min-width:781px){html,body{font-size:16px;}.sp{display:none !important;}}/*!sc*/
+data-styled.g35[id="sc-global-eWldSG1"]{content:"sc-global-eWldSG1,"}/*!sc*/
+</style><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" title="Zero Forest RSS Feed" href="/rss.xml"/><link rel="icon" href="/favicon-32x32.png?v=76d57f413da3e21af17ddd62fd5045ea" type="image/png"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#91C294"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=76d57f413da3e21af17ddd62fd5045ea"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=76d57f413da3e21af17ddd62fd5045ea"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=76d57f413da3e21af17ddd62fd5045ea"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=76d57f413da3e21af17ddd62fd5045ea"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=76d57f413da3e21af17ddd62fd5045ea"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=76d57f413da3e21af17ddd62fd5045ea"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=76d57f413da3e21af17ddd62fd5045ea"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=76d57f413da3e21af17ddd62fd5045ea"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><title data-react-helmet="true">【初心者向け】GitHubのインストールとプロジェクトでの使い方 | Zero Forest</title><meta data-react-helmet="true" name="description" content="プログラミングではよく使われるバージョン管理について、導入方法と基本の使い方を紹介しています。 gitとSourcetreeをインストールして、バージョン管理をはじめる GitHubインストールといつものプロジェクトでの使い方（この記事） 間違えて保存・コミットしたときに元に戻す方法まとめ 【git…"/><meta data-react-helmet="true" name="google-site-verification" content="NgZUExD5JNEKjBKhcSVWkfiBJvz6fPl7eG8pLJSE1BI"/><meta data-react-helmet="true" property="og:title" content="【初心者向け】GitHubのインストールとプロジェクトでの使い方"/><meta data-react-helmet="true" property="og:description" content="プログラミングではよく使われるバージョン管理について、導入方法と基本の使い方を紹介しています。 gitとSourcetreeをインストールして、バージョン管理をはじめる GitHubインストールといつものプロジェクトでの使い方（この記事） 間違えて保存・コミットしたときに元に戻す方法まとめ 【git…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" property="og:url" content="https://0forest.com/git-install/"/><meta data-react-helmet="true" property="og:locale" content="ja_JP"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="EmiMoment"/><meta data-react-helmet="true" name="twitter:title" content="【初心者向け】GitHubのインストールとプロジェクトでの使い方"/><meta data-react-helmet="true" name="twitter:description" content="プログラミングではよく使われるバージョン管理について、導入方法と基本の使い方を紹介しています。 gitとSourcetreeをインストールして、バージョン管理をはじめる GitHubインストールといつものプロジェクトでの使い方（この記事） 間違えて保存・コミットしたときに元に戻す方法まとめ 【git…"/><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"/><link as="script" rel="preload" href="/webpack-runtime-2cd4d5b7b2a2d3fe7251.js"/><link as="script" rel="preload" href="/framework-88141e8bb2fa5a1effff.js"/><link as="script" rel="preload" href="/styles-2d96f7ae5235a4451245.js"/><link as="script" rel="preload" href="/app-34fafeac6050d83e0373.js"/><link as="script" rel="preload" href="/1bfc9850-f7f4f9813ca4103bfd27.js"/><link as="script" rel="preload" href="/504865556e3c2f12c7ed59be132769fdea652e72-970c11c7bc408303985f.js"/><link as="script" rel="preload" href="/component---src-templates-post-js-f563944bb99f4bfc6294.js"/><link as="fetch" rel="preload" href="/page-data/git-install/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/static/d/1941199855.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/static/d/3628787746.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/static/d/4032985131.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="Layout__Wrapper-sc-1fxashj-0 fZqxxc"><nav class="Navbar__Navigation-texave-0 dhZLzi"><a class="Logo__LogoWrap-d2j8wv-0 isAYbW" href="/"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:100%"></div><img aria-hidden="true" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAADQklEQVQ4y41VO28TQRDes31vh8Tvu/P5zvb57myTh50XCZEiGkRBg4iQ+AmA+DEUiJ6CBkFDRQMRBUUaFIkmokEEBEXCIxGIpMF8c95FjhVFrDS63dmdb+ebmZ1j7PSRhbQhC5A+FzHvQTqQCfafgw4vQsqyLBcURXFUVa2bhlHSNc3Huom9PAfungWUgixDLADkIJcNXc+Zhl4GUAx9mkmpeQD2sG7jG0JX4Tap0wCJkqdp2gIOlzRVvTi6OV2vddpe9SrN05nMIs6FkBaWDcj8OFgsSdLMYDBgACPPLFLOBvWg67uXoqp1O7TL30KnPAidylNuo4PFOk1gO0sYAoyC28OmCrANoYQ3SzB+B/nVsksDEswPI6cywAWPxDmYXYOdwWNKyWQt3BBjo2Pq+iQp5lqNMHatDwD43K27rwCwF7v2Ab770B2Qp3HVupOUg64poN4EBsWUhC1hoQBwdcIwcol3NecueQLQzY5X3SYB9Tctu/y7ZZWO4e0RwD8irj6d1zR1Lp1Om5heYDxLkqDQiwIT3ryGwe5003sAsLdkHFUrX6D/BA9/EHXMt9ueY43lYk0AssmsmabvTOBPAOQ5p7zXrtkUx314d4TvdwB/xfwP5jtIWj6hbeiZkUoZAjrFfFJL/SiwAPIEtLcIFN7tUNxAdYBMH3Y8Zwegu72wSUlggVViIwwX2Whh5rPGP9+vrK8VEbdnoPYTQER3E+sXSAZl++Xq3LRC55pORYDRN6ndJYgsgLxijmn8RgA04el9ePQYYbh3vl67BY8fQneT9v1SPoUhTOmCFZpEtCe0uq6z9f4MA7UkpvDGAq1jlMrKaPTdwpQ0lhBPFHdS2ChOH6VTJgVeimSfMxOD6YaHqJaomG8kQFPZjJ2blJiaFYUdwVbl8TMFekRPDwVax+aUUILiBuhuBZUiefge4NdJT0804agoXTCy6XHwdndi9AHaBmgDtyb1tdBwtU7NqXf9aqvrOY1ewzWGQLJGLwtgBXJalMvJ3jWMLnUNak0BdZJURi6MJEyR0pkCgFxt2BeLVDWcqnRWX4y5t5EiyxTXCDH1IfBcCdB0qzyJ/dNosjN+ASG/fWWk/S9zXSw6y/j4Cyokj6UqXBegAAAAAElFTkSuQmCC" alt="logo" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/c597b53749cc38c24d7cbc83bccf716b/dd0cc/logo-circle.png 25w,
+/static/c597b53749cc38c24d7cbc83bccf716b/559c4/logo-circle.png 50w,
+/static/c597b53749cc38c24d7cbc83bccf716b/da1a5/logo-circle.png 100w,
+/static/c597b53749cc38c24d7cbc83bccf716b/c1e8f/logo-circle.png 150w,
+/static/c597b53749cc38c24d7cbc83bccf716b/cabbe/logo-circle.png 200w,
+/static/c597b53749cc38c24d7cbc83bccf716b/59700/logo-circle.png 843w" sizes="(max-width: 100px) 100vw, 100px" /><img loading="lazy" sizes="(max-width: 100px) 100vw, 100px" srcset="/static/c597b53749cc38c24d7cbc83bccf716b/dd0cc/logo-circle.png 25w,
+/static/c597b53749cc38c24d7cbc83bccf716b/559c4/logo-circle.png 50w,
+/static/c597b53749cc38c24d7cbc83bccf716b/da1a5/logo-circle.png 100w,
+/static/c597b53749cc38c24d7cbc83bccf716b/c1e8f/logo-circle.png 150w,
+/static/c597b53749cc38c24d7cbc83bccf716b/cabbe/logo-circle.png 200w,
+/static/c597b53749cc38c24d7cbc83bccf716b/59700/logo-circle.png 843w" src="/static/c597b53749cc38c24d7cbc83bccf716b/da1a5/logo-circle.png" alt="logo" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><div class="Navbar__Toggle-texave-1 gtBxEn"><div class="Navbar__Hamburger-texave-3 bDHlyj"></div></div><div open="" class="Navbar__Navbox-texave-2 htwele"><a class="NavbarLinks__NavItem-tdoq41-0 efHEoX" href="/">Home</a><a class="NavbarLinks__NavItem-tdoq41-0 efHEoX" href="/about/">About</a><a class="NavbarLinks__NavItem-tdoq41-0 efHEoX" href="/service/">Service</a><a class="NavbarLinks__NavItem-tdoq41-0 efHEoX" href="/gallery/">Gallery</a><a class="NavbarLinks__NavItem-tdoq41-0 efHEoX" href="/blog/">Blog</a><a class="NavbarLinks__NavItem-tdoq41-0 efHEoX" href="/contact/">Contact</a></div></nav><main><div class="postStyle__Wrapper-sc-1jh3fpl-0 bGDgaU"><article><header><p class="category">Programming</p><h1>【初心者向け】GitHubのインストールとプロジェクトでの使い方</h1><div class="info"><div class="date"><span>Published: <!-- -->2020/04/04</span><span> | Updated :<!-- -->2020/08/22</span></div><a class="tag" href="/tags/git/">git</a><a class="tag" href="/tags/github/">GitHub</a><a class="tag" href="/tags/sourcetree/">Sourcetree</a></div></header><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden"><div aria-hidden="true" style="width:100%;padding-bottom:56.5%"></div><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAECAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAe3ToUqJB//EABoQAAICAwAAAAAAAAAAAAAAAAARAQIDEBL/2gAIAQEAAQUCMlpgq+RPX//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABoQAAICAwAAAAAAAAAAAAAAAAABEBEhMXH/2gAIAQEABj8CFTS6K9xmP//EABoQAQACAwEAAAAAAAAAAAAAAAEAEBFBYSH/2gAIAQEAAT8hV0Q9E7RHyXtIGBk7X//aAAwDAQACAAMAAAAQsM//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEAAQQDAAAAAAAAAAAAAAABEQAQITFBUWH/2gAIAQEAAT8QM7A3TfYuSPCKQxDi6m0WHUJLf//Z" alt="【初心者向け】GitHubのインストールとプロジェクトでの使い方" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source srcset="/static/d934f8638b7f4e78fd5ab7dae272cb7e/f836f/icatch_20200331.jpg 200w,
+/static/d934f8638b7f4e78fd5ab7dae272cb7e/2244e/icatch_20200331.jpg 400w,
+/static/d934f8638b7f4e78fd5ab7dae272cb7e/14b42/icatch_20200331.jpg 800w" sizes="(max-width: 800px) 100vw, 800px" /><img loading="lazy" sizes="(max-width: 800px) 100vw, 800px" srcset="/static/d934f8638b7f4e78fd5ab7dae272cb7e/f836f/icatch_20200331.jpg 200w,
+/static/d934f8638b7f4e78fd5ab7dae272cb7e/2244e/icatch_20200331.jpg 400w,
+/static/d934f8638b7f4e78fd5ab7dae272cb7e/14b42/icatch_20200331.jpg 800w" src="/static/d934f8638b7f4e78fd5ab7dae272cb7e/14b42/icatch_20200331.jpg" alt="【初心者向け】GitHubのインストールとプロジェクトでの使い方" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><div class="toc"><h4>目次</h4><div><ul>
+<li><a href="/git-install/#git%E3%81%A8github%E3%81%AE%E9%81%95%E3%81%84">GitとGitHubの違い</a></li>
+<li>
+<p><a href="/git-install/#github%E3%81%AE%E3%81%AF%E3%81%98%E3%82%81%E3%81%8B%E3%81%9F">GitHubのはじめかた</a></p>
+<ul>
+<li><a href="/git-install/#github%E3%81%AE%E7%99%BB%E9%8C%B2">GitHubの登録</a></li>
+<li><a href="/git-install/#sourcetree%E3%81%ABgithub%E3%82%92%E9%80%A3%E6%90%BA%E3%81%99%E3%82%8B">SourcetreeにGitHubを連携する</a></li>
+</ul>
+</li>
+<li>
+<p><a href="/git-install/#%E8%A6%9A%E3%81%88%E3%81%A6%E3%81%8A%E3%81%8D%E3%81%9F%E3%81%84git%E3%81%AE%E5%9F%BA%E6%9C%AC%E7%94%A8%E8%AA%9E">覚えておきたいgitの基本用語</a></p>
+<ul>
+<li><a href="/git-install/#%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA">リポジトリ</a></li>
+<li><a href="/git-install/#%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88">コミット</a></li>
+<li><a href="/git-install/#%E3%83%97%E3%83%AB%E3%81%A8%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5">プルとプッシュ</a></li>
+</ul>
+</li>
+<li>
+<p><a href="/git-install/#%E5%9F%BA%E6%9C%AC%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9%EF%BC%9A%E6%96%B0%E3%81%97%E3%81%8F%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%82%8B%E3%81%A8%E3%81%8D">基本の使い方：新しくプロジェクトをはじめるとき</a></p>
+<ul>
+<li><a href="/git-install/#1%E6%96%B0%E8%A6%8F%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E4%BD%9C%E6%88%90">1.新規リポジトリ作成</a></li>
+<li><a href="/git-install/#2-%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3%EF%BC%9A%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AE%E5%86%85%E5%AE%B9%E3%82%92%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%81%AB%E3%82%B3%E3%83%94%E3%83%BC">2. クローン：リモートリポジトリの内容をローカルにコピー</a></li>
+</ul>
+</li>
+<li>
+<p><a href="/git-install/#%E3%81%B5%E3%81%A0%E3%82%93%E3%81%AE%E4%BD%9C%E6%A5%AD%E3%81%A7%E3%82%84%E3%82%8B%E3%81%93%E3%81%A8">ふだんの作業でやること</a></p>
+<ul>
+<li><a href="/git-install/#1-%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B">1. ファイルを更新する</a></li>
+<li><a href="/git-install/#2-%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88%EF%BC%9A%E4%BD%9C%E6%A5%AD%E3%82%92%E8%A8%98%E9%8C%B2%E3%81%99%E3%82%8B">2. コミット：作業を記録する</a></li>
+<li><a href="/git-install/#3-%E3%83%97%E3%83%83%E3%82%B7%E3%83%A5%EF%BC%9A%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%81%AE%E5%A4%89%E6%9B%B4%E5%86%85%E5%AE%B9%E3%82%92%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%B8%E3%82%A2%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B">3. プッシュ：ローカルの変更内容をリモートリポジトリへアップロードする</a></li>
+</ul>
+</li>
+<li><a href="/git-install/#%E3%81%BE%E3%81%A8%E3%82%81%EF%BC%9A%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E4%B8%8A%E3%81%A7%E6%93%8D%E4%BD%9C%E3%81%99%E3%82%8B%E3%81%A8%E3%81%8D%E3%81%AEgit%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%81%BE%E3%81%A8%E3%82%81">まとめ：ターミナル上で操作するときのgitコマンドまとめ</a></li>
+</ul></div></div><section><p>プログラミングではよく使われるバージョン管理について、導入方法と基本の使い方を紹介しています。</p>
+<div class="related-posts">
+    <span>バージョン管理のはじめかた</span>
+<ol>
+<li><a href="/install-sourcetree/">gitとSourcetreeをインストールして、バージョン管理をはじめる</a></li>
+<li>[GitHubインストールといつものプロジェクトでの使い方]（この記事）</li>
+<li><a href="/git-rebase/">間違えて保存・コミットしたときに元に戻す方法まとめ</a></li>
+<li><a href="/git-branch/">【gitでバージョン管理】ブランチを使って、履歴を分ける方法</a></li>
+<li><a href="/github-gist-wordpress/">GitHubでソースコードをブログに載せる方法まとめ</a></li>
+</ol>
+</div>
+<h2 id="gitとgithubの違い" style="position:relative;">GitとGitHubの違い</h2>
+<p>git＝バージョン管理を行うためのシステムです。</p>
+<p>gitを入れると、自分のPC上にファイルの変更履歴を保管するための場所が用意され、バージョン管理の機能が使えるようになります。</p>
+<p>GitHub＝gitを用いたオンラインサービスです。</p>
+<p>web上でファイルや変更履歴を共有できるようになります。</p>
+<div class="border-box">
+    <span>GitHubを使うメリット</span>
+<ul>
+<li>複数人でプログラムを分担して開発できる</li>
+<li>他の端末でソースコードや変更履歴を共有できる</li>
+<li>
+<p>他サービスと連携して、ホームページやアプリを簡単に公開できる</p>
+</div>
+</li>
+</ul>
+<p>ちなみにGitHubにはプライベート機能があり、アップしたファイルの公開／非公開を自分で選ぶことができます。</p>
+<p>個人的には、GitHubのありがたみ感じています。</p>
+<p>① GitHubからプログラムを連携して、ホームページなどに自動で公開できるようになる
+（html/CSSやwordpressテーマのFTPアップロードの手間を省く）</p>
+<p>② GitHubでプログラムを管理しておくと、楽にブログに簡単にソースコードを掲載できる</p>
+<h2 id="githubのはじめかた" style="position:relative;">GitHubのはじめかた</h2>
+<p>まず事前準備として、GitとSourceTreeをインストールしておきます。</p>
+<ul>
+<li><a href="/install-sourcetree/">GitとSourceTreeのインストール方法</a></li>
+</ul>
+<h3 id="githubの登録" style="position:relative;">GitHubの登録</h3>
+<p>GitHubのアカウントを登録します。
+<a href="https://github.co.jp/" target="_blank" rel="noopener noreferrer">GitHubの公式サイト</a></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 51.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAcyoWAf/xAAWEAEBAQAAAAAAAAAAAAAAAAABACD/2gAIAQEAAQUCkz//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAaEAACAgMAAAAAAAAAAAAAAAARIQABIFGB/9oACAEBAAE/IXuADvuP/9oADAMBAAIAAwAAABAAH//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAAIDAAMAAAAAAAAAAAAAAAERABAhMVGB/9oACAEBAAE/EGRJ9Mx9NA8KM9mm+a//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="GitHub公式サイト"
+        title="GitHub公式サイト"
+        src="/static/32f1d641d207750b351eaf9c09d4d3d5/4b190/ss-github-install-01.jpg"
+        srcset="/static/32f1d641d207750b351eaf9c09d4d3d5/e07e9/ss-github-install-01.jpg 200w,
+/static/32f1d641d207750b351eaf9c09d4d3d5/066f9/ss-github-install-01.jpg 400w,
+/static/32f1d641d207750b351eaf9c09d4d3d5/4b190/ss-github-install-01.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>ID,メールアドレス,パスワードを入力して、次に進みます。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 132.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB9yegxYmL1CS//8QAGRABAAMBAQAAAAAAAAAAAAAAAQARIAIS/9oACAEBAAEFAkJRKMJZ55M//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGRAAAwADAAAAAAAAAAAAAAAAACAxASEy/9oACAEBAAY/AoQibOcL/8QAHBABAAEEAwAAAAAAAAAAAAAAAQAQEWGRIDHR/9oACAEBAAE/IQHTULngmNqMKBYIwZcBMcf/2gAMAwEAAgADAAAAEGcG/P/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABYRAQEBAAAAAAAAAAAAAAAAABABEf/aAAgBAgEBPxA2n//EAB0QAQADAAIDAQAAAAAAAAAAAAEAESEQMYGR0fH/2gAIAQEAAT8Qvhu1gjCV8/CflpVNwuPez3fFOL3SWQ64MTRDYLxbbr3P/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="GitHub新規登録"
+        title="GitHub新規登録"
+        src="/static/dd0ea7b70619a6caa84ecea9490360f9/4b190/ss-github-install-02.jpg"
+        srcset="/static/dd0ea7b70619a6caa84ecea9490360f9/e07e9/ss-github-install-02.jpg 200w,
+/static/dd0ea7b70619a6caa84ecea9490360f9/066f9/ss-github-install-02.jpg 400w,
+/static/dd0ea7b70619a6caa84ecea9490360f9/4b190/ss-github-install-02.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>プランは「個人（Free）」を選びます。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 94%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAECAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAfUdGFkb0soUH//EABsQAAIDAAMAAAAAAAAAAAAAAAIRAAEDEBMi/9oACAEBAAEFAjxFViC6cobXpy+f/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHxAAAgAFBQAAAAAAAAAAAAAAAAIBESAigSExM2GR/9oACAEBAAY/ArUTMC5En1A418NJZNlp/8QAGxAAAQUBAQAAAAAAAAAAAAAAAAEQESFBMWH/2gAIAQEAAT8h1voRzIQxVBKp9Lbghv/aAAwDAQACAAMAAAAQ0M8A/8QAFxEAAwEAAAAAAAAAAAAAAAAAAREgMf/aAAgBAwEBPxDC4//EABcRAAMBAAAAAAAAAAAAAAAAAAERIDH/2gAIAQIBAT8Q0KP/xAAdEAEBAAICAwEAAAAAAAAAAAABEQAhEIExUWGR/9oACAEBAAE/EAhDW1ydZKv3uk6uBePxYgaq7EhjcYzYdD5rgCL7yBs3x//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="GitHubのプラン選択"
+        title="GitHubのプラン選択"
+        src="/static/e2c0359474593721f0865706a55de28f/4b190/ss-github-install-03.jpg"
+        srcset="/static/e2c0359474593721f0865706a55de28f/e07e9/ss-github-install-03.jpg 200w,
+/static/e2c0359474593721f0865706a55de28f/066f9/ss-github-install-03.jpg 400w,
+/static/e2c0359474593721f0865706a55de28f/4b190/ss-github-install-03.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>メールが届くので、メールで本人確認を行い、登録完了させます。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 36%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdiAsD//xAAWEAADAAAAAAAAAAAAAAAAAAAAAxP/2gAIAQEAAQUCisisis//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAADAQAAAAAAAAAAAAAAAAAAAjOR/9oACAEBAAY/AprhNcJrh//EABcQAQEBAQAAAAAAAAAAAAAAAADxAeH/2gAIAQEAAT8h3gkEin//2gAMAwEAAgADAAAAEPAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBAAAQQDAQAAAAAAAAAAAAAAAAEhQfARMWFx/9oACAEBAAE/EIOS0D7qekiOqXD/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="登録完了"
+        title="登録完了"
+        src="/static/f4e6fced40db18eac87b68b9af9c4a68/4b190/ss-github-install-04.jpg"
+        srcset="/static/f4e6fced40db18eac87b68b9af9c4a68/e07e9/ss-github-install-04.jpg 200w,
+/static/f4e6fced40db18eac87b68b9af9c4a68/066f9/ss-github-install-04.jpg 400w,
+/static/f4e6fced40db18eac87b68b9af9c4a68/4b190/ss-github-install-04.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<h3 id="sourcetreeにgithubを連携する" style="position:relative;">SourcetreeにGitHubを連携する</h3>
+<p><a href="https://www.Sourcetreeapp.com/" target="_blank" rel="noopener noreferrer">Sourcetreeの公式サイト</a></p>
+<p>Downloadボタンを押して、SourceTreeをインストールします。</p>
+<p>Soucetreeを開いたら、GitHubのアカウントをSourcetreeに追加します。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 128%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEEAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAbtUZ0cCsJpgoCv/xAAcEAABAwUAAAAAAAAAAAAAAAABAAMTAhESIDH/2gAIAQEAAQUCgovC2iy2jwg5b//EABcRAAMBAAAAAAAAAAAAAAAAAAABERD/2gAIAQMBAT8BhFv/xAAYEQACAwAAAAAAAAAAAAAAAAABEQAQUf/aAAgBAgEBPwFnYzf/xAAaEAACAgMAAAAAAAAAAAAAAAAAAREyEiEw/9oACAEBAAY/ApxKFTQnPD//xAAcEAADAAEFAAAAAAAAAAAAAAAAARExICFBUbH/2gAIAQEAAT8hE1z7E8Ki75ECeLZrsev/2gAMAwEAAgADAAAAEGAUPP/EABgRAAIDAAAAAAAAAAAAAAAAAAABEFFh/9oACAEDAQE/EGlGE//EABcRAAMBAAAAAAAAAAAAAAAAAAABEGH/2gAIAQIBAT8QRN7/AP/EAB0QAQACAgIDAAAAAAAAAAAAAAEAESExEGFB0fD/2gAIAQEAAT8QXPhrAtPcrAb87imJS6t9yrMwoqDoMomOzAOwYaIAajuGuGf/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="SourcetreeからGitHubに接続"
+        title="SourcetreeからGitHubに接続"
+        src="/static/da140708ccc2afcd75b91a5f426741cd/4b190/ss-sourcetree-github-01.jpg"
+        srcset="/static/da140708ccc2afcd75b91a5f426741cd/e07e9/ss-sourcetree-github-01.jpg 200w,
+/static/da140708ccc2afcd75b91a5f426741cd/066f9/ss-sourcetree-github-01.jpg 400w,
+/static/da140708ccc2afcd75b91a5f426741cd/4b190/ss-sourcetree-github-01.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>アカウント追加ボタンを押します。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe3VMqP/xAAYEAADAQEAAAAAAAAAAAAAAAAAARIREP/aAAgBAQABBQKUSiTTef/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABoQAAICAwAAAAAAAAAAAAAAAAABEWEQUZH/2gAIAQEAAT8hW59LmNLE2Myf/9oADAMBAAIAAwAAABCAD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAAMAAwEAAAAAAAAAAAAAAAABETFRkUH/2gAIAQEAAT8QiuULw6C7z0RYWitIbtYf/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Sourcetreeのアカウント追加"
+        title="Sourcetreeのアカウント追加"
+        src="/static/1cf4301b3d8310269df307c432aaf39f/4b190/ss-sourcetree-github-02.jpg"
+        srcset="/static/1cf4301b3d8310269df307c432aaf39f/e07e9/ss-sourcetree-github-02.jpg 200w,
+/static/1cf4301b3d8310269df307c432aaf39f/066f9/ss-sourcetree-github-02.jpg 400w,
+/static/1cf4301b3d8310269df307c432aaf39f/4b190/ss-sourcetree-github-02.jpg 800w,
+/static/1cf4301b3d8310269df307c432aaf39f/e5166/ss-sourcetree-github-02.jpg 1200w,
+/static/1cf4301b3d8310269df307c432aaf39f/d281d/ss-sourcetree-github-02.jpg 1358w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>Webブラウザが立ち上がって、GitHubとの連携画面が表示されます。</p>
+<p>「Authorize atlassian」をクリックします。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 111.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAWABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHu50mgEFoP/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAECERIgMf/aAAgBAQABBQJjuyTV5xO6f//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAECAQE/AWP/xAAZEAACAwEAAAAAAAAAAAAAAAAAARAR4SD/2gAIAQEABj8CFTjDOf/EAB0QAAIBBAMAAAAAAAAAAAAAAAERABAhgZFRYbH/2gAIAQEAAT8hZW8cE2AD4oEhe0HdtAQDEzM0/9oADAMBAAIAAwAAABDDHzz/xAAXEQADAQAAAAAAAAAAAAAAAAABESBR/9oACAEDAQE/EGNj/8QAFREBAQAAAAAAAAAAAAAAAAAAESD/2gAIAQIBAT8QEf/EACAQAAICAQMFAAAAAAAAAAAAAAERACExEEFRcYGRocH/2gAIAQEAAT8Q3tFi/hDcFMRvsZ5p+dGpfNE9iBYfpAZcjhhGW6pxAy0nbT//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="SourcetreeからGitHubアカウントを連携"
+        title="SourcetreeからGitHubアカウントを連携"
+        src="/static/328a9261a0430f075c0d2b879227aad0/4b190/ss-sourcetree-github-03.jpg"
+        srcset="/static/328a9261a0430f075c0d2b879227aad0/e07e9/ss-sourcetree-github-03.jpg 200w,
+/static/328a9261a0430f075c0d2b879227aad0/066f9/ss-sourcetree-github-03.jpg 400w,
+/static/328a9261a0430f075c0d2b879227aad0/4b190/ss-sourcetree-github-03.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>これで、アカウントが追加されました。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 66.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEEAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB6ipdTObg/wD/xAAZEAACAwEAAAAAAAAAAAAAAAAAAgEDERL/2gAIAQEAAQUClbDm4hXNNNP/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPwGH/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQIBAT8Bqv/EABgQAAMBAQAAAAAAAAAAAAAAAAASISBC/9oACAEBAAY/AopwVcf/xAAaEAACAwEBAAAAAAAAAAAAAAAAAREhYRDw/9oACAEBAAE/IZd462ejZpsb72P/2gAMAwEAAgADAAAAECcP/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFx/9oACAEDAQE/ENI//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQBh/9oACAECAQE/EDJOL//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExgUFRof/aAAgBAQABPxAb2eNvyAeZQm+iV3BAFEt6JbST/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="SourcetreeとGitHubの連携が完了した状態"
+        title="SourcetreeとGitHubの連携が完了した状態"
+        src="/static/e8eae657332bb4121f91a42e62883195/4b190/ss-sourcetree-github-04.jpg"
+        srcset="/static/e8eae657332bb4121f91a42e62883195/e07e9/ss-sourcetree-github-04.jpg 200w,
+/static/e8eae657332bb4121f91a42e62883195/066f9/ss-sourcetree-github-04.jpg 400w,
+/static/e8eae657332bb4121f91a42e62883195/4b190/ss-sourcetree-github-04.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<h2 id="覚えておきたいgitの基本用語" style="position:relative;">覚えておきたいgitの基本用語</h2>
+<p>【バージョン管理でよくつかう用語】</p>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>リポジトリ</td>
+<td>変更履歴の保管場所</td>
+</tr>
+<tr>
+<td>コミット</td>
+<td>ファイルの変更を記録する</td>
+</tr>
+<tr>
+<td>プッシュ</td>
+<td>クラウド上にデータを送る</td>
+</tr>
+<tr>
+<td>プル</td>
+<td>クラウド上からデータをもらう</td>
+</tr>
+</tbody>
+</table>
+<p>まずこれだけ覚えればとりあえず使い始めることができます。</p>
+<h3 id="リポジトリ" style="position:relative;">リポジトリ</h3>
+<p>リポジトリ　＝ データの変更履歴を保管する場所</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.49999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHVSqKhP//EABcQAAMBAAAAAAAAAAAAAAAAAAABERD/2gAIAQEAAQUCSpMTLn//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAaEAEBAAIDAAAAAAAAAAAAAAABACExEBGh/9oACAEBAAE/IUh3XPvCGoWZ3f/aAAwDAQACAAMAAAAQ2O//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QEX//xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAgEBPxCn/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARITFRYf/aAAgBAQABPxARRAPaj3GByERRbrjAUVCwbR25xEqXbP/Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="gitのレポジトリとは"
+        title="gitのレポジトリとは"
+        src="/static/a85b76301eb3758b4f74e009ed81de8f/4b190/slide-repository.jpg"
+        srcset="/static/a85b76301eb3758b4f74e009ed81de8f/e07e9/slide-repository.jpg 200w,
+/static/a85b76301eb3758b4f74e009ed81de8f/066f9/slide-repository.jpg 400w,
+/static/a85b76301eb3758b4f74e009ed81de8f/4b190/slide-repository.jpg 800w,
+/static/a85b76301eb3758b4f74e009ed81de8f/a2510/slide-repository.jpg 1000w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>リポジトリは変更履歴を保管する場所です。</p>
+<p>リポジトリには２種類あります。</p>
+<ul>
+<li>自分のPC上：ローカルリポジトリ</li>
+<li>インターネット上：リモートリポジトリ</li>
+</ul>
+<h3 id="コミット" style="position:relative;">コミット</h3>
+<p>コミット　＝ ファイルの変更履歴をリポジトリに保存すること</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.49999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABYBAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAB6+EvMo//xAAWEAEBAQAAAAAAAAAAAAAAAAABISD/2gAIAQEAAQUCCMz/AP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAQACAwAAAAAAAAAAAAAAAAEAICExsf/aAAgBAQABPyEnLsKtQp//2gAMAwEAAgADAAAAEFcv/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEh/9oACAEDAQE/EHB//8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEh/9oACAECAQE/EFR//8QAGRABAQEBAQEAAAAAAAAAAAAAAREAITGB/9oACAEBAAE/EHT6sPGJFWdLclO81TxT7nG//9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="gitのコミットとは"
+        title="gitのコミットとは"
+        src="/static/918d780707dbb1cf81122a0be4160793/4b190/slide-commit.jpg"
+        srcset="/static/918d780707dbb1cf81122a0be4160793/e07e9/slide-commit.jpg 200w,
+/static/918d780707dbb1cf81122a0be4160793/066f9/slide-commit.jpg 400w,
+/static/918d780707dbb1cf81122a0be4160793/4b190/slide-commit.jpg 800w,
+/static/918d780707dbb1cf81122a0be4160793/a2510/slide-commit.jpg 1000w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>ただファイルを保存しただけでは、変更履歴は記録されません。</p>
+<p>セーブポイントとして保存したいところ（作業が一段落したところで）、自分で作業内容を入力して記録します。</p>
+<p>この変更内容の記録のことをコミットといいます。</p>
+<h3 id="プルとプッシュ" style="position:relative;">プルとプッシュ</h3>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 55.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAHVReYH/8QAFxABAAMAAAAAAAAAAAAAAAAAAQARIP/aAAgBAQABBQILgZ//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAADAQEBAAAAAAAAAAAAAAAAARExECH/2gAIAQEAAT8h9BZkjaK1hnP/2gAMAwEAAgADAAAAEOff/8QAFREBAQAAAAAAAAAAAAAAAAAAECH/2gAIAQMBAT8Qh//EABURAQEAAAAAAAAAAAAAAAAAABAh/9oACAECAQE/EKf/xAAaEAEBAQEAAwAAAAAAAAAAAAABEQAxIUFh/9oACAEBAAE/EJlZME3gVz8AzHQTC8M9arV8rv/Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="gitのプルとプッシュとは"
+        title="gitのプルとプッシュとは"
+        src="/static/f10c607a74caa3a600d5f698452c8405/4b190/slide-pull-push.jpg"
+        srcset="/static/f10c607a74caa3a600d5f698452c8405/e07e9/slide-pull-push.jpg 200w,
+/static/f10c607a74caa3a600d5f698452c8405/066f9/slide-pull-push.jpg 400w,
+/static/f10c607a74caa3a600d5f698452c8405/4b190/slide-pull-push.jpg 800w,
+/static/f10c607a74caa3a600d5f698452c8405/a2510/slide-pull-push.jpg 1000w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>プル ＝ リモートリポジトリの内容をローカルリポジトリに反映すること</p>
+<p>プッシュ ＝ ローカルリポジトリの内容をリモートリポジトリに反映すること</p>
+<p>【再掲】バージョン管理でよくつかう用語</p>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>説明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>リポジトリ</td>
+<td>変更履歴の保管場所。<br />リモートレポジトリ（Web上）とローカルレポジトリ(自分のPC上)がある。</td>
+</tr>
+<tr>
+<td>コミット</td>
+<td>ファイルの変更をリポジトリに記録する</td>
+</tr>
+<tr>
+<td>プッシュ</td>
+<td>ローカルレポジトリ(自分のPC上)からリモートレポジトリ（Web上）にデータを送る</td>
+</tr>
+<tr>
+<td>プル</td>
+<td>リモートレポジトリ（Web上）からローカルレポジトリ(自分のPC上)にデータをもらう</td>
+</tr>
+</tbody>
+</table>
+<h2 id="基本の使い方：新しくプロジェクトをはじめるとき" style="position:relative;">基本の使い方：新しくプロジェクトをはじめるとき</h2>
+<h3 id="1新規リポジトリ作成" style="position:relative;">1.新規リポジトリ作成</h3>
+<p>プロジェクトの始めに、GitHubでレポジトリ（変更履歴を管理する場所）を作ります。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 77.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAQABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHWHyILAf/EABgQAAMBAQAAAAAAAAAAAAAAAAADExBB/9oACAEBAAEFAoqIKIKO5//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABkQAAIDAQAAAAAAAAAAAAAAAAAzAQKRIP/aAAgBAQAGPwJcYLrguvH/xAAZEAADAAMAAAAAAAAAAAAAAAAAAREQMfH/2gAIAQEAAT8hZKgOAO6Ex//aAAwDAQACAAMAAAAQM8//xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAIAQMBAT8QxH//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCn/8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERIUFRgZH/2gAIAQEAAT8QWdN9GV2QS1SOSpBxFvRhLEf/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="GitHubでレポジトリー作成"
+        title="GitHubでレポジトリー作成"
+        src="/static/b09a14bf138ac83c31b76692f76a6b78/4b190/ss-sourcetree-add-repository-01.jpg"
+        srcset="/static/b09a14bf138ac83c31b76692f76a6b78/e07e9/ss-sourcetree-add-repository-01.jpg 200w,
+/static/b09a14bf138ac83c31b76692f76a6b78/066f9/ss-sourcetree-add-repository-01.jpg 400w,
+/static/b09a14bf138ac83c31b76692f76a6b78/4b190/ss-sourcetree-add-repository-01.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>レポジトリの作成が完了したところ。</p>
+<p>右の「Clone or Download」にリポジトリのURLが出てくるので、<code class="language-text">https://github〜〜</code>のURLをコピーします。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 49.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3lEUf//EABcQAAMBAAAAAAAAAAAAAAAAAAABIEH/2gAIAQEAAQUC0Uf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAZEAEAAgMAAAAAAAAAAAAAAAARAAEgIVH/2gAIAQEAAT8hYt5Ebw//2gAMAwEAAgADAAAAEAPP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhAAAwEAAwAAAAAAAAAAAAAAAAERMSFRYf/aAAgBAQABPxDRcDpJZ0d8HoxYf//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="GitHubでレポジトリー作成完了"
+        title="GitHubでレポジトリー作成完了"
+        src="/static/e3c4fe806d5203bb084392f8584316c7/4b190/ss-sourcetree-add-repository-02.jpg"
+        srcset="/static/e3c4fe806d5203bb084392f8584316c7/e07e9/ss-sourcetree-add-repository-02.jpg 200w,
+/static/e3c4fe806d5203bb084392f8584316c7/066f9/ss-sourcetree-add-repository-02.jpg 400w,
+/static/e3c4fe806d5203bb084392f8584316c7/4b190/ss-sourcetree-add-repository-02.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<h3 id="2-クローン：リモートリポジトリの内容をローカルにコピー" style="position:relative;">2. クローン：リモートリポジトリの内容をローカルにコピー</h3>
+<p>続いて、GitHub上のリモートリポジトリの内容を丸ごとローカルのPCにコピー（＝クローン）します。</p>
+<p>Sourcetree上部の「New」から「Clone from URL」をえらびます。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 129.99999999999997%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAaABQDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAQBAgX/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/2gAMAwEAAhADEAAAAbnQaIVwtmAhX//EABoQAAIDAQEAAAAAAAAAAAAAAAACAREUEyD/2gAIAQEAAQUCzocFkzoVBRXv/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREP/aAAgBAwEBPwGEW//EABcRAAMBAAAAAAAAAAAAAAAAAAABEhD/2gAIAQIBAT8BplPf/8QAFxAAAwEAAAAAAAAAAAAAAAAAAAEyMP/aAAgBAQAGPwKUSiFl/8QAHRAAAgEEAwAAAAAAAAAAAAAAAAEhETFR0SBhcf/aAAgBAQABPyGB3k7yK6p+PZLuOoowNMc//9oADAMBAAIAAwAAABBQIwD/xAAYEQACAwAAAAAAAAAAAAAAAAAAARBBYf/aAAgBAwEBPxBLaMJ//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQUWH/2gAIAQIBAT8QoZrP/8QAHRABAAICAgMAAAAAAAAAAAAAAQARITEQYVFxkf/aAAgBAQABPxAsyxgvD5FAX6EIoAOmALo5bcbYG2Alm6Z65d8u5//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Sourcetreeのクローンの手順"
+        title="Sourcetreeのクローンの手順"
+        src="/static/a346b056ecea71f3a13eda289c294584/4b190/ss-sourcetree-add-repository-03.jpg"
+        srcset="/static/a346b056ecea71f3a13eda289c294584/e07e9/ss-sourcetree-add-repository-03.jpg 200w,
+/static/a346b056ecea71f3a13eda289c294584/066f9/ss-sourcetree-add-repository-03.jpg 400w,
+/static/a346b056ecea71f3a13eda289c294584/4b190/ss-sourcetree-add-repository-03.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>リモートレポジトリの情報を入力します。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 42.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHYoYiCz//EABYQAAMAAAAAAAAAAAAAAAAAAAABIP/aAAgBAQABBQKUf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABoQAAICAwAAAAAAAAAAAAAAAAARAUEQcYH/2gAIAQEAAT8hSOjipzbZ/9oADAMBAAIAAwAAABBg3//EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oACAEDAQE/EEr/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAgBAgEBPxBY/8QAHBABAAMAAgMAAAAAAAAAAAAAAQARITFBUXGx/9oACAEBAAE/EBK+fFNwF2leoq4NZjDqPE+if//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="リモートレポジトリの情報を入力"
+        title="リモートレポジトリの情報を入力"
+        src="/static/ffb947621541f1aec43712341058e985/4b190/ss-sourcetree-add-repository-04.jpg"
+        srcset="/static/ffb947621541f1aec43712341058e985/e07e9/ss-sourcetree-add-repository-04.jpg 200w,
+/static/ffb947621541f1aec43712341058e985/066f9/ss-sourcetree-add-repository-04.jpg 400w,
+/static/ffb947621541f1aec43712341058e985/4b190/ss-sourcetree-add-repository-04.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<ul>
+<li>Source URL：先ほどGitHubでコピーしたURL</li>
+<li>Destination Path：自分のPC内の作業フォルダ</li>
+</ul>
+<p>入力したら、Cloneを押します。</p>
+<p>これで、新しくプロジェクトを始める設定は完了です。</p>
+<p>プロジェクトフォルダの中に「.git」という隠しフォルダとReadme.mdが追加されています。</p>
+<h2 id="ふだんの作業でやること" style="position:relative;">ふだんの作業でやること</h2>
+<h3 id="1-ファイルを更新する" style="position:relative;">1. ファイルを更新する</h3>
+<p>プログラムなど使っているファイルを編集します。</p>
+<p>試しに、sample.phpを作成して入れてみました。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 600px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 51.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAdxURMoH/8QAGBAAAgMAAAAAAAAAAAAAAAAAARIAICH/2gAIAQEAAQUCXFhFP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABYQAAMAAAAAAAAAAAAAAAAAABAgMf/aAAgBAQAGPwIRP//EABsQAAICAwEAAAAAAAAAAAAAAAERACEgMUFx/9oACAEBAAE/IeBUQDb9l9YP/9oADAMBAAIAAwAAABBgD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAQACAwEBAAAAAAAAAAAAAAEAESFBUTGR/9oACAEBAAE/EA7B2GYpNuKGPhLBR5ojFey3s//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="ファイルを追加"
+        title="ファイルを追加"
+        src="/static/9ded0ffcac1bdb28f2f8de71229fdc23/b4294/ss-sourcetree-pj-03.jpg"
+        srcset="/static/9ded0ffcac1bdb28f2f8de71229fdc23/e07e9/ss-sourcetree-pj-03.jpg 200w,
+/static/9ded0ffcac1bdb28f2f8de71229fdc23/066f9/ss-sourcetree-pj-03.jpg 400w,
+/static/9ded0ffcac1bdb28f2f8de71229fdc23/b4294/ss-sourcetree-pj-03.jpg 600w"
+        sizes="(max-width: 600px) 100vw, 600px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>Sourcetree上では変更されたファイルが表示されます。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe1ZogP/xAAZEAACAwEAAAAAAAAAAAAAAAAAAQIQESH/2gAIAQEAAQUCjHmIxCv/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAYEAEAAwEAAAAAAAAAAAAAAAABABAxEf/aAAgBAQABPyENdYk15v8A/9oADAMBAAIAAwAAABDgz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABoQAQEBAAMBAAAAAAAAAAAAAAEAESExQVH/2gAIAQEAAT8QSVJvrYTHJX6SfTPPc3//2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Sourcetreeで変更が入ったファイルが表示される"
+        title="Sourcetreeで変更が入ったファイルが表示される"
+        src="/static/78a0a9906d2c8d66ef582ef10a6fec18/4b190/ss-sourcetree-pj-04.jpg"
+        srcset="/static/78a0a9906d2c8d66ef582ef10a6fec18/e07e9/ss-sourcetree-pj-04.jpg 200w,
+/static/78a0a9906d2c8d66ef582ef10a6fec18/066f9/ss-sourcetree-pj-04.jpg 400w,
+/static/78a0a9906d2c8d66ef582ef10a6fec18/4b190/ss-sourcetree-pj-04.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<div class="border-box">
+    <span>チームで開発しているとき</span>
+<p>複数人で、同じプログラムを編集している場合には、自分が作業に入る前に、ローカルPC上のデータをリモート上データと同期させます。</p>
+<p>個人の場合は、自分以外にファイルを更新しないので、この作業は飛ばしてOKです。</p>
+<p>SourceTreeの「Pull(プル)」ボタンを押します。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB2JIE4//EABcQAAMBAAAAAAAAAAAAAAAAAAABEBH/2gAIAQEAAQUCmCv/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAWEAADAAAAAAAAAAAAAAAAAAAAIDH/2gAIAQEABj8CIv8A/8QAGRAAAwADAAAAAAAAAAAAAAAAABEhEDFR/9oACAEBAAE/IVOkQQ1z/9oADAMBAAIAAwAAABBzD//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAAICAwEAAAAAAAAAAAAAAAABESEQUWFx/9oACAEBAAE/EKJCl1jaWj5ZxwQtDS0f/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Sourcetreeからプル"
+        title="Sourcetreeからプル"
+        src="/static/408e5b8b51da44e75034f3dd224e6fcd/4b190/ss-sourcetree-pj-02.jpg"
+        srcset="/static/408e5b8b51da44e75034f3dd224e6fcd/e07e9/ss-sourcetree-pj-02.jpg 200w,
+/static/408e5b8b51da44e75034f3dd224e6fcd/066f9/ss-sourcetree-pj-02.jpg 400w,
+/static/408e5b8b51da44e75034f3dd224e6fcd/4b190/ss-sourcetree-pj-02.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+</div>
+<h3 id="2-コミット：作業を記録する" style="position:relative;">2. コミット：作業を記録する</h3>
+<p>作業が終わったら、コミットをします。
+作業ごとにコミットしとおくと、後から見直したり、修正しやすいです。</p>
+<p>ファイルにチェックを入れます。
+複数ファイルをまとめて選ぶこともできます。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAAHalWApD//EABgQAQADAQAAAAAAAAAAAAAAAAEAEBEh/9oACAEBAAEFAgJhMLXv/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGhAAAgIDAAAAAAAAAAAAAAAAAAERIRAxsf/aAAgBAQABPyGNfS3CtEsdK2f/2gAMAwEAAgADAAAAEED/AP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/EEf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPxBH/8QAHBABAAICAwEAAAAAAAAAAAAAAQARQZEhMVGh/9oACAEBAAE/EGm3PkJUxF8u4kFKQo7dyjfaf//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Sourcetreeでコミット"
+        title="Sourcetreeでコミット"
+        src="/static/387c343669520c0dbeb9086bd7d0279e/4b190/ss-sourcetree-pj-05.jpg"
+        srcset="/static/387c343669520c0dbeb9086bd7d0279e/e07e9/ss-sourcetree-pj-05.jpg 200w,
+/static/387c343669520c0dbeb9086bd7d0279e/066f9/ss-sourcetree-pj-05.jpg 400w,
+/static/387c343669520c0dbeb9086bd7d0279e/4b190/ss-sourcetree-pj-05.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>作業内容をメッセージ欄を入れて、コミットボタンを押します。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdhyQSj/xAAXEAEBAQEAAAAAAAAAAAAAAAABABEQ/9oACAEBAAEFAgsLCO//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAdEAABAgcAAAAAAAAAAAAAAAAAAREQITFBYXGB/9oACAEBAAE/IXEm/DApsKRbQ//aAAwDAQACAAMAAAAQhM//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EHiKf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExUWFxof/aAAgBAQABPxAzoG+xE8UvkT38RIM8zaHc/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Sourcetreeコミット完了"
+        title="Sourcetreeコミット完了"
+        src="/static/044dffc11679be3de9aa35f097160dd5/4b190/ss-sourcetree-pj-06.jpg"
+        srcset="/static/044dffc11679be3de9aa35f097160dd5/e07e9/ss-sourcetree-pj-06.jpg 200w,
+/static/044dffc11679be3de9aa35f097160dd5/066f9/ss-sourcetree-pj-06.jpg 400w,
+/static/044dffc11679be3de9aa35f097160dd5/4b190/ss-sourcetree-pj-06.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<h3 id="3-プッシュ：ローカルの変更内容をリモートリポジトリへアップロードする" style="position:relative;">3. プッシュ：ローカルの変更内容をリモートリポジトリへアップロードする</h3>
+<p>作業が終わったら、PC上の内容をネット上に反映します。</p>
+<p>Pullボタンを押します。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdlSQSj/xAAXEAEBAQEAAAAAAAAAAAAAAAABABEQ/9oACAEBAAEFAgsLCO//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAaEAACAgMAAAAAAAAAAAAAAAAAARBBMWFx/9oACAEBAAE/IUtWaGdDEdR//9oADAMBAAIAAwAAABAEz//EABcRAQADAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8QnFv/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAcEAEAAgEFAAAAAAAAAAAAAAABACERMUFRcaH/2gAIAQEAAT8QAUHO1xOkHqY9fESC+ZaGf//Z'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="Sourcetreeでプル"
+        title="Sourcetreeでプル"
+        src="/static/c5126a620a40974543e0c3e4dae4966b/4b190/ss-sourcetree-pj-07.jpg"
+        srcset="/static/c5126a620a40974543e0c3e4dae4966b/e07e9/ss-sourcetree-pj-07.jpg 200w,
+/static/c5126a620a40974543e0c3e4dae4966b/066f9/ss-sourcetree-pj-07.jpg 400w,
+/static/c5126a620a40974543e0c3e4dae4966b/4b190/ss-sourcetree-pj-07.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>OKを押します。</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHZbaSUH//EABcQAQEBAQAAAAAAAAAAAAAAAAEQABH/2gAIAQEAAQUCCcMX/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFBABAAAAAAAAAAAAAAAAAAAAIP/aAAgBAQAGPwJf/8QAGhABAAIDAQAAAAAAAAAAAAAAAQBBEBExcf/aAAgBAQABPyHZTECmek5jWP/aAAwDAQACAAMAAAAQFM//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREh/9oACAEDAQE/EHiKf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAAICAwEAAAAAAAAAAAAAAAABETEhUXGh/9oACAEBAAE/EEopZwTO7hDfgZwzsuGf/9k='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="OK"
+        title="OK"
+        src="/static/2a3ee7182cdd3b912673c007702a77c0/4b190/ss-sourcetree-pj-08.jpg"
+        srcset="/static/2a3ee7182cdd3b912673c007702a77c0/e07e9/ss-sourcetree-pj-08.jpg 200w,
+/static/2a3ee7182cdd3b912673c007702a77c0/066f9/ss-sourcetree-pj-08.jpg 400w,
+/static/2a3ee7182cdd3b912673c007702a77c0/4b190/ss-sourcetree-pj-08.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<p>完了すると、origin/masterのタグが一番上の行に移動して、masterのタグと揃います。</p>
+<p>master　→ローカルリポジトリの状態</p>
+<p>origin/master　→ リモートリポジトリの状態</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 52%; position: relative; bottom: 0; left: 0; background-image: url('data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHsrGgnH//EABcQAQEBAQAAAAAAAAAAAAAAAAEAERD/2gAIAQEAAQUCCwsI7//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABkQAAIDAQAAAAAAAAAAAAAAAAABEEFxMf/aAAgBAQABPyFDVmhocjqP/9oADAMBAAIAAwAAABCkD//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPxBuFP/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExUWFxof/aAAgBAQABPxA5ZbqV4Qvkr38RIM8zaGf/2Q=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="完了"
+        title="完了"
+        src="/static/d1723f7c71cf432ea986b34dbdc54791/4b190/ss-sourcetree-pj-09.jpg"
+        srcset="/static/d1723f7c71cf432ea986b34dbdc54791/e07e9/ss-sourcetree-pj-09.jpg 200w,
+/static/d1723f7c71cf432ea986b34dbdc54791/066f9/ss-sourcetree-pj-09.jpg 400w,
+/static/d1723f7c71cf432ea986b34dbdc54791/4b190/ss-sourcetree-pj-09.jpg 800w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+    </span></p>
+<h2 id="まとめ：ターミナル上で操作するときのgitコマンドまとめ" style="position:relative;">まとめ：ターミナル上で操作するときのgitコマンドまとめ</h2>
+<p>ターミナルでコマンドをうつことでも、同様の操作ができます。</p>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>コマンド</th>
+<th>補足</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>新規リポジトリ作成</td>
+<td>git init</td>
+<td></td>
+</tr>
+<tr>
+<td>リモートからのクローン</td>
+<td>git clone <a href="https://github.com/XXXX/XXXXXX.git">https://github.com/XXXX/XXXXXX.git</a></td>
+<td></td>
+</tr>
+<tr>
+<td>プル</td>
+<td>git pull</td>
+<td></td>
+</tr>
+<tr>
+<td>ファイルをインデックスに追加</td>
+<td>git add ファイル名</td>
+<td>git add -A ( git add —all )で全ファイル追加</td>
+</tr>
+<tr>
+<td>コミット</td>
+<td>git commit -m “コミットメッセージ”</td>
+<td></td>
+</tr>
+<tr>
+<td>プッシュ</td>
+<td>git push origin master</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>続き＞＞ <a href="/git-branch/">ランチの使い方とSourcetreeでの操作方法</a></p></section><footer><hr/><nav style="margin-bottom:30px"><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/install-sourcetree/">← <!-- -->初心者のためのgitとSourcetreeのはじめ方</a></li><li><a rel="next" href="/git-branch/">【gitでバージョン管理】ブランチの使い方とSourcetreeでの操作<!-- --> →</a></li></ul></nav><hr/><div style="display:flex;margin-bottom:30px"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:80px;height:80px;margin-right:15px;margin-bottom:0;min-width:80px;border-radius:100%"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAehTG3NwNwUhIH//xAAZEAADAQEBAAAAAAAAAAAAAAAAAQIRAxL/2gAIAQEAAQUCnzlcpY+K2JpN0eUNkmn/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAZEAACAwEAAAAAAAAAAAAAAAAQEQABAjL/2gAIAQEABj8CWR3HcRbsf//EABwQAAICAwEBAAAAAAAAAAAAAAABESFBYXExUf/aAAgBAQABPyGWhCwYuOUL4OpFbdwxE0b4fFDEmI/bnt0SP//aAAwDAQACAAMAAAAQDzD9/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAEhEDH/2gAIAQMBAT8QfYQWf//EABcRAAMBAAAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QNd//xAAdEAEAAgEFAQAAAAAAAAAAAAABABExIUFhcYGh/9oACAEBAAE/EPFk2vuOLWxzfJRPFDLL3RyInM2mjp2ynCHEYh1CLbe20HhGzM//2Q==" alt="Emi" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:80%"/><noscript><picture><source srcset="/static/e2d174b5f739074d83adf5803ccb2a74/2b9ee/profile.jpg 1x,
+/static/e2d174b5f739074d83adf5803ccb2a74/76539/profile.jpg 1.5x,
+/static/e2d174b5f739074d83adf5803ccb2a74/e5d64/profile.jpg 2x" /><img loading="lazy" width="80" height="80" srcset="/static/e2d174b5f739074d83adf5803ccb2a74/2b9ee/profile.jpg 1x,
+/static/e2d174b5f739074d83adf5803ccb2a74/76539/profile.jpg 1.5x,
+/static/e2d174b5f739074d83adf5803ccb2a74/e5d64/profile.jpg 2x" src="/static/e2d174b5f739074d83adf5803ccb2a74/2b9ee/profile.jpg" alt="Emi" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><div><p>Written by <strong>Emi</strong> <a style="margin-right:10px" href="https://twitter.com/EmiMoment" target="_blank" rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a><a style="margin-right:10px" href="https://www.instagram.com/emmieworks" target="_blank" rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a><a style="margin-right:10px" href="https://pinterest.com/0forest" target="_blank" rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z"></path></svg></a><a style="margin-right:10px" href="https://github.com/emmieworks" target="_blank" rel="noopener noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a></p><p>フロントエンドエンジニア | Webデザイナー | マイペースにWebサイトやWebアプリの制作をしています</p></div></div></footer></article></div><div class="BlogMenu__Wrapper-sc-1cq89ly-0 hiTANn container"><div><p><a href="/category/programming/">Programming</a></p><ul><li><a href="/tags/html/">HTML</a></li><li><a href="/tags/css/">CSS</a></li><li><a href="/tags/javascript/">JavaScript</a></li><li><a href="/category/wordpress/">WordPress</a></li><li><a href="/tags/gatsby/">Gatsby</a></li><li><a href="/tags/git/">git</a></li></ul></div><div><p><a href="/category/design/">Design</a></p><ul><li><a href="/tags/illustrator/">illustrator</a></li><li><a href="/tags/デザイン独学/">デザイン独学</a></li></ul></div><div><p><a href="/category/column/">Column</a></p><ul><li><a href="/tags/活動記録/">活動記録</a></li><li><a href="/tags/journal/">Journal</a></li><li><a href="/tags/私の愛用品/">私の愛用品</a></li></ul></div></div></main><footer class="Footer__Wrapper-ysgioe-0 hajlgf"><div class="container flex"><p>© <!-- -->2020<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></p><a href="/site-policy/">Site Policy</a></div></footer></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script>
+  window.excludeGAPaths=[/^(?:\/category\/(?:(?!(?:\/|^)\.).)*?)$/,/^(?:\/tags\/(?:(?!(?:\/|^)\.).)*?)$/,/^(?:\/blog\/(?:(?!(?:\/|^)\.).)*?)$/];
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-93099941-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/git-install/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-240b01bf167adf5f8c23.js"],"app":["/app-34fafeac6050d83e0373.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-0097d26fbd474b34ff9b.js"],"component---src-pages-404-js":["/component---src-pages-404-js-21ae0fca63421af40066.js"],"component---src-pages-about-js":["/component---src-pages-about-js-9388ea7e8b26a5d9db3a.js"],"component---src-pages-contact-js":["/component---src-pages-contact-js-94b71175ec5b3d468c77.js"],"component---src-pages-gallery-js":["/component---src-pages-gallery-js-e5593b21b7a6ceb9a641.js"],"component---src-pages-index-js":["/component---src-pages-index-js-da4cac7950c57c0389bb.js"],"component---src-pages-service-js":["/component---src-pages-service-js-fa867db2935a50163d29.js"],"component---src-pages-site-policy-js":["/component---src-pages-site-policy-js-6599deaf122a576f8431.js"],"component---src-templates-blog-js":["/component---src-templates-blog-js-bdef6fb1458dc039661a.js"],"component---src-templates-categories-js":["/component---src-templates-categories-js-91089995626c9217ff81.js"],"component---src-templates-gallery-post-js":["/component---src-templates-gallery-post-js-b30d0c9bfd1e76a18f5b.js"],"component---src-templates-post-js":["/component---src-templates-post-js-f563944bb99f4bfc6294.js"],"component---src-templates-tags-js":["/component---src-templates-tags-js-642b0021b6806b237c1f.js"]};/*]]>*/</script><script src="/polyfill-240b01bf167adf5f8c23.js" nomodule=""></script><script src="/component---src-templates-post-js-f563944bb99f4bfc6294.js" async=""></script><script src="/504865556e3c2f12c7ed59be132769fdea652e72-970c11c7bc408303985f.js" async=""></script><script src="/1bfc9850-f7f4f9813ca4103bfd27.js" async=""></script><script src="/app-34fafeac6050d83e0373.js" async=""></script><script src="/styles-2d96f7ae5235a4451245.js" async=""></script><script src="/framework-88141e8bb2fa5a1effff.js" async=""></script><script src="/webpack-runtime-2cd4d5b7b2a2d3fe7251.js" async=""></script></body></html>
