@@ -1,6 +1,7 @@
 ---
 title: トレース&模写でデザイン練習中！手を動かして学べること
-date: 2020-08-20
+date: 2020-08-20T17:00:00+09:00
+featured: icatch-design-trace.jpg
 category: Design
 tags:
   - デザイン独学

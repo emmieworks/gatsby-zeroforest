@@ -1,6 +1,7 @@
 ---
 title: デザインのドリル③ トレースで、フォントの印象的な見せ方を学ぶ
-date: 2020-08-21
+date: 2020-08-21T19:00:00+09:00
+featured: icatch-design-trace-03.jpg
 category: Design
 tags:
   - デザイン独学

@@ -4,9 +4,10 @@ date: 2020-08-22
 category: Design
 tags:
   - デザイン独学
+status: draft
 ---
 
-「<a href="https://amzn.to/34u9ts6" target="_blank" rel="nofollow">トレース＆模写で学ぶ　デザインのドリル</a>a>」を使って、デザイントレースの練習した記録です。
+「<a href="https://amzn.to/34u9ts6" target="_blank" rel="nofollow">トレース＆模写で学ぶ　デザインのドリル</a>」を使って、デザイントレースの練習した記録です。
 
 ## Lesson 1〜6 構成を学ぶ
 
