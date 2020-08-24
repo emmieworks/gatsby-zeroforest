@@ -193,7 +193,6 @@ Flexboxにはいろいろなプロパティが用意されており、アイテ�
 .itemB { flex-grow: 2;}
 ```
 
-
 コンテナにスペースが余っているとき、子要素をどれくらい伸ばすか指定する。
 デフォルトは0。プラスの数値を設定できる。
 
@@ -233,8 +232,7 @@ Flexboxにはいろいろなプロパティが用意されており、アイテ�
 ### align-self：子要素の垂直方向の配置
 
 ```css
-.itemA { flex-basis: 200px;}
-.itemB { flex-basis: 20%}
+.itemA { align-self: center;}
 ```
 
 | プロパティ | 説明 |

@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import Img from "gatsby-image"
+
 //import Category from "../components/CategoryCard"
 
 const Wrapper = styled.article`
@@ -81,6 +83,11 @@ const Postcard = props => {
     <div className="left">
       {// <Category name= {props.category}/>
       }
+      {props.featured && (
+         <Img
+             fluid={props.featured.childImageSharp.fluid}
+             alt={props.title}       />
+        )}
     </div>
     <div className="right">
       <h3>
