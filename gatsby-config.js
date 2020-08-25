@@ -110,10 +110,14 @@ module.exports = {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
+                  title: edge.node.frontmatter.title,
                   description: edge.node.excerpt,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  enclosure: edge.node.frontmatter.featured && {
+                        url: site.siteMetadata.siteUrl + edge.node.frontmatter.featured.publicURL,
+                    },
                   custom_elements: [{ "content:encoded": edge.node.html }],
                 })
               })
@@ -121,8 +125,12 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  filter: {fields: {collection: {eq: "blog"}}, frontmatter: {status: {ne: "draft"}}},
-                  sort: { order: DESC, fields: [frontmatter___date] },
+                  limit: 1000
+                  filter: {
+                    fields: {collection: {eq: "blog"}},
+                    frontmatter: {status: {ne: "draft"}}
+                  }
+                  sort: { order: DESC, fields: [frontmatter___date] }
                 ) {
                   edges {
                     node {
@@ -131,7 +139,10 @@ module.exports = {
                       fields { slug }
                       frontmatter {
                         title
-                        date
+                        date(formatString: "ddd, DD MMM YYYY, h:mm:ss +0900")
+                        featured {
+                            publicURL
+                        }
                       }
                     }
                   }
@@ -156,7 +167,12 @@ module.exports = {
         icon: `src/assets/icon.png`,
       },
     },
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/category/**`,`/tags/**`,`/blog/**`],
+      },
+    },
     `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
