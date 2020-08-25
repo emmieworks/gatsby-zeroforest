@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Zero Forest RSS Feed]]></title><description><![CDATA[制作物を公開したり、Web技術について発信しています]]></description><link>https://0forest.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Aug 2020 10:22:28 GMT</lastBuildDate><item><title><![CDATA[デザインのドリル④ トレースで、写真の活かし方を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 写真の効果的な使い方 Lesson 2…]]></description><link>https://0forest.com/design-trace-04/</link><guid isPermaLink="false">https://0forest.com/design-trace-04/</guid><pubDate>Fri, 28 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Zero Forest RSS Feed]]></title><description><![CDATA[制作物を公開したり、Web技術について発信しています]]></description><link>https://0forest.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Aug 2020 11:09:15 GMT</lastBuildDate><item><title><![CDATA[デザインのドリル④ トレースで、写真の活かし方を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 写真の効果的な使い方 Lesson 2…]]></description><link>https://0forest.com/design-trace-04/</link><guid isPermaLink="false">https://0forest.com/design-trace-04/</guid><pubDate>Fri, 28 Aug 2020 03:00:00 GMT</pubDate><enclosure url="https://0forest.com/static/56d29cb4af34455cbb29b2214703a1dc/icatch-design-trace-04.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
 &lt;h2 id=&quot;写真の効果的な使い方&quot; style=&quot;position:relative;&quot;&gt;写真の効果的な使い方&lt;/h2&gt;
 &lt;h3 id=&quot;lesson-21-フリーマガジンの表紙&quot; style=&quot;position:relative;&quot;&gt;Lesson 21 フリーマガジンの表紙&lt;/h3&gt;
 &lt;p&gt;&lt;span
@@ -173,7 +173,7 @@
 &lt;ul&gt;
 &lt;li&gt;作ってみて、よく考えずに写真とフォントを並べた感じになってしまった…。&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【はじめてのGit】間違えて保存・コミットしたときに元に戻す方法まとめ]]></title><description><![CDATA[バージョン管理をしていて、前の状態に戻すやり方をまとめました。 過去のコミットしたときの状態を確認したい 元の状態
- ※他のコミットへ移動する前に、全ての変更をコミットしておきます。 SourceTree…]]></description><link>https://0forest.com/git-rebase/</link><guid isPermaLink="false">https://0forest.com/git-rebase/</guid><pubDate>Sun, 23 Aug 2020 09:00:31 GMT</pubDate><content:encoded>&lt;p&gt;バージョン管理をしていて、前の状態に戻すやり方をまとめました。&lt;/p&gt;
+ ※他のコミットへ移動する前に、全ての変更をコミットしておきます。 SourceTree…]]></description><link>https://0forest.com/git-rebase/</link><guid isPermaLink="false">https://0forest.com/git-rebase/</guid><pubDate>Sun, 23 Aug 2020 00:00:31 GMT</pubDate><content:encoded>&lt;p&gt;バージョン管理をしていて、前の状態に戻すやり方をまとめました。&lt;/p&gt;
 &lt;h2 id=&quot;過去のコミットしたときの状態を確認したい&quot; style=&quot;position:relative;&quot;&gt;過去のコミットしたときの状態を確認したい&lt;/h2&gt;
 &lt;p&gt;元の状態
 &lt;span
@@ -675,7 +675,7 @@ $ git commit -m &amp;quot;正しいコミット&amp;quot;&lt;/code&gt;&lt;/pre&g
 &lt;li&gt;&lt;a href=&quot;/git-branch/&quot;&gt;【gitでバージョン管理】ブランチを使って、履歴を分ける方法&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/github-gist-wordpress/&quot;&gt;GitHubでソースコードをブログに載せる方法まとめ&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル③ トレースで、フォントの印象的な見せ方を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 Lesson 12〜17　文字 フォントで印象がどのように変わるのかを学びます。 1２スキンケア店頭POP…]]></description><link>https://0forest.com/design-trace-03/</link><guid isPermaLink="false">https://0forest.com/design-trace-03/</guid><pubDate>Fri, 21 Aug 2020 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル③ トレースで、フォントの印象的な見せ方を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 Lesson 12〜17　文字 フォントで印象がどのように変わるのかを学びます。 1２スキンケア店頭POP…]]></description><link>https://0forest.com/design-trace-03/</link><guid isPermaLink="false">https://0forest.com/design-trace-03/</guid><pubDate>Fri, 21 Aug 2020 01:00:00 GMT</pubDate><enclosure url="https://0forest.com/static/53c956635ed9146615db65d6bbe805e7/icatch-design-trace-03.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
 &lt;h2 id=&quot;lesson-12〜17-文字&quot; style=&quot;position:relative;&quot;&gt;Lesson 12〜17　文字&lt;/h2&gt;
 &lt;p&gt;フォントで印象がどのように変わるのかを学びます。&lt;/p&gt;
 &lt;h3 id=&quot;1２スキンケア店頭pop&quot; style=&quot;position:relative;&quot;&gt;1２スキンケア店頭POP&lt;/h3&gt;
@@ -1033,7 +1033,7 @@ PhotoshopやIllustratorの文字パネルにある「トラッキング」と「
 &lt;p&gt;同じものを作ってオブジェクト＞オフセットで小さくする。&lt;/p&gt;
 &lt;p&gt;文字と重なる右分を消すには&lt;/p&gt;
 &lt;p&gt;　→　アンカーポイントを追加&lt;/p&gt;
-&lt;p&gt;　→ ダイレクト選択ツールでパスを消す&lt;/p&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル② トレースで、色の選び方を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 Lesson 7〜1…]]></description><link>https://0forest.com/design-trace-02/</link><guid isPermaLink="false">https://0forest.com/design-trace-02/</guid><pubDate>Fri, 21 Aug 2020 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
+&lt;p&gt;　→ ダイレクト選択ツールでパスを消す&lt;/p&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル② トレースで、色の選び方を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 Lesson 7〜1…]]></description><link>https://0forest.com/design-trace-02/</link><guid isPermaLink="false">https://0forest.com/design-trace-02/</guid><pubDate>Fri, 21 Aug 2020 00:00:00 GMT</pubDate><enclosure url="https://0forest.com/static/6a8a5ac79f0bedeb59b256eba9be0d08/icatch-design-trace-02.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
 &lt;h2 id=&quot;lesson-7〜11-配色&quot; style=&quot;position:relative;&quot;&gt;Lesson 7〜11 配色&lt;/h2&gt;
 &lt;p&gt;配色をテーマにした演習です。&lt;/p&gt;
 &lt;p&gt;色に関しては、どの色を使っているか本に書かれているので、迷わなかったです。&lt;/p&gt;
@@ -1292,7 +1292,7 @@ PhotoshopやIllustratorの文字パネルにある「トラッキング」と「
 &lt;li&gt;釣り合う二色を選ぶのが難しい&lt;/li&gt;
 &lt;li&gt;いつも似た色をばかり選んでしまう&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;いいなぁと思った色合いをストックしておくことが大事だなと思いました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル① トレースで、レイアウトを学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザインのトレース＆模写練習した記録です。 トレース&模写でデザイン練習中！手を動かして学べること Lesson 1〜…]]></description><link>https://0forest.com/design-trace-01/</link><guid isPermaLink="false">https://0forest.com/design-trace-01/</guid><pubDate>Fri, 21 Aug 2020 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザインのトレース＆模写練習した記録です。&lt;/p&gt;
+&lt;p&gt;いいなぁと思った色合いをストックしておくことが大事だなと思いました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル① トレースで、レイアウトを学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザインのトレース＆模写練習した記録です。 トレース&模写でデザイン練習中！手を動かして学べること Lesson 1〜…]]></description><link>https://0forest.com/design-trace-01/</link><guid isPermaLink="false">https://0forest.com/design-trace-01/</guid><pubDate>Thu, 20 Aug 2020 23:00:00 GMT</pubDate><enclosure url="https://0forest.com/static/96323b226ec53f96aae3c5547c18c9eb/icatch-design-trace-01.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザインのトレース＆模写練習した記録です。&lt;/p&gt;
 &lt;div class=&quot;related-posts&quot;&gt;
     &lt;span&gt;トレース＆模写については、こちらの記事もどうぞ&lt;/span&gt;
 &lt;ul&gt;
@@ -1472,7 +1472,7 @@ PhotoshopやIllustratorの文字パネルにある「トラッキング」と「
 &lt;li&gt;全て整列させるのではなく、文章は右にずらして重ねたり、フォントを手書きっぽくして、リラックスした感じがでている。&lt;/li&gt;
 &lt;li&gt;写真の上下／左右の余白が違う（左右のほうがちょっと広い）のも、アートっぽい感じがする。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;＞＞　続き：&lt;a href=&quot;/design-trace-02/&quot;&gt;デザインのドリル② トレースで、色の選び方を学ぶ&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[トレース&模写でデザイン練習中！手を動かして学べること]]></title><description><![CDATA[…]]></description><link>https://0forest.com/design-trace/</link><guid isPermaLink="false">https://0forest.com/design-trace/</guid><pubDate>Thu, 20 Aug 2020 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;トレースは、バナーや広告などの見本を、自分で再現しながらデザインを学ぶ練習手法です。&lt;/p&gt;
+&lt;p&gt;＞＞　続き：&lt;a href=&quot;/design-trace-02/&quot;&gt;デザインのドリル② トレースで、色の選び方を学ぶ&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[トレース&模写でデザイン練習中！手を動かして学べること]]></title><description><![CDATA[…]]></description><link>https://0forest.com/design-trace/</link><guid isPermaLink="false">https://0forest.com/design-trace/</guid><pubDate>Wed, 19 Aug 2020 23:00:00 GMT</pubDate><enclosure url="https://0forest.com/static/db71e912aba60b5ff96b4200ac641cef/icatch-design-trace.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;トレースは、バナーや広告などの見本を、自分で再現しながらデザインを学ぶ練習手法です。&lt;/p&gt;
 &lt;p&gt;お手本通りに真似て作ることで、デザインの引き出しを増やしたり、ツールの使い方になれることができます。&lt;/p&gt;
 &lt;div class=&quot;related-posts&quot;&gt;
     &lt;span&gt;合わせて読みたい&lt;/span&gt;
@@ -1593,7 +1593,7 @@ PhotoshopやIllustratorの文字パネルにある「トラッキング」と「
 &lt;li&gt;画像を多く使ったレイアウトや、複雑な素材を作るのが苦手&lt;/li&gt;
 &lt;li&gt;ペンツールが苦手&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;デザインのことはもちろん、練習を重ねてツールの使い方にももっと慣れていきたいです。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【CSS】Flexboxのプロパティまとめ]]></title><description><![CDATA[Flexboxは、CSSはWebページのレイアウトを設定できるモジュールです。 今回の記事では、Flexboxでよく使うプロパティをまとめました。 Flexboxの使い方  Flexboxを使う時は、整列させたいアイテム(item)をまとめて格納するコンテナ（conteiner…]]></description><link>https://0forest.com/flexbox-basics/</link><guid isPermaLink="false">https://0forest.com/flexbox-basics/</guid><pubDate>Sun, 09 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Flexboxは、CSSはWebページのレイアウトを設定できるモジュールです。&lt;/p&gt;
+&lt;p&gt;デザインのことはもちろん、練習を重ねてツールの使い方にももっと慣れていきたいです。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【CSS】Flexboxのプロパティまとめ]]></title><description><![CDATA[Flexboxは、CSSはWebページのレイアウトを設定できるモジュールです。 今回の記事では、Flexboxでよく使うプロパティをまとめました。 Flexboxの使い方  Flexboxを使う時は、整列させたいアイテム(item)をまとめて格納するコンテナ（conteiner…]]></description><link>https://0forest.com/flexbox-basics/</link><guid isPermaLink="false">https://0forest.com/flexbox-basics/</guid><pubDate>Sun, 09 Aug 2020 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Flexboxは、CSSはWebページのレイアウトを設定できるモジュールです。&lt;/p&gt;
 &lt;p&gt;今回の記事では、Flexboxでよく使うプロパティをまとめました。&lt;/p&gt;
 &lt;h2 id=&quot;flexboxの使い方&quot; style=&quot;position:relative;&quot;&gt;Flexboxの使い方&lt;/h2&gt;
 &lt;p&gt;&lt;span
@@ -2152,7 +2152,7 @@ PhotoshopやIllustratorの文字パネルにある「トラッキング」と「
 &lt;li&gt;&lt;a href=&quot;https://coliss.com/articles/build-websites/operation/css/css3-flexbox-properties-by-scotch.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;CSS Flexbox の基礎知識と使い方をやさしく解説&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【CSS】Box-Sizingの使い方]]></title><description><![CDATA[CSSプロパティのBox-sizingの説明です。
 Box-sizingはdivやpなどのボックスサイズの計算方法を指定してくれる。 ボックス幅の計算方法  デフォルトのcontent-boxだと、
-ボックスの幅=コンテンツ幅（width)+内側の余白(padding…]]></description><link>https://0forest.com/css-box-sizing/</link><guid isPermaLink="false">https://0forest.com/css-box-sizing/</guid><pubDate>Sun, 09 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;CSSプロパティのBox-sizingの説明です。
+ボックスの幅=コンテンツ幅（width)+内側の余白(padding…]]></description><link>https://0forest.com/css-box-sizing/</link><guid isPermaLink="false">https://0forest.com/css-box-sizing/</guid><pubDate>Sun, 09 Aug 2020 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;CSSプロパティのBox-sizingの説明です。
 Box-sizingはdivやpなどのボックスサイズの計算方法を指定してくれる。&lt;/p&gt;
 &lt;h2 id=&quot;ボックス幅の計算方法&quot; style=&quot;position:relative;&quot;&gt;ボックス幅の計算方法&lt;/h2&gt;
 &lt;p&gt;&lt;span
@@ -2192,7 +2192,7 @@ Box-sizingはdivやpなどのボックスサイズの計算方法を指定して
   &lt;span class=&quot;token property&quot;&gt;-webkit-box-sizing&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; border-box&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
   &lt;span class=&quot;token property&quot;&gt;box-sizing&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; border-box
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[【活動記録】Gatsbyに挑戦した7月]]></title><description><![CDATA[1ヶ月の実働をまとめる活動記録。
-7月はブログをリニューアルし、新しい興味も芽生える1 ヶ月でした。 7月のできごとピックアップ WordPressからGatsbyにブログをリニューアル WordPressはhtml/css…]]></description><link>https://0forest.com/diary-202007/</link><guid isPermaLink="false">https://0forest.com/diary-202007/</guid><pubDate>Fri, 31 Jul 2020 12:53:29 GMT</pubDate><content:encoded>&lt;p&gt;1ヶ月の実働をまとめる活動記録。
+7月はブログをリニューアルし、新しい興味も芽生える1 ヶ月でした。 7月のできごとピックアップ WordPressからGatsbyにブログをリニューアル WordPressはhtml/css…]]></description><link>https://0forest.com/diary-202007/</link><guid isPermaLink="false">https://0forest.com/diary-202007/</guid><pubDate>Fri, 31 Jul 2020 03:53:29 GMT</pubDate><content:encoded>&lt;p&gt;1ヶ月の実働をまとめる活動記録。
 7月はブログをリニューアルし、新しい興味も芽生える1 ヶ月でした。&lt;/p&gt;
 &lt;h2 id=&quot;7月のできごとピックアップ&quot; style=&quot;position:relative;&quot;&gt;7月のできごとピックアップ&lt;/h2&gt;
 &lt;h3 id=&quot;wordpressからgatsbyにブログをリニューアル&quot; style=&quot;position:relative;&quot;&gt;WordPressからGatsbyにブログをリニューアル&lt;/h3&gt;
@@ -2254,7 +2254,7 @@ Box-sizingはdivやpなどのボックスサイズの計算方法を指定して
 &lt;li&gt;制作過程や実績、自分の活動内容を発信していく&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;今後は、ホームページやブログで自分のコンテンツを発信をしていきたい、サービスを提供したいという方も増えるでしょう。&lt;/p&gt;
-&lt;p&gt;そういった方々のために、オンライン発信をはじめられるように、WordPressのスタートガイドやホームページ運営のガイドを作成していきです。（まだアイデアレベルですが）&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Flexboxで作るヘッダーのサンプル集]]></title><description><![CDATA[Flexboxは、CSSはWebページのレイアウトを設定できるモジュール。 Flexboxを使うと簡単に整列したり、配置できるようになるので、ヘッダーなどのレイアウトに使われています。  今回の記事では、Flexbox…]]></description><link>https://0forest.com/flexbox-header/</link><guid isPermaLink="false">https://0forest.com/flexbox-header/</guid><pubDate>Fri, 31 Jul 2020 08:17:46 GMT</pubDate><content:encoded>&lt;p&gt;Flexboxは、CSSはWebページのレイアウトを設定できるモジュール。&lt;/p&gt;
+&lt;p&gt;そういった方々のために、オンライン発信をはじめられるように、WordPressのスタートガイドやホームページ運営のガイドを作成していきです。（まだアイデアレベルですが）&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Flexboxで作るヘッダーのサンプル集]]></title><description><![CDATA[Flexboxは、CSSはWebページのレイアウトを設定できるモジュール。 Flexboxを使うと簡単に整列したり、配置できるようになるので、ヘッダーなどのレイアウトに使われています。  今回の記事では、Flexbox…]]></description><link>https://0forest.com/flexbox-header/</link><guid isPermaLink="false">https://0forest.com/flexbox-header/</guid><pubDate>Thu, 30 Jul 2020 23:17:46 GMT</pubDate><content:encoded>&lt;p&gt;Flexboxは、CSSはWebページのレイアウトを設定できるモジュール。&lt;/p&gt;
 &lt;p&gt;Flexboxを使うと簡単に整列したり、配置できるようになるので、ヘッダーなどのレイアウトに使われています。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -2391,7 +2391,7 @@ Box-sizingはdivやpなどのボックスサイズの計算方法を指定して
   &lt;span class=&quot;token property&quot;&gt;flex-direction&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; column&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;ロゴとメニューは縦に並べたいので、&lt;code class=&quot;language-text&quot;&gt;flex-direction: column&lt;/code&gt;と設定しています。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CSSとJavaScriptで作るハンバーガーメニュー]]></title><description><![CDATA[ハンバーガーメニューとは スマホなどで、ホームページを表示した時に見える３本線のこと。 この３本線が、ハンバーガーのように見えることから、ハンバーガーメニューと呼ばれています。  クリックすると、メニューが表示されます。
- 参考サイト：The Virginia…]]></description><link>https://0forest.com/hamburger-menu/</link><guid isPermaLink="false">https://0forest.com/hamburger-menu/</guid><pubDate>Sat, 25 Jul 2020 10:00:04 GMT</pubDate><content:encoded>&lt;h2 id=&quot;ハンバーガーメニューとは&quot; style=&quot;position:relative;&quot;&gt;ハンバーガーメニューとは&lt;/h2&gt;
+ 参考サイト：The Virginia…]]></description><link>https://0forest.com/hamburger-menu/</link><guid isPermaLink="false">https://0forest.com/hamburger-menu/</guid><pubDate>Sat, 25 Jul 2020 01:00:04 GMT</pubDate><enclosure url="https://0forest.com/static/2d578c96e37a4fe1708147929e3417e8/icatch.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;h2 id=&quot;ハンバーガーメニューとは&quot; style=&quot;position:relative;&quot;&gt;ハンバーガーメニューとは&lt;/h2&gt;
 &lt;p&gt;スマホなどで、ホームページを表示した時に見える３本線のこと。&lt;/p&gt;
 &lt;p&gt;この３本線が、ハンバーガーのように見えることから、ハンバーガーメニューと呼ばれています。&lt;/p&gt;
 &lt;p&gt;&lt;span
@@ -2578,7 +2578,7 @@ leftの値にアニメーションをつけて変化させます。&lt;/p&gt;
 &lt;/iframe&gt;
 &lt;h2 id=&quot;wordpressでハンバーガーメニューを実装するには？？&quot; style=&quot;position:relative;&quot;&gt;WordPressでハンバーガーメニューを実装するには？？&lt;/h2&gt;
 &lt;p&gt;WordPressでは、グローバルメニュー用のHTMLコードに合わせて、CSSを設定する必要があります。&lt;/p&gt;
-&lt;p&gt;詳しくは&lt;a href=&quot;/wordpress-pulldown-menu&quot;&gt;【WordPress】プルダウンメニューのデザインを整える&lt;/a&gt;をどうぞ。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【Gatsby】ブログのカテゴリー画像を表示させる]]></title><description><![CDATA[ブログ記事にカテゴリーのアイコンを表示させました。  【やりたかったこと】 各記事にはカテゴリーが一つ設定されている 記事一覧にカテゴリー画像を表示する gatsby-imageで画像を表示させたい 【参考記事】 パスを渡せばgatsby-image…]]></description><link>https://0forest.com/gatsby-category-image/</link><guid isPermaLink="false">https://0forest.com/gatsby-category-image/</guid><pubDate>Sat, 18 Jul 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ブログ記事にカテゴリーのアイコンを表示させました。&lt;/p&gt;
+&lt;p&gt;詳しくは&lt;a href=&quot;/wordpress-pulldown-menu&quot;&gt;【WordPress】プルダウンメニューのデザインを整える&lt;/a&gt;をどうぞ。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【Gatsby】ブログのカテゴリー画像を表示させる]]></title><description><![CDATA[ブログ記事にカテゴリーのアイコンを表示させました。  【やりたかったこと】 各記事にはカテゴリーが一つ設定されている 記事一覧にカテゴリー画像を表示する gatsby-imageで画像を表示させたい 【参考記事】 パスを渡せばgatsby-image…]]></description><link>https://0forest.com/gatsby-category-image/</link><guid isPermaLink="false">https://0forest.com/gatsby-category-image/</guid><pubDate>Sat, 18 Jul 2020 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt;ブログ記事にカテゴリーのアイコンを表示させました。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
@@ -2842,7 +2842,7 @@ fluidのところは下記のようにFragmentに置き換えます。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;import Category from &amp;quot;../components/category&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;カテゴリーを表示させたい箇所で、namenいカテゴリー名を指定して、呼び出します。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;Category name= &amp;quot;Programming&amp;quot; /&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;このブログは、&lt;a href=&quot;https://github.com/emmieworks/gatsby-zefoforest&quot;&gt;GitHub&lt;/a&gt;でソースを公開しています。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Netlifyを使って、Gatsby.jsブログを独自ドメインで公開する手順]]></title><description><![CDATA[Gatsby.jsブログの公開にはNetlifyというホスティングサービスを使います。 NetlifyとGitHubを連携すると、Gatsbyで作ったサイトがWeb上に公開でき、また更新も自動で反映してくれます。 使うもの GitHub Netlify…]]></description><link>https://0forest.com/gatsby-netlify/</link><guid isPermaLink="false">https://0forest.com/gatsby-netlify/</guid><pubDate>Fri, 10 Jul 2020 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Gatsby.jsブログの公開にはNetlifyというホスティングサービスを使います。&lt;/p&gt;
+&lt;p&gt;このブログは、&lt;a href=&quot;https://github.com/emmieworks/gatsby-zefoforest&quot;&gt;GitHub&lt;/a&gt;でソースを公開しています。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Netlifyを使って、Gatsby.jsブログを独自ドメインで公開する手順]]></title><description><![CDATA[Gatsby.jsブログの公開にはNetlifyというホスティングサービスを使います。 NetlifyとGitHubを連携すると、Gatsbyで作ったサイトがWeb上に公開でき、また更新も自動で反映してくれます。 使うもの GitHub Netlify…]]></description><link>https://0forest.com/gatsby-netlify/</link><guid isPermaLink="false">https://0forest.com/gatsby-netlify/</guid><pubDate>Thu, 09 Jul 2020 16:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Gatsby.jsブログの公開にはNetlifyというホスティングサービスを使います。&lt;/p&gt;
 &lt;p&gt;NetlifyとGitHubを連携すると、Gatsbyで作ったサイトがWeb上に公開でき、また更新も自動で反映してくれます。&lt;/p&gt;
 &lt;p&gt;使うもの&lt;/p&gt;
 &lt;ul&gt;
@@ -3276,7 +3276,7 @@ git commit -m &amp;quot;update&amp;quot;
 git push&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Netlifyでデプロイされて、ホームページに変更が反映されます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressからGatsby.jsにブログを変えました]]></title><description><![CDATA[ブログをWordPressからGatsbyに変えました。 Gatsbyとは？ GatsbyはWebサイトのHTMLファイルを生成してくれるツールです。
 静的サイトジェネレーターと呼ばれています WordPressなどのCMSでは、データベースで記事を管理しています。
-URL…]]></description><link>https://0forest.com/gatsby-new-blog/</link><guid isPermaLink="false">https://0forest.com/gatsby-new-blog/</guid><pubDate>Sat, 04 Jul 2020 11:00:47 GMT</pubDate><content:encoded>&lt;p&gt;ブログをWordPressからGatsbyに変えました。&lt;/p&gt;
+URL…]]></description><link>https://0forest.com/gatsby-new-blog/</link><guid isPermaLink="false">https://0forest.com/gatsby-new-blog/</guid><pubDate>Sat, 04 Jul 2020 02:00:47 GMT</pubDate><content:encoded>&lt;p&gt;ブログをWordPressからGatsbyに変えました。&lt;/p&gt;
 &lt;h2 id=&quot;gatsbyとは？&quot; style=&quot;position:relative;&quot;&gt;Gatsbyとは？&lt;/h2&gt;
 &lt;p&gt;GatsbyはWebサイトのHTMLファイルを生成してくれるツールです。
 静的サイトジェネレーターと呼ばれています&lt;/p&gt;
@@ -3420,7 +3420,7 @@ markdown形式に置き換えます。&lt;/p&gt;
 &lt;p&gt;参考図書は、Gatsbyチュートリアルと本です。&lt;/p&gt;
 &lt;div class=&quot;cstmreba&quot;&gt;&lt;div class=&quot;booklink-box&quot;&gt;&lt;div class=&quot;booklink-image&quot;&gt;&lt;a href=&quot;//af.moshimo.com/af/c/click?a_id=742757&amp;p_id=56&amp;pc_id=56&amp;pl_id=637&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F16301755%2F&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; &gt;&lt;img src=&quot;https://thumbnail.image.rakuten.co.jp/@0_mall/book/cabinet/3001/9784839973001.jpg?_ex=200x200&quot; style=&quot;border: none;&quot; /&gt;&lt;/a&gt;&lt;img src=&quot;//i.moshimo.com/af/i/impression?a_id=742757&amp;p_id=56&amp;pc_id=56&amp;pl_id=637&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;border:none;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;booklink-info&quot;&gt;&lt;div class=&quot;booklink-name&quot;&gt;&lt;a href=&quot;//af.moshimo.com/af/c/click?a_id=742757&amp;p_id=56&amp;pc_id=56&amp;pl_id=637&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F16301755%2F&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; &gt;Webサイト高速化のための　静的サイトジェネレーター活用入門&lt;/a&gt;&lt;img src=&quot;//i.moshimo.com/af/i/impression?a_id=742757&amp;p_id=56&amp;pc_id=56&amp;pl_id=637&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;border:none;&quot;&gt;&lt;div class=&quot;booklink-powered-date&quot;&gt;posted with &lt;a href=&quot;https://yomereba.com&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;ヨメレバ&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;booklink-detail&quot;&gt;エビスコム マイナビ出版 2020年06月01日    &lt;/div&gt;&lt;div class=&quot;booklink-link2&quot;&gt;&lt;div class=&quot;shoplinkrakuten&quot;&gt;&lt;a href=&quot;//af.moshimo.com/af/c/click?a_id=742757&amp;p_id=56&amp;pc_id=56&amp;pl_id=637&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F16301755%2F&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; &gt;楽天ブックス&lt;/a&gt;&lt;img src=&quot;//i.moshimo.com/af/i/impression?a_id=742757&amp;p_id=56&amp;pc_id=56&amp;pl_id=637&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;border:none;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;shoplinkamazon&quot;&gt;&lt;a href=&quot;https://www.amazon.co.jp/exec/obidos/asin/4839973008/filledfores07-22/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; &gt;Amazon&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;shoplinkkindle&quot;&gt;&lt;a href=&quot;https://www.amazon.co.jp/gp/search?keywords=Web%E3%82%B5%E3%82%A4%E3%83%88%E9%AB%98%E9%80%9F%E5%8C%96%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%80%80%E9%9D%99%E7%9A%84%E3%82%B5%E3%82%A4%E3%83%88%E3%82%B8%E3%82%A7%E3%83%8D%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC%E6%B4%BB%E7%94%A8%E5%85%A5%E9%96%80&amp;__mk_ja_JP=%83J%83%5E%83J%83i&amp;url=node%3D2275256051&amp;tag=filledfores07-22&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; &gt;Kindle&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;shoplinkseven&quot;&gt;&lt;a href=&quot;//af.moshimo.com/af/c/click?a_id=1082680&amp;p_id=932&amp;pc_id=1188&amp;pl_id=12456&amp;s_v=b5Rz2P0601xu&amp;url=http%3A%2F%2F7net.omni7.jp%2Fsearch%2F%3FsearchKeywordFlg%3D1%26keyword%3D9784839973001&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; &gt;7net&lt;img src=&quot;//i.moshimo.com/af/i/impression?a_id=1082680&amp;p_id=932&amp;pc_id=1188&amp;pl_id=12456&quot; width=&quot;1&quot; height=&quot;1&quot; style=&quot;border:none;&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;shoplinkbk1&quot;&gt;&lt;a href=&quot;//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3390948&amp;pid=885314885&amp;vc_url=http%3A%2F%2Fhonto.jp%2Fnetstore%2Fsearch_021_104839973008.html%3Fsrchf%3D1%26srchGnrNm%3D1&amp;vcptn=kaereba&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; &gt;honto&lt;img src=&quot;//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3390948&amp;pid=885314885&quot; height=&quot;1&quot; width=&quot;1&quot; border=&quot;0&quot;&gt;&lt;/a&gt;&lt;/div&gt;           &lt;div class=&quot;shoplinkkino&quot;&gt;&lt;a href=&quot;//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3390948&amp;pid=886623503&amp;vc_url=http%3A%2F%2Fwww.kinokuniya.co.jp%2Ff%2Fdsg-01-9784839973001&amp;vcptn=kaereba&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; &gt;紀伊國屋書店&lt;img src=&quot;//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3390948&amp;pid=886623503&quot; height=&quot;1&quot; width=&quot;1&quot; border=&quot;0&quot;&gt;&lt;/a&gt;&lt;/div&gt;          &lt;div class=&quot;shoplinkebj&quot;&gt;&lt;a href=&quot;//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3390948&amp;pid=886623490&amp;vc_url=https%3A%2F%2Febookjapan.yahoo.co.jp%2Fbooks%2F591249%2FA002386414%3Fdealerid%3D30064%26utm_source%3Dasp%26utm_medium%3Dmedi%26utm_campaign%3Drate_yome&amp;vcptn=kaereba&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; &gt;ebookjapan&lt;img src=&quot;//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3390948&amp;pid=886623490&quot; height=&quot;1&quot; width=&quot;1&quot; border=&quot;0&quot;&gt;&lt;/a&gt;&lt;/div&gt;      &lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;booklink-footer&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[ラジオボタン／チェックボタンの代わりに画像を使う方法]]></title><description><![CDATA[HTMLとCSSで、お問い合わせフォームのラジオボタンやチェックボタンの代わりに画像選択にします。    Before     After
   HTMLとCSS やり方 ①label＋imgを足す  labelタグの中で画像を表示します。
-labelタグのforはinputのid…]]></description><link>https://0forest.com/radio-button-image/</link><guid isPermaLink="false">https://0forest.com/radio-button-image/</guid><pubDate>Sat, 13 Jun 2020 03:30:54 GMT</pubDate><content:encoded>&lt;p&gt; HTMLとCSSで、お問い合わせフォームのラジオボタンやチェックボタンの代わりに画像選択にします。&lt;/p&gt;
+labelタグのforはinputのid…]]></description><link>https://0forest.com/radio-button-image/</link><guid isPermaLink="false">https://0forest.com/radio-button-image/</guid><pubDate>Fri, 12 Jun 2020 18:30:54 GMT</pubDate><enclosure url="https://0forest.com/static/d85dd65199fd30ec769aa12d6115391f/icatch-20200613.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt; HTMLとCSSで、お問い合わせフォームのラジオボタンやチェックボタンの代わりに画像選択にします。&lt;/p&gt;
 &lt;p&gt;   Before&lt;/p&gt;
 &lt;p&gt; &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -3587,7 +3587,7 @@ labelタグのforはinputのidと揃えます。&lt;/p&gt;
 &lt;iframe height=&quot;265&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;ラジオボタンを画像で表示&quot; src=&quot;https://codepen.io/filledforest/embed/abdNLrM?height=265&amp;theme-id=light&amp;default-tab=html,result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
   See the Pen &lt;a href=&apos;https://codepen.io/filledforest/pen/abdNLrM&apos;&gt;ラジオボタンを画像で表示&lt;/a&gt; by Emi
   (&lt;a href=&apos;https://codepen.io/filledforest&apos;&gt;@filledforest&lt;/a&gt;) on &lt;a href=&apos;https://codepen.io&apos;&gt;CodePen&lt;/a&gt;.
-&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[WordPressテーマのカスタマイズまとめ]]></title><description><![CDATA[カスタマイズの準備 子テーマの作り方 テーマにcssとjsを読み込む書き方 記事デザインの装飾 style.cssにコードを追加して、見出しや、飾り枠など記事のデザインを変更していきます。 CSSで作れるかわいいブログ見出しのデザイン CSS…]]></description><link>https://0forest.com/wordpress-theme-customize/</link><guid isPermaLink="false">https://0forest.com/wordpress-theme-customize/</guid><pubDate>Sat, 06 Jun 2020 05:28:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;カスタマイズの準備&quot; style=&quot;position:relative;&quot;&gt;カスタマイズの準備&lt;/h2&gt;
+&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[WordPressテーマのカスタマイズまとめ]]></title><description><![CDATA[カスタマイズの準備 子テーマの作り方 テーマにcssとjsを読み込む書き方 記事デザインの装飾 style.cssにコードを追加して、見出しや、飾り枠など記事のデザインを変更していきます。 CSSで作れるかわいいブログ見出しのデザイン CSS…]]></description><link>https://0forest.com/wordpress-theme-customize/</link><guid isPermaLink="false">https://0forest.com/wordpress-theme-customize/</guid><pubDate>Fri, 05 Jun 2020 20:28:00 GMT</pubDate><enclosure url="https://0forest.com/static/bbd49d8f8fc530b66bfa31aabd257e55/icatch-20200606.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;h2 id=&quot;カスタマイズの準備&quot; style=&quot;position:relative;&quot;&gt;カスタマイズの準備&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;/wp-child-theme/&quot;&gt;子テーマの作り方&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/wordpress-theme-css-js/&quot;&gt;テーマにcssとjsを読み込む書き方&lt;/a&gt;&lt;/li&gt;
@@ -3629,7 +3629,7 @@ labelタグのforはinputのidと揃えます。&lt;/p&gt;
 &lt;h2 id=&quot;参考図書&quot; style=&quot;position:relative;&quot;&gt;参考図書&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;/wordpress-books/&quot;&gt;WordPressで本格的にホームページを作りたい人におすすめ本４冊&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【活動記録】ストレングスファインダーで強みを探す5月]]></title><description><![CDATA[今月は、ストレンクスファインダーを受けたので、結果から考えたことをまとめておきます。 ストレンクスファインダーとは ストレングスファインダーは、177の質問に答えることで、自分の持っている強みの傾向がわかるツールです。全部で3…]]></description><link>https://0forest.com/diary-202005/</link><guid isPermaLink="false">https://0forest.com/diary-202005/</guid><pubDate>Sun, 31 May 2020 05:00:00 GMT</pubDate><content:encoded>&lt;p&gt;今月は、ストレンクスファインダーを受けたので、結果から考えたことをまとめておきます。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【活動記録】ストレングスファインダーで強みを探す5月]]></title><description><![CDATA[今月は、ストレンクスファインダーを受けたので、結果から考えたことをまとめておきます。 ストレンクスファインダーとは ストレングスファインダーは、177の質問に答えることで、自分の持っている強みの傾向がわかるツールです。全部で3…]]></description><link>https://0forest.com/diary-202005/</link><guid isPermaLink="false">https://0forest.com/diary-202005/</guid><pubDate>Sat, 30 May 2020 20:00:00 GMT</pubDate><enclosure url="https://0forest.com/static/9633af1f2c2ad8629699ebfca09c50b1/icatch-20200531.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;今月は、ストレンクスファインダーを受けたので、結果から考えたことをまとめておきます。&lt;/p&gt;
 &lt;h2 id=&quot;ストレンクスファインダーとは&quot; style=&quot;position:relative;&quot;&gt;ストレンクスファインダーとは&lt;/h2&gt;
 &lt;p&gt;ストレングスファインダーは、177の質問に答えることで、自分の持っている強みの傾向がわかるツールです。全部で34の性質のランキングで見ることができます。&lt;/p&gt;
 &lt;p&gt;なぜ受けようかと思ったかというと、自分に合う学び方、仕事の進め方を知りたかったから。&lt;/p&gt;
@@ -3696,7 +3696,7 @@ labelタグのforはinputのidと揃えます。&lt;/p&gt;
 &lt;p&gt;短所を克服しなきゃと思いがちですが、「自分の強みは別のところにある。ただ力の入れどころが違うだけ」だと思って、すっきりしました。&lt;/p&gt;
 &lt;p&gt;自分の力を入れるところ、抜きどころが意識できたのがよかったです。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【Python】Livedoorのバックアップデータ（backup.txt）をWordPress移行用に置き換える]]></title><description><![CDATA[Livedoorブログの記事データをWordPressへと移行する際に、いくつか記事データの内容を書き換える必要があります。 ①画像のURL
 旧： https://livedoor.blogimg.jp/ライブドアID/imgs/●/●/
-新： https://独自ドメイン/wp…]]></description><link>https://0forest.com/python-livedoor-replace-program/</link><guid isPermaLink="false">https://0forest.com/python-livedoor-replace-program/</guid><pubDate>Sat, 30 May 2020 10:53:00 GMT</pubDate><content:encoded>&lt;p&gt; Livedoorブログの記事データをWordPressへと移行する際に、いくつか記事データの内容を書き換える必要があります。&lt;/p&gt;
+新： https://独自ドメイン/wp…]]></description><link>https://0forest.com/python-livedoor-replace-program/</link><guid isPermaLink="false">https://0forest.com/python-livedoor-replace-program/</guid><pubDate>Sat, 30 May 2020 01:53:00 GMT</pubDate><content:encoded>&lt;p&gt; Livedoorブログの記事データをWordPressへと移行する際に、いくつか記事データの内容を書き換える必要があります。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;①画像のURL
 旧： &lt;a href=&quot;https://livedoor.blogimg.jp/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%89%E3%82%A2ID/imgs/%E2%97%8F/%E2%97%8F/&quot;&gt;https://livedoor.blogimg.jp/ライブドアID/imgs/●/●/&lt;/a&gt;
@@ -3761,7 +3761,7 @@ new_lines &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span c
 ├─ replace.py
 └─ backup.txt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;script.pyがあるフォルダでターミナルを開いてプログラムを実行すると、backup.txtが書き換わります。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; $ python replace.py&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[【Python】Google Search Consoleの検索パフォーマンスをDBに保存するプログラム]]></title><description><![CDATA[サーチコンソールのデータをDBに保存して、検索パフォーマンスを月別に比較したりできたらいいなと思ってPythonでプログラムを書くことに。 今回作るプログラム Google Search ConsoleからAPI経由で、日付ごとの検索パフォーマンスをMySQL…]]></description><link>https://0forest.com/python-gsc-db/</link><guid isPermaLink="false">https://0forest.com/python-gsc-db/</guid><pubDate>Sun, 24 May 2020 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;サーチコンソールのデータをDBに保存して、検索パフォーマンスを月別に比較したりできたらいいなと思ってPythonでプログラムを書くことに。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; $ python replace.py&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[【Python】Google Search Consoleの検索パフォーマンスをDBに保存するプログラム]]></title><description><![CDATA[サーチコンソールのデータをDBに保存して、検索パフォーマンスを月別に比較したりできたらいいなと思ってPythonでプログラムを書くことに。 今回作るプログラム Google Search ConsoleからAPI経由で、日付ごとの検索パフォーマンスをMySQL…]]></description><link>https://0forest.com/python-gsc-db/</link><guid isPermaLink="false">https://0forest.com/python-gsc-db/</guid><pubDate>Sun, 24 May 2020 00:00:00 GMT</pubDate><enclosure url="https://0forest.com/static/a045fe622dc05e4681e2de9b3a7eb575/icatch-20200524.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;サーチコンソールのデータをDBに保存して、検索パフォーマンスを月別に比較したりできたらいいなと思ってPythonでプログラムを書くことに。&lt;/p&gt;
 &lt;p&gt;今回作るプログラム Google Search ConsoleからAPI経由で、日付ごとの検索パフォーマンスをMySQLデータベースに保存する&lt;/p&gt;
 &lt;h2 id=&quot;データベースを準備する&quot; style=&quot;position:relative;&quot;&gt;データベースを準備する&lt;/h2&gt;
 &lt;p&gt;Google Search ConsoleからAPI経由で、日付ごとに下記データを取得します。&lt;/p&gt;
@@ -4000,7 +4000,7 @@ output_2020-04-01-2020-04-30.csv
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【Python】Google Search Console APIから検索パフォーマンスをCSV出力するプログラム]]></title><description><![CDATA[Google Search Consoleのデータをスプレッドシートで分析したい Google Search Consoleは、Google…]]></description><link>https://0forest.com/python-google-search-console-api/</link><guid isPermaLink="false">https://0forest.com/python-google-search-console-api/</guid><pubDate>Sat, 23 May 2020 07:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;google-search-consoleのデータをスプレッドシートで分析したい&quot; style=&quot;position:relative;&quot;&gt;Google Search Consoleのデータをスプレッドシートで分析したい&lt;/h2&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【Python】Google Search Console APIから検索パフォーマンスをCSV出力するプログラム]]></title><description><![CDATA[Google Search Consoleのデータをスプレッドシートで分析したい Google Search Consoleは、Google…]]></description><link>https://0forest.com/python-google-search-console-api/</link><guid isPermaLink="false">https://0forest.com/python-google-search-console-api/</guid><pubDate>Fri, 22 May 2020 22:00:00 GMT</pubDate><enclosure url="https://0forest.com/static/472447d4a0794745b894d31a65383662/icatch-20200523.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;h2 id=&quot;google-search-consoleのデータをスプレッドシートで分析したい&quot; style=&quot;position:relative;&quot;&gt;Google Search Consoleのデータをスプレッドシートで分析したい&lt;/h2&gt;
 &lt;p&gt;Google Search Consoleは、Googleで検索されるキーワードや順位を確認できる無料ツールです。&lt;/p&gt;
 &lt;p&gt;画面上でも確認できますが、例えば、先月と今月で表示数や順位がどれくらい変わったの？といった月ごとの比較は面倒です。&lt;/p&gt;
 &lt;p&gt;定点観測のために、検索パフォーマンスをCSVに保存して、月別に比較したり、分析できた方が早いと思い、Pythonでプログラムを書いてみました。&lt;/p&gt;
@@ -4508,7 +4508,7 @@ dimensions：どのデータを取得するか&lt;/p&gt;
         loading=&quot;lazy&quot;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【初心者向け】MySQLの基本コマンドまとめ]]></title><description><![CDATA[MySQLデータベースの操作でよく使う基本的なコマンドをまとめました。 まだMySQLをインストールしていない場合
-MySQLの環境構築 インストールされているとバージョンが表示されます。 MySQLサーバーの起動  パスワードを入力してEnter…]]></description><link>https://0forest.com/mysql-basics/</link><guid isPermaLink="false">https://0forest.com/mysql-basics/</guid><pubDate>Sat, 16 May 2020 15:03:00 GMT</pubDate><content:encoded>&lt;p&gt;MySQLデータベースの操作でよく使う基本的なコマンドをまとめました。&lt;/p&gt;
+MySQLの環境構築 インストールされているとバージョンが表示されます。 MySQLサーバーの起動  パスワードを入力してEnter…]]></description><link>https://0forest.com/mysql-basics/</link><guid isPermaLink="false">https://0forest.com/mysql-basics/</guid><pubDate>Fri, 15 May 2020 18:03:00 GMT</pubDate><enclosure url="https://0forest.com/static/f73534225458e09d5bb5b15079916e6a/icatch-20200510-1.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;MySQLデータベースの操作でよく使う基本的なコマンドをまとめました。&lt;/p&gt;
 &lt;p&gt;まだMySQLをインストールしていない場合
 &lt;a href=&quot;https://prog-8.com/docs/mysql-env&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;MySQLの環境構築&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;-- MySQLのバージョン確認
@@ -4685,7 +4685,7 @@ mysql&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span cla
 &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; にんじん     &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt;
 &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;----+--------------+-------+&lt;/span&gt;
 &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;rows&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.00&lt;/span&gt; sec&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;WHEREで削除するデータの条件を指定します。指定しないと全データ削除になります。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[LivedoorブログからWordPressへのお引っ越し手順]]></title><description><![CDATA[LivedoorブログからWordPressへ引っ越しの手順と注意点をまとめます。 引越しの手順 データのエクスポート（記事、画像） 記事データの変換 WordPress…]]></description><link>https://0forest.com/move-livedoor-to-wordpress/</link><guid isPermaLink="false">https://0forest.com/move-livedoor-to-wordpress/</guid><pubDate>Sun, 10 May 2020 09:58:00 GMT</pubDate><content:encoded>&lt;p&gt;LivedoorブログからWordPressへ引っ越しの手順と注意点をまとめます。&lt;/p&gt;
+&lt;p&gt;WHEREで削除するデータの条件を指定します。指定しないと全データ削除になります。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[LivedoorブログからWordPressへのお引っ越し手順]]></title><description><![CDATA[LivedoorブログからWordPressへ引っ越しの手順と注意点をまとめます。 引越しの手順 データのエクスポート（記事、画像） 記事データの変換 WordPress…]]></description><link>https://0forest.com/move-livedoor-to-wordpress/</link><guid isPermaLink="false">https://0forest.com/move-livedoor-to-wordpress/</guid><pubDate>Sun, 10 May 2020 00:58:00 GMT</pubDate><enclosure url="https://0forest.com/static/b843c5c616407bdb16ba14e674825af7/icatch-20200510.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;LivedoorブログからWordPressへ引っ越しの手順と注意点をまとめます。&lt;/p&gt;
 &lt;p&gt;引越しの手順&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;データのエクスポート（記事、画像）&lt;/li&gt;
@@ -4777,7 +4777,7 @@ mysql&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span cla
 &lt;p&gt;投稿者の割り当ては任意のユーザー名を入力します。
 実行」を押すとインポートが開始されます。&lt;/p&gt;
 &lt;p&gt;これで記事のインポートが完了しました。&lt;/p&gt;
-&lt;p&gt;最後に、各記事の画像やリンクが表示されているかを確認しましょう。プラグイン 「Broken Link Checker」を使うと、リンク切れの箇所をお知らせしてくれます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【Python】Livedoorブログの画像を一括ダウンロードするプログラム]]></title><description><![CDATA[LivedoorブログからWordPressに移行するときに問題になるのが、画像のこと。 livedoor Blogには画像をエクスポートする機能がないため、スクレイピングツールなどで画像を抽出して保存する必要があります。 Mac…]]></description><link>https://0forest.com/python-image-download-pgm/</link><guid isPermaLink="false">https://0forest.com/python-image-download-pgm/</guid><pubDate>Sat, 09 May 2020 08:25:00 GMT</pubDate><content:encoded>&lt;p&gt;LivedoorブログからWordPressに移行するときに問題になるのが、画像のこと。&lt;/p&gt;
+&lt;p&gt;最後に、各記事の画像やリンクが表示されているかを確認しましょう。プラグイン 「Broken Link Checker」を使うと、リンク切れの箇所をお知らせしてくれます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【Python】Livedoorブログの画像を一括ダウンロードするプログラム]]></title><description><![CDATA[LivedoorブログからWordPressに移行するときに問題になるのが、画像のこと。 livedoor Blogには画像をエクスポートする機能がないため、スクレイピングツールなどで画像を抽出して保存する必要があります。 Mac…]]></description><link>https://0forest.com/python-image-download-pgm/</link><guid isPermaLink="false">https://0forest.com/python-image-download-pgm/</guid><pubDate>Fri, 08 May 2020 23:25:00 GMT</pubDate><enclosure url="https://0forest.com/static/fba5384906fc65d63759cea089d92a84/icatch-20200509.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;LivedoorブログからWordPressに移行するときに問題になるのが、画像のこと。&lt;/p&gt;
 &lt;p&gt;livedoor Blogには画像をエクスポートする機能がないため、スクレイピングツールなどで画像を抽出して保存する必要があります。&lt;/p&gt;
 &lt;p&gt;Mac用の画像取得ツールが見つからなかったので、Pythonで画像取得プログラムを書いてみました。&lt;/p&gt;
 &lt;h2 id=&quot;ソースコード&quot; style=&quot;position:relative;&quot;&gt;ソースコード&lt;/h2&gt;
@@ -4846,7 +4846,7 @@ images &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span clas
 &lt;li&gt;backup.txtから画像のURLを取得する&lt;/li&gt;
 &lt;li&gt;imagesフォルダを作成する&lt;/li&gt;
 &lt;li&gt;画像のURLにアクセスし、画像をimagesフォルダにダウンロードする。&lt;/li&gt;
-&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[【活動記録】ゆったり家で過ごす4月]]></title><description><![CDATA[2020年4月の振り返りです。 お仕事や人と会う約束がなくなって、ゆったりと自分のペースで過ごせる時間が増えました。 今月の振り返り 【プログラミング編】新しい言語にたくさん触れた 先月に引き続きPHPの本を読みつつ、ショッピングサイトを作ってみました。 Progate…]]></description><link>https://0forest.com/diary-202004/</link><guid isPermaLink="false">https://0forest.com/diary-202004/</guid><pubDate>Sun, 03 May 2020 09:58:09 GMT</pubDate><content:encoded>&lt;p&gt;2020年4月の振り返りです。&lt;/p&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[【活動記録】ゆったり家で過ごす4月]]></title><description><![CDATA[2020年4月の振り返りです。 お仕事や人と会う約束がなくなって、ゆったりと自分のペースで過ごせる時間が増えました。 今月の振り返り 【プログラミング編】新しい言語にたくさん触れた 先月に引き続きPHPの本を読みつつ、ショッピングサイトを作ってみました。 Progate…]]></description><link>https://0forest.com/diary-202004/</link><guid isPermaLink="false">https://0forest.com/diary-202004/</guid><pubDate>Sun, 03 May 2020 00:58:09 GMT</pubDate><enclosure url="https://0forest.com/static/afaf491ba06518f93a16d31d219fd386/icatch-20200503.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;2020年4月の振り返りです。&lt;/p&gt;
 &lt;p&gt;お仕事や人と会う約束がなくなって、ゆったりと自分のペースで過ごせる時間が増えました。&lt;/p&gt;
 &lt;h2 id=&quot;今月の振り返り&quot; style=&quot;position:relative;&quot;&gt;今月の振り返り&lt;/h2&gt;
 &lt;h3 id=&quot;【プログラミング編】新しい言語にたくさん触れた&quot; style=&quot;position:relative;&quot;&gt;【プログラミング編】新しい言語にたくさん触れた&lt;/h3&gt;
@@ -4942,7 +4942,7 @@ images &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span clas
 プラグイン 、Webアプリケーション、作りたいものはいろいろ🤔&lt;/p&gt;
 &lt;p&gt;機能はもちろん、デザイン、見た目も大事だよなぁ。それからセキュリティも…。&lt;/p&gt;
 &lt;p&gt;プログラムを公開して運用するにはサーバーも必要（調べてみると、herokuというサービスを使えばいけそう？）&lt;/p&gt;
-&lt;p&gt;ほんとWebって幅広い知識が必要ですね。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitHub/gistからWordPressにソースコードを埋め込む方法まとめ]]></title><description><![CDATA[GitHub/GistからWordPressにコードを表示するための手順をまとめて掲載します♪ GitHubからソースコードを表示する GitHubのレポジトリにあるプログラムをブログに掲載するときはscriptコードを貼り付けます。 ①基本 例えば、URL…]]></description><link>https://0forest.com/github-gist-wordpress/</link><guid isPermaLink="false">https://0forest.com/github-gist-wordpress/</guid><pubDate>Sat, 02 May 2020 00:55:00 GMT</pubDate><content:encoded>&lt;p&gt;GitHub/GistからWordPressにコードを表示するための手順をまとめて掲載します♪&lt;/p&gt;
+&lt;p&gt;ほんとWebって幅広い知識が必要ですね。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitHub/gistからWordPressにソースコードを埋め込む方法まとめ]]></title><description><![CDATA[GitHub/GistからWordPressにコードを表示するための手順をまとめて掲載します♪ GitHubからソースコードを表示する GitHubのレポジトリにあるプログラムをブログに掲載するときはscriptコードを貼り付けます。 ①基本 例えば、URL…]]></description><link>https://0forest.com/github-gist-wordpress/</link><guid isPermaLink="false">https://0forest.com/github-gist-wordpress/</guid><pubDate>Sat, 02 May 2020 03:55:00 GMT</pubDate><enclosure url="https://0forest.com/static/a277ad214bd3d3e820fc1949c003972f/icatch-20200502.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;GitHub/GistからWordPressにコードを表示するための手順をまとめて掲載します♪&lt;/p&gt;
 &lt;h2 id=&quot;githubからソースコードを表示する&quot; style=&quot;position:relative;&quot;&gt;GitHubからソースコードを表示する&lt;/h2&gt;
 &lt;p&gt;GitHubのレポジトリにあるプログラムをブログに掲載するときはscriptコードを貼り付けます。&lt;/p&gt;
 &lt;p&gt;①基本&lt;/p&gt;
@@ -5046,7 +5046,7 @@ images &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span clas
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;これで、簡単にソースコード を公開できますね。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【JINカスタマイズ】シンタックスハイライターを改造して、Gutenbergでもソースコードを表示する方法]]></title><description><![CDATA[私はブログにソースコードを表示させているのですが、
-こんな風に、きれいに表示させたいですよね。 JINのシンタックスハイライター機能をGutenbergでも使う WordPressテーマJIN…]]></description><link>https://0forest.com/jin-syntaxhighlighter/</link><guid isPermaLink="false">https://0forest.com/jin-syntaxhighlighter/</guid><pubDate>Thu, 30 Apr 2020 02:57:00 GMT</pubDate><content:encoded>&lt;p&gt;私はブログにソースコードを表示させているのですが、
+こんな風に、きれいに表示させたいですよね。 JINのシンタックスハイライター機能をGutenbergでも使う WordPressテーマJIN…]]></description><link>https://0forest.com/jin-syntaxhighlighter/</link><guid isPermaLink="false">https://0forest.com/jin-syntaxhighlighter/</guid><pubDate>Wed, 29 Apr 2020 17:57:00 GMT</pubDate><enclosure url="https://0forest.com/static/3cb82a2d6029f336ba7bc9df46f6bad2/icatch-20200430.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;私はブログにソースコードを表示させているのですが、
 こんな風に、きれいに表示させたいですよね。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markup&quot;&gt;&lt;pre class=&quot;language-markup&quot;&gt;&lt;code class=&quot;language-markup&quot;&gt;&lt;span class=&quot;token doctype&quot;&gt;&amp;lt;!DOCTYPE html&gt;&lt;/span&gt;
 &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
@@ -5295,7 +5295,7 @@ Ruby    →ruby
 SQL     →sql
 以上、JIN搭載のシンタックスハイライター機能を強化する方法の紹介でした。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/dispaly-code-on-blog/&quot;&gt;【prism.js】ブログ記事にソースコードをきれいに表示する方法&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Node.js+ExpressでMySQLに接続して一覧表示する(Mac)]]></title><description><![CDATA[Node.jsの学びメモ。
-Node.jsとMySQLを接続して、データベースを動かす方法を説明します。 MacでのMySQLの導入方法 Node.js(Express)からMySQL…]]></description><link>https://0forest.com/node-js-mysql/</link><guid isPermaLink="false">https://0forest.com/node-js-mysql/</guid><pubDate>Sat, 25 Apr 2020 12:25:00 GMT</pubDate><content:encoded>&lt;p&gt;Node.jsの学びメモ。
+Node.jsとMySQLを接続して、データベースを動かす方法を説明します。 MacでのMySQLの導入方法 Node.js(Express)からMySQL…]]></description><link>https://0forest.com/node-js-mysql/</link><guid isPermaLink="false">https://0forest.com/node-js-mysql/</guid><pubDate>Sat, 25 Apr 2020 03:25:00 GMT</pubDate><enclosure url="https://0forest.com/static/ce2b9bae6798fbc560e696ee15f9a839/icatch-20200425.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;Node.jsの学びメモ。
 Node.jsとMySQLを接続して、データベースを動かす方法を説明します。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;MacでのMySQLの導入方法&lt;/li&gt;
@@ -5507,7 +5507,7 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt; 最後に、MySQLを終了するときは「exit」で。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;exit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[【はじめてのNode.js】環境構築からプログラムを動かす手順をていねいに解説！]]></title><description><![CDATA[Node.jsをはじめてさわってみました。 動かすまでに色々疑問がでてきたので、Node.jsの基本と自分のPCでプログラムを書いて動かせるようになるまでに必要な知識をまとめました。 【この記事の内容】 そもそもNode.jsとは？ Node.js…]]></description><link>https://0forest.com/start-node-js/</link><guid isPermaLink="false">https://0forest.com/start-node-js/</guid><pubDate>Sat, 18 Apr 2020 11:05:00 GMT</pubDate><content:encoded>&lt;p&gt;Node.jsをはじめてさわってみました。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;exit&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[【はじめてのNode.js】環境構築からプログラムを動かす手順をていねいに解説！]]></title><description><![CDATA[Node.jsをはじめてさわってみました。 動かすまでに色々疑問がでてきたので、Node.jsの基本と自分のPCでプログラムを書いて動かせるようになるまでに必要な知識をまとめました。 【この記事の内容】 そもそもNode.jsとは？ Node.js…]]></description><link>https://0forest.com/start-node-js/</link><guid isPermaLink="false">https://0forest.com/start-node-js/</guid><pubDate>Sat, 18 Apr 2020 02:05:00 GMT</pubDate><enclosure url="https://0forest.com/static/2505d6a98cf27e2e0e4f5a9d5dba3cfa/icatch-20200418.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;Node.jsをはじめてさわってみました。&lt;/p&gt;
 &lt;p&gt;動かすまでに色々疑問がでてきたので、Node.jsの基本と自分のPCでプログラムを書いて動かせるようになるまでに必要な知識をまとめました。&lt;/p&gt;
 &lt;p&gt;【この記事の内容】&lt;/p&gt;
 &lt;ul&gt;
@@ -5632,7 +5632,7 @@ app&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=
 &lt;li&gt;Node.jsは公式サイトからインストールできる&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;ひとまず、Hello Worldができたので、ここから好きにプログラムを改変していきましょう。&lt;/p&gt;
-&lt;p&gt;Progateで学んでいる方はフォルダに、レッスンで使ったコードを配置すると、ローカルでも動かせるようになります＾＾&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【gitでバージョン管理】ブランチの使い方とSourcetreeでの操作]]></title><description><![CDATA[バージョン管理では変更履歴を分けて管理できます。（「ブランチ」といいます。）  知っておくと便利！実際どう使うの？🤔を解説します。 バージョン管理でのブランチって何？ 個人開発をするときの、ブランチの使い方 Sourcetreeを使ったブランチの作成、切替え、マージ方法 git…]]></description><link>https://0forest.com/git-branch/</link><guid isPermaLink="false">https://0forest.com/git-branch/</guid><pubDate>Sat, 11 Apr 2020 03:00:00 GMT</pubDate><content:encoded>&lt;p&gt; バージョン管理では変更履歴を分けて管理できます。（「ブランチ」といいます。）&lt;/p&gt;
+&lt;p&gt;Progateで学んでいる方はフォルダに、レッスンで使ったコードを配置すると、ローカルでも動かせるようになります＾＾&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【gitでバージョン管理】ブランチの使い方とSourcetreeでの操作]]></title><description><![CDATA[バージョン管理では変更履歴を分けて管理できます。（「ブランチ」といいます。）  知っておくと便利！実際どう使うの？🤔を解説します。 バージョン管理でのブランチって何？ 個人開発をするときの、ブランチの使い方 Sourcetreeを使ったブランチの作成、切替え、マージ方法 git…]]></description><link>https://0forest.com/git-branch/</link><guid isPermaLink="false">https://0forest.com/git-branch/</guid><pubDate>Fri, 10 Apr 2020 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt; バージョン管理では変更履歴を分けて管理できます。（「ブランチ」といいます。）&lt;/p&gt;
 &lt;p&gt; 知っておくと便利！実際どう使うの？🤔を解説します。&lt;/p&gt;
 &lt;div class=&quot;border-box&quot;&gt;
 &lt;span&gt;この記事でわかること&lt;span&gt;
@@ -5864,7 +5864,7 @@ master ブランチは&lt;strong&gt;納品用、完成品バージョン&lt;/str
 &lt;li&gt;[ブランチの使い方とSourcetreeでの操作]（この記事）&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/github-gist-wordpress/&quot;&gt;GitHubでソースコードをブログに載せる方法まとめ&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[【初心者向け】GitHubのインストールとプロジェクトでの使い方]]></title><description><![CDATA[プログラミングではよく使われるバージョン管理について、導入方法と基本の使い方を紹介しています。 gitとSourcetreeをインストールして、バージョン管理をはじめる GitHub…]]></description><link>https://0forest.com/git-install/</link><guid isPermaLink="false">https://0forest.com/git-install/</guid><pubDate>Sat, 04 Apr 2020 09:00:31 GMT</pubDate><content:encoded>&lt;p&gt;プログラミングではよく使われるバージョン管理について、導入方法と基本の使い方を紹介しています。&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[【初心者向け】GitHubのインストールとプロジェクトでの使い方]]></title><description><![CDATA[プログラミングではよく使われるバージョン管理について、導入方法と基本の使い方を紹介しています。 gitとSourcetreeをインストールして、バージョン管理をはじめる GitHub…]]></description><link>https://0forest.com/git-install/</link><guid isPermaLink="false">https://0forest.com/git-install/</guid><pubDate>Sat, 04 Apr 2020 00:00:31 GMT</pubDate><enclosure url="https://0forest.com/static/d934f8638b7f4e78fd5ab7dae272cb7e/icatch_20200331.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;プログラミングではよく使われるバージョン管理について、導入方法と基本の使い方を紹介しています。&lt;/p&gt;
 &lt;div class=&quot;related-posts&quot;&gt;
     &lt;span&gt;バージョン管理のはじめかた&lt;/span&gt;
 &lt;ol&gt;
@@ -6557,7 +6557,7 @@ master ブランチは&lt;strong&gt;納品用、完成品バージョン&lt;/str
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;続き＞＞ &lt;a href=&quot;/git-branch/&quot;&gt;ランチの使い方とSourcetreeでの操作方法&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[初心者のためのgitとSourcetreeのはじめ方]]></title><description><![CDATA[…]]></description><link>https://0forest.com/install-sourcetree/</link><guid isPermaLink="false">https://0forest.com/install-sourcetree/</guid><pubDate>Sun, 29 Mar 2020 07:12:56 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;strong&gt;バージョン管理&lt;/strong&gt;」ってご存知ですか。&lt;/p&gt;
+&lt;p&gt;続き＞＞ &lt;a href=&quot;/git-branch/&quot;&gt;ランチの使い方とSourcetreeでの操作方法&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[初心者のためのgitとSourcetreeのはじめ方]]></title><description><![CDATA[…]]></description><link>https://0forest.com/install-sourcetree/</link><guid isPermaLink="false">https://0forest.com/install-sourcetree/</guid><pubDate>Sat, 28 Mar 2020 22:12:56 GMT</pubDate><enclosure url="https://0forest.com/static/0e3670e6d5098983e305c07de9f492c7/icatch_20200329.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;「&lt;strong&gt;バージョン管理&lt;/strong&gt;」ってご存知ですか。&lt;/p&gt;
 &lt;p&gt;プログラマーにはよく使われているものですが、
 ファイルの更新履歴を残しておいて、
 「いつ、どう編集したか」を確認したり、
@@ -6970,7 +6970,7 @@ directory/
 &lt;/ul&gt;
 &lt;p&gt;何度も更新が入るファイルは、バージョン管理しちゃった方が作業が楽になるかもしれませんね。&lt;/p&gt;
 &lt;p&gt;個人のPC上で作業する分には、gitとsourcetreeでOKですが、さらにGitHubというツールを使うと、Web上でプログラムを公開したり、複数の開発者と協力してプロジェクトを進めることができます。&lt;/p&gt;
-&lt;p&gt;続き＞＞＞ &lt;a href=&quot;/git-install/&quot;&gt;GitHubのインストールと使い方&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【活動記録】お家でコツコツとスキルアップの3月]]></title><description><![CDATA[2020年3月の振り返りです。 今月の振り返り これからもっとIT…]]></description><link>https://0forest.com/diary-202003/</link><guid isPermaLink="false">https://0forest.com/diary-202003/</guid><pubDate>Sat, 28 Mar 2020 12:53:29 GMT</pubDate><content:encoded>&lt;p&gt;2020年3月の振り返りです。&lt;/p&gt;
+&lt;p&gt;続き＞＞＞ &lt;a href=&quot;/git-install/&quot;&gt;GitHubのインストールと使い方&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【活動記録】お家でコツコツとスキルアップの3月]]></title><description><![CDATA[2020年3月の振り返りです。 今月の振り返り これからもっとIT…]]></description><link>https://0forest.com/diary-202003/</link><guid isPermaLink="false">https://0forest.com/diary-202003/</guid><pubDate>Sat, 28 Mar 2020 03:53:29 GMT</pubDate><enclosure url="https://0forest.com/static/d38ec0032c583c698db8080c2960c540/icatch-20200328.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;2020年3月の振り返りです。&lt;/p&gt;
 &lt;h2 id=&quot;今月の振り返り&quot; style=&quot;position:relative;&quot;&gt;今月の振り返り&lt;/h2&gt;
 &lt;p&gt;これからもっとITの裾野が広がる。
 かつて、コンピューターが一般の人にも使えるようになったように。
@@ -7028,7 +7028,7 @@ directory/
 &lt;p&gt;そうすると、手を動かしてから、外に見せるまでにタムラグができてしまう・・・。&lt;/p&gt;
 &lt;p&gt;内容を忘れてしまったり、公開できないまま、お蔵入りしていったり。&lt;/p&gt;
 &lt;p&gt;その都度、分かったこと、わからなかったこと、プロセス自体を記録していきたいです。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2020年の手帳をillustratorで作りました♡]]></title><description><![CDATA[新しい年が始まりましたね。
-今年を共に過ごす相棒、202…]]></description><link>https://0forest.com/2020-planner/</link><guid isPermaLink="false">https://0forest.com/2020-planner/</guid><pubDate>Tue, 28 Jan 2020 08:26:32 GMT</pubDate><content:encoded>&lt;p&gt;新しい年が始まりましたね。
+今年を共に過ごす相棒、202…]]></description><link>https://0forest.com/2020-planner/</link><guid isPermaLink="false">https://0forest.com/2020-planner/</guid><pubDate>Mon, 27 Jan 2020 23:26:32 GMT</pubDate><enclosure url="https://0forest.com/static/eeb8fb3e41478694173be11f0a668c36/icatch-20201029.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;新しい年が始まりましたね。
 今年を共に過ごす相棒、2020年の手帳を自作しました。&lt;/p&gt;
 &lt;p&gt;市販のものは、フリーページが少なかったり、使わないないページがあったりと、帯に短し、襷に長し。ちょうどいい手帳がない。それなら、自分好みのものを作ってみようと思ったのです。&lt;/p&gt;
 &lt;p&gt;年を重ねるにつれて、書く内容が変わってきました。
@@ -7227,7 +7227,7 @@ directory/
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;色が黄色味があり、アンティークっぽい感じに。花柄の手帳カバーも作ってみました😊&lt;/p&gt;
 &lt;p&gt;素敵な年になりますように。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【仕事効率化】フリーランスにおすすめのアプリを紹介]]></title><description><![CDATA[今回は、いつもお世話になっているアプリたちを紹介します。 Macに入れているアプリ 私はMac愛用者です。
-相棒は、Mac Book Pro (Retina 13inch Mid 2014)。メモリーは16GB。 Alfred 3 これはMac…]]></description><link>https://0forest.com/useful-app/</link><guid isPermaLink="false">https://0forest.com/useful-app/</guid><pubDate>Fri, 15 Nov 2019 12:23:11 GMT</pubDate><content:encoded>&lt;p&gt;今回は、いつもお世話になっているアプリたちを紹介します。&lt;/p&gt;
+相棒は、Mac Book Pro (Retina 13inch Mid 2014)。メモリーは16GB。 Alfred 3 これはMac…]]></description><link>https://0forest.com/useful-app/</link><guid isPermaLink="false">https://0forest.com/useful-app/</guid><pubDate>Fri, 15 Nov 2019 03:23:11 GMT</pubDate><enclosure url="https://0forest.com/static/dc91107e16cf64dd94f602949e9b8c3b/icatch-20191116.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;今回は、いつもお世話になっているアプリたちを紹介します。&lt;/p&gt;
 &lt;h2 id=&quot;macに入れているアプリ&quot; style=&quot;position:relative;&quot;&gt;Macに入れているアプリ&lt;/h2&gt;
 &lt;p&gt;私はMac愛用者です。
 相棒は、Mac Book Pro (Retina 13inch Mid 2014)。メモリーは16GB。&lt;/p&gt;
@@ -7500,7 +7500,7 @@ iPhoneで音声入力しといた文章をコピーして、Macにペースト�
 &lt;div class=&quot;appreach&quot;&gt;&lt;img src=&quot;https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/85/c9/e8/85c9e806-0333-885a-31bc-4d70dae9d6e0/source/512x512bb.jpg&quot; alt=&quot;Evernote&quot; class=&quot;appreach__icon&quot;&gt;&lt;div class=&quot;appreach__detail&quot;&gt;&lt;p class=&quot;appreach__name&quot;&gt;Evernote&lt;/p&gt;&lt;p class=&quot;appreach__info&quot;&gt;&lt;span class=&quot;appreach__developper&quot;&gt;Evernote&lt;/span&gt;&lt;span class=&quot;appreach__price&quot;&gt;&amp;#x7121;&amp;#x6599;&lt;/span&gt;&lt;span class=&quot;appreach__posted&quot;&gt;posted with&lt;a href=&quot;https://mama-hack.com/app-reach/&quot; title=&quot;&amp;#x30A2;&amp;#x30D7;&amp;#x30EA;&amp;#x30FC;&amp;#x30C1;&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&amp;#x30A2;&amp;#x30D7;&amp;#x30EA;&amp;#x30FC;&amp;#x30C1;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;appreach__links&quot;&gt;&lt;a href=&quot;https://apps.apple.com/jp/app/evernote/id281796108?uo=4&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot; class=&quot;appreach__aslink&quot;&gt;&lt;img src=&quot;https://nabettu.github.io/appreach/img/itune_ja.svg&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;h3 id=&quot;pocket&quot; style=&quot;position:relative;&quot;&gt;Pocket&lt;/h3&gt;
 &lt;p&gt;ブログやwebを読んでて、後でも読みたいなっと思う記事をPocketに入れています。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressでやっておきたいセキュリティ対策]]></title><description><![CDATA[この前、WordPressブログのハッキング被害に合いました😢 カスタマイズを加えようかと、FTPソフトを開いてみると、ファイルリストの中に見知らぬフォルダがあったんです。
-フォルダを消しても、またしばらくすると同じファイルができてしまう…。 調べてみると、WordPress…]]></description><link>https://0forest.com/wordpress-security/</link><guid isPermaLink="false">https://0forest.com/wordpress-security/</guid><pubDate>Thu, 14 Nov 2019 01:06:10 GMT</pubDate><content:encoded>&lt;p&gt;この前、WordPressブログのハッキング被害に合いました😢&lt;/p&gt;
+フォルダを消しても、またしばらくすると同じファイルができてしまう…。 調べてみると、WordPress…]]></description><link>https://0forest.com/wordpress-security/</link><guid isPermaLink="false">https://0forest.com/wordpress-security/</guid><pubDate>Wed, 13 Nov 2019 16:06:10 GMT</pubDate><enclosure url="https://0forest.com/static/4b5e6b94f0378887d9b3648f0d363f7d/icatch-20191114.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;この前、WordPressブログのハッキング被害に合いました😢&lt;/p&gt;
 &lt;p&gt;カスタマイズを加えようかと、FTPソフトを開いてみると、ファイルリストの中に見知らぬフォルダがあったんです。
 フォルダを消しても、またしばらくすると同じファイルができてしまう…。&lt;/p&gt;
 &lt;p&gt;調べてみると、WordPressのプログラムが不正に書き換えられていました。怪しいプログラムが仕込まれた箇所を特定し、最新のプログラムに差し替えました。&lt;/p&gt;
@@ -7760,7 +7760,7 @@ password
 &lt;p&gt;FTPソフトを使えて、サイトのディレクトリにアクセスできる方は以下のような対策もできます。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;/basic-password/&quot;&gt;【Basic認証】WordPressサイトにパスワードをつける&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[エックスサーバーを使ったWordpressブログの始め方]]></title><description><![CDATA[エックスサーバーでWordPressブログをはじめる手順を説明します。 サーバー（ホームページを置く場所）を借りる ドメイン(URL)を取得する ドメイン（URL）とサーバーを紐づける サーバーにWordPressをインストールする サーバーを借りる まずはHP…]]></description><link>https://0forest.com/start-wordpress-xserver/</link><guid isPermaLink="false">https://0forest.com/start-wordpress-xserver/</guid><pubDate>Wed, 13 Nov 2019 09:11:00 GMT</pubDate><content:encoded>&lt;p&gt;エックスサーバーでWordPressブログをはじめる手順を説明します。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[エックスサーバーを使ったWordpressブログの始め方]]></title><description><![CDATA[エックスサーバーでWordPressブログをはじめる手順を説明します。 サーバー（ホームページを置く場所）を借りる ドメイン(URL)を取得する ドメイン（URL）とサーバーを紐づける サーバーにWordPressをインストールする サーバーを借りる まずはHP…]]></description><link>https://0forest.com/start-wordpress-xserver/</link><guid isPermaLink="false">https://0forest.com/start-wordpress-xserver/</guid><pubDate>Wed, 13 Nov 2019 00:11:00 GMT</pubDate><enclosure url="https://0forest.com/static/ab8c18303e134fa710b78466de4b6d96/icatch-20190307.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;エックスサーバーでWordPressブログをはじめる手順を説明します。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;サーバー（ホームページを置く場所）を借りる&lt;/li&gt;
 &lt;li&gt;ドメイン(URL)を取得する&lt;/li&gt;
@@ -8232,7 +8232,7 @@ WordPressインストールタブから項目を入れます。&lt;/p&gt;
     &lt;/span&gt; こんな画面が表示されれば完了です。&lt;/p&gt;
 &lt;p&gt;ホームページのURL：&lt;code class=&quot;language-text&quot;&gt;https://インストール時に設定したURL&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;管理画面のURL：&lt;code class=&quot;language-text&quot;&gt;https://インストール時に設定したURL/wp-admin/&lt;/code&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【Mixhost】WordPressにBasic認証でパスワードをつける]]></title><description><![CDATA[Basic認証とはIDとパスワードを知っている人だけがサイトへのアクセスできるようにする仕組みのこと。 Basic認証がかかっているサイトにアクセスすると、こんなポップアップ画面が出てきます。
- このBasic認証を使って、WordPress…]]></description><link>https://0forest.com/basic-password/</link><guid isPermaLink="false">https://0forest.com/basic-password/</guid><pubDate>Wed, 18 Sep 2019 09:05:19 GMT</pubDate><content:encoded>&lt;p&gt;Basic認証とはIDとパスワードを知っている人だけがサイトへのアクセスできるようにする仕組みのこと。&lt;/p&gt;
+ このBasic認証を使って、WordPress…]]></description><link>https://0forest.com/basic-password/</link><guid isPermaLink="false">https://0forest.com/basic-password/</guid><pubDate>Wed, 18 Sep 2019 00:05:19 GMT</pubDate><enclosure url="https://0forest.com/static/7a596827bab51da91449c8ca189ca3bd/icatch-20190918.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;Basic認証とはIDとパスワードを知っている人だけがサイトへのアクセスできるようにする仕組みのこと。&lt;/p&gt;
 &lt;p&gt;Basic認証がかかっているサイトにアクセスすると、こんなポップアップ画面が出てきます。
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -8475,7 +8475,7 @@ require valid-user（全てのユーザー）に対して設定&lt;/p&gt;
 &lt;li&gt;.htaccessとhtpasswdファイルの置き場所&lt;/li&gt;
 &lt;li&gt;.htaccess内のAuthUserFileで記述したパス&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;以上、ベーシック認証のやり方でした。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【Wordpress】お問合わせフォームにおすすめプラグイン&ツール]]></title><description><![CDATA[この記事では、「Wordpressでは、お問い合わせフォームってどれを使ったらいいの?」という疑問について、解説します。 Wordpress向けお問い合わせフォームの設置方法 Wordpressで、お問い合わせフォームを設置するには…]]></description><link>https://0forest.com/wordpress-contact-form/</link><guid isPermaLink="false">https://0forest.com/wordpress-contact-form/</guid><pubDate>Fri, 13 Sep 2019 07:00:45 GMT</pubDate><content:encoded>&lt;p&gt;この記事では、「Wordpressでは、お問い合わせフォームってどれを使ったらいいの?」という疑問について、解説します。&lt;/p&gt;
+&lt;p&gt;以上、ベーシック認証のやり方でした。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【Wordpress】お問合わせフォームにおすすめプラグイン&ツール]]></title><description><![CDATA[この記事では、「Wordpressでは、お問い合わせフォームってどれを使ったらいいの?」という疑問について、解説します。 Wordpress向けお問い合わせフォームの設置方法 Wordpressで、お問い合わせフォームを設置するには…]]></description><link>https://0forest.com/wordpress-contact-form/</link><guid isPermaLink="false">https://0forest.com/wordpress-contact-form/</guid><pubDate>Thu, 12 Sep 2019 22:00:45 GMT</pubDate><enclosure url="https://0forest.com/static/2a8167823faf20d5e378b9bf1df544b6/icatch-20190913.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;この記事では、「Wordpressでは、お問い合わせフォームってどれを使ったらいいの?」という疑問について、解説します。&lt;/p&gt;
 &lt;h2 id=&quot;wordpress向けお問い合わせフォームの設置方法&quot; style=&quot;position:relative;&quot;&gt;Wordpress向けお問い合わせフォームの設置方法&lt;/h2&gt;
 &lt;p&gt;Wordpressで、お問い合わせフォームを設置するには2つのやり方があります。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;①無料サービスを利用する&lt;/strong&gt;&lt;/p&gt;
@@ -8595,7 +8595,7 @@ MW WP FORMは、確認画面を設置できること、問い合わせ内容を�
 →無料サービスを利用する：Googleフォーム、Formzu&lt;/p&gt;
 &lt;p&gt;HTML/CSSに詳しく自分でカスタマイズしたい
 →WordPressプラグインを使う：Contact Form7、MW WP FORM&lt;/p&gt;
-&lt;p&gt;お問合せフォームを選ぶ参考にしてみてください。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MixhostのWordpressブログ始め方]]></title><description><![CDATA[この記事では、MixhostでWordPressブログをはじめる手順を説明します。 【WordPressをインストールする手順】 サーバー（ホームページを置く場所）を借りる ドメイン(URL)を取得する ドメイン（URL）とサーバーを紐づける サーバーにWordPress…]]></description><link>https://0forest.com/start-wordpress-mixhost/</link><guid isPermaLink="false">https://0forest.com/start-wordpress-mixhost/</guid><pubDate>Tue, 27 Aug 2019 05:01:54 GMT</pubDate><content:encoded>&lt;p&gt;この記事では、MixhostでWordPressブログをはじめる手順を説明します。&lt;/p&gt;
+&lt;p&gt;お問合せフォームを選ぶ参考にしてみてください。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[MixhostのWordpressブログ始め方]]></title><description><![CDATA[この記事では、MixhostでWordPressブログをはじめる手順を説明します。 【WordPressをインストールする手順】 サーバー（ホームページを置く場所）を借りる ドメイン(URL)を取得する ドメイン（URL）とサーバーを紐づける サーバーにWordPress…]]></description><link>https://0forest.com/start-wordpress-mixhost/</link><guid isPermaLink="false">https://0forest.com/start-wordpress-mixhost/</guid><pubDate>Mon, 26 Aug 2019 20:01:54 GMT</pubDate><enclosure url="https://0forest.com/static/d9837748e9cd7e9fa2c441e96eaee091/icatch-20190827.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;この記事では、MixhostでWordPressブログをはじめる手順を説明します。&lt;/p&gt;
 &lt;p&gt;【WordPressをインストールする手順】&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;サーバー（ホームページを置く場所）を借りる&lt;/li&gt;
@@ -8887,7 +8887,7 @@ MW WP FORMは、確認画面を設置できること、問い合わせ内容を�
 &lt;p&gt;ホームページのURL：&lt;code class=&quot;language-text&quot;&gt;https://インストール時に設定したURL&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;管理画面のURL：&lt;code class=&quot;language-text&quot;&gt;https://インストール時に設定したURL/wp-admin/&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;アドレスをクリックして、WordPressブログへアクセスしてみましょう。 ドメインの反映までに１〜２時間かかることがあります。 ページが表示できないときは、しばらく待ってみましょう。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressのパーマリンクを設定する]]></title><description><![CDATA[SEOを気にしてブログ運営をしていく方に知っておいていただきたいのが「パーマリンク」です。
-WordPress…]]></description><link>https://0forest.com/about-permlink/</link><guid isPermaLink="false">https://0forest.com/about-permlink/</guid><pubDate>Mon, 26 Aug 2019 08:17:46 GMT</pubDate><content:encoded>&lt;p&gt;SEOを気にしてブログ運営をしていく方に知っておいていただきたいのが「パーマリンク」です。
+WordPress…]]></description><link>https://0forest.com/about-permlink/</link><guid isPermaLink="false">https://0forest.com/about-permlink/</guid><pubDate>Sun, 25 Aug 2019 23:17:46 GMT</pubDate><enclosure url="https://0forest.com/static/646fe05a97040ab12091b8ba9fd09970/icatch-20190826.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;SEOを気にしてブログ運営をしていく方に知っておいていただきたいのが「パーマリンク」です。
 WordPressでのパーマリンクの設定方法とポイントをご紹介します。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;パーマリンクって何？&lt;/li&gt;
@@ -9031,7 +9031,7 @@ WordPressでのパーマリンクの設定方法とポイントをご紹介し�
 &lt;li&gt;設定画面のパーマリンク設定から基本のパーマリンクのつけ方が決められます。&lt;/li&gt;
 &lt;li&gt;投稿する際に、URLの最後に入れる文字列（スラッグ）を設定できます。&lt;/li&gt;
 &lt;li&gt;シンプルな英語で入力してみてね。 一度設定したら変えないことが大事！&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WordPressのカテゴリーとタグの使い分け方法]]></title><description><![CDATA[私は、WordPress…]]></description><link>https://0forest.com/wordpress-category-tag/</link><guid isPermaLink="false">https://0forest.com/wordpress-category-tag/</guid><pubDate>Sat, 24 Aug 2019 08:00:44 GMT</pubDate><content:encoded>&lt;p&gt;私は、WordPressを始めた時に分からなかったことの一つに「カテゴリー」と「タグ」の違いがあります。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WordPressのカテゴリーとタグの使い分け方法]]></title><description><![CDATA[私は、WordPress…]]></description><link>https://0forest.com/wordpress-category-tag/</link><guid isPermaLink="false">https://0forest.com/wordpress-category-tag/</guid><pubDate>Fri, 23 Aug 2019 23:00:44 GMT</pubDate><enclosure url="https://0forest.com/static/19c4d7c520b533d265b5f2389c8c5bbf/Screen-Shot-2019-08-24-at-11.50.07.png" length="0" type="image/png"/><content:encoded>&lt;p&gt;私は、WordPressを始めた時に分からなかったことの一つに「カテゴリー」と「タグ」の違いがあります。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;カテゴリーとタグの違いは何？&lt;/li&gt;
 &lt;li&gt;タグってどういう風に使うの？&lt;/li&gt;
@@ -9183,7 +9183,7 @@ URLに使われるので、日本語（全角）ではなく、英語（半角�
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt; カテゴリーの順番を入れ替えれるようになります。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2019年のマイ手帳事情]]></title><description><![CDATA[2019年は、システム手帳とA5ノート併用でいくことにしました。 システム手帳は数ヶ月〜1年以上、将来など先の長期的なスケジュールを管理するために使っています。 A5ノートは毎日のログを取るために使っています。 システム手帳で年間の流れを見通す  システム手帳は…]]></description><link>https://0forest.com/2019-planner/</link><guid isPermaLink="false">https://0forest.com/2019-planner/</guid><pubDate>Thu, 25 Apr 2019 01:51:39 GMT</pubDate><content:encoded>&lt;p&gt;2019年は、システム手帳とA5ノート併用でいくことにしました。 システム手帳は数ヶ月〜1年以上、将来など先の長期的なスケジュールを管理するために使っています。 A5ノートは毎日のログを取るために使っています。&lt;/p&gt;
+    &lt;/span&gt; カテゴリーの順番を入れ替えれるようになります。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[2019年のマイ手帳事情]]></title><description><![CDATA[2019年は、システム手帳とA5ノート併用でいくことにしました。 システム手帳は数ヶ月〜1年以上、将来など先の長期的なスケジュールを管理するために使っています。 A5ノートは毎日のログを取るために使っています。 システム手帳で年間の流れを見通す  システム手帳は…]]></description><link>https://0forest.com/2019-planner/</link><guid isPermaLink="false">https://0forest.com/2019-planner/</guid><pubDate>Wed, 24 Apr 2019 16:51:39 GMT</pubDate><enclosure url="https://0forest.com/static/55fa100e72052828490fc28c023530e5/20190425-icatch.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;2019年は、システム手帳とA5ノート併用でいくことにしました。 システム手帳は数ヶ月〜1年以上、将来など先の長期的なスケジュールを管理するために使っています。 A5ノートは毎日のログを取るために使っています。&lt;/p&gt;
 &lt;h2 id=&quot;システム手帳で年間の流れを見通す&quot; style=&quot;position:relative;&quot;&gt;システム手帳で年間の流れを見通す&lt;/h2&gt;
 &lt;p&gt; システム手帳は1年を通して使う情報を入れています。&lt;/p&gt;
 &lt;ul&gt;
@@ -9379,7 +9379,7 @@ Todo管理アプリのTickTack&lt;/p&gt;
 &lt;p&gt;夢も望みを描いて、未来の叶った姿を想像するのは楽しい。 同じように、夢が叶までのストーリーを自分が楽しめるような物語として描く。そうすると、日々のプロセスも俄然やる気が出てくる感じがするのです。 ま&lt;/p&gt;
 &lt;h2 id=&quot;１年を味わいつくす手帳に。&quot; style=&quot;position:relative;&quot;&gt;１年を味わいつくす手帳に。&lt;/h2&gt;
 &lt;p&gt;長々と書いてきましたが、私にとって、手帳とノートは人生を味わうためのパートナー。 私の脳内をまるっと可視化したり、 気持ちをまるっと受け止めてくれたり、 未来への道しるべになったり、 ほんと、なくてはならない存在。 自分に合うようにカスタマイズしつつ、手帳を楽しみます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[イラレでシステム手帳用のカレンダーを作ったよ]]></title><description><![CDATA[イラストレーター、ずっとマスターしたいと思いながら、「難しそう」「デザインセンスないしなぁ」と手を出せずにいました。 実際に自分で使うものを作りながら、ちょっとずつレベルアップしていきたいと思います！ 今回は月間スケジュールを作ってみます
- 月間スケジュールの作り方 A…]]></description><link>https://0forest.com/illustrator-calendar/</link><guid isPermaLink="false">https://0forest.com/illustrator-calendar/</guid><pubDate>Tue, 05 Feb 2019 08:00:01 GMT</pubDate><content:encoded>&lt;p&gt;イラストレーター、ずっとマスターしたいと思いながら、「難しそう」「デザインセンスないしなぁ」と手を出せずにいました。 実際に自分で使うものを作りながら、ちょっとずつレベルアップしていきたいと思います！&lt;/p&gt;
+ 月間スケジュールの作り方 A…]]></description><link>https://0forest.com/illustrator-calendar/</link><guid isPermaLink="false">https://0forest.com/illustrator-calendar/</guid><pubDate>Mon, 04 Feb 2019 23:00:01 GMT</pubDate><enclosure url="https://0forest.com/static/bf83c546198d9d89244be879330cbd95/icatch_20190131.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;イラストレーター、ずっとマスターしたいと思いながら、「難しそう」「デザインセンスないしなぁ」と手を出せずにいました。 実際に自分で使うものを作りながら、ちょっとずつレベルアップしていきたいと思います！&lt;/p&gt;
 &lt;p&gt;今回は月間スケジュールを作ってみます
 &lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -9503,7 +9503,7 @@ Todo管理アプリのTickTack&lt;/p&gt;
 &lt;li&gt;「グリッドの分割」で長方形オブジェクトを等幅／等高さの枠に分割できる&lt;/li&gt;
 &lt;li&gt;「エリア内文字オプション」で、文章を表のように構成できる&lt;/li&gt;
 &lt;li&gt;スレッドテキストで、表同士の文章をつなげることができる この調子でオリジナル手帳リフィルを作るのも面白そう♪&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Illustratorのアイキャッチ作り方]]></title><description><![CDATA[…]]></description><link>https://0forest.com/illustrator-eyecatch-making/</link><guid isPermaLink="false">https://0forest.com/illustrator-eyecatch-making/</guid><pubDate>Fri, 01 Feb 2019 10:00:17 GMT</pubDate><content:encoded>&lt;p&gt;イラストレーターを使ってアイキャッチを作りました。
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Illustratorのアイキャッチ作り方]]></title><description><![CDATA[…]]></description><link>https://0forest.com/illustrator-eyecatch-making/</link><guid isPermaLink="false">https://0forest.com/illustrator-eyecatch-making/</guid><pubDate>Fri, 01 Feb 2019 01:00:17 GMT</pubDate><enclosure url="https://0forest.com/static/320221556767ad55f15fb003a2053a45/icatch-20190125.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;イラストレーターを使ってアイキャッチを作りました。
 自分の学びのために、作業手順を書き残しておきます＾＾&lt;/p&gt;
 &lt;h2 id=&quot;今回作るもの&quot; style=&quot;position:relative;&quot;&gt;今回作るもの&lt;/h2&gt;
 &lt;p&gt;今回はこんなアイキャッチを作ってみました。&lt;/p&gt;
@@ -9954,7 +9954,7 @@ Todo管理アプリのTickTack&lt;/p&gt;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;斜めストライプとリボンってかわいい組み合わせですよね。&lt;/p&gt;
-&lt;p&gt;女子っぽいデザインをお好みの方はぜひお試しくださいませ。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[箇条書きリストをおしゃれにするCSS10個【女性向け】]]></title><description><![CDATA[ブログ記事を書いていると頻繁に登場するのが、箇条書き。 項目を並べたり、まとめるのに便利で、わたしもよく使います😄 今回は、CSSコピペでできる、おしゃれなリストのデザインをご紹介します。 リストのHTMLの書き方 リストには「番号付き」と「番号なし」の…]]></description><link>https://0forest.com/css-list-style/</link><guid isPermaLink="false">https://0forest.com/css-list-style/</guid><pubDate>Thu, 29 Nov 2018 08:00:17 GMT</pubDate><content:encoded>&lt;p&gt;ブログ記事を書いていると頻繁に登場するのが、箇条書き。 項目を並べたり、まとめるのに便利で、わたしもよく使います😄 今回は、CSSコピペでできる、おしゃれなリストのデザインをご紹介します。&lt;/p&gt;
+&lt;p&gt;女子っぽいデザインをお好みの方はぜひお試しくださいませ。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[箇条書きリストをおしゃれにするCSS10個【女性向け】]]></title><description><![CDATA[ブログ記事を書いていると頻繁に登場するのが、箇条書き。 項目を並べたり、まとめるのに便利で、わたしもよく使います😄 今回は、CSSコピペでできる、おしゃれなリストのデザインをご紹介します。 リストのHTMLの書き方 リストには「番号付き」と「番号なし」の…]]></description><link>https://0forest.com/css-list-style/</link><guid isPermaLink="false">https://0forest.com/css-list-style/</guid><pubDate>Wed, 28 Nov 2018 23:00:17 GMT</pubDate><enclosure url="https://0forest.com/static/40ce2f11e7b8cbe223e16b2f780351f5/icatch-20181122.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;ブログ記事を書いていると頻繁に登場するのが、箇条書き。 項目を並べたり、まとめるのに便利で、わたしもよく使います😄 今回は、CSSコピペでできる、おしゃれなリストのデザインをご紹介します。&lt;/p&gt;
 &lt;h2 id=&quot;リストのhtmlの書き方&quot; style=&quot;position:relative;&quot;&gt;リストのHTMLの書き方&lt;/h2&gt;
 &lt;p&gt;リストには「番号付き」と「番号なし」の2種類あります。&lt;/p&gt;
 &lt;p&gt;番号なしリスト&lt;/p&gt;
@@ -10545,7 +10545,7 @@ border-radius:枠線の角（0pxだと四角くなります）
 &lt;iframe height=&quot;265&quot; style=&quot;width: 100%;&quot; scrolling=&quot;no&quot; title=&quot;リストのデザインCSSサンプル&quot; src=&quot;https://codepen.io/filledforest/embed/VVQRVa?height=265&amp;theme-id=light&amp;default-tab=css,result&quot; frameborder=&quot;no&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot;&gt;
   See the Pen &lt;a href=&apos;https://codepen.io/filledforest/pen/VVQRVa&apos;&gt;リストのデザインCSSサンプル&lt;/a&gt; by Emi
   (&lt;a href=&apos;https://codepen.io/filledforest&apos;&gt;@filledforest&lt;/a&gt;) on &lt;a href=&apos;https://codepen.io&apos;&gt;CodePen&lt;/a&gt;.
-&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[WordPressにウィジットエリアを追加・表示する方法]]></title><description><![CDATA[ウィジットはWordPress…]]></description><link>https://0forest.com/wordpress-widget-area/</link><guid isPermaLink="false">https://0forest.com/wordpress-widget-area/</guid><pubDate>Tue, 13 Nov 2018 02:59:16 GMT</pubDate><content:encoded>&lt;p&gt;ウィジットは&lt;strong&gt;WordPressにあらかじめ用意されている部品&lt;/strong&gt;のことです。&lt;/p&gt;
+&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[WordPressにウィジットエリアを追加・表示する方法]]></title><description><![CDATA[ウィジットはWordPress…]]></description><link>https://0forest.com/wordpress-widget-area/</link><guid isPermaLink="false">https://0forest.com/wordpress-widget-area/</guid><pubDate>Mon, 12 Nov 2018 17:59:16 GMT</pubDate><enclosure url="https://0forest.com/static/c46ed51a70d835f3719a169ae39a0daa/icatch-20181113.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;ウィジットは&lt;strong&gt;WordPressにあらかじめ用意されている部品&lt;/strong&gt;のことです。&lt;/p&gt;
 &lt;p&gt;サイドバーやフッターなど、好きな場所にウィジットエリアを作ると、これらのウィジットを表示できるようになります。&lt;/p&gt;
 &lt;h2 id=&quot;ウィジットエリアとは&quot; style=&quot;position:relative;&quot;&gt;ウィジットエリアとは&lt;/h2&gt;
 &lt;p&gt;ウィジットエリアはウィジット（部品）を入れるための、場所です。&lt;/p&gt;
@@ -10640,7 +10640,7 @@ border-radius:枠線の角（0pxだと四角くなります）
 &lt;li&gt;ウィジットエリアを表示させたい場所（サイドバーやフッターなど）に表示用のコードを書く&lt;/li&gt;
 &lt;li&gt;管理画面から、ウィジットを設置する&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WordPressブログのドメイン変更手順]]></title><description><![CDATA[WordPressのドメインを変更しました。
-WordPress内の記事や画像データをそのまま新しいURLに移すやり方をお伝えします。 ドメインを変更するデメリット 引っ越し作業が大変。。。 Google…]]></description><link>https://0forest.com/domain-change/</link><guid isPermaLink="false">https://0forest.com/domain-change/</guid><pubDate>Sun, 11 Nov 2018 09:00:56 GMT</pubDate><content:encoded>&lt;p&gt;WordPressのドメインを変更しました。
+WordPress内の記事や画像データをそのまま新しいURLに移すやり方をお伝えします。 ドメインを変更するデメリット 引っ越し作業が大変。。。 Google…]]></description><link>https://0forest.com/domain-change/</link><guid isPermaLink="false">https://0forest.com/domain-change/</guid><pubDate>Sun, 11 Nov 2018 00:00:56 GMT</pubDate><enclosure url="https://0forest.com/static/c64359320a3d22581e6f924e18398fcd/icatch-20181111.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;WordPressのドメインを変更しました。
 WordPress内の記事や画像データをそのまま新しいURLに移すやり方をお伝えします。&lt;/p&gt;
 &lt;h2 id=&quot;ドメインを変更するデメリット&quot; style=&quot;position:relative;&quot;&gt;ドメインを変更するデメリット&lt;/h2&gt;
 &lt;ul&gt;
@@ -10955,7 +10955,7 @@ WordPress内の記事や画像データをそのまま新しいURLに移すや�
 &lt;p&gt;旧サイトのドメインを削除してしまうと、リダイレクト設定がなくなり、旧サイトにアクセスした時にリンク切れになってしまいます。
 旧サイトへのアクセスが落ち着いた後に削除すると良いでしょう。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressブログの作り方〜インストールから公開までの詳しい手順〜]]></title><description><![CDATA[WordPressのブログを作るための手順をまとめました。 「WordPressって、そもそもどういうものなの？」
 「WordPressを使うためには何を知っていればOK？」
-「具体的には何が必要？どうやって作るの？」 WordPress…]]></description><link>https://0forest.com/start-wordpress-blog/</link><guid isPermaLink="false">https://0forest.com/start-wordpress-blog/</guid><pubDate>Thu, 08 Nov 2018 00:43:22 GMT</pubDate><content:encoded>&lt;p&gt;WordPressのブログを作るための手順をまとめました。&lt;/p&gt;
+「具体的には何が必要？どうやって作るの？」 WordPress…]]></description><link>https://0forest.com/start-wordpress-blog/</link><guid isPermaLink="false">https://0forest.com/start-wordpress-blog/</guid><pubDate>Thu, 08 Nov 2018 03:43:22 GMT</pubDate><enclosure url="https://0forest.com/static/0a32d13ad430fabfa0fd6fb64831f3e2/icatch_20181107_n.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;WordPressのブログを作るための手順をまとめました。&lt;/p&gt;
 &lt;p&gt;「WordPressって、そもそもどういうものなの？」
 「WordPressを使うためには何を知っていればOK？」
 「具体的には何が必要？どうやって作るの？」&lt;/p&gt;
@@ -11405,7 +11405,7 @@ WordPressには無料テーマがたくさんのデザインが用意されて�
 &lt;p&gt;以上、WordPressでのブログの作り方を説明してきました。
 趣味を語るもよし。ビジネスの土台にもよし。
 自分の世界観をWeb上に表現するためにブログを活用する方が増えたらいいなと願っています。&lt;/p&gt;
-&lt;p&gt;それでは、素敵なWordPressライフを✨&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【CSSコピペOK】おしゃれな引用blockquoteデザイン10選]]></title><description><![CDATA[記事を書く時に、他のホームページやブログの文章を一部紹介したいことって、けっこうありませんか？ ただ、ブログテンプレートに使われているオリジナルの味気なかったりする。 コピペで使えるCSSのサンプルを５つ用意しました。 ブログやWordPressで引用符（blockquote…]]></description><link>https://0forest.com/css-blockquote/</link><guid isPermaLink="false">https://0forest.com/css-blockquote/</guid><pubDate>Thu, 13 Sep 2018 10:00:09 GMT</pubDate><content:encoded>&lt;p&gt;記事を書く時に、他のホームページやブログの文章を一部紹介したいことって、けっこうありませんか？ ただ、ブログテンプレートに使われているオリジナルの味気なかったりする。&lt;/p&gt;
+&lt;p&gt;それでは、素敵なWordPressライフを✨&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【CSSコピペOK】おしゃれな引用blockquoteデザイン10選]]></title><description><![CDATA[記事を書く時に、他のホームページやブログの文章を一部紹介したいことって、けっこうありませんか？ ただ、ブログテンプレートに使われているオリジナルの味気なかったりする。 コピペで使えるCSSのサンプルを５つ用意しました。 ブログやWordPressで引用符（blockquote…]]></description><link>https://0forest.com/css-blockquote/</link><guid isPermaLink="false">https://0forest.com/css-blockquote/</guid><pubDate>Thu, 13 Sep 2018 01:00:09 GMT</pubDate><enclosure url="https://0forest.com/static/919f41f658a39028d40cf612a2de16e3/icatch-20180912_n.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;記事を書く時に、他のホームページやブログの文章を一部紹介したいことって、けっこうありませんか？ ただ、ブログテンプレートに使われているオリジナルの味気なかったりする。&lt;/p&gt;
 &lt;p&gt;コピペで使えるCSSのサンプルを５つ用意しました。&lt;/p&gt;
 &lt;p&gt;ブログやWordPressで引用符（blockquote）デザインを変える方法をご紹介します。&lt;/p&gt;
 &lt;p&gt;HTMLとCSSのコピペで使えるので、ぜひご活用ください。&lt;/p&gt;
@@ -12022,7 +12022,7 @@ padding（枠内の余白）やfont-size（文字の大きさ）を調整して�
 &lt;h2 id=&quot;まとめ&quot; style=&quot;position:relative;&quot;&gt;まとめ&lt;/h2&gt;
 &lt;p&gt; 最後に、CodePenでサンプルを掲載します。 複数のデザインを掲載するために、&lt;code class=&quot;language-text&quot;&gt;.sample1&lt;/code&gt;〜&lt;code class=&quot;language-text&quot;&gt;.sample10&lt;/code&gt;とクラス名を分けて設定しています。 HTMLのコードを貼り付けるときは&lt;code class=&quot;language-text&quot;&gt;&amp;lt;div class=&amp;quot;sample1&amp;quot;&amp;gt;&lt;/code&gt;と&lt;code class=&quot;language-text&quot;&gt;&amp;lt;/div&amp;gt;&lt;/code&gt;は省いてOKです。
 同様に、CSSのコードも&lt;code class=&quot;language-text&quot;&gt;.sample1&lt;/code&gt;〜&lt;code class=&quot;language-text&quot;&gt;.sample5&lt;/code&gt;のクラス名は除いて使ってください。&lt;/p&gt;
-&lt;p&gt; See the Pen &lt;a href=&quot;https://codepen.io/filledforest/pen/ZMoQOY/&quot;&gt;blockquote sample&lt;/a&gt; by Emi (&lt;a href=&quot;https://codepen.io/filledforest&quot;&gt;@filledforest&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CSSで作れるシンプルな飾り枠デザイン]]></title><description><![CDATA[見出しデザインに続いて、CSSのコピペだけで反映できる、飾り枠のデザインを用意しました。 フォントのサイズや色はご自由に変更ください。 基本の飾り枠 この記事で紹介するデザインでは、HTML…]]></description><link>https://0forest.com/css-frame/</link><guid isPermaLink="false">https://0forest.com/css-frame/</guid><pubDate>Fri, 24 Aug 2018 12:30:24 GMT</pubDate><content:encoded>&lt;p&gt;見出しデザインに続いて、CSSのコピペだけで反映できる、飾り枠のデザインを用意しました。 フォントのサイズや色はご自由に変更ください。&lt;/p&gt;
+&lt;p&gt; See the Pen &lt;a href=&quot;https://codepen.io/filledforest/pen/ZMoQOY/&quot;&gt;blockquote sample&lt;/a&gt; by Emi (&lt;a href=&quot;https://codepen.io/filledforest&quot;&gt;@filledforest&lt;/a&gt;) on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CSSで作れるシンプルな飾り枠デザイン]]></title><description><![CDATA[見出しデザインに続いて、CSSのコピペだけで反映できる、飾り枠のデザインを用意しました。 フォントのサイズや色はご自由に変更ください。 基本の飾り枠 この記事で紹介するデザインでは、HTML…]]></description><link>https://0forest.com/css-frame/</link><guid isPermaLink="false">https://0forest.com/css-frame/</guid><pubDate>Fri, 24 Aug 2018 03:30:24 GMT</pubDate><enclosure url="https://0forest.com/static/c49eaa958db52b3533423d257920641e/icatch-20180824.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;見出しデザインに続いて、CSSのコピペだけで反映できる、飾り枠のデザインを用意しました。 フォントのサイズや色はご自由に変更ください。&lt;/p&gt;
 &lt;h2 id=&quot;基本の飾り枠&quot; style=&quot;position:relative;&quot;&gt;基本の飾り枠&lt;/h2&gt;
 &lt;p&gt;この記事で紹介するデザインでは、HTMLを以下のように記述しています。 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;div&amp;gt;~&amp;lt;/div&amp;gt;&lt;/code&gt;の中の文章を好きに書き換えて使ってくださいね。&lt;/p&gt;
 &lt;div class=&quot;gatsby-code-title&quot;&gt;HTML&lt;/div&gt;
@@ -12373,7 +12373,7 @@ marginは枠の外の余白を設定します。&lt;/p&gt;
     &lt;span class=&quot;token property&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;#fff&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token property&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 1em&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[CSSで作れるかわいいブログ見出しのデザイン]]></title><description><![CDATA[CSSのコピペだけで反映できる、簡単な見出しデザインを用意しました。
-フォントのサイズや色はご自由に変更ください。 見出しデザインを設定するには この記事で紹介するデザインを使う時には、HTMLに見出しタグ(h…]]></description><link>https://0forest.com/css-header/</link><guid isPermaLink="false">https://0forest.com/css-header/</guid><pubDate>Wed, 22 Aug 2018 10:00:32 GMT</pubDate><content:encoded>&lt;p&gt;CSSのコピペだけで反映できる、簡単な見出しデザインを用意しました。
+フォントのサイズや色はご自由に変更ください。 見出しデザインを設定するには この記事で紹介するデザインを使う時には、HTMLに見出しタグ(h…]]></description><link>https://0forest.com/css-header/</link><guid isPermaLink="false">https://0forest.com/css-header/</guid><pubDate>Wed, 22 Aug 2018 01:00:32 GMT</pubDate><enclosure url="https://0forest.com/static/ae7761c0f7af9b1379a210558e130948/icatch-20180822.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;CSSのコピペだけで反映できる、簡単な見出しデザインを用意しました。
 フォントのサイズや色はご自由に変更ください。&lt;/p&gt;
 &lt;h2 id=&quot;見出しデザインを設定するには&quot; style=&quot;position:relative;&quot;&gt;見出しデザインを設定するには&lt;/h2&gt;
 &lt;p&gt;この記事で紹介するデザインを使う時には、HTMLに見出しタグ(h2)を入れてください。&lt;/p&gt;
@@ -12663,7 +12663,7 @@ h2:after {
     width: 100%;
     height: 6px;
     background: repeating-linear-gradient(-30deg, #82C5CA, #82C5CA 4px, #C1E2E4 4px, #C1E2E4 8px);
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[toc.jsを使ってWordPress記事に目次を入れる]]></title><description><![CDATA[記事に目次があると、文章の構成がわかりやすくなり、必要なところにジャンプできて便利ですね。 WordPressで目次用のプラグインでは「Table of Contents Plus」が定番ですが、今回は、プラグインを使わずに、WordPress…]]></description><link>https://0forest.com/wordpress-toc/</link><guid isPermaLink="false">https://0forest.com/wordpress-toc/</guid><pubDate>Tue, 14 Aug 2018 12:00:55 GMT</pubDate><content:encoded>&lt;p&gt;記事に目次があると、文章の構成がわかりやすくなり、必要なところにジャンプできて便利ですね。&lt;/p&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[toc.jsを使ってWordPress記事に目次を入れる]]></title><description><![CDATA[記事に目次があると、文章の構成がわかりやすくなり、必要なところにジャンプできて便利ですね。 WordPressで目次用のプラグインでは「Table of Contents Plus」が定番ですが、今回は、プラグインを使わずに、WordPress…]]></description><link>https://0forest.com/wordpress-toc/</link><guid isPermaLink="false">https://0forest.com/wordpress-toc/</guid><pubDate>Tue, 14 Aug 2018 03:00:55 GMT</pubDate><content:encoded>&lt;p&gt;記事に目次があると、文章の構成がわかりやすくなり、必要なところにジャンプできて便利ですね。&lt;/p&gt;
 &lt;p&gt;WordPressで目次用のプラグインでは「Table of Contents Plus」が定番ですが、今回は、プラグインを使わずに、WordPressのテーマに組み込む方法を紹介します。&lt;/p&gt;
 &lt;h2 id=&quot;tocjsを設置する&quot; style=&quot;position:relative;&quot;&gt;toc.jsを設置する&lt;/h2&gt;
 &lt;h3 id=&quot;tocjsをダウンロードする&quot; style=&quot;position:relative;&quot;&gt;toc.jsをダウンロードする&lt;/h3&gt;
@@ -12798,7 +12798,7 @@ h2:after {
     &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;ul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;div&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;あとはCSSを自由に調整してください。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressで本格的にホームページを作りたい人におすすめ本４冊]]></title><description><![CDATA[今回は私がWordPressでホームページを作る上で、買って役に立った本を紹介します。 HTML/CSSの基本はすでに知っていて、WordPressのカスタマイズに本格的に取り組みたい方向けです。 ただブログを立ち上げたいだけであれば、本を買う必要はなし。
-WordPress…]]></description><link>https://0forest.com/wordpress-books/</link><guid isPermaLink="false">https://0forest.com/wordpress-books/</guid><pubDate>Sat, 04 Aug 2018 11:10:08 GMT</pubDate><content:encoded>&lt;p&gt;今回は私がWordPressでホームページを作る上で、買って役に立った本を紹介します。&lt;/p&gt;
+WordPress…]]></description><link>https://0forest.com/wordpress-books/</link><guid isPermaLink="false">https://0forest.com/wordpress-books/</guid><pubDate>Sat, 04 Aug 2018 02:10:08 GMT</pubDate><enclosure url="https://0forest.com/static/6f729e991a3c91bd84bbfd252cf34673/icatch-20180804.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;今回は私がWordPressでホームページを作る上で、買って役に立った本を紹介します。&lt;/p&gt;
 &lt;p&gt;HTML/CSSの基本はすでに知っていて、WordPressのカスタマイズに本格的に取り組みたい方向けです。 ただブログを立ち上げたいだけであれば、本を買う必要はなし。
 &lt;a href=&quot;/start-wordpress-blog/&quot;&gt;WordPressブログの始め方&lt;/a&gt;を参考にホームページを立ち上げてくださいね。&lt;/p&gt;
 &lt;p&gt;私は本を読みつつWordPressは独学で学びはじめましたが、ざっくりカスタマイズやテーマ制作ができるようになりました。&lt;/p&gt;
@@ -12852,7 +12852,7 @@ WordPress…]]></description><link>https://0forest.com/wordpress-books/</link><g
 &lt;/ul&gt;
 &lt;p&gt;プログラムの説明が並んだ辞書っぽいものではなく、サンプルページをイチから作る流れで説明してくれる本が好きです。&lt;/p&gt;
 &lt;p&gt;初めてWordPressをさわる時って、わからないことが多いですよね。 そのたびに、ネットで調べながら学ぶと、肝心のプログラムを動かしたり、作って楽しむという方に時間がとれなくなってしまいます。&lt;/p&gt;
-&lt;p&gt;まずは本を読んで、基礎知識を理解してしまった方が効率的です。 本を読みながら、手を動かしましょう。 他に良い本を見つけたら追記していきますね。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressのテーマにcssとjsを読み込む書き方]]></title><description><![CDATA[cssやJSの読み込みを行うときは、WordPressが自動で読み込むファイルと重複しないよう、functions.phpにまとめて記述します WordPressテーマにCSSファイルを読み込む functions.phpで読み込みたいcss…]]></description><link>https://0forest.com/wordpress-theme-css-js/</link><guid isPermaLink="false">https://0forest.com/wordpress-theme-css-js/</guid><pubDate>Fri, 03 Aug 2018 08:00:20 GMT</pubDate><content:encoded>&lt;p&gt;cssやJSの読み込みを行うときは、WordPressが自動で読み込むファイルと重複しないよう、functions.phpにまとめて記述します&lt;/p&gt;
+&lt;p&gt;まずは本を読んで、基礎知識を理解してしまった方が効率的です。 本を読みながら、手を動かしましょう。 他に良い本を見つけたら追記していきますね。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressのテーマにcssとjsを読み込む書き方]]></title><description><![CDATA[cssやJSの読み込みを行うときは、WordPressが自動で読み込むファイルと重複しないよう、functions.phpにまとめて記述します WordPressテーマにCSSファイルを読み込む functions.phpで読み込みたいcss…]]></description><link>https://0forest.com/wordpress-theme-css-js/</link><guid isPermaLink="false">https://0forest.com/wordpress-theme-css-js/</guid><pubDate>Thu, 02 Aug 2018 23:00:20 GMT</pubDate><enclosure url="https://0forest.com/static/36613189cde4143bdd339a28b62c22db/icatch-20180803.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;cssやJSの読み込みを行うときは、WordPressが自動で読み込むファイルと重複しないよう、functions.phpにまとめて記述します&lt;/p&gt;
 &lt;h2 id=&quot;wordpressテーマにcssファイルを読み込む&quot; style=&quot;position:relative;&quot;&gt;WordPressテーマにCSSファイルを読み込む&lt;/h2&gt;
 &lt;p&gt;functions.phpで読み込みたいcssファイルを記述します。&lt;/p&gt;
 &lt;div class=&quot;gatsby-code-title&quot;&gt;functions.php&lt;/div&gt;
@@ -12992,7 +12992,7 @@ WordPress…]]></description><link>https://0forest.com/wordpress-books/</link><g
 &lt;li&gt;cssとjsのファイルの読み込みはfunctions.phpに書く&lt;/li&gt;
 &lt;li&gt;CSSを読み込む時はwp_enqueue_style()、jsファイルを読み込む時はwp_enqueue_script()を使う&lt;/li&gt;
 &lt;li&gt;子テーマにファイルを読み込む時には、get_stylesheet_directory_uri()で、子テーマのディレクトリからURLを取得する。&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WordPressテーマに必要なファイルとおすすめブランクテーマ]]></title><description><![CDATA[…]]></description><link>https://0forest.com/blank-theme/</link><guid isPermaLink="false">https://0forest.com/blank-theme/</guid><pubDate>Thu, 02 Aug 2018 10:00:39 GMT</pubDate><content:encoded>&lt;p&gt;ゼロからテーマを用意するのは大変。 ブランクテーマには、基本のテンプレートが揃っているので、作り始めをスピードアップしてくれます。 お客様からテーマ作成を依頼された時に、私はよくブランクテーマを使います。 この記事では、テーマの骨組みの作り方とブランクテーマをご紹介します。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WordPressテーマに必要なファイルとおすすめブランクテーマ]]></title><description><![CDATA[…]]></description><link>https://0forest.com/blank-theme/</link><guid isPermaLink="false">https://0forest.com/blank-theme/</guid><pubDate>Thu, 02 Aug 2018 01:00:39 GMT</pubDate><content:encoded>&lt;p&gt;ゼロからテーマを用意するのは大変。 ブランクテーマには、基本のテンプレートが揃っているので、作り始めをスピードアップしてくれます。 お客様からテーマ作成を依頼された時に、私はよくブランクテーマを使います。 この記事では、テーマの骨組みの作り方とブランクテーマをご紹介します。&lt;/p&gt;
 &lt;h2 id=&quot;wordpressテーマに必要な3つのファイル&quot; style=&quot;position:relative;&quot;&gt;WordPressテーマに必要な3つのファイル&lt;/h2&gt;
 &lt;p&gt;ブランクテーマを使う前に、まずは基本のWordPressテーマの骨組みを紹介します。&lt;/p&gt;
 &lt;p&gt;テーマに必要なファイルはこの３つです。&lt;/p&gt;
@@ -13119,7 +13119,7 @@ Author：製作者のURL Description:テーマの説明&lt;/p&gt;
       /&gt;
     &lt;/span&gt;
 &lt;a href=&quot;http://html5blank.com/&quot;&gt;html5blank&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;この記事では、WordPressのテーマの骨組みと、おすすめブランクテーマについて紹介しました。 テーマ作成の参考にしてくださいませ。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【バレットジャーナル】私の読書ノートの書き方]]></title><description><![CDATA[…]]></description><link>https://0forest.com/reading-journal/</link><guid isPermaLink="false">https://0forest.com/reading-journal/</guid><pubDate>Wed, 01 Aug 2018 13:00:53 GMT</pubDate><content:encoded>&lt;p&gt;ただ読み流すだけでなく、本のエッセンスを自分のものにできる読書ノート。
+&lt;p&gt;この記事では、WordPressのテーマの骨組みと、おすすめブランクテーマについて紹介しました。 テーマ作成の参考にしてくださいませ。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【バレットジャーナル】私の読書ノートの書き方]]></title><description><![CDATA[…]]></description><link>https://0forest.com/reading-journal/</link><guid isPermaLink="false">https://0forest.com/reading-journal/</guid><pubDate>Tue, 31 Jul 2018 16:00:53 GMT</pubDate><enclosure url="https://0forest.com/static/4d1c0b3f4e11d0fa700837c2f7a9aa15/icatch-20180801_n.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;ただ読み流すだけでなく、本のエッセンスを自分のものにできる読書ノート。
 私は本を読む時、よくノートにメモをとります。&lt;/p&gt;
 &lt;h2 id=&quot;気に入った本のみ読書ノートに書く&quot; style=&quot;position:relative;&quot;&gt;気に入った本のみ読書ノートに書く&lt;/h2&gt;
 &lt;p&gt;まず、一度はメモを取らずに読みます。
@@ -13254,7 +13254,7 @@ Author：製作者のURL Description:テーマの説明&lt;/p&gt;
 &lt;li&gt;本にリンクする情報も同じページにまとめる&lt;/li&gt;
 &lt;li&gt;Evernoteで電子保存&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;ノートで楽しい読書ライフを！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[個人事業主が結婚したときに行う手続き]]></title><description><![CDATA[…]]></description><link>https://0forest.com/freelance-marry/</link><guid isPermaLink="false">https://0forest.com/freelance-marry/</guid><pubDate>Mon, 30 Jul 2018 10:00:31 GMT</pubDate><content:encoded>&lt;p&gt;今年の春、入籍をしました。
+&lt;p&gt;ノートで楽しい読書ライフを！&lt;/p&gt;</content:encoded></item><item><title><![CDATA[個人事業主が結婚したときに行う手続き]]></title><description><![CDATA[…]]></description><link>https://0forest.com/freelance-marry/</link><guid isPermaLink="false">https://0forest.com/freelance-marry/</guid><pubDate>Mon, 30 Jul 2018 01:00:31 GMT</pubDate><enclosure url="https://0forest.com/static/ee8b7e2b3819b7efc64fbfae64bca82d/icatch-20180730-1.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;今年の春、入籍をしました。
 結婚した個人事業主はどこで氏名を変えたらいいの？と調べつつ、関係各所で手続きをしてきました〜。&lt;/p&gt;
 &lt;p&gt;これが結構面倒。。。&lt;/p&gt;
 &lt;p&gt;たぶん、もうやることはないけれど、けっこう労力がかかったので、迷わないように、フリーランスが結婚したときにやること書き残しておきます。&lt;/p&gt;
@@ -13356,7 +13356,7 @@ Author：製作者のURL Description:テーマの説明&lt;/p&gt;
 &lt;li&gt;銀行口座／カードの氏名を変更する&lt;/li&gt;
 &lt;li&gt;利用中サービスのアカウントの名前を変更する&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;お住いの地域や、使っている銀行、サービスによって、変更に必要な書類などが変わりますので、確認してから動いてくださいね。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressの仕組み〜テンプレートファイルの優先順位]]></title><description><![CDATA[テーマを作りたいんだけど、どのテンプレートを作ればいいの？ ページを表示するとき、テーマ内ファイルはどう使われるの？ WordPress…]]></description><link>https://0forest.com/wordpress-template/</link><guid isPermaLink="false">https://0forest.com/wordpress-template/</guid><pubDate>Sat, 28 Jul 2018 10:00:17 GMT</pubDate><content:encoded>&lt;ul&gt;
+&lt;p&gt;お住いの地域や、使っている銀行、サービスによって、変更に必要な書類などが変わりますので、確認してから動いてくださいね。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressの仕組み〜テンプレートファイルの優先順位]]></title><description><![CDATA[テーマを作りたいんだけど、どのテンプレートを作ればいいの？ ページを表示するとき、テーマ内ファイルはどう使われるの？ WordPress…]]></description><link>https://0forest.com/wordpress-template/</link><guid isPermaLink="false">https://0forest.com/wordpress-template/</guid><pubDate>Sat, 28 Jul 2018 01:00:17 GMT</pubDate><enclosure url="https://0forest.com/static/00f23bd1a488a1e3d25838ea53715ef4/icatch-20180730.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;ul&gt;
 &lt;li&gt;テーマを作りたいんだけど、どのテンプレートを作ればいいの？&lt;/li&gt;
 &lt;li&gt;ページを表示するとき、テーマ内ファイルはどう使われるの？&lt;/li&gt;
 &lt;/ul&gt;
@@ -13514,7 +13514,7 @@ Author：製作者のURL Description:テーマの説明&lt;/p&gt;
 &lt;li&gt;アクセスしたURLに応じて、WordPress側がどのテンプレートを使うかを自動で選んでくれる&lt;/li&gt;
 &lt;li&gt;ページ種類によって、どのテンプレートファイルを作るかが決まる。&lt;/li&gt;
 &lt;li&gt;共通するコードはモジュールテンプレートとして切り出すことができる。&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WordPressが記事を表示する仕組み〜メインクエリとサブクエリ〜]]></title><description><![CDATA[WordPressで記事を表示するときいくつか書き方があります。 「それぞれの書き方はどう違うの？」 「そもそも、このプログラムは何をしているの？」 テンプレートを書いてて、分からなくなってきたので、WordPress…]]></description><link>https://0forest.com/wordpress-query/</link><guid isPermaLink="false">https://0forest.com/wordpress-query/</guid><pubDate>Fri, 27 Jul 2018 10:00:42 GMT</pubDate><content:encoded>&lt;h2 id=&quot;wordpressで記事を表示するときいくつか書き方があります。-「それぞれの書き方はどう違うの？」-「そもそも、このプログラムは何をしているの？」-テンプレートを書いてて、分からなくなってきたので、wordpressの記事を表示する仕組みとコードの意味について整理してみました。-wordpressのサイトにアクセスしてからページが表示されるまで。&quot; style=&quot;position:relative;&quot;&gt;WordPressで記事を表示するときいくつか書き方があります。 「それぞれの書き方はどう違うの？」 「そもそも、このプログラムは何をしているの？」 テンプレートを書いてて、分からなくなってきたので、WordPressの記事を表示する仕組みとコードの意味について整理してみました。 WordPressのサイトにアクセスしてからページが表示されるまで。&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WordPressが記事を表示する仕組み〜メインクエリとサブクエリ〜]]></title><description><![CDATA[WordPressで記事を表示するときいくつか書き方があります。 「それぞれの書き方はどう違うの？」 「そもそも、このプログラムは何をしているの？」 テンプレートを書いてて、分からなくなってきたので、WordPress…]]></description><link>https://0forest.com/wordpress-query/</link><guid isPermaLink="false">https://0forest.com/wordpress-query/</guid><pubDate>Fri, 27 Jul 2018 01:00:42 GMT</pubDate><enclosure url="https://0forest.com/static/ec416c3898799adc781a10ffd547b97f/icatch-20180727.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;h2 id=&quot;wordpressで記事を表示するときいくつか書き方があります。-「それぞれの書き方はどう違うの？」-「そもそも、このプログラムは何をしているの？」-テンプレートを書いてて、分からなくなってきたので、wordpressの記事を表示する仕組みとコードの意味について整理してみました。-wordpressのサイトにアクセスしてからページが表示されるまで。&quot; style=&quot;position:relative;&quot;&gt;WordPressで記事を表示するときいくつか書き方があります。 「それぞれの書き方はどう違うの？」 「そもそも、このプログラムは何をしているの？」 テンプレートを書いてて、分からなくなってきたので、WordPressの記事を表示する仕組みとコードの意味について整理してみました。 WordPressのサイトにアクセスしてからページが表示されるまで。&lt;/h2&gt;
 &lt;p&gt;WordPressがページを表示するときの流れを図解します。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -13700,7 +13700,7 @@ Author：製作者のURL Description:テーマの説明&lt;/p&gt;
 &lt;li&gt;URLに応じて、WordPressでは必要なページの記事データを自動取得してくれる&lt;/li&gt;
 &lt;li&gt;メインクエリは、そのURLのメインコンテンツを表示するときに使う&lt;/li&gt;
 &lt;li&gt;サブクエリはメインクエリに入っていないデータ（関連記事や著者の別記事など）を表示するときに使う&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WordPressテーマに関連記事を表示する]]></title><description><![CDATA[ブログ記事の下の方によくある「関連記事」を作って、同じカテゴリーの記事を表示します。 関連記事を表示するコード まずは記載するコードを紹介します。 投稿ページ（single.php）のファイルで、関連記事を表示したい箇所に以下のように記述します。 コードの説明 WordPress…]]></description><link>https://0forest.com/wordpress-related-posts/</link><guid isPermaLink="false">https://0forest.com/wordpress-related-posts/</guid><pubDate>Thu, 26 Jul 2018 10:00:38 GMT</pubDate><content:encoded>&lt;p&gt;ブログ記事の下の方によくある「関連記事」を作って、同じカテゴリーの記事を表示します。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WordPressテーマに関連記事を表示する]]></title><description><![CDATA[ブログ記事の下の方によくある「関連記事」を作って、同じカテゴリーの記事を表示します。 関連記事を表示するコード まずは記載するコードを紹介します。 投稿ページ（single.php）のファイルで、関連記事を表示したい箇所に以下のように記述します。 コードの説明 WordPress…]]></description><link>https://0forest.com/wordpress-related-posts/</link><guid isPermaLink="false">https://0forest.com/wordpress-related-posts/</guid><pubDate>Thu, 26 Jul 2018 01:00:38 GMT</pubDate><enclosure url="https://0forest.com/static/fe83eaab95f8764fa57a95357903ea40/20180726-icatch.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;ブログ記事の下の方によくある「関連記事」を作って、同じカテゴリーの記事を表示します。&lt;/p&gt;
 &lt;h2 id=&quot;関連記事を表示するコード&quot; style=&quot;position:relative;&quot;&gt;関連記事を表示するコード&lt;/h2&gt;
 &lt;p&gt;まずは記載するコードを紹介します。 投稿ページ（single.php）のファイルで、関連記事を表示したい箇所に以下のように記述します。&lt;/p&gt;
 &lt;div class=&quot;gatsby-code-title&quot;&gt;single.php&lt;/div&gt;
@@ -13782,7 +13782,7 @@ Author：製作者のURL Description:テーマの説明&lt;/p&gt;
         &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;img&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;アイキャッチ画像&gt;&amp;lt;a href=&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token attr-name&quot;&gt;記事５のURL&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;記事５の名前&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;li&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
     &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;ul&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;aside&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;あとは、CSSをカスタマイズすればOK&lt;/p&gt;</content:encoded></item><item><title><![CDATA[バレットジャーナルをシンプルに続けるために「断捨離」しよう]]></title><description><![CDATA[いろいろな手帳術のアイデアが世の中にはあるけれど、 レットジャーナルの基本はその名の通り「・（中点：バレット）」が並んだシンプルさ。 バレットジャーナル 考案者のTED…]]></description><link>https://0forest.com/bullet-journal-declutter/</link><guid isPermaLink="false">https://0forest.com/bullet-journal-declutter/</guid><pubDate>Wed, 25 Jul 2018 10:00:02 GMT</pubDate><content:encoded>&lt;p&gt;いろいろな手帳術のアイデアが世の中にはあるけれど、 レットジャーナルの基本はその名の通り「・（中点：バレット）」が並んだシンプルさ。&lt;/p&gt;
+&lt;p&gt;あとは、CSSをカスタマイズすればOK&lt;/p&gt;</content:encoded></item><item><title><![CDATA[バレットジャーナルをシンプルに続けるために「断捨離」しよう]]></title><description><![CDATA[いろいろな手帳術のアイデアが世の中にはあるけれど、 レットジャーナルの基本はその名の通り「・（中点：バレット）」が並んだシンプルさ。 バレットジャーナル 考案者のTED…]]></description><link>https://0forest.com/bullet-journal-declutter/</link><guid isPermaLink="false">https://0forest.com/bullet-journal-declutter/</guid><pubDate>Wed, 25 Jul 2018 01:00:02 GMT</pubDate><enclosure url="https://0forest.com/static/8aa8c1498e867eca23e56531f507bc4f/20180725-icatch.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;いろいろな手帳術のアイデアが世の中にはあるけれど、 レットジャーナルの基本はその名の通り「・（中点：バレット）」が並んだシンプルさ。&lt;/p&gt;
 &lt;p&gt;バレットジャーナル 考案者のTEDトークを見ていて、そのコンセプトには「断捨離（＝大切なものを選ぶ）」に通じるものがあるなと思いました。&lt;/p&gt;
 &lt;h2 id=&quot;大切なものに意識を向ける〜バレットジャーナル考案者のtedトーク〜&quot; style=&quot;position:relative;&quot;&gt;大切なものに意識を向ける〜バレットジャーナル考案者のTEDトーク〜&lt;/h2&gt;
 &lt;p&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=ym6OYelD5fA&quot;&gt;バレットジャーナル の考案者Rydar CarollさんのTEDトークを聞きました。&lt;/a&gt;&lt;/p&gt;
@@ -13848,7 +13848,7 @@ Author：製作者のURL Description:テーマの説明&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;It’s only by saying no that you can concentrate on the things hat are really important. （その他にNoということだけが、本当に大事なことに集中させてくれる。） — Steve Jobs.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;バレットジャーナルの嬉しいところは、書き方が簡単で、好きなところだけ取り入れられる自由度の高さだと思います。 自分なりのシンプルなやり方に的を絞って、ノートを楽しんで続けてくださいね。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【WordPress】プルダウンメニューのデザインを整える]]></title><description><![CDATA[今回は、WordPressのグローバルメニューの設置&カスタマイズの仕方です。 メニューが階層になっていると、メニューにマウスをあてると、子メニューが表示されるようにします。  また、スマホとPC…]]></description><link>https://0forest.com/wordpress-pulldown-menu/</link><guid isPermaLink="false">https://0forest.com/wordpress-pulldown-menu/</guid><pubDate>Tue, 24 Jul 2018 10:00:04 GMT</pubDate><content:encoded>&lt;p&gt;今回は、WordPressのグローバルメニューの設置&amp;#x26;カスタマイズの仕方です。 メニューが階層になっていると、メニューにマウスをあてると、子メニューが表示されるようにします。&lt;/p&gt;
+&lt;p&gt;バレットジャーナルの嬉しいところは、書き方が簡単で、好きなところだけ取り入れられる自由度の高さだと思います。 自分なりのシンプルなやり方に的を絞って、ノートを楽しんで続けてくださいね。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【WordPress】プルダウンメニューのデザインを整える]]></title><description><![CDATA[今回は、WordPressのグローバルメニューの設置&カスタマイズの仕方です。 メニューが階層になっていると、メニューにマウスをあてると、子メニューが表示されるようにします。  また、スマホとPC…]]></description><link>https://0forest.com/wordpress-pulldown-menu/</link><guid isPermaLink="false">https://0forest.com/wordpress-pulldown-menu/</guid><pubDate>Tue, 24 Jul 2018 01:00:04 GMT</pubDate><enclosure url="https://0forest.com/static/3f7c50b1b54511cc1707c2b7c8607238/20180724-icatch.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;今回は、WordPressのグローバルメニューの設置&amp;#x26;カスタマイズの仕方です。 メニューが階層になっていると、メニューにマウスをあてると、子メニューが表示されるようにします。&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
@@ -14167,7 +14167,7 @@ arrayの中に&lt;code class=&quot;language-text&quot;&gt;&amp;#39;global&amp;#3
     &lt;span class=&quot;token selector&quot;&gt;#globalnavi&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token property&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; block&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;これで完成です。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【WordPress】ページトップへ戻るボタンを追加する]]></title><description><![CDATA[ホームページにするーっと上へ戻るボタンをつけましょう。 ホームページをスクロールしていると、出てくる矢印ボタン。 クリックすると、するーっと一番上まで戻ってくれて、見る人にも親切ですね。 今回はWordPress…]]></description><link>https://0forest.com/gototop/</link><guid isPermaLink="false">https://0forest.com/gototop/</guid><pubDate>Fri, 20 Jul 2018 12:00:19 GMT</pubDate><content:encoded>&lt;h2 id=&quot;ホームページにするーっと上へ戻るボタンをつけましょう。&quot; style=&quot;position:relative;&quot;&gt;ホームページにするーっと上へ戻るボタンをつけましょう。&lt;/h2&gt;
+&lt;p&gt;これで完成です。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【WordPress】ページトップへ戻るボタンを追加する]]></title><description><![CDATA[ホームページにするーっと上へ戻るボタンをつけましょう。 ホームページをスクロールしていると、出てくる矢印ボタン。 クリックすると、するーっと一番上まで戻ってくれて、見る人にも親切ですね。 今回はWordPress…]]></description><link>https://0forest.com/gototop/</link><guid isPermaLink="false">https://0forest.com/gototop/</guid><pubDate>Fri, 20 Jul 2018 03:00:19 GMT</pubDate><enclosure url="https://0forest.com/static/18ddf6cea40c9861058f47878840c865/20180720_icatch.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;h2 id=&quot;ホームページにするーっと上へ戻るボタンをつけましょう。&quot; style=&quot;position:relative;&quot;&gt;ホームページにするーっと上へ戻るボタンをつけましょう。&lt;/h2&gt;
 &lt;p&gt;ホームページをスクロールしていると、出てくる矢印ボタン。 クリックすると、するーっと一番上まで戻ってくれて、見る人にも親切ですね。 今回はWordPressのホームページに、ページトップ戻るボタンを作ってみましょう。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/56344c80520581c84071cad70c9c9743/ss_gotop.gif&quot; alt=&quot;トップへ戻るボタンアニメーション&quot;&gt;&lt;/p&gt;
 &lt;p&gt;なお、トップへ戻るボタンはプラグインもたくさん用意されているので、「やってみたいけど難しそうだな」って人は、&lt;a href=&quot;https://wordpress.org/plugins/scroll-back-to-top/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;プラグイン&lt;/a&gt;を使ってもいいかもしれません。&lt;/p&gt;
@@ -14399,7 +14399,7 @@ arrayの中に&lt;code class=&quot;language-text&quot;&gt;&amp;#39;global&amp;#3
   See the Pen &lt;a href=&apos;https://codepen.io/filledforest/pen/gjLdqz&apos;&gt;ページトップへ戻る&lt;/a&gt; by Emi
   (&lt;a href=&apos;https://codepen.io/filledforest&apos;&gt;@filledforest&lt;/a&gt;) on &lt;a href=&apos;https://codepen.io&apos;&gt;CodePen&lt;/a&gt;.
 &lt;/iframe&gt;
-  ※注意：CodePenのJavaScriptコード「＄」のところ、WordPressでは「jQuery」に置き換えて使います。</content:encoded></item><item><title><![CDATA[【内部SEO】検索エンジンに評価されるマークアップとタグの使い分けとは？]]></title><description><![CDATA[ホームページのコーディングをしていて迷うこと。 検索エンジンから評価されやすいページの構造ってどう書くの？ タグを適切に記述した綺麗なソースコードにしたい。 どうやってdiv、section、article…]]></description><link>https://0forest.com/html5-markup/</link><guid isPermaLink="false">https://0forest.com/html5-markup/</guid><pubDate>Tue, 17 Jul 2018 10:00:34 GMT</pubDate><content:encoded>&lt;p&gt;ホームページのコーディングをしていて迷うこと。&lt;/p&gt;
+  ※注意：CodePenのJavaScriptコード「＄」のところ、WordPressでは「jQuery」に置き換えて使います。</content:encoded></item><item><title><![CDATA[【内部SEO】検索エンジンに評価されるマークアップとタグの使い分けとは？]]></title><description><![CDATA[ホームページのコーディングをしていて迷うこと。 検索エンジンから評価されやすいページの構造ってどう書くの？ タグを適切に記述した綺麗なソースコードにしたい。 どうやってdiv、section、article…]]></description><link>https://0forest.com/html5-markup/</link><guid isPermaLink="false">https://0forest.com/html5-markup/</guid><pubDate>Tue, 17 Jul 2018 01:00:34 GMT</pubDate><enclosure url="https://0forest.com/static/3d08bf4f86aca696bfe790b7c3f94930/20180717-icatch.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;ホームページのコーディングをしていて迷うこと。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;検索エンジンから評価されやすいページの構造ってどう書くの？&lt;/li&gt;
 &lt;li&gt;タグを適切に記述した綺麗なソースコードにしたい。&lt;/li&gt;
@@ -14539,7 +14539,7 @@ sectionでもarticleでもないけれど、ひとまとめにして扱いたい
             &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;グローバルメニュー、コピーライト、SNSリンクなど&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;p&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
         &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;footer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
     &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;body&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[WordPressテーマに検索機能をつける]]></title><description><![CDATA[検索フォームを作る searchform.phpを作る WordPressにはデフォルトで検索フォームが用意されています。 デザインを好みに合わせて作りたいときにはsearchform.phpを用意します。 あとは、CSS…]]></description><link>https://0forest.com/wordpress-searchform/</link><guid isPermaLink="false">https://0forest.com/wordpress-searchform/</guid><pubDate>Fri, 13 Jul 2018 10:00:27 GMT</pubDate><content:encoded>&lt;h2 id=&quot;検索フォームを作る&quot; style=&quot;position:relative;&quot;&gt;検索フォームを作る&lt;/h2&gt;
+&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;html&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[WordPressテーマに検索機能をつける]]></title><description><![CDATA[検索フォームを作る searchform.phpを作る WordPressにはデフォルトで検索フォームが用意されています。 デザインを好みに合わせて作りたいときにはsearchform.phpを用意します。 あとは、CSS…]]></description><link>https://0forest.com/wordpress-searchform/</link><guid isPermaLink="false">https://0forest.com/wordpress-searchform/</guid><pubDate>Fri, 13 Jul 2018 01:00:27 GMT</pubDate><enclosure url="https://0forest.com/static/f5f23c832e63b7371205f55e383a25db/20180713-icatch.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;h2 id=&quot;検索フォームを作る&quot; style=&quot;position:relative;&quot;&gt;検索フォームを作る&lt;/h2&gt;
 &lt;h3 id=&quot;searchformphpを作る&quot; style=&quot;position:relative;&quot;&gt;searchform.phpを作る&lt;/h3&gt;
 &lt;p&gt;WordPressにはデフォルトで検索フォームが用意されています。 デザインを好みに合わせて作りたいときにはsearchform.phpを用意します。&lt;/p&gt;
 &lt;div class=&quot;gatsby-code-title&quot;&gt;searchform.php&lt;/div&gt;
@@ -14590,7 +14590,7 @@ php &lt;span class=&quot;token function&quot;&gt;get_header&lt;/span&gt;&lt;span
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;the_search_query();&lt;/code&gt; ：検索キーワードを表示&lt;/p&gt;
 &lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;echo $wp_query-&amp;gt;found_posts;&lt;/code&gt;：検索された記事の件数を表示する&lt;/p&gt;
 &lt;p&gt;見つからなかった場合には、もう一度検索してもらうために、検索フォームを表示させています。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[functions.phpとは〜WordPressテーマに機能を追加する〜]]></title><description><![CDATA[functions.phpでできること functions.phpには、テーマの中で使う機能やテーマの設定します。 ここに機能をまとめて書いておくことで、同じ処理をつかいまわしたり、ページテンプレートの方のコードをシンプルにできます。
-functions.php…]]></description><link>https://0forest.com/wordpress-theme-functions/</link><guid isPermaLink="false">https://0forest.com/wordpress-theme-functions/</guid><pubDate>Mon, 09 Jul 2018 10:00:50 GMT</pubDate><content:encoded>&lt;h2 id=&quot;functionsphpでできること&quot; style=&quot;position:relative;&quot;&gt;functions.phpでできること&lt;/h2&gt;
+functions.php…]]></description><link>https://0forest.com/wordpress-theme-functions/</link><guid isPermaLink="false">https://0forest.com/wordpress-theme-functions/</guid><pubDate>Mon, 09 Jul 2018 01:00:50 GMT</pubDate><enclosure url="https://0forest.com/static/36d2b1dac608a57c8d7561b4f8aed491/20180709-icatch.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;h2 id=&quot;functionsphpでできること&quot; style=&quot;position:relative;&quot;&gt;functions.phpでできること&lt;/h2&gt;
 &lt;p&gt;functions.phpには、テーマの中で使う機能やテーマの設定します。&lt;/p&gt;
 &lt;p&gt;ここに機能をまとめて書いておくことで、同じ処理をつかいまわしたり、ページテンプレートの方のコードをシンプルにできます。
 functions.phpはとても大事なファイルで、適切にコードが書けていないと、サイトが真っ白になったり、テーマが動作しないので注意してくださいね。&lt;/p&gt;
@@ -14721,7 +14721,7 @@ functions.phpはとても大事なファイルで、適切にコードが書け�
 &lt;li&gt;&lt;a href=&quot;/visual-editor-button-customize/&quot;&gt;ビジュアルエディタの見た目を実際の記事に揃える&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;画像を表示させるところには、このように記載します。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【prism.js】ブログ記事にソースコードをきれいに表示する方法]]></title><description><![CDATA[技術系ブログだと記事にプログラムの説明はつきもの。
-今回はブログ記事にソースコードを綺麗に表示させる方法の紹介です。 基本の書き方：preタグとcodeタグを使う codeタグ→プログラムの記述 code…]]></description><link>https://0forest.com/display-code-on-blog/</link><guid isPermaLink="false">https://0forest.com/display-code-on-blog/</guid><pubDate>Thu, 05 Jul 2018 10:00:45 GMT</pubDate><content:encoded>&lt;p&gt;技術系ブログだと記事にプログラムの説明はつきもの。
+今回はブログ記事にソースコードを綺麗に表示させる方法の紹介です。 基本の書き方：preタグとcodeタグを使う codeタグ→プログラムの記述 code…]]></description><link>https://0forest.com/display-code-on-blog/</link><guid isPermaLink="false">https://0forest.com/display-code-on-blog/</guid><pubDate>Thu, 05 Jul 2018 01:00:45 GMT</pubDate><enclosure url="https://0forest.com/static/1b7f2d120fc3add9f5c455be0d518286/icatch_20180704-1.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;技術系ブログだと記事にプログラムの説明はつきもの。
 今回はブログ記事にソースコードを綺麗に表示させる方法の紹介です。&lt;/p&gt;
 &lt;h2 id=&quot;基本の書き方：preタグとcodeタグを使う&quot; style=&quot;position:relative;&quot;&gt;基本の書き方：preタグとcodeタグを使う&lt;/h2&gt;
 &lt;h3 id=&quot;codeタグ→プログラムの記述&quot; style=&quot;position:relative;&quot;&gt;codeタグ→プログラムの記述&lt;/h3&gt;
@@ -14787,7 +14787,7 @@ functions.phpはとても大事なファイルで、適切にコードが書け�
 &lt;p&gt;codeのクラスにlanguage-〇〇とプログラミング言語名を指定します。
 また、preのクラスにはline-numbersを書いて行数を表示させます。&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;markup&quot;&gt;&lt;pre class=&quot;language-markup&quot;&gt;&lt;code class=&quot;language-markup&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;pre&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;line-numbers&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;code&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;language-markup&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; 〜〜 &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;code&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;pre&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;preクラスにdata-start=3などと入れると、表示される行数が3行目から表示されるようになります。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressの自作テーマの作り方]]></title><description><![CDATA[WordPressでオリジナルテーマを作ってみました。 制作したもの もともとWordPress…]]></description><link>https://0forest.com/wordpress-original-theme/</link><guid isPermaLink="false">https://0forest.com/wordpress-original-theme/</guid><pubDate>Mon, 02 Jul 2018 11:00:33 GMT</pubDate><content:encoded>&lt;p&gt;WordPressでオリジナルテーマを作ってみました。&lt;/p&gt;
+&lt;p&gt;preクラスにdata-start=3などと入れると、表示される行数が3行目から表示されるようになります。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressの自作テーマの作り方]]></title><description><![CDATA[WordPressでオリジナルテーマを作ってみました。 制作したもの もともとWordPress…]]></description><link>https://0forest.com/wordpress-original-theme/</link><guid isPermaLink="false">https://0forest.com/wordpress-original-theme/</guid><pubDate>Mon, 02 Jul 2018 02:00:33 GMT</pubDate><enclosure url="https://0forest.com/static/c0acc57c5be5a0adaee56d4e27c17956/icatch-20180702-1.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;WordPressでオリジナルテーマを作ってみました。&lt;/p&gt;
 &lt;h2 id=&quot;制作したもの&quot; style=&quot;position:relative;&quot;&gt;制作したもの&lt;/h2&gt;
 &lt;p&gt;もともとWordPressを始めた時は無料テーマをテーマをカスタマイズ使用していました。
 そのつど、欲しい機能を探してプラグインをいれたり、プログラムを継ぎ足しているため、どんどん重くなっていってしまった。
@@ -14828,7 +14828,7 @@ functions.phpはとても大事なファイルで、適切にコードが書け�
 &lt;h2 id=&quot;wordpress制作中に読んだ本&quot; style=&quot;position:relative;&quot;&gt;WordPress制作中に読んだ本&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;/wordpress-books/&quot;&gt;WordPressで本格的にホームページを作りたい人におすすめ本４冊&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Google Analyticsで自分のアクセスを除く設定]]></title><description><![CDATA[Google Analytics…]]></description><link>https://0forest.com/ga-ip-filter/</link><guid isPermaLink="false">https://0forest.com/ga-ip-filter/</guid><pubDate>Thu, 28 Jun 2018 10:00:51 GMT</pubDate><content:encoded>&lt;p&gt;Google Analyticsでアクセスの集計をされている方は、自分がホームページを見た分は入れたくないですよね。 更新などでホームページをこまめにひらくこともありますし。 正確な数値をチェックできるよう、自分のアクセスを集計から除外する方法を設定しましょう。&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Google Analyticsで自分のアクセスを除く設定]]></title><description><![CDATA[Google Analytics…]]></description><link>https://0forest.com/ga-ip-filter/</link><guid isPermaLink="false">https://0forest.com/ga-ip-filter/</guid><pubDate>Thu, 28 Jun 2018 01:00:51 GMT</pubDate><enclosure url="https://0forest.com/static/0fb061e70477585b749155a80b6569c9/icatch_20180628.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;Google Analyticsでアクセスの集計をされている方は、自分がホームページを見た分は入れたくないですよね。 更新などでホームページをこまめにひらくこともありますし。 正確な数値をチェックできるよう、自分のアクセスを集計から除外する方法を設定しましょう。&lt;/p&gt;
 &lt;h2 id=&quot;方法１：自分のipアドレスを除外する&quot; style=&quot;position:relative;&quot;&gt;方法１：自分のIPアドレスを除外する&lt;/h2&gt;
 &lt;p&gt; こちらはよく紹介されている方法です。 IPアドレスはインターネットにつながっているPCの住所のこと。 IPアドレスで自分が使っているPCからのアクセスを特定できるんですね。 実際に設定してみましょう。&lt;/p&gt;
 &lt;p&gt;Google Analyticsを開いて、左のメニューバーから管理画面にいきます。
@@ -14952,7 +14952,7 @@ functions.phpはとても大事なファイルで、適切にコードが書け�
     &lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;まとめ&quot; style=&quot;position:relative;&quot;&gt;まとめ&lt;/h2&gt;
 &lt;p&gt;自分のアクセスは集計から外して、正確な数値でアクセス解析しましょう。 すでに集計された過去のデータは変更できないので、導入してはじめに設定しておくのがオススメです。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressで使っているプラグインまとめ]]></title><description><![CDATA[プラグインはWordPressにインストールできる追加機能です。 私がWordPressに入れているプラグインを一覧化しました。
-私自身あのプラグインなんだっけ〜っと忘れるので備忘録です よく使うプラグイン Akismet…]]></description><link>https://0forest.com/wordpress-plugin/</link><guid isPermaLink="false">https://0forest.com/wordpress-plugin/</guid><pubDate>Tue, 26 Jun 2018 12:30:24 GMT</pubDate><content:encoded>&lt;p&gt;プラグインはWordPressにインストールできる追加機能です。&lt;/p&gt;
+私自身あのプラグインなんだっけ〜っと忘れるので備忘録です よく使うプラグイン Akismet…]]></description><link>https://0forest.com/wordpress-plugin/</link><guid isPermaLink="false">https://0forest.com/wordpress-plugin/</guid><pubDate>Tue, 26 Jun 2018 03:30:24 GMT</pubDate><enclosure url="https://0forest.com/static/7f7dbe6bc83a65daed247987de3ce913/icatch-20180625-1.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;プラグインはWordPressにインストールできる追加機能です。&lt;/p&gt;
 &lt;p&gt;私がWordPressに入れているプラグインを一覧化しました。
 私自身あのプラグインなんだっけ〜っと忘れるので備忘録です&lt;/p&gt;
 &lt;h2 id=&quot;よく使うプラグイン&quot; style=&quot;position:relative;&quot;&gt;よく使うプラグイン&lt;/h2&gt;
@@ -15124,7 +15124,7 @@ functions.phpはとても大事なファイルで、適切にコードが書け�
 &lt;p&gt;稀にテーマとの相性が合ないと、正しく動かない（画面が真っ白になってしまう）ことがあります。これはプラグインを無効にすれば元に戻ります。特に画像やキャッシュに関連したプラグインだとそうなりやすいみたい。&lt;/p&gt;
 &lt;p&gt;プラグインを入れるときは、一つずつ有効化して、動くか確認してください。&lt;/p&gt;
 &lt;p&gt;プラグインを使うときは、一緒に使うと動かなくなるものもあるので、一つずつ有効化して動くか確認してください。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Markdownを知ってから、ブログ執筆がスピードアップ！！]]></title><description><![CDATA[ブログの記事を素早く書きたい方におすすめ！な
-Markdown（マークダウン）記法と使えるテキストエディタのご紹介です。 そもそも、Markdown(マークダウン)って何？ HTML…]]></description><link>https://0forest.com/markdown/</link><guid isPermaLink="false">https://0forest.com/markdown/</guid><pubDate>Sat, 23 Jun 2018 10:00:01 GMT</pubDate><content:encoded>&lt;p&gt;ブログの記事を素早く書きたい方におすすめ！な
+Markdown（マークダウン）記法と使えるテキストエディタのご紹介です。 そもそも、Markdown(マークダウン)って何？ HTML…]]></description><link>https://0forest.com/markdown/</link><guid isPermaLink="false">https://0forest.com/markdown/</guid><pubDate>Sat, 23 Jun 2018 01:00:01 GMT</pubDate><enclosure url="https://0forest.com/static/e6cdabfa001163d18ba1824091fcb709/icatch-20180623.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;ブログの記事を素早く書きたい方におすすめ！な
 Markdown（マークダウン）記法と使えるテキストエディタのご紹介です。&lt;/p&gt;
 &lt;h2 id=&quot;そもそも、markdownマークダウンって何？&quot; style=&quot;position:relative;&quot;&gt;そもそも、Markdown(マークダウン)って何？&lt;/h2&gt;
 &lt;p&gt;HTMLを素早く書くための略語と思っていただければと。&lt;/p&gt;
@@ -15208,7 +15208,7 @@ Markdown（マークダウン）記法と使えるテキストエディタのご
 &lt;h2 id=&quot;まとめ&quot; style=&quot;position:relative;&quot;&gt;まとめ&lt;/h2&gt;
 &lt;p&gt;マークダウンを覚えると、素早く、読みやすい文章を作成できるようになります。
 おためしあれ。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[バレットジャーナルをはじめて２年。手帳を写真付きで公開するよ。]]></title><description><![CDATA[最近、少しずつ知名度が出てきた、バレットジャーナル。 興味はあるけど、どうやって使ったらいいの？ そんな方のために、私流のバレットジャーナルの使い方を紹介します。 私はもともと手帳が大好き。
-はじめはネットに転がっている Molesking…]]></description><link>https://0forest.com/bullet-journal/</link><guid isPermaLink="false">https://0forest.com/bullet-journal/</guid><pubDate>Fri, 22 Jun 2018 10:00:53 GMT</pubDate><content:encoded>&lt;p&gt;最近、少しずつ知名度が出てきた、バレットジャーナル。 興味はあるけど、どうやって使ったらいいの？ そんな方のために、私流のバレットジャーナルの使い方を紹介します。&lt;/p&gt;
+はじめはネットに転がっている Molesking…]]></description><link>https://0forest.com/bullet-journal/</link><guid isPermaLink="false">https://0forest.com/bullet-journal/</guid><pubDate>Fri, 22 Jun 2018 01:00:53 GMT</pubDate><enclosure url="https://0forest.com/static/7998c751d797018202e6dc47cf36e68c/icatch_20180622.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;最近、少しずつ知名度が出てきた、バレットジャーナル。 興味はあるけど、どうやって使ったらいいの？ そんな方のために、私流のバレットジャーナルの使い方を紹介します。&lt;/p&gt;
 &lt;p&gt;私はもともと手帳が大好き。
 はじめはネットに転がっている Moleskingの絵日記や、ほぼ日手帳のページ、 海外のArt Journalを写真を眺めてはニヤニヤしていました。
 細かいイラストを描いたり、綺麗な文字も書けないけれど、シンプルなバレットジャーナルなら、私にもできそう！&lt;/p&gt;
@@ -15359,7 +15359,7 @@ Markdown（マークダウン）記法と使えるテキストエディタのご
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;まとめ&quot; style=&quot;position:relative;&quot;&gt;まとめ&lt;/h2&gt;
-&lt;p&gt; バレットジャーナルは、とってもシンプルなノート術。 自分の嗜好に合わせて、いかようにでもアレンジできちゃいます。 気軽にお試しくださいね。 そして、私は、いろんな使い方をしているノートを見ては、ムフフとしています(&lt;em&gt;´꒳`&lt;/em&gt;)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Webの画像形式（JPEG,PNG,GIF,SVG）使い分け]]></title><description><![CDATA[Webでよく使われる画像には、JPEG,PNG,GIF,SVGと種類があります。 ファイルの特徴を理解して使いわけることで、高画質のまま、ファイルサイズも小さくおさめることができます。 Webで使う画像形式の種類 ざっくりまとめると、こんな風に使い分けます。 JPEG…]]></description><link>https://0forest.com/image-file-format/</link><guid isPermaLink="false">https://0forest.com/image-file-format/</guid><pubDate>Thu, 21 Jun 2018 12:01:33 GMT</pubDate><content:encoded>&lt;p&gt;Webでよく使われる画像には、JPEG,PNG,GIF,SVGと種類があります。 ファイルの特徴を理解して使いわけることで、高画質のまま、ファイルサイズも小さくおさめることができます。&lt;/p&gt;
+&lt;p&gt; バレットジャーナルは、とってもシンプルなノート術。 自分の嗜好に合わせて、いかようにでもアレンジできちゃいます。 気軽にお試しくださいね。 そして、私は、いろんな使い方をしているノートを見ては、ムフフとしています(&lt;em&gt;´꒳`&lt;/em&gt;)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Webの画像形式（JPEG,PNG,GIF,SVG）使い分け]]></title><description><![CDATA[Webでよく使われる画像には、JPEG,PNG,GIF,SVGと種類があります。 ファイルの特徴を理解して使いわけることで、高画質のまま、ファイルサイズも小さくおさめることができます。 Webで使う画像形式の種類 ざっくりまとめると、こんな風に使い分けます。 JPEG…]]></description><link>https://0forest.com/image-file-format/</link><guid isPermaLink="false">https://0forest.com/image-file-format/</guid><pubDate>Thu, 21 Jun 2018 03:01:33 GMT</pubDate><enclosure url="https://0forest.com/static/1b3d5ed1346596b43ebbff134dddf23a/icatch-20180621.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;Webでよく使われる画像には、JPEG,PNG,GIF,SVGと種類があります。 ファイルの特徴を理解して使いわけることで、高画質のまま、ファイルサイズも小さくおさめることができます。&lt;/p&gt;
 &lt;h2 id=&quot;webで使う画像形式の種類&quot; style=&quot;position:relative;&quot;&gt;Webで使う画像形式の種類&lt;/h2&gt;
 &lt;p&gt;ざっくりまとめると、こんな風に使い分けます。&lt;/p&gt;
 &lt;p&gt;JPEG→写真、使われている色が多い画像
@@ -15403,7 +15403,7 @@ SVG→色を変更する、拡大縮小して使うアイコン&lt;/p&gt;
 &lt;p&gt;ファイルサイズが大きいとページの表示に時間かかること、 画像を保存している場所の容量も圧迫してしまうことから、 ファイルサイズはなるべく小さめがいいです。&lt;/p&gt;
 &lt;p&gt;私の目安は、 背景、アイコンなど、色や形がシンプルな画像は数KB。&lt;/p&gt;
 &lt;p&gt;写真などサイズが大きくなりがちなファイルは、最大でも100KB程度を目安にしています。 ファイル形式や品質を変えて、 画質が劣化していないか ファイルサイズが大きすぎないか チェックして使ってみてくださいね。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[【MAMP】MacにWordPress開発環境をつくる手順]]></title><description><![CDATA[WordPressのテーマをごりごりカスタマイズ/開発したい方に。 追記：2020/3/22
-この記事のやり方でも、ローカル環境を作れますが、「Local By Flywheel…]]></description><link>https://0forest.com/mamp-wp-setup/</link><guid isPermaLink="false">https://0forest.com/mamp-wp-setup/</guid><pubDate>Tue, 19 Jun 2018 11:15:25 GMT</pubDate><content:encoded>&lt;p&gt;WordPressのテーマをごりごりカスタマイズ/開発したい方に。&lt;/p&gt;
+この記事のやり方でも、ローカル環境を作れますが、「Local By Flywheel…]]></description><link>https://0forest.com/mamp-wp-setup/</link><guid isPermaLink="false">https://0forest.com/mamp-wp-setup/</guid><pubDate>Tue, 19 Jun 2018 02:15:25 GMT</pubDate><enclosure url="https://0forest.com/static/e3ccee084ac3bbb6e65e8925b1ee5ccf/icatch-20180619.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;WordPressのテーマをごりごりカスタマイズ/開発したい方に。&lt;/p&gt;
 &lt;p&gt;追記：2020/3/22
 この記事のやり方でも、ローカル環境を作れますが、「&lt;a href=&quot;https://localwp.com/&quot;&gt;Local By Flywheel&lt;/a&gt;」を使うともっと簡単に開発環境を用意できます。&lt;/p&gt;
 &lt;h2 id=&quot;ローカル環境とは？&quot; style=&quot;position:relative;&quot;&gt;ローカル環境とは？&lt;/h2&gt;
@@ -15869,7 +15869,7 @@ SVG→色を変更する、拡大縮小して使うアイコン&lt;/p&gt;
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;これで、初期設定が完了です。&lt;/p&gt;
-&lt;p&gt;あとは、htdocs以下のWordPressテーマファイルを更新していきます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPress子テーマの作り方]]></title><description><![CDATA[WordPressでは、たくさんのデザインがテーマとして公開されています。 テーマのデザインを一部だけカスタマイズしたいときには、子テーマを使います。 テーマのカスタマイズに、子テーマを使う理由 子テーマは、WordPress…]]></description><link>https://0forest.com/wp-child-theme/</link><guid isPermaLink="false">https://0forest.com/wp-child-theme/</guid><pubDate>Mon, 18 Jun 2018 12:15:32 GMT</pubDate><content:encoded>&lt;p&gt;WordPressでは、たくさんのデザインがテーマとして公開されています。&lt;/p&gt;
+&lt;p&gt;あとは、htdocs以下のWordPressテーマファイルを更新していきます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPress子テーマの作り方]]></title><description><![CDATA[WordPressでは、たくさんのデザインがテーマとして公開されています。 テーマのデザインを一部だけカスタマイズしたいときには、子テーマを使います。 テーマのカスタマイズに、子テーマを使う理由 子テーマは、WordPress…]]></description><link>https://0forest.com/wp-child-theme/</link><guid isPermaLink="false">https://0forest.com/wp-child-theme/</guid><pubDate>Mon, 18 Jun 2018 03:15:32 GMT</pubDate><enclosure url="https://0forest.com/static/0bb2b327f3bdd87192a3bdbf832c0801/child-theme-20180618.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;WordPressでは、たくさんのデザインがテーマとして公開されています。&lt;/p&gt;
 &lt;p&gt;テーマのデザインを一部だけカスタマイズしたいときには、子テーマを使います。&lt;/p&gt;
 &lt;h2 id=&quot;テーマのカスタマイズに、子テーマを使う理由&quot; style=&quot;position:relative;&quot;&gt;テーマのカスタマイズに、子テーマを使う理由&lt;/h2&gt;
 &lt;p&gt;子テーマは、WordPressにインストールしたテーマをベースに、一部分だけ変更するためのテーマです。&lt;/p&gt;
@@ -15975,7 +15975,7 @@ wordpressをインストールしたフォルダ＞wp-content＞themesの中に�
     &lt;/span&gt; 管理画面からアップロードする場合は、子テーマのフォルダを圧縮してZIPファルにします。&lt;/p&gt;
 &lt;p&gt;外観＞テーマ＞新規追加＞テーマのアップロードでZIPファイルをアップロードできます。&lt;/p&gt;
 &lt;p&gt;最後に、子テーマを有効化します。&lt;/p&gt;
-&lt;p&gt;以上で、子テーマのカスタマイズが反映されます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressのビジュアルエディタによく使うボタンを設定する]]></title><description><![CDATA[※この記事は2018年に書いたもので、Gutenberg版対応は未確認です。 私は記事に囲み枠をよく使うのですが、その際、毎回タグ入力するのはちょっと面倒。 WordPress…]]></description><link>https://0forest.com/visual-editor-button-customize/</link><guid isPermaLink="false">https://0forest.com/visual-editor-button-customize/</guid><pubDate>Sat, 16 Jun 2018 13:56:29 GMT</pubDate><content:encoded>&lt;p&gt;※この記事は2018年に書いたもので、Gutenberg版対応は未確認です。&lt;/p&gt;
+&lt;p&gt;以上で、子テーマのカスタマイズが反映されます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WordPressのビジュアルエディタによく使うボタンを設定する]]></title><description><![CDATA[※この記事は2018年に書いたもので、Gutenberg版対応は未確認です。 私は記事に囲み枠をよく使うのですが、その際、毎回タグ入力するのはちょっと面倒。 WordPress…]]></description><link>https://0forest.com/visual-editor-button-customize/</link><guid isPermaLink="false">https://0forest.com/visual-editor-button-customize/</guid><pubDate>Fri, 15 Jun 2018 16:56:29 GMT</pubDate><enclosure url="https://0forest.com/static/f4ecb7708ef2b6dce6cfde38e49e3fc3/post-icatch-20180614.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;※この記事は2018年に書いたもので、Gutenberg版対応は未確認です。&lt;/p&gt;
 &lt;p&gt;私は記事に囲み枠をよく使うのですが、その際、毎回タグ入力するのはちょっと面倒。 WordPressビジュアルエディタにボタンを追加して、ブログの記事を効率化したいと思います。&lt;/p&gt;
 &lt;h2 id=&quot;やり方①：プラグインを使う&quot; style=&quot;position:relative;&quot;&gt;やり方①：プラグインを使う&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://ja.wordpress.org/plugins/tinymce-advanced/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;TinyMCE Advanced&lt;/a&gt;というプラグインを使うと、簡単に入れ替えができます。&lt;/p&gt;
@@ -16142,7 +16142,7 @@ wordpressをインストールしたフォルダ＞wp-content＞themesの中に�
 &lt;li&gt;&lt;a href=&quot;/visual-editor-css/&quot;&gt;WordPressのビジュアルエディタの見た目を実際の記事にそろえる&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[WordPressのビジュアルエディタの見た目を実際の記事にそろえる]]></title><description><![CDATA[WordPressのビジュアルエディタのカスタマイズTIPSです。
 ※この記事は2018年に書いたもので、Gutenberg版対応は未確認です。 ビジュアルエディタは初期設定のままだと、公開ページの見た目とズレたりします。
-そこで、ビジュアルエディタ用CSS…]]></description><link>https://0forest.com/visual-editor-css/</link><guid isPermaLink="false">https://0forest.com/visual-editor-css/</guid><pubDate>Thu, 14 Jun 2018 13:42:54 GMT</pubDate><content:encoded>&lt;p&gt;WordPressのビジュアルエディタのカスタマイズTIPSです。
+そこで、ビジュアルエディタ用CSS…]]></description><link>https://0forest.com/visual-editor-css/</link><guid isPermaLink="false">https://0forest.com/visual-editor-css/</guid><pubDate>Wed, 13 Jun 2018 16:42:54 GMT</pubDate><enclosure url="https://0forest.com/static/f4ecb7708ef2b6dce6cfde38e49e3fc3/post-icatch-20180614.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;p&gt;WordPressのビジュアルエディタのカスタマイズTIPSです。
 ※この記事は2018年に書いたもので、Gutenberg版対応は未確認です。&lt;/p&gt;
 &lt;p&gt;ビジュアルエディタは初期設定のままだと、公開ページの見た目とズレたりします。
 そこで、ビジュアルエディタ用CSSを反映してあげると、公開したときと同じ見栄えのまま、記事を書くことができます。&lt;/p&gt;
@@ -16278,7 +16278,7 @@ wordpressをインストールしたフォルダ＞wp-content＞themesの中に�
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;/visual-editor-button-customize/&quot;&gt;WordPressのビジュアルエディタによく使うボタンを設定する&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【Canva】もう手放せない。おしゃれバナーを無料でサクッと作る方法]]></title><description><![CDATA[オリジナルなバナー、アイキャッチを手軽に作りたい方にオススメ。
-画像作成サービスCanvaと、写真ギャラリーunsplashを活用しておしゃれなバナーを作ります おしゃれな写真はUnsplashから Unsplash…]]></description><link>https://0forest.com/make-banner-easy/</link><guid isPermaLink="false">https://0forest.com/make-banner-easy/</guid><pubDate>Sun, 08 Oct 2017 09:27:31 GMT</pubDate><content:encoded>&lt;p&gt;オリジナルなバナー、アイキャッチを手軽に作りたい方にオススメ。
+画像作成サービスCanvaと、写真ギャラリーunsplashを活用しておしゃれなバナーを作ります おしゃれな写真はUnsplashから Unsplash…]]></description><link>https://0forest.com/make-banner-easy/</link><guid isPermaLink="false">https://0forest.com/make-banner-easy/</guid><pubDate>Sun, 08 Oct 2017 00:27:31 GMT</pubDate><enclosure url="https://0forest.com/static/ff5f9230fc689d87328c18292db78cc8/make_banner_easy.png" length="0" type="image/png"/><content:encoded>&lt;p&gt;オリジナルなバナー、アイキャッチを手軽に作りたい方にオススメ。
 画像作成サービスCanvaと、写真ギャラリーunsplashを活用しておしゃれなバナーを作ります&lt;/p&gt;
 &lt;h2 id=&quot;おしゃれな写真はunsplashから&quot; style=&quot;position:relative;&quot;&gt;おしゃれな写真はUnsplashから&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://unsplash.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Unsplash&lt;/a&gt;というサービスをご存知ですか？
@@ -16536,7 +16536,7 @@ wordpressをインストールしたフォルダ＞wp-content＞themesの中に�
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[記事のサンプル]]></title><description><![CDATA[見出し2 見出し3 見出し4 リスト 順番なしリスト リスト1 ネスト リスト1_1 ネスト リスト111 ネスト リスト112 ネスト リスト1_2 リスト2 リスト3 順番なしリスト② リスト1 ネスト リスト1_1 ネスト リスト111 ネスト リスト11…]]></description><link>https://0forest.com/sample-gatsby-blog-post/</link><guid isPermaLink="false">https://0forest.com/sample-gatsby-blog-post/</guid><pubDate>Sun, 01 Jan 2017 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;見出し2&quot; style=&quot;position:relative;&quot;&gt;見出し2&lt;/h2&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[記事のサンプル]]></title><description><![CDATA[見出し2 見出し3 見出し4 リスト 順番なしリスト リスト1 ネスト リスト1_1 ネスト リスト111 ネスト リスト112 ネスト リスト1_2 リスト2 リスト3 順番なしリスト② リスト1 ネスト リスト1_1 ネスト リスト111 ネスト リスト11…]]></description><link>https://0forest.com/sample-gatsby-blog-post/</link><guid isPermaLink="false">https://0forest.com/sample-gatsby-blog-post/</guid><pubDate>Sun, 01 Jan 2017 03:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;見出し2&quot; style=&quot;position:relative;&quot;&gt;見出し2&lt;/h2&gt;
 &lt;h3 id=&quot;見出し3&quot; style=&quot;position:relative;&quot;&gt;見出し3&lt;/h3&gt;
 &lt;h4 id=&quot;見出し4&quot; style=&quot;position:relative;&quot;&gt;見出し4&lt;/h4&gt;
 &lt;h2 id=&quot;リスト&quot; style=&quot;position:relative;&quot;&gt;リスト&lt;/h2&gt;
