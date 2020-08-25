@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Zero Forest RSS Feed]]></title><description><![CDATA[制作物を公開したり、Web技術について発信しています]]></description><link>https://0forest.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 24 Aug 2020 04:09:11 GMT</lastBuildDate><item><title><![CDATA[【はじめてのGit】間違えて保存・コミットしたときに元に戻す方法まとめ]]></title><description><![CDATA[バージョン管理をしていて、前の状態に戻すやり方をまとめました。 過去のコミットしたときの状態を確認したい 元の状態
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Zero Forest RSS Feed]]></title><description><![CDATA[制作物を公開したり、Web技術について発信しています]]></description><link>https://0forest.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Aug 2020 03:40:07 GMT</lastBuildDate><item><title><![CDATA[【はじめてのGit】間違えて保存・コミットしたときに元に戻す方法まとめ]]></title><description><![CDATA[バージョン管理をしていて、前の状態に戻すやり方をまとめました。 過去のコミットしたときの状態を確認したい 元の状態
  ※他のコミットへ移動する前に、全ての変更をコミットしておきます。 SourceTree…]]></description><link>https://0forest.com/git-rebase/</link><guid isPermaLink="false">https://0forest.com/git-rebase/</guid><pubDate>Sun, 23 Aug 2020 09:00:31 GMT</pubDate><content:encoded>&lt;p&gt;バージョン管理をしていて、前の状態に戻すやり方をまとめました。&lt;/p&gt;
 &lt;h2 id=&quot;過去のコミットしたときの状態を確認したい&quot; style=&quot;position:relative;&quot;&gt;過去のコミットしたときの状態を確認したい&lt;/h2&gt;
 &lt;p&gt;元の状態
@@ -501,152 +501,7 @@ $ git commit -m &amp;quot;正しいコミット&amp;quot;&lt;/code&gt;&lt;/pre&g
 &lt;li&gt;&lt;a href=&quot;/git-branch/&quot;&gt;【gitでバージョン管理】ブランチを使って、履歴を分ける方法&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/github-gist-wordpress/&quot;&gt;GitHubでソースコードをブログに載せる方法まとめ&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル④ トレースで、写真のトリミング・配置を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリルa>」を使って、デザイントレースの練習した記録です。 Lesson 1〜…]]></description><link>https://0forest.com/design-trace-04/</link><guid isPermaLink="false">https://0forest.com/design-trace-04/</guid><pubDate>Sat, 22 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
-&lt;h2 id=&quot;lesson-1〜6-構成を学ぶ&quot; style=&quot;position:relative;&quot;&gt;Lesson 1〜6 構成を学ぶ&lt;/h2&gt;
-&lt;p&gt;まずは、パーツのレイアウト、揃え方を学びます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-01.jpg&quot; alt=&quot;演習１写真展のチラシ&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;字間を広めに開けると、文字を強調できる&lt;/li&gt;
-&lt;li&gt;読ませたい文字とその他の文字で差をつけるために、フォントサイズの大小、色の濃淡をはっきりつける。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-02.jpg&quot; alt=&quot;演習２名刺&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;意味のあるグループごとに隙間を開けている&lt;/li&gt;
-&lt;li&gt;住所や電話は、左寄せにして文頭を揃えて、読みやすく。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-03.jpg&quot; alt=&quot;演習３クリスマスキャンペーン広告&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Happy Chirstmasなど、メインの文字は思い切って大きく。&lt;/li&gt;
-&lt;li&gt;「ファミリーモール」に対して、「の」は小さく、文字の優先順位を明確にする&lt;/li&gt;
-&lt;li&gt;同様に、「日付」に対して「曜日」は小さい&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-04.jpg&quot; alt=&quot;演習４ウェディング&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;文字の並びと写真の人物の位置がバランス良くなるように、写真を切り抜く&lt;/li&gt;
-&lt;li&gt;写真に文字を重ねて動きを出す&lt;/li&gt;
-&lt;li&gt;黄土色もゴールドっぽく見えて高級感が出る。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-05.jpg&quot; alt=&quot;演習５ドーナツ&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;商品の色を主体に、対比させる。&lt;/li&gt;
-&lt;li&gt;ドーナツの円を生かした丸みのある配置が素敵。&lt;/li&gt;
-&lt;li&gt;円を欠けたり、線を点線にするのに苦戦&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-06.jpg&quot; alt=&quot;演習６DM&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;写真と文字の横幅、中央は揃えて全体のバランスをとる（模写したやつは、ちょっとずれてる）&lt;/li&gt;
-&lt;li&gt;全て整列させるのではなく、右にずらして文章を重ねたり、フォントを手書きっぽくして、リラックスした感じがでている。&lt;/li&gt;
-&lt;li&gt;写真の上下／左右の余白が違うのも、アートっぽい感じがする。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;leson-7〜11-配色&quot; style=&quot;position:relative;&quot;&gt;Leson 7〜11 配色&lt;/h3&gt;
-&lt;p&gt;ここからは、配色をテーマにした演習です。
-色に関してはどの色を使っているか書かれているので、迷わなかったです。
-でも、自分で同じような配色を作れるかというとまた別問題・・・。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-07.jpg&quot; alt=&quot;演習7D美容クリニックバナー&quot;&gt;&lt;/p&gt;
-&lt;p&gt;メモしてて気づきましたが、模写したやつは文字のベースラインが下に揃っていない…。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;青で清潔感や誠実さを表現（背景のタイルっぽいのも洗面所のようで清潔感がある）&lt;/li&gt;
-&lt;li&gt;同じ青系でも、文字は明度や彩度を変えて目立たせている。&lt;/li&gt;
-&lt;li&gt;「肌」や「悩」など、文字を大きくして印象付けている。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;これのやり方を忘れて、調べました。
-&lt;img src=&quot;ss-trace-07-2.jpg&quot; alt=&quot;演習7美容クリニックバナー&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Illustratorのダイレクトツールで角をクリックすると、角を丸くできます。&lt;/p&gt;
-&lt;p&gt;最初は角丸になっていて、上↑と下↓で、かどの形を切り替えられます。&lt;/p&gt;
-&lt;p&gt;コーナーの点をダブルクリックしてもオプションが出てきます。&lt;/p&gt;
-&lt;p&gt;また、ダイレクト選択ツール選択時に、上のツールバーに「コーナー（ライブコーナー）」の項目があるので、そこでも形や角の丸み（px）を調整できます。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-08.jpg&quot; alt=&quot;演習８バレンタイン広告&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;同じ赤でも濃度を変えて、コントラストをつける&lt;/li&gt;
-&lt;li&gt;フォントを明確に変えるとメリハリがつく&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;このふにゃっとした線、どうやってつくるんだろ。
-&lt;img src=&quot;ss-trace-08-2.jpg&quot; alt=&quot;演習８バレンタイン広告&quot;&gt;&lt;/p&gt;
-&lt;p&gt;円にそわせるのが難しい
-&lt;img src=&quot;ss-trace-08-3.jpg&quot; alt=&quot;演習８バレンタイン広告&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-09.jpg&quot; alt=&quot;演習９フリマ広告&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;黄色×紫でインパクトがある組み合わせ！&lt;/li&gt;
-&lt;li&gt;濃い方（紫）を文字に使う&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;今回のハイライトは、文字のベースラインの、数字の向きの揃え方を学びました。&lt;/p&gt;
-&lt;p&gt;これとか
-&lt;img src=&quot;ss-trace-09-2.jpg&quot; alt=&quot;演習９フリマ広告&quot;&gt;&lt;/p&gt;
-&lt;p&gt;これとか
-&lt;img src=&quot;ss-trace-09-3.jpg&quot; alt=&quot;演習９フリマ広告&quot;&gt;&lt;/p&gt;
-&lt;p&gt;どちらも、文字パネルの右上のメニューバー＞文字揃え＞欧文ベースラインで揃います。&lt;/p&gt;
-&lt;p&gt;次は、二色を使ってイメージを表現する演習です。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-10.jpg&quot; alt=&quot;演習１０季節限定&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-11.jpg&quot; alt=&quot;演習１１眼鏡ショップカード&quot;&gt;&lt;/p&gt;
-&lt;p&gt;やってみると&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;釣り合う二色を選ぶのが難しい&lt;/li&gt;
-&lt;li&gt;いつも似た色をばかり選んでしまう&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;いいなぁと思った色合いをストックしておくことが大事だなと思いました。&lt;/p&gt;
-&lt;h3 id=&quot;lesson-12〜17-文字&quot; style=&quot;position:relative;&quot;&gt;Lesson 12〜17　文字&lt;/h3&gt;
-&lt;p&gt;次はフォントで印象がどのように変わるのかを練習しました。&lt;/p&gt;
-&lt;p&gt;【各フォントの特徴】&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;細めの明朝体だと、女性らしく&lt;/li&gt;
-&lt;li&gt;丸ゴシックだと、親やすい印象&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;【フォントを使うときのポイント】&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;だいたい２種類のフォントを使う（メインの題字とサブ情報で使い分け）&lt;/li&gt;
-&lt;li&gt;重めのフォントと軽めのフォントでメリハリをつける&lt;/li&gt;
-&lt;li&gt;見せるフォントと読ませるフォントの使い分け&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;続いてお題の文字をフォントで、ロゴにする演習です。&lt;/p&gt;
-&lt;p&gt;1つ目は高級レストランのロゴ。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-16.jpg&quot; alt=&quot;高級レストランのロゴ&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;大人のカップルがワインを楽しむイメージでワインレッドをチョイス。&lt;/li&gt;
-&lt;li&gt;ワインのボトルのように、&lt;/li&gt;
-&lt;li&gt;セリフ体で高級感を演出&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;2つ目は、学生向けキャンペーンのロゴ。
-&lt;img src=&quot;ss-trace-17-1.jpg&quot; alt=&quot;学生応援キャンペーンその１&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;春なのでピンクを選択。&lt;/li&gt;
-&lt;li&gt;学生の活気が現れるように、サブカラーに黄色を選択、また丸ゴシックで親近感を出す。&lt;/li&gt;
-&lt;li&gt;優先順位の高い順に文字サイズを変えてみる。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;色は春っぽさが出ているけれど、なんだか寂しい💦
-特にキャンペーンと日付のところは飾ることができていないでそのまま文字だけになっています…。&lt;/p&gt;
-&lt;p&gt;本で紹介されていた作例には&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;斜めにして勢いを出す&lt;/li&gt;
-&lt;li&gt;桜の花びらをフォントに取り入れて、春らしさを伝える
-などと、工夫が凝らされていました。&lt;/li&gt;
-&lt;li&gt;一番見せたい「学生応援」は、二色使う&lt;/li&gt;
-&lt;li&gt;日付のところを目立たせるため、強めのフォントにして飾る。&lt;/li&gt;
-&lt;li&gt;「春の」のまわりは線→三角にして、メガホンぽくする。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-17-2.jpg&quot; alt=&quot;学生応援キャンペーンその１&quot;&gt;&lt;/p&gt;
-&lt;p&gt;少しは良くなったかな？&lt;/p&gt;
-&lt;p&gt;「学生応援キャンペーン」で画像検索してみると、
-桜を使っていたり、応援のイメージでメガホンを使っている。&lt;/p&gt;
-&lt;p&gt;作る前に、どういったデザインがあるのか、参考となるデザインをいっぱいみておくのも大事だと思いました。&lt;/p&gt;
-&lt;p&gt;続いての演習は、字間に着目。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-18.jpg&quot; alt=&quot;演習18パン屋のポスター&quot;&gt;&lt;/p&gt;
-&lt;p&gt;ここで、「なんで、字間を調整する必要があるの？」という疑問が。&lt;/p&gt;
-&lt;p&gt;日本語のフォントは、正方形にハマるように作られているので、文字同士の間隔がそろわない。&lt;/p&gt;
-&lt;p&gt;ひらがなやカタカナは漢字に比べて空きが広く、漢字が詰まって見えます。&lt;/p&gt;
-&lt;p&gt;ここで、PhotoshopやIllustratorの文字パネルにある「トラッキング」と「カーニング」を使います。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;ss-trace-18-2.jpg&quot; alt=&quot;演習18パン屋のポスター&quot;&gt;&lt;/p&gt;
-&lt;p&gt;どう使い分けるんだろうと思ったんだけど&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;カーニング：文字同士の間隔を設定&lt;/li&gt;
-&lt;li&gt;トラッキング：選択したテキストや、テキストブロック全体の文字間隔を調整&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;また、カーニングには、「メトリクス」「オプティカル」という設定があります。&lt;/p&gt;
-&lt;p&gt;メトリクス：
-欧文フォントに含まれる、ペアカーニング（Wa,WAなどの特定の組み合わせ空き）の情報を使う。
-日本語フォントには基本的にペアカーニング情報がない。&lt;/p&gt;
-&lt;p&gt;オプティカル：
-文字の形状に応じて文字間隔を調整する。&lt;/p&gt;
-&lt;p&gt;文字間の調整は、調整したい文字を選択し、altと矢印←／→で20ずつ調整できます。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル③ トレースで、フォントの印象的な見せ方を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 Lesson 12〜17　文字 フォントで印象がどのように変わるのかを学びます。 1２スキンケア店頭POP…]]></description><link>https://0forest.com/design-trace-03/</link><guid isPermaLink="false">https://0forest.com/design-trace-03/</guid><pubDate>Fri, 21 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル③ トレースで、フォントの印象的な見せ方を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 Lesson 12〜17　文字 フォントで印象がどのように変わるのかを学びます。 1２スキンケア店頭POP…]]></description><link>https://0forest.com/design-trace-03/</link><guid isPermaLink="false">https://0forest.com/design-trace-03/</guid><pubDate>Fri, 21 Aug 2020 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
 &lt;h2 id=&quot;lesson-12〜17-文字&quot; style=&quot;position:relative;&quot;&gt;Lesson 12〜17　文字&lt;/h2&gt;
 &lt;p&gt;フォントで印象がどのように変わるのかを学びます。&lt;/p&gt;
 &lt;h3 id=&quot;1２スキンケア店頭pop&quot; style=&quot;position:relative;&quot;&gt;1２スキンケア店頭POP&lt;/h3&gt;
@@ -1004,7 +859,7 @@ PhotoshopやIllustratorの文字パネルにある「トラッキング」と「
 &lt;p&gt;同じものを作ってオブジェクト＞オフセットで小さくする。&lt;/p&gt;
 &lt;p&gt;文字と重なる右分を消すには&lt;/p&gt;
 &lt;p&gt;　→　アンカーポイントを追加&lt;/p&gt;
-&lt;p&gt;　→ ダイレクト選択ツールでパスを消す&lt;/p&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル② トレースで、色の選び方を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 Lesson 7〜1…]]></description><link>https://0forest.com/design-trace-02/</link><guid isPermaLink="false">https://0forest.com/design-trace-02/</guid><pubDate>Fri, 21 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
+&lt;p&gt;　→ ダイレクト選択ツールでパスを消す&lt;/p&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル② トレースで、色の選び方を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 Lesson 7〜1…]]></description><link>https://0forest.com/design-trace-02/</link><guid isPermaLink="false">https://0forest.com/design-trace-02/</guid><pubDate>Fri, 21 Aug 2020 09:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
 &lt;h2 id=&quot;lesson-7〜11-配色&quot; style=&quot;position:relative;&quot;&gt;Lesson 7〜11 配色&lt;/h2&gt;
 &lt;p&gt;配色をテーマにした演習です。&lt;/p&gt;
 &lt;p&gt;色に関しては、どの色を使っているか本に書かれているので、迷わなかったです。&lt;/p&gt;
@@ -1263,7 +1118,13 @@ PhotoshopやIllustratorの文字パネルにある「トラッキング」と「
 &lt;li&gt;釣り合う二色を選ぶのが難しい&lt;/li&gt;
 &lt;li&gt;いつも似た色をばかり選んでしまう&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;いいなぁと思った色合いをストックしておくことが大事だなと思いました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル① トレースで、レイアウトを学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 Lesson 1〜…]]></description><link>https://0forest.com/design-trace-01/</link><guid isPermaLink="false">https://0forest.com/design-trace-01/</guid><pubDate>Fri, 21 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
+&lt;p&gt;いいなぁと思った色合いをストックしておくことが大事だなと思いました。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[デザインのドリル① トレースで、レイアウトを学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザインのトレース＆模写練習した記録です。 トレース&模写でデザイン練習中！手を動かして学べること Lesson 1〜…]]></description><link>https://0forest.com/design-trace-01/</link><guid isPermaLink="false">https://0forest.com/design-trace-01/</guid><pubDate>Fri, 21 Aug 2020 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザインのトレース＆模写練習した記録です。&lt;/p&gt;
+&lt;div class=&quot;related-posts&quot;&gt;
+    &lt;span&gt;トレース＆模写については、こちらの記事もどうぞ&lt;/span&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/design-trace/&quot;&gt;トレース&amp;#x26;模写でデザイン練習中！手を動かして学べること&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
 &lt;h2 id=&quot;lesson-1〜6-構成を学ぶ&quot; style=&quot;position:relative;&quot;&gt;Lesson 1〜6 構成を学ぶ&lt;/h2&gt;
 &lt;p&gt;まずは、パーツのレイアウト、揃え方を学びます。&lt;/p&gt;
 &lt;h3 id=&quot;演習１：写真展のチラシ&quot; style=&quot;position:relative;&quot;&gt;演習１：写真展のチラシ&lt;/h3&gt;
@@ -1433,12 +1294,12 @@ PhotoshopやIllustratorの文字パネルにある「トラッキング」と「
       /&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;写真と文字の横幅、中央は揃えて全体のバランスをとる（模写したやつは、ちょっとずれてる）&lt;/li&gt;
-&lt;li&gt;全て整列させるのではなく、右にずらして文章を重ねたり、フォントを手書きっぽくして、リラックスした感じがでている。&lt;/li&gt;
-&lt;li&gt;写真の上下／左右の余白が違うのも、アートっぽい感じがする。&lt;/li&gt;
+&lt;li&gt;横幅と中央ラインは揃えて全体のバランスをとる（模写したやつは、ちょっとずれてるけど…）&lt;/li&gt;
+&lt;li&gt;全て整列させるのではなく、文章は右にずらして重ねたり、フォントを手書きっぽくして、リラックスした感じがでている。&lt;/li&gt;
+&lt;li&gt;写真の上下／左右の余白が違う（左右のほうがちょっと広い）のも、アートっぽい感じがする。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;＞＞　続き：&lt;/p&gt;</content:encoded></item><item><title><![CDATA[トレース&模写でデザイン練習中！手を動かして学べること]]></title><description><![CDATA[…]]></description><link>https://0forest.com/design-trace/</link><guid isPermaLink="false">https://0forest.com/design-trace/</guid><pubDate>Thu, 20 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;トレースは、バナーや広告などの見本を、自分で再現しながらデザインを学ぶ練習手法です。&lt;/p&gt;
-&lt;p&gt;実際に真似ることで、デザインの引き出しを増やしたり、ツールの使い方になれることができます。&lt;/p&gt;
+&lt;p&gt;＞＞　続き：&lt;a href=&quot;/design-trace-02/&quot;&gt;デザインのドリル② トレースで、色の選び方を学ぶ&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[トレース&模写でデザイン練習中！手を動かして学べること]]></title><description><![CDATA[…]]></description><link>https://0forest.com/design-trace/</link><guid isPermaLink="false">https://0forest.com/design-trace/</guid><pubDate>Thu, 20 Aug 2020 08:00:00 GMT</pubDate><content:encoded>&lt;p&gt;トレースは、バナーや広告などの見本を、自分で再現しながらデザインを学ぶ練習手法です。&lt;/p&gt;
+&lt;p&gt;お手本通りに真似て作ることで、デザインの引き出しを増やしたり、ツールの使い方になれることができます。&lt;/p&gt;
 &lt;div class=&quot;related-posts&quot;&gt;
     &lt;span&gt;合わせて読みたい&lt;/span&gt;
 &lt;ul&gt;
@@ -2047,8 +1908,7 @@ PhotoshopやIllustratorの文字パネルにある「トラッキング」と「
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.itemA&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 0 1 30%&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;初期値は0 1 auto&lt;/p&gt;
 &lt;h3 id=&quot;align-self：子要素の垂直方向の配置-1&quot; style=&quot;position:relative;&quot;&gt;align-self：子要素の垂直方向の配置&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.itemA&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;flex-basis&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 200px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token selector&quot;&gt;.itemB&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;flex-basis&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; 20%&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;css&quot;&gt;&lt;pre class=&quot;language-css&quot;&gt;&lt;code class=&quot;language-css&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;.itemA&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token property&quot;&gt;align-self&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; center&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
