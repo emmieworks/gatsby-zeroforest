@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://0forest.com/design-trace-04/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://0forest.com/git-rebase/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://0forest.com/design-trace-03/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://0forest.com/design-trace-02/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -82,11 +83,11 @@
 <url> <loc>https://0forest.com/blog/2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://0forest.com/blog/3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://0forest.com/blog/4/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://0forest.com/gallery/my-gatsby-blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://0forest.com/gallery/my-wordpress-blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://0forest.com/gallery/horoscopeheart/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://0forest.com/gallery/hawaiian-pualei/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://0forest.com/gallery/miniblog-app/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://0forest.com/gallery/horoscopeheart/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://0forest.com/gallery/my-gatsby-blog/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://0forest.com/gallery/hawaiian-pualei/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://0forest.com/category/design</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://0forest.com/category/lifestyle</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://0forest.com/category/programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>

@@ -1,4 +1,178 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Zero Forest RSS Feed]]></title><description><![CDATA[制作物を公開したり、Web技術について発信しています]]></description><link>https://0forest.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Aug 2020 06:33:45 GMT</lastBuildDate><item><title><![CDATA[【はじめてのGit】間違えて保存・コミットしたときに元に戻す方法まとめ]]></title><description><![CDATA[バージョン管理をしていて、前の状態に戻すやり方をまとめました。 過去のコミットしたときの状態を確認したい 元の状態
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Zero Forest RSS Feed]]></title><description><![CDATA[制作物を公開したり、Web技術について発信しています]]></description><link>https://0forest.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Aug 2020 10:22:28 GMT</lastBuildDate><item><title><![CDATA[デザインのドリル④ トレースで、写真の活かし方を学ぶ]]></title><description><![CDATA[「トレース＆模写で学ぶ　デザインのドリル」を使って、デザイントレースの練習した記録です。 写真の効果的な使い方 Lesson 2…]]></description><link>https://0forest.com/design-trace-04/</link><guid isPermaLink="false">https://0forest.com/design-trace-04/</guid><pubDate>Fri, 28 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;「&lt;a href=&quot;https://amzn.to/34u9ts6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;トレース＆模写で学ぶ　デザインのドリル&lt;/a&gt;」を使って、デザイントレースの練習した記録です。&lt;/p&gt;
+&lt;h2 id=&quot;写真の効果的な使い方&quot; style=&quot;position:relative;&quot;&gt;写真の効果的な使い方&lt;/h2&gt;
+&lt;h3 id=&quot;lesson-21-フリーマガジンの表紙&quot; style=&quot;position:relative;&quot;&gt;Lesson 21 フリーマガジンの表紙&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 95%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAATABQDASIAAhEBAxEB/8QAGQABAQEAAwAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAfR3pnlkcllmhCD/xAAdEAACAgEFAAAAAAAAAAAAAAABAgMSEQATISIx/9oACAEBAAEFAiiWCx5PoYbYa0rDtc5udE8//8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHBAAAQQDAQAAAAAAAAAAAAAAAAECEUEQMZEy/9oACAEBAAY/AvLdEKxsik1Ajq0gpXCuY//EAB4QAAICAgIDAAAAAAAAAAAAAAABETEhUUFhcYHB/9oACAEBAAE/IaTqNdkJMc4XBj5hCXKfRqM0wcptspUioCRUPUc3ln//2gAMAwEAAgADAAAAEHsAQf/EABgRAAIDAAAAAAAAAAAAAAAAAAABECEx/9oACAEDAQE/EKyW2f/EABURAQEAAAAAAAAAAAAAAAAAACAh/9oACAECAQE/EKP/xAAfEAEBAAMAAAcAAAAAAAAAAAABEQAhMUFRYYGRobH/2gAIAQEAAT8QJztjQ6L+Z5d2adu4QQQGB74ltU7WDM8JCNq1O/eQEFbvq4okqJUO3kmS5k0gx+MWUW5//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;演習２１フリーマガジンの表紙&quot;
+        title=&quot;演習２１フリーマガジンの表紙&quot;
+        src=&quot;/static/a7f357872e7f4800f3b89e30ac795e7f/4b190/ss-trace-21.jpg&quot;
+        srcset=&quot;/static/a7f357872e7f4800f3b89e30ac795e7f/e07e9/ss-trace-21.jpg 200w,
+/static/a7f357872e7f4800f3b89e30ac795e7f/066f9/ss-trace-21.jpg 400w,
+/static/a7f357872e7f4800f3b89e30ac795e7f/4b190/ss-trace-21.jpg 800w,
+/static/a7f357872e7f4800f3b89e30ac795e7f/e5166/ss-trace-21.jpg 1200w,
+/static/a7f357872e7f4800f3b89e30ac795e7f/0601e/ss-trace-21.jpg 1349w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;写真のトリミングは、被写体の配置をバランスよく&lt;/li&gt;
+&lt;li&gt;写真の色（茶、緑）を文字色に使う&lt;/li&gt;
+&lt;li&gt;細く、ゆるやかな文字でリラックス感を演出&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;lesson22-旅行代理店のポスター&quot; style=&quot;position:relative;&quot;&gt;Lesson22 旅行代理店のポスター&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 88.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABz0w5NUObCQj/xAAaEAACAgMAAAAAAAAAAAAAAAAAERIgISIj/9oACAEBAAEFAtTmiGFX/8QAFhEBAQEAAAAAAAAAAAAAAAAAESBB/9oACAEDAQE/AUyP/8QAFhEAAwAAAAAAAAAAAAAAAAAAASAh/9oACAECAQE/ATU//8QAGRAAAwADAAAAAAAAAAAAAAAAAAExECDh/9oACAEBAAY/AqdxERa//8QAGxABAAEFAQAAAAAAAAAAAAAAAREAECExgUH/2gAIAQEAAT8hnMhh0tEpY5YbJhpJ5ctLqW//2gAMAwEAAgADAAAAEDAAAP/EABYRAQEBAAAAAAAAAAAAAAAAABABUf/aAAgBAwEBPxDYU//EABURAQEAAAAAAAAAAAAAAAAAAAEg/9oACAECAQE/EBD/xAAbEAEBAAIDAQAAAAAAAAAAAAABERAhADFRwf/aAAgBAQABPxDY00gTh0CpqL9wsMRZN8ThB2Rgn0PLn//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;演習２２旅行代理店のポスター&quot;
+        title=&quot;演習２２旅行代理店のポスター&quot;
+        src=&quot;/static/7d6dbdac4257cef5f7b1803fca7c7a74/4b190/ss-trace-22.jpg&quot;
+        srcset=&quot;/static/7d6dbdac4257cef5f7b1803fca7c7a74/e07e9/ss-trace-22.jpg 200w,
+/static/7d6dbdac4257cef5f7b1803fca7c7a74/066f9/ss-trace-22.jpg 400w,
+/static/7d6dbdac4257cef5f7b1803fca7c7a74/4b190/ss-trace-22.jpg 800w,
+/static/7d6dbdac4257cef5f7b1803fca7c7a74/e5166/ss-trace-22.jpg 1200w,
+/static/7d6dbdac4257cef5f7b1803fca7c7a74/c800b/ss-trace-22.jpg 1265w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;写真を全面に配置させて迫力が出る&lt;/li&gt;
+&lt;li&gt;文字は白で、写真の邪魔をさせない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;lesson23-スイーツ店のチラシ&quot; style=&quot;position:relative;&quot;&gt;Lesson23 スイーツ店のチラシ&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 83%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAQDAv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABrkvgNThzvkTyI//EAB0QAAEDBQEAAAAAAAAAAAAAAAABAgMQEhMxM0H/2gAIAQEAAQUCxMUkYl55P0o7Z//EABYRAQEBAAAAAAAAAAAAAAAAABEBIP/aAAgBAwEBPwGhj//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABoQAAEFAQAAAAAAAAAAAAAAAAEAAhARICH/2gAIAQEABj8CHFTYGv/EABsQAAICAwEAAAAAAAAAAAAAAAERACEQMUGx/9oACAEBAAE/IUCPEAqAKEIqM0JdqeAwNZP/2gAMAwEAAgADAAAAEL8PAP/EABcRAAMBAAAAAAAAAAAAAAAAAAEQETH/2gAIAQMBAT8QLKIr/8QAFREBAQAAAAAAAAAAAAAAAAAAICH/2gAIAQIBAT8Qo//EAB4QAAIDAAEFAAAAAAAAAAAAAAERACExEEFRcYGx/9oACAEBAAE/EANDDs9oTKYmy4YxaIgIsVyaXSXx6uMPE+I4/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;演習２３スイーツ店のチラシ&quot;
+        title=&quot;演習２３スイーツ店のチラシ&quot;
+        src=&quot;/static/c202f558ba119e3d3669b6fd3325b276/4b190/ss-trace-23.jpg&quot;
+        srcset=&quot;/static/c202f558ba119e3d3669b6fd3325b276/e07e9/ss-trace-23.jpg 200w,
+/static/c202f558ba119e3d3669b6fd3325b276/066f9/ss-trace-23.jpg 400w,
+/static/c202f558ba119e3d3669b6fd3325b276/4b190/ss-trace-23.jpg 800w,
+/static/c202f558ba119e3d3669b6fd3325b276/e5166/ss-trace-23.jpg 1200w,
+/static/c202f558ba119e3d3669b6fd3325b276/c23a4/ss-trace-23.jpg 1376w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;写真を切り抜くと背景の情報がなくなり、商品に注目がいく。&lt;/li&gt;
+&lt;li&gt;商品に合わせた色とフォント。&lt;/li&gt;
+&lt;li&gt;飾りで周りを華やかに。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;lesson24-カフェ新規開店のdm&quot; style=&quot;position:relative;&quot;&gt;Lesson24 カフェ新規開店のDM&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 82.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAMEBQEC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/9oADAMBAAIQAxAAAAGO3W1prJTma/DPgY//xAAbEAACAgMBAAAAAAAAAAAAAAABAgMSABARIf/aAAgBAQABBQJqAiGuPHw1q6nom8bRz//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABwQAAICAgMAAAAAAAAAAAAAAAABESESMSAjcf/aAAgBAQAGPwKLQ9mx9eUlpoXnD//EAB0QAAIDAAIDAAAAAAAAAAAAAAERACExEGFxofH/2gAIAQEAAT8htBN42IN6CIg1h2I5BICYKyWXQmAhf1BnG5//2gAMAwEAAgADAAAAEMj3g//EABcRAAMBAAAAAAAAAAAAAAAAAAABMRD/2gAIAQMBAT8QkHv/xAAXEQEAAwAAAAAAAAAAAAAAAAABABAR/9oACAECAQE/ENYX/8QAHBAAAgMBAQEBAAAAAAAAAAAAAREAITFBoVFx/9oACAEBAAE/EEQUAGUWUzGJrFtA9gxROIqz8MrWtCJ8KGNZCOu7L0LVl9TCCZ/k/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;演習２４カフェ新規開店のDM&quot;
+        title=&quot;演習２４カフェ新規開店のDM&quot;
+        src=&quot;/static/d509da4695b6f8648733821e5fc9c9cf/4b190/ss-trace-24.jpg&quot;
+        srcset=&quot;/static/d509da4695b6f8648733821e5fc9c9cf/e07e9/ss-trace-24.jpg 200w,
+/static/d509da4695b6f8648733821e5fc9c9cf/066f9/ss-trace-24.jpg 400w,
+/static/d509da4695b6f8648733821e5fc9c9cf/4b190/ss-trace-24.jpg 800w,
+/static/d509da4695b6f8648733821e5fc9c9cf/e5166/ss-trace-24.jpg 1200w,
+/static/d509da4695b6f8648733821e5fc9c9cf/0614e/ss-trace-24.jpg 1498w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;店内写真は四角、商品は切り抜きと、目的に応じて使い分け。&lt;/li&gt;
+&lt;li&gt;整頓させると上品な印象を与えることができる&lt;/li&gt;
+&lt;li&gt;商品やInformationをずらして配置させることで抜け感がでる。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;lesson25-ショップカード&quot; style=&quot;position:relative;&quot;&gt;Lesson25 ショップカード&lt;/h3&gt;
+&lt;p&gt;商品とロゴを組み合わせてショップカードを作ってみました。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABmS0Ehm3/xAAaEAACAgMAAAAAAAAAAAAAAAABAgARAzEy/9oACAEBAAEFAmyVFpodliQOZ//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ASf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAEAAgMAAAAAAAAAAAAAAAABAhAAEZH/2gAIAQEABj8CAjHl6wr/xAAbEAEAAwADAQAAAAAAAAAAAAABABEhMUFhgf/aAAgBAQABPyEbmo1e0vC4PyCsXLnfJgOYz//aAAwDAQACAAMAAAAQND//xAAWEQEBAQAAAAAAAAAAAAAAAAABEQD/2gAIAQMBAT8QRcy7/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oACAECAQE/EDbEv//EABwQAQACAgMBAAAAAAAAAAAAAAEAETFBIWFxkf/aAAgBAQABPxB8QEfV2ryUBYF4KncP8Iq285+cR60Dn247bqf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;演習２５ショップカード&quot;
+        title=&quot;演習２５ショップカード&quot;
+        src=&quot;/static/3365965e36b15065b1c0c30b7a2e461a/4b190/ss-trace-25.jpg&quot;
+        srcset=&quot;/static/3365965e36b15065b1c0c30b7a2e461a/e07e9/ss-trace-25.jpg 200w,
+/static/3365965e36b15065b1c0c30b7a2e461a/066f9/ss-trace-25.jpg 400w,
+/static/3365965e36b15065b1c0c30b7a2e461a/4b190/ss-trace-25.jpg 800w,
+/static/3365965e36b15065b1c0c30b7a2e461a/e5166/ss-trace-25.jpg 1200w,
+/static/3365965e36b15065b1c0c30b7a2e461a/1096b/ss-trace-25.jpg 1414w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;左半分は商品を主体に、右上にロゴ配置させてバランスよく&lt;/li&gt;
+&lt;li&gt;写真を邪魔せず、しっかりとロゴが見えるように白をチョイス。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;作ってみるとロゴはもう少し小さくてもよかったかも？&lt;/p&gt;
+&lt;h3 id=&quot;lesson26-ヘアサロンのdm&quot; style=&quot;position:relative;&quot;&gt;Lesson26 ヘアサロンのDM&lt;/h3&gt;
+&lt;p&gt;写真、ロゴ、キャッチコピーでチラシを作ります。&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 82.5%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAARABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQBAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAa+LfLNhaJRqYD//xAAcEAACAgIDAAAAAAAAAAAAAAABAgMSABEEEBP/2gAIAQEAAQUCPHXYiWsiBWYFsj35TXt3/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFREBAQAAAAAAAAAAAAAAAAAAICH/2gAIAQIBAT8Bo//EABoQAAMAAwEAAAAAAAAAAAAAAAABIREgMUH/2gAIAQEABj8CKn0iZGY68sq80//EABsQAAMBAQADAAAAAAAAAAAAAAERIQAxIGGR/9oACAEBAAE/IYNvNcIRCH3h4IJ9y4jC1UhZ9xJbI8P/2gAMAwEAAgADAAAAEHc/ff/EABgRAAIDAAAAAAAAAAAAAAAAAAABEBEh/9oACAEDAQE/EMKU/wD/xAAXEQEAAwAAAAAAAAAAAAAAAAABABAR/9oACAECAQE/ENgW/wD/xAAbEAEAAwEBAQEAAAAAAAAAAAABABEhMWFRcf/aAAgBAQABPxABbV6vnyPdoJp4iuQ4hHV775CSrgWoCbaF4tpXgUGjTff2MOR7P//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;演習２６ヘアサロンのDM&quot;
+        title=&quot;演習２６ヘアサロンのDM&quot;
+        src=&quot;/static/477210892bfac3de2d3db13c3c320ce1/4b190/ss-trace-26.jpg&quot;
+        srcset=&quot;/static/477210892bfac3de2d3db13c3c320ce1/e07e9/ss-trace-26.jpg 200w,
+/static/477210892bfac3de2d3db13c3c320ce1/066f9/ss-trace-26.jpg 400w,
+/static/477210892bfac3de2d3db13c3c320ce1/4b190/ss-trace-26.jpg 800w,
+/static/477210892bfac3de2d3db13c3c320ce1/e5166/ss-trace-26.jpg 1200w,
+/static/477210892bfac3de2d3db13c3c320ce1/16522/ss-trace-26.jpg 1385w&quot;
+        sizes=&quot;(max-width: 800px) 100vw, 800px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;作ってみて、よく考えずに写真とフォントを並べた感じになってしまった…。&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[【はじめてのGit】間違えて保存・コミットしたときに元に戻す方法まとめ]]></title><description><![CDATA[バージョン管理をしていて、前の状態に戻すやり方をまとめました。 過去のコミットしたときの状態を確認したい 元の状態
  ※他のコミットへ移動する前に、全ての変更をコミットしておきます。 SourceTree…]]></description><link>https://0forest.com/git-rebase/</link><guid isPermaLink="false">https://0forest.com/git-rebase/</guid><pubDate>Sun, 23 Aug 2020 09:00:31 GMT</pubDate><content:encoded>&lt;p&gt;バージョン管理をしていて、前の状態に戻すやり方をまとめました。&lt;/p&gt;
 &lt;h2 id=&quot;過去のコミットしたときの状態を確認したい&quot; style=&quot;position:relative;&quot;&gt;過去のコミットしたときの状態を確認したい&lt;/h2&gt;
 &lt;p&gt;元の状態
