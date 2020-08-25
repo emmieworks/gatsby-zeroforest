@@ -59,7 +59,7 @@ const BlogMenu = () => {
         </ul>
       </div>
       <div>
-        <p><Link to ="/category/column/">Column</Link></p>
+        <p><Link to ="/category/lifestyle/">Lifestyle</Link></p>
         <ul>
           <li><Link to ="/tags/活動記録/">活動記録</Link></li>
           <li><Link to ="/tags/journal/">Journal</Link></li>
