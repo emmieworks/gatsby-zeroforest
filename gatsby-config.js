@@ -7,7 +7,7 @@ module.exports = {
       name: `Emi`,
       summary: `フロントエンドエンジニア | Webデザイナー | マイペースにWebサイトやWebアプリの制作をしています`,
     },
-    description: `制作物を公開したり、Web技術について発信しています`,
+    description: `プログラミング、Webデザインについて発信しています`,
     siteUrl: `https://0forest.com`,
     social: {
       twitter: `EmiMoment`,
