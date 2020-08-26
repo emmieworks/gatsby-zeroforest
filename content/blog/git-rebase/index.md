@@ -41,7 +41,7 @@ SourceTree上で、コミット前のファイルを選択し、右クリック�
 ![編集を破棄](ss-git-05.jpg)
 
 sourcetree上で変更内容が破棄されます。
-![編集を破棄](ss-git-05.jpg)
+![編集を破棄](ss-git-06.jpg)
 
 Finderでも編集前の状態に戻っています。
 [ファイルの状態](ss-git-01.jpg)
