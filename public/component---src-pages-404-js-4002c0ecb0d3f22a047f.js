@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{w2l6:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),r=a("7oih"),c=a("EYWl");t.default=function(e){e.data;var t=e.location;return l.a.createElement(r.a,null,l.a.createElement(c.a,{title:"404 Not Found",url:t.pathname,type:"article"}),l.a.createElement("h1",null,"お探しの記事が見つかりませんでした"),l.a.createElement("p",null,"申し訳ありませんがアクセスしようとした記事は削除されたかURLが変更されています。"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-4002c0ecb0d3f22a047f.js.map
