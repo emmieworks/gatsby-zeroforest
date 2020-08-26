@@ -94,7 +94,8 @@ const CategoryPageTemplate = ({ data, pageContext, location }) => {
     <Layout>
       <SEO
         title="Category"
-        url ={location.pathname}
+        url={location.pathname}
+        type="article"
        />
        <h1
           style={{
@@ -169,11 +170,6 @@ export default CategoryPageTemplate
 
 export const pageQuery = graphql`
 query CategoryPageQuery($category: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     noimage:file(relativePath:{eq: "noimage.jpg"}){
       childImageSharp{
         fluid(maxWidth: 800){

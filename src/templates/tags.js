@@ -95,6 +95,7 @@ const TagPageTemplate = ({ data, pageContext, location }) => {
       <SEO
         title = "Tags"
         url = {location.pathname}
+        type="article"
        />
        <h1
          style={{
@@ -170,11 +171,6 @@ export default TagPageTemplate
 
 export const pageQuery = graphql`
 query TagPageQuery($tag: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     noimage:file(relativePath:{eq: "noimage.jpg"}){
       childImageSharp{
         fluid(maxWidth: 800){

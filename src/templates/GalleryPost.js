@@ -14,6 +14,10 @@ const GalleryPost = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
         url ={location.pathname}
+        image = {post.frontmatter.featured && (post.frontmatter.featured.childImageSharp.original.src)}
+        imagew = {post.frontmatter.featured && (post.frontmatter.featured.childImageSharp.original.width)}
+        imageh = {post.frontmatter.featured && (post.frontmatter.featured.childImageSharp.original.height)}
+        type="article"
       />
       <PostWrapper>
         <article>
@@ -56,11 +60,6 @@ export default GalleryPost
 
 export const pageQuery = graphql`
   query GalleryPostBySlug($slug: String!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
@@ -75,6 +74,11 @@ export const pageQuery = graphql`
           childImageSharp{
             fluid(maxWidth: 800){
               ...GatsbyImageSharpFluid
+            }
+            original {
+              height
+              src
+              width
             }
           }
         }

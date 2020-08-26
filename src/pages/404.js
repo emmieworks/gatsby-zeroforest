@@ -1,17 +1,14 @@
 import React from "react"
-import { graphql } from "gatsby"
-
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 
 const NotFoundPage = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout>
       <SEO
-       title="404: Not Found"
-       url ={location.pathname}
+       title="404 Not Found"
+       url={location.pathname}
+       type="article"
        />
       <h1>お探しの記事が見つかりませんでした</h1>
       <p>申し訳ありませんがアクセスしようとした記事は削除されたかURLが変更されています。</p>
@@ -20,13 +17,3 @@ const NotFoundPage = ({ data, location }) => {
 }
 
 export default NotFoundPage
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

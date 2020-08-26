@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-const SEO = ({ description, lang,url, meta, title }) => {
+const SEO = ({ description, lang, url, meta, title, image, type, imagew, imageh }) => {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -35,13 +35,24 @@ const SEO = ({ description, lang,url, meta, title }) => {
     ? `${site.siteMetadata.siteUrl}${url}`
     : site.siteMetadata.siteUrl
 
+    const imageUrl = image
+    ? `${site.siteMetadata.siteUrl}${image}`
+    : `${site.siteMetadata.siteUrl}/thumb.jpg`
+
+    const metaTitle = title
+    ? `${title} | ${site.siteMetadata.title}`
+    : site.siteMetadata.title
+
+    const imageWidth = imagew || 1280
+    const imageHeight = imageh || 640
+
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={metaTitle}
+      titleTemplate={metaTitle}
       meta={[
         {
           name: `description`,
@@ -52,8 +63,12 @@ const SEO = ({ description, lang,url, meta, title }) => {
           content: `NgZUExD5JNEKjBKhcSVWkfiBJvz6fPl7eG8pLJSE1BI`,
         },
         {
+          property: `og:site_name`,
+          content: site.siteMetadata.title,
+        },
+        {
           property: `og:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           property: `og:description`,
@@ -61,7 +76,7 @@ const SEO = ({ description, lang,url, meta, title }) => {
         },
         {
           property: `og:type`,
-          content: `website`,
+          content: type,
         },
         {
           property: `og:url`,
@@ -72,16 +87,29 @@ const SEO = ({ description, lang,url, meta, title }) => {
           content: site.siteMetadata.locale,
         },
         {
+          property: `og:image`,
+          content: imageUrl,
+        },
+        {
+          property: `og:image_width`,
+          content: imageWidth,
+        },
+        {
+          property: `og:image_height`,
+          content: imageHeight,
+        },
+
+        {
           name: `twitter:card`,
           content: `summary`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.social.twitter,
+          content: `@${site.siteMetadata.social.twitter}`,
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           name: `twitter:description`,
@@ -90,6 +118,10 @@ const SEO = ({ description, lang,url, meta, title }) => {
         {
           name: `twitter:card`,
           content: `summary_large_image`,
+        },
+        {
+          name: `twitter:image`,
+          content: imageUrl,
         },
       ].concat(meta)}
     />
@@ -107,7 +139,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   locale: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
 }
 
 export default SEO

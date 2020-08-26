@@ -50,10 +50,14 @@ const Wrapper = styled.div`
 `
 
 
-const SitePolicy = () => {
+const SitePolicy = ({data, location}) => {
   return (
     <Layout>
-    <SEO title="Site Policy" />
+    <SEO
+      title="Site Policy"
+      pagepath={location.pathname}
+      type="article"
+    />
     <Wrapper>
       <h1>サイトポリシー・免責事項</h1>
       <h2>掲載内容について</h2>

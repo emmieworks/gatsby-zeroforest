@@ -191,7 +191,10 @@ const Index = ({ data, location }) => {
   const posts = data.allMarkdownRemark.edges
   return (
     <Layout>
-      <SEO location = {location} title = "Home" />
+      <SEO
+        location = {location}
+        type="website"
+      />
        <MenuSection>
         <div className="container">
           <div className = "flex about">

@@ -249,6 +249,7 @@ const Service = ({data, location}) => {
       title="About"
       description="作ったもの＆学習記事を掲載しています"
       pagepath={location.pathname}
+      type="article"
     />
       <PageTitle>Service</PageTitle>
       <MenuSection>

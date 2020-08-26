@@ -115,7 +115,8 @@ const BlogPageTemplate = ({ data, location, pageContext }) => {
     <Layout>
       <SEO
         title = "Blog"
-        url = {location.pathname}
+        url={location.pathname}
+        type="article"
         />
       <div className="container">
       <PageTitle>Blog</PageTitle>
@@ -185,11 +186,6 @@ export default BlogPageTemplate
 
 export const pageQuery = graphql`
   query BlogPageQuery($skip: Int!,$limit: Int!) {
-    site {
-      siteMetadata {
-        title
-      }
-    }
     noimage:file(relativePath:{eq: "noimage.jpg"}){
       childImageSharp{
         fluid(maxWidth: 800){

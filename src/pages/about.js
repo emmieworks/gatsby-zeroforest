@@ -222,6 +222,7 @@ const About = ({data, location}) => {
       title = "About"
       description = "作ったもの＆学習記事を掲載しています"
       pagepath = {location.pathname}
+      type = "article"
     />
       <PageTitle>About</PageTitle>
       <ProfileSection className = "container">

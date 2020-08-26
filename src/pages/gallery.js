@@ -91,7 +91,10 @@ const Gallery = ({ data, location }) => {
 
   return (
     <Layout>
-      <SEO location={location} title="Gallery" />
+      <SEO
+        location={location}
+        title="Gallery"
+        type="article" />
       <Wrapper className="container">
       <h1>Gallery</h1>
         <div className="flex">
