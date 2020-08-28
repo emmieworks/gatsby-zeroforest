@@ -2,6 +2,7 @@
 title: 【活動記録】完璧ではなくても、まずやってみる8月
 date: 2020-08-31T21:53:29+09:00
 category: Lifestyle
+featured: icatch-20200831:jpg
 tags:
     - 活動記録
 status: draft
@@ -75,6 +76,9 @@ Gatsbyを使い始めたのは先月。
 * [デザインのドリル③ トレースで、フォントの印象的な見せ方を学ぶ](/design-trace-03/)
 
 * [デザインのドリル④ トレースで、写真の活かし方を学ぶ](/design-trace-04/)
+
+* [デザインのドリル⑤ トレースで、複雑な構成を学ぶ](/design-trace-05/)
+
 </div>
 
 ３０個のチラシやバナーを真似ることで自分でも成長を実感できました。
@@ -96,7 +100,7 @@ Gatsbyを使い始めたのは先月。
 
 どういう使い分けたらいいかわからなかったので、まずはそれぞれ目的を決めて運用していくことにしました。
 
-<a href="https://www.instagram.com/emmieworks/" target="_blank" rel="noopener noreferrer">Instagram</a>は、制作物や制作過程を見せる場所に。自分が見ていてテンションがある美術館にしたいなと思います。
+<a href="https://www.instagram.com/emmieworks/" target="_blank" rel="noopener noreferrer">Instagram</a>は、制作物や制作過程を見せる場所に。自分が見ていてテンションがある美術館のようにしたいなと思います。
 
 
 * <a href="https://twitter.com/EmiMoment" target="_blank" rel="noopener noreferrer">Twitter</a>はふだんの活動内容や学びを記録する場所に。
