@@ -3,8 +3,9 @@ title: デザインのドリル③ トレースで、フォントの印象的な
 date: 2020-08-21T19:00:00+09:00
 featured: icatch-design-trace-03.jpg
 category: Design
+category: WebNote
 tags:
-  - デザイン独学
+  - Design
 ---
 
 「<a href="https://amzn.to/34u9ts6" target="_blank" rel="nofollow">トレース＆模写で学ぶ　デザインのドリル</a>」を使って、デザイントレースの練習した記録です。

@@ -2,7 +2,7 @@
 title: 【gitでバージョン管理】ブランチの使い方とSourcetreeでの操作
 date: 2020-04-11T12:00:00+09:00
 updateDate: 2020-08-22
-category: Programming
+category: WebNote
 tags:
     - git
     - Sourcetree

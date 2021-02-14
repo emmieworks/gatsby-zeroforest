@@ -2,8 +2,9 @@
 title: GitHub/gistからWordPressにソースコードを埋め込む方法まとめ
 date: 2020-05-02T09:55:00+09:00
 featured: icatch-20200502.jpg
-category: WordPress
+category: WebNote
 tags:
+    - WordPress
     - git
     - GitHub
 status: published

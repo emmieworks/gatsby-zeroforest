@@ -1,9 +1,9 @@
 ---
 title: WordPressテーマに必要なファイルとおすすめブランクテーマ
 date: 2018-08-02T19:00:39+09:00
-category: WordPress
+category: WebNote
 tags:
-  - WordPressテーマ自作
+  - WordPress
 status: published
 ---
 

@@ -1,7 +1,10 @@
 ---
 title: 【Python】Livedoorのバックアップデータ（backup.txt）をWordPress移行用に置き換える
 date: 2020-05-30T19:53:00+09:00
-category: Programming
+category: WebNote
+tags:
+  - Python
+  - WordPress
 status: published
 ---
 

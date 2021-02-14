@@ -2,7 +2,7 @@
 title: 【活動記録】ゆったり家で過ごす4月
 date: 2020-05-03T18:58:09+09:00
 featured: icatch-20200503.jpg
-category: Lifestyle
+category: Diary
 tags:
     - 活動記録
 ---

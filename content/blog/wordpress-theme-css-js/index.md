@@ -2,10 +2,9 @@
 title: WordPressのテーマにcssとjsを読み込む書き方
 date: 2018-08-03T17:00:20+09:00
 featured: icatch-20180803.jpg
-category: WordPress
+category: WebNote
 tags:
-  - CSS
-  - JavaScript
+  - WordPress
 status: published
 ---
 

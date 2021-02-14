@@ -2,9 +2,9 @@
 title: 【内部SEO】検索エンジンに評価されるマークアップとタグの使い分けとは？
 date: 2018-07-17T19:00:34+09:00
 featured: 20180717-icatch.jpg
-category: Programming
+category: WebNote
 tags:
-    - html
+    - HTML/CSS
 status: published
 ---
 

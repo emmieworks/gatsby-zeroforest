@@ -2,7 +2,7 @@
 title: 【活動記録】Gatsbyに挑戦した7月
 date: 2020-07-31T21:53:29+09:00
 updateDate: 2020-08-02
-category: Lifestyle
+category: Diary
 tags:
     - 活動記録
 ---

@@ -2,7 +2,7 @@
 title: 【Python】Google Search Consoleの検索パフォーマンスをDBに保存するプログラム
 date: 2020-05-24T18:00:00+09:00
 featured: icatch-20200524.jpg
-category: Programming
+category: WebNote
 tags:
   - Python
 status: published

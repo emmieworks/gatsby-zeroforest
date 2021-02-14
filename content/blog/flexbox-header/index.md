@@ -1,9 +1,10 @@
 ---
 title: Flexboxで作るヘッダーのサンプル集
 date: 2020-07-31T17:17:46+09:00
-category: Programming
+category: WebNote
 tags:
-  - CSS
+  - HTML/CSS
+  - flexbox
 ---
 
 Flexboxは、CSSはWebページのレイアウトを設定できるモジュール。

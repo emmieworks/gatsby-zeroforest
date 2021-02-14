@@ -2,9 +2,9 @@
 title: デザインのドリル① トレースで、レイアウトを学ぶ
 featured: icatch-design-trace-01.jpg
 date: 2020-08-21T17:00:00+09:00
-category: Design
+category: WebNote
 tags:
-  - デザイン独学
+  - Design
 ---
 
 「<a href="https://amzn.to/34u9ts6" target="_blank" rel="nofollow">トレース＆模写で学ぶ　デザインのドリル</a>」を使って、デザインのトレース＆模写練習した記録です。

@@ -1,9 +1,9 @@
 ---
 title: 【CSS】Box-Sizingの使い方
 date: 2020-08-09
-category: Programming
+category: WebNote
 tags:
-  - CSS
+   - HTML/CSS
 ---
 
 

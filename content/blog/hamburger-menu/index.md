@@ -1,10 +1,10 @@
 ---
 title: CSSとJavaScriptで作るハンバーガーメニュー
 date: 2020-07-25T19:00:04+09:00
-category: Programming
+category: WebNote
 featured: icatch.jpg
 tags:
-  - CSS
+  - HTML/CSS
   - JavaScript
 status: published
 ---

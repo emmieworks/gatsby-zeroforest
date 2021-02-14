@@ -2,7 +2,7 @@
 title: 【はじめてのGit】間違えて保存・コミットしたときに元に戻す方法まとめ
 date: 2020-8-23T18:00:31+09:00
 featured: icatch_20200331.jpg
-category: Programming
+category: WebNote
 tags:
     - git
     - GitHub

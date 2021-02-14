@@ -2,7 +2,7 @@
 title: 【Python】Google Search Console APIから検索パフォーマンスをCSV出力するプログラム
 date: 2020-05-23T16:00:00+09:00
 featured: icatch-20200523.jpg
-category: Programming
+category: WebNote
 tags:
   - Python
 status: published

@@ -2,9 +2,9 @@
 title: MixhostのWordpressブログ始め方
 date: 2019-08-27T14:01:54+09:00
 featured: icatch-20190827.jpg
-category: WordPress
+category: WebNote
 tags:
-  - Mixhost
+  - WordPress
 status: published
 ---
 

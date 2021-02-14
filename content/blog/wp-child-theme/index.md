@@ -2,7 +2,9 @@
 title: WordPress子テーマの作り方
 date: 2018-06-18T21:15:32+09:00
 featured: child-theme-20180618.jpg
-category: WordPress
+category: WebNote
+tags:
+  - WordPress
 status: published
 ---
 

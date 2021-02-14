@@ -2,9 +2,9 @@
 title: トレース&模写でデザイン練習中！手を動かして学べること
 date: 2020-08-20T17:00:00+09:00
 featured: icatch-design-trace.jpg
-category: Design
+category: WebNote
 tags:
-  - デザイン独学
+  - Design
 ---
 
 トレースは、バナーや広告などの見本を、自分で再現しながらデザインを学ぶ練習手法です。

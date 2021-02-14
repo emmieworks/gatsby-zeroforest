@@ -2,10 +2,9 @@
 title: 【CSSコピペOK】おしゃれな引用blockquoteデザイン10選
 date: 2018-09-13T19:00:09+09:00
 featured: icatch-20180912_n.jpg
-category: Design
+category: WebNote
 tags:
-    - CSS
-    - 女性向け
+    - HTML/CSS
 status: published
 ---
 

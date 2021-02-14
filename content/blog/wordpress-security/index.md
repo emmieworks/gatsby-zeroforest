@@ -2,9 +2,10 @@
 title: WordPressでやっておきたいセキュリティ対策
 date: 2019-11-14T10:06:10+09:00
 featured: icatch-20191114.jpg
-category: WordPress
+category: WebNote
 tags:
- - セキュリティ
+  - WordPress
+  - セキュリティ
 status: published
 ---
 

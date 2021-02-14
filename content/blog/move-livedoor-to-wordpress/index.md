@@ -2,7 +2,9 @@
 title: LivedoorブログからWordPressへのお引っ越し手順
 date: 2020-05-10T18:58:00+09:00
 featured: icatch-20200510.jpg
-category: Programming
+category: WebNote
+tags:
+  - WordPress
 status: published
 ---
 

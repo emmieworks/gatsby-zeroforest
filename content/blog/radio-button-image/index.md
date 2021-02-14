@@ -2,7 +2,9 @@
 title: ラジオボタン／チェックボタンの代わりに画像を使う方法
 date: 2020-06-13T12:30:54+09:00
 featured: icatch-20200613.jpg
-category: Programming
+category: WebNote
+tags:
+  - HTML/CSS
 status: published
 ---
 

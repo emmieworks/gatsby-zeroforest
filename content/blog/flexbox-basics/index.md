@@ -1,9 +1,10 @@
 ---
 title: 【CSS】Flexboxのプロパティまとめ
 date: 2020-08-09
-category: Programming
+category: WebNote
 tags:
-  - CSS
+  - HTML/CSS
+  -flexbox
 ---
 
 Flexboxは、CSSはWebページのレイアウトを設定できるモジュールです。

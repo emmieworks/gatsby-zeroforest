@@ -2,9 +2,9 @@
 title: デザインのドリル④ トレースで、写真の活かし方を学ぶ
 date: 2020-08-28
 featured: icatch-design-trace-04.jpg
-category: Design
+category: WebNote
 tags:
-  - デザイン独学
+  - Design
 ---
 
 「<a href="https://amzn.to/34u9ts6" target="_blank" rel="nofollow">トレース＆模写で学ぶ　デザインのドリル</a>」を使って、デザイントレースの練習した記録です。

@@ -2,7 +2,9 @@
 title: 【仕事効率化】フリーランスにおすすめのアプリを紹介
 date: 2019-11-15T21:23:11+09:00
 featured: icatch-20191116.jpg
-category: Lifestyle
+category: WebNote
+tags:
+  - App
 tags:
   - 私の愛用品
 ---

@@ -2,9 +2,9 @@
 title: デザインのドリル② トレースで、色の選び方を学ぶ
 date: 2020-08-21T18:00:00+09:00
 featured: icatch-design-trace-02.jpg
-category: Design
+category: WebNote
 tags:
-  - デザイン独学
+  - Design
 ---
 
 「<a href="https://amzn.to/34u9ts6" target="_blank" rel="nofollow">トレース＆模写で学ぶ　デザインのドリル</a>」を使って、デザイントレースの練習した記録です。

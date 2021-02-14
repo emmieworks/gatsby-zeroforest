@@ -2,7 +2,7 @@
 title: Node.js+ExpressでMySQLに接続して一覧表示する(Mac)
 date: 2020-04-25T21:25:00+09:00
 featured: icatch-20200425.jpg
-category: Programming
+category: WebNote
 tags:
   - MySQL
   - Node.js

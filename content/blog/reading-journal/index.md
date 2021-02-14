@@ -2,9 +2,9 @@
 title: 【バレットジャーナル】私の読書ノートの書き方
 date: 2018-08-01T22:00:53+09:00
 featured: icatch-20180801_n.jpg
-category: Lifestyle
+category: Diary
 tags:
-  - Journal
+  - 手帳
 ---
 
 ただ読み流すだけでなく、本のエッセンスを自分のものにできる読書ノート。

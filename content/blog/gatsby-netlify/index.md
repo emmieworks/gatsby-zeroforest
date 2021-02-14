@@ -2,7 +2,7 @@
 title: Netlifyを使って、Gatsby.jsブログを独自ドメインで公開する手順
 date: 2020-07-10T10:00:00+09:00
 featured: icatch-20190826.jpg
-category: Programming
+category: WebNote
 tags:
   - Gatsby
   - Netlify

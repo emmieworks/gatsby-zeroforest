@@ -2,9 +2,9 @@
 title: バレットジャーナルをシンプルに続けるために「断捨離」しよう
 date: 2018-07-25T19:00:02+09:00
 featured: 20180725-icatch.jpg
-category: Lifestyle
+category: Diary
 tags:
-    - Journal
+    - 手帳
 ---
 
 いろいろな手帳術のアイデアが世の中にはあるけれど、 レットジャーナルの基本はその名の通り「・（中点：バレット）」が並んだシンプルさ。

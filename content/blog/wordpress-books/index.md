@@ -2,7 +2,9 @@
 title: WordPressで本格的にホームページを作りたい人におすすめ本４冊
 date: 2018-08-04T20:10:08+09:00
 featured: icatch-20180804.jpg
-category: WordPress
+category: WebNote
+tags:
+  - WordPress
 status: published
 ---
 

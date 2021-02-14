@@ -1,9 +1,9 @@
 ---
 title: デザインスキルをきちんと身につけるための独学デザイン勉強方法
 date: 2020-08-22
-category: Design
+category: WebNote
 tags:
-  - デザイン練習
+  - Design
 status: draft
 ---
 

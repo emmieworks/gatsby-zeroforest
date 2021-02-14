@@ -2,8 +2,9 @@
 title: Illustratorのアイキャッチ作り方
 date: 2019-02-01T19:00:17+09:00
 featured: icatch-20190125.jpg
-category: Design
+category: WebNote
 tags:
+    - Design
     - Illustrator
 status: published
 ---

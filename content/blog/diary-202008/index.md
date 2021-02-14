@@ -1,7 +1,7 @@
 ---
 title: 【活動記録】完璧ではなくても、コツコツと手を動かす8月
 date: 2020-08-31T20:30:29+09:00
-category: Lifestyle
+category: Diary
 featured: icatch-20200831.jpg
 tags:
     - 活動記録

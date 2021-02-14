@@ -2,7 +2,9 @@
 title: WordPressブログの作り方〜インストールから公開までの詳しい手順〜
 date: 2018-11-08T09:43:22+09:00
 featured: icatch_20181107_n.jpg
-category: WordPress
+category: WebNote
+tags:
+  - WordPress
 status: published
 ---
 

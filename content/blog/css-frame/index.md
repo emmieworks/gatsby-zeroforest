@@ -2,10 +2,9 @@
 title: CSSで作れるシンプルな飾り枠デザイン
 date: 2018-08-24T21:30:24+09:00
 featured: icatch-20180824.jpg
-category: Design
+category: WebNote
 tags:
-  - CSS
-  - 女性向け
+  - HTML/CSS
 status: published
 ---
 

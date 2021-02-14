@@ -2,10 +2,9 @@
 title: CSSで作れるかわいいブログ見出しのデザイン
 date: 2018-08-22T19:00:32+09:00
 featured: icatch-20180822.jpg
-category: Design
+category: WebNote
 tags:
-    - CSS
-    - 女性向け
+    - HTML/CSS
 status: published
 ---
 

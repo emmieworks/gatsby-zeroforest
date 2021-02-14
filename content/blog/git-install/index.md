@@ -3,7 +3,7 @@ title: 【初心者向け】GitHubのインストールとプロジェクトで�
 date: 2020-04-04T18:00:31+09:00
 updateDate: 2020-08-22
 featured: icatch_20200331.jpg
-category: Programming
+category: WebNote
 tags:
     - git
     - GitHub

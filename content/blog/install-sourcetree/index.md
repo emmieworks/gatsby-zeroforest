@@ -3,7 +3,7 @@ title: 初心者のためのgitとSourcetreeのはじめ方
 date: 2020-03-29T16:12:56+09:00
 updateDate: 2020-08-22
 featured: icatch_20200329.jpg
-category: Programming
+category: WebNote
 tags:
     - git
     - Sourcetree

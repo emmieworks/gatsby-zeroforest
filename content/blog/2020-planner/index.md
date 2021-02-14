@@ -2,9 +2,9 @@
 title: 2020年の手帳をillustratorで作りました♡
 date: 2020-01-28T17:26:32+09:00
 featured: icatch-20201029.jpg
-category: Design
+category: Diary
 tags:
-    - Illustrator
+    - 手帳
 status: published
 ---
 
