@@ -1,10 +1,10 @@
 ---
 title: 手芸で小物をいろいろ作る
 date: 2020-11-25T20:30:29+09:00
-category: Lifestyle
+category: Diary
 featured: icatch-20201125.jpg
 tags:
-    - 活動記録
+    - 手芸
 ---
 
 こんにちは。

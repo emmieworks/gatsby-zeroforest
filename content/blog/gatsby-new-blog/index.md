@@ -2,7 +2,6 @@
 title: WordPressからGatsby.jsにブログを変えました
 date: 2020-07-04T20:00:47+09:00
 updateDate: 2020-08-20
-featured: icatch-20200620.jpg
 category: WebNote
 tags:
   - Gatsby

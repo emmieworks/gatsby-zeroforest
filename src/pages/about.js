@@ -365,7 +365,6 @@ const About = ({data, location}) => {
             <li><Link to="/css-blockquote/">【CSSコピペOK】おしゃれな引用blockquoteデザイン10選</Link></li>
             <li><Link to="/css-frame/">CSSで作れるシンプルな飾り枠デザイン</Link></li>
             <li><Link to="/css-header/">CSSで作れるかわいいブログ見出しのデザイン</Link></li>
-            <li><Link to="/wordpress-pulldown-menu//">【WordPress】プルダウンメニューのデザインを整える</Link></li>
             <li><Link to="/start-node-js/">【はじめてのNode.js】環境構築からプログラムを動かす手順をていねいに解説！</Link></li>
             <li><Link to="/node-js-mysql/">Node.js+ExpressでMySQLに接続して一覧表示する(Mac)</Link></li>
             <li><Link to="/install-sourcetree/">Sourcetreeのインストールと具体的な使い方〜gitでファイルをバージョン管理〜</Link></li>

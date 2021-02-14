@@ -4,7 +4,7 @@ date: 2020-08-09
 category: WebNote
 tags:
   - HTML/CSS
-  -flexbox
+  - flexbox
 ---
 
 Flexboxは、CSSはWebページのレイアウトを設定できるモジュールです。
