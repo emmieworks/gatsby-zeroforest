@@ -45,7 +45,7 @@ const BlogMenu = () => {
         <ul>
           <li><Link to ="/about/">About</Link></li>
           <li><Link to ="/service/">Service</Link></li>
-          <li><Link to ="/category/webnote/">Web制作ノート</Link></li>
+          <li><Link to ="/blog/">Blog</Link></li>
           <li><Link to ="/category/diary/">Diary</Link></li>
           <li><Link to ="/contact/">Contact</Link></li>
         </ul>
