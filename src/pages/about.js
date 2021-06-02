@@ -320,20 +320,6 @@ const About = ({data, location}) => {
             <Link to="/service/" className="btn">Service</Link>
           </div>
         </div>
-        <div className="flex reverse">
-          <figure>
-            <Img
-              fluid={data.gallery.childImageSharp.fluid}
-              alt="pc"
-            />
-          </figure>
-          <div className="desc">
-            <p>Galleryでは過去の制作物を紹介しています。</p>
-            <p>女性らしい優しさが感じられる<br />
-            シンプルで素朴なデザインが好きです。</p>
-            <Link to="/gallery/" className="btn">Gallery</Link>
-          </div>
-        </div>
       </WorkSection>
 
       <HPSection className = "container">
